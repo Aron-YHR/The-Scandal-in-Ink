@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Ink.Runtime;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,11 +11,14 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
-    [SerializeField] private TextMeshPro dialogueText;
+    [SerializeField] private TextMeshProUGUI dialogueText;
 
     private Story currentStory;
 
-    private bool dialogueIsPlaying;
+    public bool dialogueIsPlaying { get; private set; }
+
+    [SerializeField] private Button continueButton;
+    //public bool isClicked = false;
          
     private void Awake()
     {
@@ -37,19 +41,64 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+
+        // continue the story if player click the continue button
+        continueButton.onClick.AddListener(ContinueButtonClick);
+    }
+
+    private void Update()
+    {
+
+        // return right away if dialogue isn't playing
+        if (!dialogueIsPlaying)
+        {
+            return;
+        }
+
+        
+        /*if (isClicked)
+        {
+            ContinueStory();
+        }*/
+
+        
     }
 
     public void EnterDialogueMode(TextAsset inkJson)
     {
+        
+
         currentStory = new Story(inkJson.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
+        ContinueStory();
+
+    }
+
+    private void ExitDialogueMode()
+    {
+        dialogueIsPlaying = false;
+        dialoguePanel.SetActive(false);
+        dialogueText.text = "";
+    }
+
+    private void ContinueStory()
+    {
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
         }
+        else
+        {
+            ExitDialogueMode();
+        }
     }
+
+    void ContinueButtonClick()
+    {
+        ContinueStory();
+    }    
 
 }
 

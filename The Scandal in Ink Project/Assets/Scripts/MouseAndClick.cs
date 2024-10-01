@@ -13,6 +13,11 @@ public class MouseAndClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

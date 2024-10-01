@@ -23,13 +23,16 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (mouseInRange)
+        if (mouseInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             //Debug.Log(mouseInRange);
             Highlight.SetActive(true);
             if (isClicked)
             {
-                Debug.Log(inkJson.text);
+                //Debug.Log(inkJson.text);
+
+                DialogueManager.GetInstance().EnterDialogueMode(inkJson);
+
                 isClicked = false;
             }
         }
