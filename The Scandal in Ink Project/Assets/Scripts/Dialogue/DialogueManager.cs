@@ -99,6 +99,11 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
+        // reset portrait, layout, and speaker
+        displayNameText.text = "???";
+        portraitAnimator.Play("Default");
+        layoutAnimator.Play("right");
+
         ContinueStory();
 
     }
@@ -116,9 +121,21 @@ public class DialogueManager : MonoBehaviour
         {
             // set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
-            // display choices, if any, for this dialogue line
-            if(currentStory.currentChoices != null)
-            DisplayChoices();
+            //Debug.Log(currentStory.currentText);
+            // display choices, if any, for this dialogue line (there is always a List of choices event the count is 0)
+            if (currentStory.currentChoices != null)
+            {
+                DisplayChoices();
+            }
+            // hide the continue button if current choices more than 0
+            if(currentStory.currentChoices.Count > 0)
+            {
+                continueButton.gameObject.SetActive(false);
+            }
+            else
+            {
+                continueButton.gameObject.SetActive(true);
+            }
             // handle tags
             HandleTags(currentStory.currentTags);
         }
