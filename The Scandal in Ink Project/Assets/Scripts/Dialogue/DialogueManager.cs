@@ -10,6 +10,9 @@ public class DialogueManager : MonoBehaviour
 {
     private static DialogueManager instance;
 
+    [Header("Params")]
+    [SerializeField] private float typingSpeed = 0.04f;
+
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
@@ -26,6 +29,10 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
+
+    public bool canContinueToNextLine = false;
+
+    private Coroutine displayLineCoroutine;
 
     [SerializeField] private Button continueButton;
     //public bool isClicked = false;
@@ -120,28 +127,81 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             // set text for the current dialogue line
-            dialogueText.text = currentStory.Continue();
-            //Debug.Log(currentStory.currentText);
-            // display choices, if any, for this dialogue line (there is always a List of choices event the count is 0)
-            if (currentStory.currentChoices != null)
+            // set at once
+            //dialogueText.text = currentStory.Continue();
+
+            // set a letter at a time
+            if (displayLineCoroutine != null)
             {
-                DisplayChoices();
+                StopCoroutine(displayLineCoroutine);
             }
-            // hide the continue button if current choices more than 0
-            if(currentStory.currentChoices.Count > 0)
-            {
-                continueButton.gameObject.SetActive(false);
-            }
-            else
-            {
-                continueButton.gameObject.SetActive(true);
-            }
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
+
             // handle tags
             HandleTags(currentStory.currentTags);
         }
         else
         {
             ExitDialogueMode();
+        }
+    }
+
+    void ContinueButtonClick()
+    {
+        if (canContinueToNextLine)
+            ContinueStory();
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        // empty the dialogue text
+        dialogueText.text = "";
+        // hide items while text is typing
+        continueButton.gameObject.SetActive(false);
+        HideChoicesButtons();
+
+        canContinueToNextLine = false;
+
+        // display each letter one at a time
+        foreach(char letter in line.ToCharArray())
+        {
+            // if the right mouse button is pressed, displaying the whole line right away
+            if (Input.GetMouseButton(1))
+            {
+                dialogueText.text = line;
+                break;
+            }
+
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        // active items after the entire line has displayed
+        // display continue button
+        // hide the continue button if current choices more than 0
+        if (currentStory.currentChoices.Count > 0)
+        {
+            continueButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            continueButton.gameObject.SetActive(true);
+        }
+
+        // display choices, if any, for this dialogue line (there is always a List of choices event the count is 0)
+        if (currentStory.currentChoices != null)
+        {
+            DisplayChoices();
+        }
+
+        canContinueToNextLine = true;
+    }
+
+    private void HideChoicesButtons()
+    {
+        foreach(GameObject choiceButton in choices)
+        {
+            choiceButton.SetActive(false);
         }
     }
 
@@ -183,11 +243,6 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void ContinueButtonClick()
-    {
-        ContinueStory();
-    }
-
     private void DisplayChoices()
     {
         List<Choice> currentChoices = currentStory.currentChoices;
@@ -226,9 +281,12 @@ public class DialogueManager : MonoBehaviour
 
     public void MakeChoice(int choiceIndex)
     {
-        currentStory.ChooseChoiceIndex(choiceIndex);
-        //Debug.Log(currentStory.currentText);
-        ContinueStory();
+        if (canContinueToNextLine)
+        {
+            currentStory.ChooseChoiceIndex(choiceIndex);
+            //Debug.Log(currentStory.currentText);
+            ContinueStory();
+        }
     }
 
 }
