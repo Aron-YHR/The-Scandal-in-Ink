@@ -13,6 +13,9 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI displayNameText;
+    [SerializeField] private Animator portraitAnimator;
+    private Animator layoutAnimator;
 
     [Header("Choices UI")]
     // any number of choices
@@ -26,6 +29,11 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] private Button continueButton;
     //public bool isClicked = false;
+
+    // some tags in the narrative scripts
+    private const string SPEAKER_TAG = "speaker";
+    private const string PORTAIT_TAG = "portrait";
+    private const string LAYOUT_TAG = "layout";
          
     private void Awake()
     {
@@ -48,6 +56,9 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+
+        // get the layout animator
+        layoutAnimator = dialoguePanel.GetComponent<Animator>();
 
         // continue the story if player click the continue button
         continueButton.onClick.AddListener(ContinueButtonClick);
@@ -108,10 +119,50 @@ public class DialogueManager : MonoBehaviour
             // display choices, if any, for this dialogue line
             if(currentStory.currentChoices != null)
             DisplayChoices();
+            // handle tags
+            HandleTags(currentStory.currentTags);
         }
         else
         {
             ExitDialogueMode();
+        }
+    }
+
+    private void HandleTags(List<string> currentTags)
+    {
+        // loop through each tag and handle it accordingly
+        foreach (string tag in currentTags)
+        {
+            // parse the tag
+            string[] splitTag = tag.Split(':');
+            if(splitTag.Length != 2)
+            {
+                Debug.LogError("Tag could not be appropriately parsed:" +tag);
+            }
+
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            // handle the tag
+            switch (tagKey)
+            {
+                case SPEAKER_TAG:
+                    //Debug.Log("speaker="+ tagValue);
+                    displayNameText.text = tagValue;
+                    break;
+                case PORTAIT_TAG:
+                    //Debug.Log("portait=" + tagValue);
+                    portraitAnimator.Play(tagValue);
+                    break;
+                case LAYOUT_TAG:
+                    //Debug.Log("layout=" + tagValue);
+                    layoutAnimator.Play(tagValue);
+                    break;
+                default:
+                    Debug.LogWarning("Tag came in but is not currently being handled:" + tag);
+                    break;
+            }
+
         }
     }
 
