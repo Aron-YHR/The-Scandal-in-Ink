@@ -1,4 +1,4 @@
-Hi, Mr. Stranger! #speaker:NPC Green #portrait:npc_green_neutral #layout:right
+Hi, Mr. Stranger! #speaker:NPC_Green #portrait:npc_green_neutral #layout:right
 ->main
 === main ===
 How are you feeling today?
