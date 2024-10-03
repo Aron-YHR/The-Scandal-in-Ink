@@ -19,6 +19,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private Animator portraitAnimator;
     private Animator layoutAnimator;
+    
+    [SerializeField] private Button continueButton;
 
     [Header("Choices UI")]
     // any number of choices
@@ -34,13 +36,14 @@ public class DialogueManager : MonoBehaviour
 
     private Coroutine displayLineCoroutine;
 
-    [SerializeField] private Button continueButton;
     //public bool isClicked = false;
 
     // some tags in the narrative scripts
     private const string SPEAKER_TAG = "speaker";
     private const string PORTAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
+
+    private DialogueVariables dialogueVariables;
          
     private void Awake()
     {
@@ -52,6 +55,8 @@ public class DialogueManager : MonoBehaviour
         {
             instance = this;
         }
+
+        dialogueVariables = new DialogueVariables();
     }
 
     public static DialogueManager GetInstance()
@@ -100,11 +105,12 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJson)
     {
-        
-
         currentStory = new Story(inkJson.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+
+        dialogueVariables.StartListening(currentStory);
+
 
         // reset portrait, layout, and speaker
         displayNameText.text = "???";
@@ -117,6 +123,9 @@ public class DialogueManager : MonoBehaviour
 
     private void ExitDialogueMode()
     {
+
+        dialogueVariables.StopListening(currentStory);
+
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";

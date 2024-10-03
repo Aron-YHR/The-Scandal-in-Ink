@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      green happy_0: -3277913304019387216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
