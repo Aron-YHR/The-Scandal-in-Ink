@@ -87,7 +87,7 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
             //Debug.Log( Screen.width);
             //Debug.Log(envir.sprite.texture.Size().y / 2 - Screen.height);
             rectArea = SetArea();
-            
+            cinemachine.GetComponent<CinemachineConfiner>().m_BoundingShape2D = envir.GetComponentInChildren<PolygonCollider2D>();
         }
         else
         {

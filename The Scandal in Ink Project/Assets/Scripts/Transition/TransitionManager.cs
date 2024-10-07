@@ -26,8 +26,10 @@ public class TransitionManager : Singleton<TransitionManager>
 
         // set new scene to be active
         Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
+
         SceneManager.SetActiveScene(newScene);
 
+        // find background
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
 
         yield return Fade(0);
