@@ -296,15 +296,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a7c4a1fbda1dbf4cafd5aeb6a387ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  typingSpeed: 0.04
   dialoguePanel: {fileID: 1295720370}
   dialogueText: {fileID: 1508367175}
   displayNameText: {fileID: 367630632}
   portraitAnimator: {fileID: 2065597596}
+  continueButton: {fileID: 1466041832}
   choices:
   - {fileID: 1761076879}
   - {fileID: 950179669}
   - {fileID: 65380919}
-  continueButton: {fileID: 1466041832}
+  canContinueToNextLine: 0
 --- !u!1 &71256535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,7 +1369,7 @@ PrefabInstance:
     - target: {fileID: 1235836600152257404, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: inkJson
       value: 
-      objectReference: {fileID: 4900000, guid: 259e93fe88de86b4a9395effa45263f0, type: 3}
+      objectReference: {fileID: 4900000, guid: adddfa3601e56e349b5e755a536d96a8, type: 3}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.59
