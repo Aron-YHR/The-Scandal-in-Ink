@@ -28,6 +28,8 @@ public class TransitionManager : Singleton<TransitionManager>
         Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
         SceneManager.SetActiveScene(newScene);
 
+        CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
+
         yield return Fade(0);
     }
 
