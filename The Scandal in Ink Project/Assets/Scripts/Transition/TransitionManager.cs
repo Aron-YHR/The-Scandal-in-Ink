@@ -29,7 +29,7 @@ public class TransitionManager : Singleton<TransitionManager>
 
         SceneManager.SetActiveScene(newScene);
 
-        // find background
+        // find background in a new scene
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
 
         yield return Fade(0);

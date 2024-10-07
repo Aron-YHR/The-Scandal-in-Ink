@@ -86,7 +86,11 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
         {
             //Debug.Log( Screen.width);
             //Debug.Log(envir.sprite.texture.Size().y / 2 - Screen.height);
+
+            // set the area for limiting player pos
             rectArea = SetArea();
+
+            // get the collider for virtual camera
             cinemachine.GetComponent<CinemachineConfiner>().m_BoundingShape2D = envir.GetComponentInChildren<PolygonCollider2D>();
         }
         else
