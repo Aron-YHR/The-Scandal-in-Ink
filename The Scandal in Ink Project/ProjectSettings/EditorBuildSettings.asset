@@ -14,5 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Case1_Enviro2.unity
     guid: 99fed8b1d9211bd40b7b20d79ce524f7
+  - enabled: 1
+    path: Assets/Scenes/Wenchwatch Hall/Study.unity
+    guid: 3558cdfd868055c4fbd2e100ff64e250
+  - enabled: 1
+    path: Assets/Scenes/Wenchwatch Hall/Garden.unity
+    guid: e115937cb671ff249a0999d281c2d7ee
+  - enabled: 1
+    path: Assets/Scenes/Wenchwatch Hall/Stables.unity
+    guid: 6a105cf7a81e3b04aa87f27546bf1076
+  - enabled: 1
+    path: Assets/Scenes/Wenchwatch Hall/Reception.unity
+    guid: a4c17a041ee51c1428d3f911ae24e83d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
