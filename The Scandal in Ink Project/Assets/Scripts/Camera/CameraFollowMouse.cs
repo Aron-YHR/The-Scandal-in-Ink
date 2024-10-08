@@ -21,47 +21,52 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
 
     private Rect rectArea;
 
+    public bool canMove;
+
     // Start is called before the first frame update
     void Start()
     {
         GetNewSceneSpriteRenderer();
         //envir = GameObject.Find("Enviro2_Background").GetComponent<SpriteRenderer>();
         //if (envir != null) Debug.Log("1");
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
         //Debug.Log(envir.sprite.texture.height);
+        if (canMove)
+        {
+            inputDir = new Vector3(0, 0, 0);
+            if (Input.mousePosition.x < edgeScrollSize && Input.mousePosition.x > 0) inputDir.x = -1f;
+            if (Input.mousePosition.y < edgeScrollSize && Input.mousePosition.y > 0) inputDir.y = -1f;
+            if (Input.mousePosition.x > Screen.width - edgeScrollSize && Input.mousePosition.x < Screen.width) inputDir.x = +1f;
+            if (Input.mousePosition.y > Screen.height - edgeScrollSize && Input.mousePosition.x < Screen.width) inputDir.y = +1f;
 
-        inputDir = new Vector3(0, 0, 0);
-        if (Input.mousePosition.x < edgeScrollSize && Input.mousePosition.x > 0) inputDir.x = -1f;
-        if (Input.mousePosition.y < edgeScrollSize && Input.mousePosition.y > 0) inputDir.y = -1f;
-        if (Input.mousePosition.x > Screen.width - edgeScrollSize && Input.mousePosition.x < Screen.width) inputDir.x = +1f;
-        if (Input.mousePosition.y > Screen.height - edgeScrollSize && Input.mousePosition.x < Screen.width) inputDir.y = +1f;
+            if (inputDir != new Vector3(0, 0, 0))
+            {
+                moveDir = transform.up * inputDir.y + transform.right * inputDir.x;
 
-        if (inputDir != new Vector3(0, 0, 0))
-        {
-            moveDir = transform.up * inputDir.y + transform.right * inputDir.x;
-            
-            transform.position += moveDir * moveSpeed * Time.deltaTime;
-        }
+                transform.position += moveDir * moveSpeed * Time.deltaTime;
+            }
 
-        if(rectArea.xMin > transform.position.x)
-        {
-            transform.position = new Vector3( rectArea.xMin, transform.position.y, transform.position.z);
-        }
-        if (rectArea.xMax < transform.position.x)
-        {
-            transform.position = new Vector3(rectArea.xMax, transform.position.y, transform.position.z);
-        }
-        if (rectArea.yMin > transform.position.y)
-        {
-            transform.position = new Vector3(transform.position.x, rectArea.yMin, transform.position.z);
-        }
-        if (rectArea.yMax < transform.position.y)
-        {
-            transform.position = new Vector3(transform.position.x, rectArea.yMax, transform.position.z);
+            if (rectArea.xMin > transform.position.x)
+            {
+                transform.position = new Vector3(rectArea.xMin, transform.position.y, transform.position.z);
+            }
+            if (rectArea.xMax < transform.position.x)
+            {
+                transform.position = new Vector3(rectArea.xMax, transform.position.y, transform.position.z);
+            }
+            if (rectArea.yMin > transform.position.y)
+            {
+                transform.position = new Vector3(transform.position.x, rectArea.yMin, transform.position.z);
+            }
+            if (rectArea.yMax < transform.position.y)
+            {
+                transform.position = new Vector3(transform.position.x, rectArea.yMax, transform.position.z);
+            }
         }
 
 

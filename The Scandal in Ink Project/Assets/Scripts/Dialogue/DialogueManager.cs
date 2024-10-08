@@ -100,7 +100,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJson)
     {
-        
+        CameraFollowMouse.Instance.canMove = false;
 
         currentStory = new Story(inkJson.text);
         dialogueIsPlaying = true;
@@ -120,6 +120,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+
+        CameraFollowMouse.Instance.canMove = true;
     }
 
     private void ContinueStory()

@@ -52,6 +52,8 @@ public class MouseAndClick : MonoBehaviour
                 clickObject.GetComponent<DialogueTrigger>().isClicked = true;
                 break;
             case "Item":
+                var item = clickObject.GetComponent<Item>();
+                item?.ItemClicked();
                 break;
         }
     }
