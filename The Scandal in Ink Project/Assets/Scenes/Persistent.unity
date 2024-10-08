@@ -1710,6 +1710,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemList: 
   itemData: {fileID: 11400000, guid: fd0b044331f742345a7075c0dac077aa, type: 2}
+--- !u!1 &1062273846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062273847}
+  m_Layer: 0
+  m_Name: Case1_Enviro3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062273847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062273846}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7966564, y: -1.4289325, z: -0.09574275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1075914071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,6 +2903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cinemachine: {fileID: 1452090258}
   envir: {fileID: 0}
+  canMove: 0
 --- !u!212 &1671616594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3320,3 +3352,4 @@ SceneRoots:
   - {fileID: 1294546400}
   - {fileID: 1671616592}
   - {fileID: 1452090259}
+  - {fileID: 1062273847}
