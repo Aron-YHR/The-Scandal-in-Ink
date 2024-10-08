@@ -35,13 +35,15 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
 -> Start
 
-+ {test_secret} [I know you're blackmailing the stable hand.]
++ {test_secret} [I know about your affair with Theodosia.]
+Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Secret_Revealed
 
 
 
 +[Leave]
 ->DONE
+
 
 
 === Relationship ===
@@ -58,13 +60,6 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
 ->DONE
 
-
-
-
-=== Secret_Revealed ===
-
-+[I found the love letters. I spoke to Lavender.]
-->DONE
 
 
 
@@ -126,9 +121,43 @@ My dearest departed brother did find her difficult. He spoke often of the dire c
 
 
 +[Do you think Ms. Ditch could have killed the Admiral?]
-I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character.
+I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty. A most alarming thing to do.
 -> Suspicions
 
+
+
+
+=== Secret_Revealed ===
+
++[I know you're blackmailing Lavender. She told me everything.]
+Ah, to hell with that damnable peasant. An untrustworthy character, by my estimation. Especially given her - unnatural - affections, wouldn't you agree?
+->Secret_Cont_1
+
+=Secret_Cont_1
+
++[You can't be serious!]
+Oh, I am deathly serious mon petit cheri!
+->Secret_Cont_2
+
+
++ {found_swapped_gloves} [You're still wearing each other's gloves!]
+That country bumpkin of a maid is surely illiterate. She clearly mixed up our delicates.
+-> Secret_Cont_2
+
++[I've spoken to Theodosia. She'd already admitted it.]
+She is hysterical! Poor Theodosia is newly widowed and not in her right mind, and all this talk of wills and letters and newspapers has addled her delicate mind. Reading is a most harmful activity for an educated lady!
+-> Secret_Cont_2
+
+
+
+=Secret_Cont_2
+Besides, this is nothing but idle gossip, and relates in no way to Charles' murder! You are merely launching scurrilous attacks against a family in mourning. Shame on thee, sir!
+
++[This was the scandal Charles spoke of in his letter. You killed your own brother to keep it hidden!]
+
++[You murdered your brother then framed the stable hand for your crimes.]
+
++[I'm going to tell the world about your terrible fashion faux pas. And all the murder and illicit affair stuff too!]
 
 
 
