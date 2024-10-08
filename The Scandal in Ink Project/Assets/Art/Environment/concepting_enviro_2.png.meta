@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      concepting_enviro_2_0: -2072293679985424328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
