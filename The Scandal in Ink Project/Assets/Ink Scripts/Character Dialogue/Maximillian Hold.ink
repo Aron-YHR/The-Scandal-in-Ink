@@ -154,11 +154,26 @@ She is hysterical! Poor Theodosia is newly widowed and not in her right mind, an
 Besides, this is nothing but idle gossip, and relates in no way to Charles' murder! You are merely launching scurrilous attacks against a family in mourning. Shame on thee, sir!
 
 +[This was the scandal Charles spoke of in his letter. You killed your own brother to keep it hidden!]
+Lies! Slander! Derogation! Are there no depths to which you will not descend. you cad? To accuse me of such heinous deeds without a shred of proof!
+There is no evidence to say I did any of these vile deeds, and I defy you to find any, you- you-
+Urchin!
+->Wig_Snatch
+
+
 
 +[You murdered your brother then framed the stable hand for your crimes.]
+DIALOGUE NEEDED HERE
+-> Wig_Snatch
 
 +[I'm going to tell the world about your terrible fashion faux pas. And all the murder and illicit affair stuff too!]
+DIALOGUE NEEDED HERE
+-> Wig_Snatch
 
+
+===Wig_Snatch===
+[Tear off his wig]
+AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
+-> DONE
 
 
 
