@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 1247693562}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.3878414, w: 0.92172617}
-  m_LocalPosition: {x: -4.498902, y: 2.3535786, z: 0}
+  m_LocalPosition: {x: -1.51, y: 0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 483407f7b28eec94cad2b07a7c5ce5c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneFrom: Case1_Enviro2
-  sceneToGo: Case1_Enviro1
+  sceneFrom: Stables
+  sceneToGo: Garden
 --- !u!1 &1323063402
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 1991529223}
   - component: {fileID: 1991529222}
   m_Layer: 0
-  m_Name: Enviro2_Background
+  m_Name: Environment Background
   m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,7 +551,7 @@ SpriteRenderer:
   m_SortingLayerID: 158067675
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2072293679985424328, guid: b8cb4c2befb64364ca2c55350f574edf, type: 3}
+  m_Sprite: {fileID: -5266258661161454470, guid: b4020e771bc4b134dbace1d6e91cf9e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
