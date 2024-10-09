@@ -8,14 +8,14 @@ INCLUDE Secrets.ink
 
 
 
-{!Ah, brother dearest! I am beset by grief!}
+{!Ah, brother dearest! I am beset by grief!} #speaker: Maximillian Hold
 
 
 
 
 +[Where were you the night of the murder?]
 
-I retired to my chambers early that night.
+I retired to my chambers early that night. 
 
 ->Night_Of_Murder
 
@@ -39,6 +39,9 @@ Ah, my sincerest apologies. I am scandalously underdressed for such an occassion
 Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Secret_Revealed
 
++[<i> Examine the suspect more closely. </i>]
+->Examination
+
 
 
 +[Leave]
@@ -56,7 +59,7 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 
 
 
-+[So, you were close?]
++[So you two were close?]
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
 ->DONE
 
@@ -174,6 +177,27 @@ DIALOGUE NEEDED HERE
 [Tear off his wig]
 AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
 -> DONE
+
+
+
+=== Examination ===
++[Examine his hands.]
+<i> His hands are clean and well manicured. </i>
+->Examination
+
++[Examine his face.]
+<i> His face is excessively powdered and painted. He is exceptionally well groomed.</i> 
+<i>However, you notice a small imperfection. There is a dull rouge smudge on his neck. </i>
+-> Examination
+
++[Examine his wig.]
+His wig is blindingly white.
+-> Examination
+
+
++[Return to the conversation]
+-> Start
+
 
 
 
