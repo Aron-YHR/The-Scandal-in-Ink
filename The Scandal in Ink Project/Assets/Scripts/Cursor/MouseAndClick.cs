@@ -13,7 +13,7 @@ public class MouseAndClick : MonoBehaviour
     {
         canClick = ObjectAtMousePosition();
 
-        if(DialogueManager.GetInstance().dialogueIsPlaying)
+        if(DialogueManager.GetInstance().dialogueIsPlaying || UIManager.Instance.isJournalOpened)
         {
             return;
         }

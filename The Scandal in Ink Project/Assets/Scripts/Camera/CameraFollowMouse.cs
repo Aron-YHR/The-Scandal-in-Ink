@@ -112,4 +112,14 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
         return new Rect(0-rectWith/2, 0-rectHeight/2, rectWith, rectHeight);
     }
 
+    public void ActivateMove()
+    {
+        canMove = true;
+    }
+
+    public void DesactivateMove()
+    {
+        canMove = false;
+    }
+
 }

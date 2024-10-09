@@ -14,10 +14,4 @@ public class ItemDataList_SO : ScriptableObject
     }
 }
 
-[System.Serializable]
-public class ItemDetails
-{
-    public ItemName itemName;
 
-    public Sprite itemIcon;
-}
