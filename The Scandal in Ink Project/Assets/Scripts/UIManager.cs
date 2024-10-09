@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIManager : Singleton<UIManager>
 {
-    public bool isJournalOpened;
+    public bool isJournalOpened = false;
 
     public void ActivateJournal()
     {

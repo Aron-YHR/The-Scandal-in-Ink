@@ -20,14 +20,14 @@ public class InventoryManager : Singleton<InventoryManager>
         RefreshItem();
     }
 
-    private void OnEnable()
+    private void OnEnable() //to be optimized
     {
         Instance.detailPanel.SetItemIcon(null);
         Instance.detailPanel.SetItemName(null);
         Instance.detailPanel.SetItemInfo(null);
     }
 
-    private void OnDisable()
+    private void OnDisable()// to be optimized
     {
         Instance.detailPanel.SetItemIcon(null);
         Instance.detailPanel.SetItemName(null);
@@ -56,7 +56,7 @@ public class InventoryManager : Singleton<InventoryManager>
         newItem.slotImage.sprite = item.itemIcon;
     }
 
-    public static void RefreshItem()
+    public static void RefreshItem() // to be optimized
     {
         for(int i = 0; i < Instance.slotGrid.transform.childCount; i++)
         {
