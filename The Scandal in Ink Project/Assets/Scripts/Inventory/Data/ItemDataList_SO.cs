@@ -20,4 +20,7 @@ public class ItemDetails
     public ItemName itemName;
 
     public Sprite itemIcon;
+
+    [TextArea]
+    public string itemInfo;
 }
