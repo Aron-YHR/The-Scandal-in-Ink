@@ -1,20 +1,79 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class InventoryManager : Singleton<InventoryManager>
 {
-    [SerializeField] private List<ItemName> itemList = new List<ItemName>();
+    //[SerializeField] private List<ItemName> itemList = new List<ItemName>();
 
     public ItemDataList_SO itemData;
+    public Inventory journal;
+
+    [Header("UI")]
+    public GameObject slotGrid;
+    public Slot slotPrefab;
+    public DetailPanel detailPanel;
+
+    private void Start()
+    {
+        RefreshItem();
+    }
+
+    private void OnEnable()
+    {
+        Instance.detailPanel.SetItemIcon(null);
+        Instance.detailPanel.SetItemName(null);
+        Instance.detailPanel.SetItemInfo(null);
+    }
+
+    private void OnDisable()
+    {
+        Instance.detailPanel.SetItemIcon(null);
+        Instance.detailPanel.SetItemName(null);
+        Instance.detailPanel.SetItemInfo(null);
+    }
 
 
     public void AddItem(ItemName itemName)
     {
-        if (!itemList.Contains(itemName))
-        { 
-            itemList.Add(itemName);
-            //TODO: UI display item
+        
+        //Debug.Log(journal.itemList.Contains(item));
+        if (journal.itemList.Find(i => i.itemName == itemName) == null )
+        {   
+            ItemDetails item = itemData.GetItemDetails(itemName);
+            //journal.itemList.Add(itemData.GetItemDetails(itemName));
+            journal.itemList.Add(item);
+            RefreshItem();
         }
+    }
+
+    public static void CreateNewItem(ItemDetails item)
+    {
+        Slot newItem = Instantiate(Instance.slotPrefab, Instance.slotGrid.transform);
+
+        newItem.slotItem = item;
+        newItem.slotImage.sprite = item.itemIcon;
+    }
+
+    public static void RefreshItem()
+    {
+        for(int i = 0; i < Instance.slotGrid.transform.childCount; i++)
+        {
+            if(Instance.slotGrid.transform.childCount == 0) break;
+            Destroy(Instance.slotGrid.transform.GetChild(i).gameObject);
+        }
+
+        for(int i = 0;i< Instance.journal.itemList.Count; i++)
+        {
+            CreateNewItem(Instance.journal.itemList[i]);
+        }
+    }
+
+    public static void UpdateItemDetailsPanel(ItemDetails itemDetails)
+    {
+        Instance.detailPanel.SetItemIcon(itemDetails.itemIcon);
+        Instance.detailPanel.SetItemName(itemDetails.itemName.ToString());
+        Instance.detailPanel.SetItemInfo(itemDetails.itemInfo);
     }
 }
