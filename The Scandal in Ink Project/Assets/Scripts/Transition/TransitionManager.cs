@@ -20,6 +20,8 @@ public class TransitionManager : Singleton<TransitionManager>
     {
         yield return Fade(1);
 
+        EventHandler.CallBeforeSceneUnloadEvent();
+
         yield return SceneManager.UnloadSceneAsync(from);
 
         yield return SceneManager.LoadSceneAsync(to,LoadSceneMode.Additive);
@@ -31,6 +33,8 @@ public class TransitionManager : Singleton<TransitionManager>
 
         // find background in a new scene
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
+
+        EventHandler.CallAfterSceneLoadedEvent();
 
         yield return Fade(0);
     }

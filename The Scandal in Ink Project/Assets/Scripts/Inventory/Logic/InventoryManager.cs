@@ -15,27 +15,12 @@ public class InventoryManager : Singleton<InventoryManager>
     public Slot slotPrefab;
     public DetailPanel detailPanel;
 
-    private void Start()
+    private void OnEnable()
     {
         RefreshItem();
     }
 
-    private void OnEnable() //to be optimized
-    {
-        Instance.detailPanel.SetItemIcon(null);
-        Instance.detailPanel.SetItemName(null);
-        Instance.detailPanel.SetItemInfo(null);
-    }
-
-    private void OnDisable()// to be optimized
-    {
-        Instance.detailPanel.SetItemIcon(null);
-        Instance.detailPanel.SetItemName(null);
-        Instance.detailPanel.SetItemInfo(null);
-    }
-
-
-    public void AddItem(ItemName itemName)
+    public void AddItem(ItemName itemName) // to be optimized
     {
         
         //Debug.Log(journal.itemList.Contains(item));
