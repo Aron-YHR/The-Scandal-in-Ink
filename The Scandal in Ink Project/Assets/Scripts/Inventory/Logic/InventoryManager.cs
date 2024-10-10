@@ -29,6 +29,9 @@ public class InventoryManager : Singleton<InventoryManager>
             ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(item);
+
+            EventHandler.CallIsClickedEvent(item); // if observation was not empty, this event won't work
+
             RefreshItem();
         }
     }

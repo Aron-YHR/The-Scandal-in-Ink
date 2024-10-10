@@ -10,6 +10,7 @@ public class ObjectManager : MonoBehaviour
     {
         EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnloadEvent;
         EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
+        EventHandler.IsClickedEvent += OnIsClickedEvent;
     }
 
 
@@ -17,6 +18,7 @@ public class ObjectManager : MonoBehaviour
     {
         EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnloadEvent;
         EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
+        EventHandler.IsClickedEvent -= OnIsClickedEvent;
     }
 
     private void OnBeforeSceneUnloadEvent()
@@ -44,6 +46,16 @@ public class ObjectManager : MonoBehaviour
             {
                 item.gameObject.SetActive(itemAvailableDict[item.itemName]);
             }
+        }
+    }
+
+    private void OnIsClickedEvent(ItemDetails itemDetails)
+    {
+        // if item is clicked, set its state to false
+        if (itemDetails != null)
+        {
+            itemAvailableDict[itemDetails.itemName] = false;
+            //Debug.Log(itemAvailableDict);
         }
     }
 
