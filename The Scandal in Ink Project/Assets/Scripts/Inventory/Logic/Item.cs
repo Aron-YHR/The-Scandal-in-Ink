@@ -11,6 +11,8 @@ public class Item : MonoBehaviour
         // add it into journal and remove it in environment
         InventoryManager.Instance.AddItem(itemName);
 
+        DialogueManager.GetInstance().SetVariableState("1", true);
+
         this.gameObject.SetActive(false);
     }
 }

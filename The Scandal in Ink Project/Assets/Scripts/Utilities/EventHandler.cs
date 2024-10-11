@@ -24,4 +24,11 @@ public static class EventHandler
     {
         AfterSceneLoadedEvent?.Invoke(); 
     }
+
+    public static event Action<string,string> EvidenceObservedEvent;
+
+    public static void CallEvidenceObservedEvent(string name,string value)
+    {
+        EvidenceObservedEvent?.Invoke(name,value);
+    }
 }

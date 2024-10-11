@@ -35,16 +35,14 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
 -> Start
 
-+ {test_secret} [I know about your affair with Theodosia.]
++{test_secret == true}[I know about your affair with Theodosia.]
 Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Secret_Revealed
 
 
 
 +[Leave]
-->DONE
-
-
+-> END
 
 === Relationship ===
 
@@ -57,6 +55,7 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 
 
 +[So, you were close?]
+~ test_secret = true
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
 ->DONE
 
