@@ -25,9 +25,9 @@ public class ObjectManager : MonoBehaviour
     {
         foreach (var item in FindObjectsByType<Item>(FindObjectsSortMode.InstanceID))
         {
-            if (!itemAvailableDict.ContainsKey(item.itemName))
+            if (!itemAvailableDict.ContainsKey(item.itemDetails.itemName))
             {
-                itemAvailableDict.Add(item.itemName, true); //TODO 
+                itemAvailableDict.Add(item.itemDetails.itemName, true); 
             }
         }
     }
@@ -38,13 +38,13 @@ public class ObjectManager : MonoBehaviour
 
         foreach (var item in FindObjectsByType<Item>(FindObjectsSortMode.InstanceID))
         {
-            if(!itemAvailableDict.ContainsKey(item.itemName))
+            if(!itemAvailableDict.ContainsKey(item.itemDetails.itemName))
             {
-                itemAvailableDict.Add(item.itemName, true);
+                itemAvailableDict.Add(item.itemDetails.itemName, true);
             }
             else
             {
-                item.gameObject.SetActive(itemAvailableDict[item.itemName]);
+                item.gameObject.SetActive(itemAvailableDict[item.itemDetails.itemName]);
             }
         }
     }

@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public ItemName itemName;
+    public ItemDetails itemDetails;
+
+    public void Start()
+    {
+        itemDetails = InventoryManager.Instance.itemData.GetItemDetailsByString(gameObject.name);
+    }
 
     public void ItemClicked()
     {
         // add it into journal and remove it in environment
-        InventoryManager.Instance.AddItem(itemName);
+        InventoryManager.Instance.AddItem(itemDetails);
 
-        DialogueManager.GetInstance().SetVariableState("1", true);
+        if(itemDetails.isEvidence)
+        DialogueManager.GetInstance().SetVariableState(itemDetails.itemName.ToString(), itemDetails.isEvidence);
 
         this.gameObject.SetActive(false);
     }

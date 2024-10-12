@@ -304,15 +304,16 @@ public class DialogueManager : MonoBehaviour
 
     public void SetVariableState(string variableName, bool state)
     {
-        if(state)
+        Ink.Runtime.Object variableValue;
+        if (state)
         {
-            Ink.Runtime.Object variableValue;
             dialogueVariables.variables.TryGetValue("test_true",out variableValue);
-            dialogueVariables.VariableChanged("test_secret",variableValue);
+            dialogueVariables.VariableChanged(variableName,variableValue);
         }
         else
         {
-            
+            dialogueVariables.variables.TryGetValue("test_false", out variableValue);
+            dialogueVariables.VariableChanged(variableName, variableValue);
         }
     }
 

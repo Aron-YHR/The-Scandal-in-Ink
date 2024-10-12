@@ -33,11 +33,6 @@ public class DialogueVariables
         story.variablesState.variableChangedEvent -= VariableChanged;
     }
 
-    public void StartListeningEvir()
-    {
-       // EventHandler.EvidenceObservedEvent += VariableChanged;
-    }
-
 
     public void VariableChanged(string name, Ink.Runtime.Object value)
     {

@@ -12,6 +12,11 @@ public class ItemDataList_SO : ScriptableObject
     {
         return itemDetailsList.Find(i => i.itemName == itemName);
     }
+
+    public ItemDetails GetItemDetailsByString(string itemName)
+    {
+        return itemDetailsList.Find(i => i.itemName.ToString() == itemName);
+    }
 }
 
 

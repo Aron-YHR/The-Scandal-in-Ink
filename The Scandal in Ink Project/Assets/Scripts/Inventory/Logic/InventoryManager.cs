@@ -20,17 +20,17 @@ public class InventoryManager : Singleton<InventoryManager>
         RefreshItem();
     }
 
-    public void AddItem(ItemName itemName) // to be optimized
+    public void AddItem(ItemDetails itemDetails) // to be optimized
     {
         
         //Debug.Log(journal.itemList.Contains(item));
-        if (journal.itemList.Find(i => i.itemName == itemName) == null )
+        if (journal.itemList.Find(i => i.itemName == itemDetails.itemName) == null )
         {   
-            ItemDetails item = itemData.GetItemDetails(itemName);
+            //ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
-            journal.itemList.Add(item);
+            journal.itemList.Add(itemDetails);
 
-            EventHandler.CallIsClickedEvent(item); // if observation was not empty, this event won't work
+            EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work
 
             RefreshItem();
         }
