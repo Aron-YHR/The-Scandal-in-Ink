@@ -108,15 +108,15 @@ TBC
 
 ===Examination===
 
-+[Examine his hands.]
++[Examine her hands.]
 <i> TBC </i>
 ->Examination
 
-+[Examine his face.]
++[Examine her face.]
 <i> TBC </i> 
 -> Examination
 
-+[Examine his clothing.]
++[Examine her clothing.]
 <i> TBC </i> 
 -> Examination
 
