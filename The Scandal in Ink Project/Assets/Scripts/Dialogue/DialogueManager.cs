@@ -161,8 +161,12 @@ public class DialogueManager : MonoBehaviour
 
     void ContinueButtonClick()
     {
+       // Debug.Log(canContinueToNextLine);
         if (canContinueToNextLine)
+        {
+            
             ContinueStory();
+        }
     }
 
     private IEnumerator DisplayLine(string line)
