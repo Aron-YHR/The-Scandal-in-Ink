@@ -25,5 +25,12 @@ public static class EventHandler
         AfterSceneLoadedEvent?.Invoke(); 
     }
 
+    public static event Action StartNewGameEvent;
+
+    public static void CallStartNewGameEvent()
+    {
+        StartNewGameEvent?.Invoke();
+    }
+
 
 }

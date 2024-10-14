@@ -18,6 +18,20 @@ public class InventoryManager : Singleton<InventoryManager>
     private void OnEnable()
     {
         RefreshItem();
+
+        EventHandler.StartNewGameEvent += OnStartNewGameEvent;
+
+    }
+
+    private void OnDisable()
+    {
+        EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
+    }
+
+    private void OnStartNewGameEvent()
+    {
+        journal.itemList.Clear();
+        RefreshItem();
     }
 
     public void AddItem(ItemDetails itemDetails) // to be optimized

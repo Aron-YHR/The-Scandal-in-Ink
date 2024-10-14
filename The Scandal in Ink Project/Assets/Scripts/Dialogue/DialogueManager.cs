@@ -5,6 +5,7 @@ using UnityEngine;
 using Ink.Runtime;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using Unity.VisualScripting;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -105,6 +106,22 @@ public class DialogueManager : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        EventHandler.StartNewGameEvent += OnStartNewGameEvent;
+    }
+
+    private void OnDisable()
+    {
+        EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
+    }
+
+    private void OnStartNewGameEvent()
+    {
+        PlayerPrefs.DeleteAll();
+        dialogueVariables = new DialogueVariables(globalsInkFile);
+    }
+
     public void EnterDialogueMode(TextAsset inkJson)
     {
         CameraFollowMouse.Instance.canMove = false;
@@ -143,7 +160,7 @@ public class DialogueManager : MonoBehaviour
             // set at once
             //dialogueText.text = currentStory.Continue();
 
-            // set a letter at a time
+            // set a letter at a time, if there is former coroutine, stop it first
             if (displayLineCoroutine != null)
             {
                 StopCoroutine(displayLineCoroutine);
@@ -171,8 +188,10 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator DisplayLine(string line)
     {
-        // empty the dialogue text
-        dialogueText.text = "";
+        // set the text to the full line, but set the visible characters to 0
+        dialogueText.text = line;
+        dialogueText.maxVisibleCharacters = 0;
+
         // hide items while text is typing
         continueButton.gameObject.SetActive(false);
         HideChoicesButtons();
@@ -185,11 +204,11 @@ public class DialogueManager : MonoBehaviour
             // if the right mouse button is pressed, displaying the whole line right away
             if (Input.GetMouseButton(1))
             {
-                dialogueText.text = line;
+                dialogueText.maxVisibleCharacters = line.Length;
                 break;
             }
 
-            dialogueText.text += letter;
+            dialogueText.maxVisibleCharacters++;
             yield return new WaitForSeconds(typingSpeed);
         }
 
@@ -318,6 +337,16 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueVariables.variables.TryGetValue("test_false", out variableValue);
             dialogueVariables.VariableChanged(variableName, variableValue);
+        }
+    }
+
+
+    // this method will get called anytime the application exits.
+    public void OnApplicationQuit()
+    {
+        if (dialogueVariables != null)
+        {
+            dialogueVariables.SaveVariables();
         }
     }
 
