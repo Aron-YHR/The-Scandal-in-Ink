@@ -8,7 +8,7 @@ INCLUDE Secrets.ink
 
 
 
-{!Ah, brother dearest! I am beset by grief!} #speaker: Maximillian Hold
+Ah, brother dearest! I am beset by grief! #speaker: Maximillian Hold
 
 
 
@@ -41,6 +41,7 @@ Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Examination
 
 +[Leave]
+Good day.
 -> END
 
 === Relationship ===
