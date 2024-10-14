@@ -7,12 +7,13 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{!Yes, sir?} #speaker: Ms. Tendwell
+{!How may I help you, sir?} #speaker: Ms. Tendwell
 
 
 
 +[Where were you night of the murder?]
-TBC
+Well sir, while I was busying myself by cleaning the Admiral's duelling pistols when I heard a commotion in the Admiral's study. There, I overheard the Admiral and Lady Hold engaged in a- difficult conversation. Lady Hold left the Admiral's office quite distraught.
+I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters.
 ->Night_Of_Murder
 
 
@@ -49,15 +50,27 @@ Big long explaination and blushing (TBC)
 
 
 +[How did you discover the body?]
-TBC
+Well sir, I was sleeping quite soundly last night, when I suddenly woke to the sound of young Master Avery screaming.
+I was in such an awful rush to find the poor boy that- to my shame- I ran down the main staircase while still in my nightgown. 
+I'm afraid by the time I found him, poor Avery had already seen the Amdiral's-
+By which I mean that the Admiral was-
+I'm sorry, sir, it's too horrid to say.
 ->Night_Of_Murder
 
-+[What were Charles and Theodosia arguing about?]
-TBC
++[Did you hear what Charles and Theodosia were arguing about?]
+Lady Hold greatly has often told me she thinks it is vulgar when servants make excessive use of their senses, so I thought it rude to listen.
 ->Night_Of_Murder
 
-+[Do you think Avery could have been involved in the Admiral's death?]
-TBC
++[Why were you cleaning the Admiral's duelling pistols?]
+Well, before he- expired- Admiral Hold requested that I prepare his duelling pistols for him.
+He seemed to imply that he would have some use for them upon your arrival, though what use exactly, he didn't specify.
+->Night_Of_Murder
+
++[Do you think Avery could have been involved in the Admiral's death somehow?]
+<i?Sir!</i>
+Young Master Avery is a <i>child</i>! Hardly even eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
+Well it's simply unthinkable! And I am quite sure the noble profession of journalism would <i>never</i> engage in wild, unproven speculation!
+It is certainly something I would take no pleasure in reading.
 ->Night_Of_Murder
 
 +[Let's talk about something else.]
@@ -68,11 +81,13 @@ TBC
 ===Relationship===
 
 +[How long have you worked for the Hold family?]
-TBC
+Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery.
 ->Relationship
 
 +[Did the Admiral ever treat you poorly?]
-TBC
+Oh no sir, Admiral Hold was very respectful, a perfect gentleman.
+I only wish that his younger brother took after the Admiral in that regard. He can at times be a bit-
+A bit- lustful. Please excuse my language sir. I'm sure it's most unusual for a journalist of your calibre to hear 
 ->Relationship
 
 +[Let's move on.]
