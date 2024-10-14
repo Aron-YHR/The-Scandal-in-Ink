@@ -1,6 +1,6 @@
 INCLUDE Secrets.ink
 
-
+Ah, my dear brother! I am beset by grief!
 
 -> Start
 
@@ -8,7 +8,7 @@ INCLUDE Secrets.ink
 
 
 
-Ah, brother dearest! I am beset by grief! #speaker: Maximillian Hold
+ #speaker: Maximillian Hold
 
 
 
