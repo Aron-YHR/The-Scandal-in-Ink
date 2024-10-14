@@ -13,28 +13,28 @@ VAR argument = false
 
 
 
-+[Where were you when the murder occurred?]
++[Where were you night of the murder?]
 
-I retired to my chambers quite early to indulge in a most ladlylike fit of weeping.
-You may confer with my maid to confirm the details.
+I had retired to my chambers rather early to indulge in a most ladlylike fit of weeping.
+You may confer with my maid to confirm this.
 ->Night_Of_Murder
 
 
 
 +[Have you noticed anything suspicious?]
-One cannot help but notice that the bird bath is rather blood-soaked. I must have Dorothy speak to the gardener of the matter.
+
 ->Suspicions
 
 
 
 +[How was your relationship with your husband?]
-A most invasive question to ask a freshly widowed wife, though I shall allow it. I find the outrageous gall of you newspaper men quite charming.
+A most invasive question to ask a freshly made widow, though I shall allow it. I find the outrageous gall of you newspaper men quite charming.
 -> Relationship
 
 
 
 + {test_secret} [I know about your affair with Maximillian.]
-Hm? What's this? I am quite sure I have no idea what you mean, good fellow
+Hm? What's this? I am quite sure I have no idea what you mean.
 ->DONE
 
 + {test_secret} [Did you know your husband was planning to divorce you?]
@@ -45,8 +45,11 @@ I am quite sure he would have abandoned the idea entirely, had he not perished.
 
 
 + {test_secret} [Do you know Ms. Ditch and Ms. Treadwell are in a relationship?]
-The maid and the stable hand? Ensnared in a Sapphic scandal? How curious! How queer!
+The maid and the stable hand? Ensnared in a Sapphic scandal? How curious! How queer! How modern!
+Really, if the lower orders cannot set us a good example, what on earth is the use of them?
 ->Start
+
+
 
 
 +[<i> Examine the suspect. </i>]
@@ -68,12 +71,17 @@ Charles performed his marital duties adequately. He provided a modest dwelling-p
 +[Did you love Charles?]
 Certainly <i>not</i>! 
 The exchange of love tokens and flowery letters is acceptable during courtship. Perhaps even for the first six weeks of a marriage. However, love between spouses of any greater duration is exceptionally garish. 
-One would risk being mistaken for a prostitute, or a mistress of poor breeding.
+For a wife of my tenure to express affection, would risk being mistaken for a prostitute, or a mistress of particularly poor breeding.
 ->Relationship
 
 +[You don't seem particularly sad that Charles is dead.]
-Do you expect keening and caterwauling of me, sir? What am I, Irish?
-A widow must be demure in the face of death. It is one's duty to maintain the dignity of the family name, as it is Charles' duty to provide for our family. He did the latter relatively adequately, and I must do the same.
+Do you expect keening and caterwauling of me, sir? Do you mistake me some sort of Irishman?
+A widow must be demure in the face of death. It is one's duty to maintain the dignity of the family name, as it was Charles' duty to provide for our family. He did the latter relatively adequately in life and continues to do so in the face of death. I must do the same.
+->Relationship
+
++[Tell me about how you two met.]
+Ah, a wonderful day. My dear mother informed me that I was to be married to the Admiral Hold, and that I would be permitted five minutes of polite conversation with him that evening.
+It was quite perfect. Exactly as I had imagined it as a young girl.
 ->Relationship
 
 +[Let's talk about something else]
@@ -86,19 +94,11 @@ My deepest sympathies.
 ->Relationship
 
 +[That's horrendous. I love my daughter with all my heart!]
-Expressing parental affection so blatantly? How quaint! The eccentricities of the common folk never cease to amaze!
+Expressing parental affection so blatantly? How quaint! The eccentricities of the common folk never cease to amaze.
 -> Relationship
 
 +[Let's move on.]
 ->Relationship
-
-
-
-
-
-
-
-
 
 
 
@@ -112,16 +112,21 @@ I do believe the conversation overwhelmed my feminine sensibilities and drove me
 ->Night_Of_Murder
 
 +{argument}[What were you and Charles arguing about?]
-Oh, matters of a marital nature. Such was the banality of the subject that I was driven to a fit of tears. Entirely too dull for publication, I assure you.
+Oh, matters of a marital nature. Such was the banality of our conversation that I was driven to tears. Entirely too dull for publication, I assure you.
 ->Night_Of_Murder
 
 +[Why should I confer with your maid?]
-She was present for my initial hysterics. One must admit she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European.
+Ms. Tendwell was present as I was leaving Charles'  study. One must admit, she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European.
 ->Night_Of_Murder
 
-+[When did you discover the body?]
-Ms. Tendwell interrupted my private weeping to inform me that Charles had been slain. It is terribly inappropriate to interrupt another's private weeping. However, given the occassion, I believe Ms. Tendwell acted appropriately.
++[How did you discover the body?]
+Ms. Tendwell interrupted my private weeping to inform me that Charles had been slain. It is terribly inappropriate to interrupt one's private weeping. However, given the occassion, I believe Ms. Tendwell acted appropriately.
 ->Night_Of_Murder
+
++[Did you hear anything that night?]
+I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as I have heard on several nights past. I generally disapprove of serving girls creating noise. However, Ms. Tendwell's performance is quite satisfactory, so I have elected to overlook this indiscretion.
+->Night_Of_Murder
+
 
 +[Let's talk about something else.]
 ->Start 
@@ -131,7 +136,24 @@ Ms. Tendwell interrupted my private weeping to inform me that Charles had been s
 
 
 ===Suspicions===
-->DONE
+
++[Has anyone in the house been acting strange?]
+I have always found one Ms. Lavender Ditch to be a most unusual character. Her manner is most sullen, and one cannot help but question the morals of a woman who elects to spend her days mucking about in a stables.
+I requested Charles release her from her duties several times. Alas, men of Charles' calibre are often dodddering when expedition is required and far too quick to finish when strenuous labour would be of benefit.
+One does hope you will make note of these pithy observations of mine in your publication.
+->Suspicions
+
++[Did you notice anything unusual about the body?]
+One cannot help but notice the dramatic position in which my dear husband chose to die. A true testament to his character. Only one of immaculate breeding such as Charles would succumb to rigor morits in such a statuesque pose.
+->Suspicions
+
++[Did your husband have any enemies?]
+Charles was fond of all peoples and creatures under the sun.
+Barring the Irish. He loathed the Irish.
+-> Suspicions
+
++[Let's talk about something else]
+->Start
 
 
 ===Examination===
@@ -166,6 +188,11 @@ He would have come to this realisation himself. I am quite sure he would.
 +[Let's talk about something else]
 ->Start
 
+
+===Affair===
+
+TTBC
+->DONE
 
 
 

@@ -20,11 +20,9 @@ I retired to my chambers early that night.
 ->Night_Of_Murder
 
 
-
 +[Have you noticed anything suspicious?]
 Such as?
 ->Suspicions
-
 
 
 +[How was your relationship with your brother?]
@@ -42,8 +40,6 @@ Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 +[<i> Examine the suspect more closely. </i>]
 ->Examination
 
-
-
 +[Leave]
 ->DONE
 
@@ -57,19 +53,19 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 -> Relationship
 
 
-
-
 +[So you two were close?]
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
 ->DONE
 
 
+->DONE
+
 
 
 === Night_Of_Murder ===
 
-+[Did you hear anything that night?]
-Alas, I slept soundly through the whole dreadful affair. Would that I had heard that- devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword by the shaft, and given the devil a good thrusting!
++[Did you notice anything unusual that night?]
+Alas, I slept soundly through the whole dreadful affair. Would that I had heard that- devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword, and given the devil a good thrusting!
 ->hear_response
 
 +[When did you discover the body?]
@@ -87,11 +83,11 @@ Oh, such a frightful thought! I was roused from my sleep by a most terrible scre
 
 =hear_response
 +[I'm sure you have have. ]
-Why of course!
+Why of course! There is nothing more thoroughly manly than taking hold of a shaft and engaging in some energetic swordplay
 ->Night_Of_Murder
 
 +[You need to work on your phrasing.]
-
+I couldn't possibly know what you mean, my dear fellow.
 ->Night_Of_Murder
 
 +[Let's talk about something else.]
@@ -103,11 +99,12 @@ Why of course!
 === Suspicions ===
 
 +[Did your brother have any enemies?]
-One would not normally dare to base slander. However, given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch.
+I typically don't engage in idol gossip. However, given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch.
 ->Ditch
 
 +[Did you notice anything unusual about the murder?]
-One cannot help but notice the dramatic position in which my dear brother chose to die. A true testament to his character. Only one of immaculate breeding such as dear old Chuck would succumb to rigor morits in such a statuesque pose.
+Ah, I can hardly bear to gaze upon my darling Chuck's form. Ah! To perish in such an unflattering position, and in such garishly red attire! I warned my dear brother many times that red merely accentuated his ruddy complexion. 
+He did not take kindly to my suggestions. Alas, Admiral Hold charted his own course in matters of style. 
 ->Suspicions
 
 
@@ -124,7 +121,7 @@ My dearest departed brother did find her difficult. He spoke often of the dire c
 
 
 +[Do you think Ms. Ditch could have killed the Admiral?]
-I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty. A most alarming thing to do.
+I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a figure of suspicion. Of course, it is natural to be suspicious of one foolish enough to be born into poverty. A most alarming thing to do.
 -> Suspicions
 
 
@@ -191,7 +188,7 @@ AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
 -> Examination
 
 +[Examine his wig.]
-His wig is blindingly white.
+<i> His wig is blindingly white.</i>
 -> Examination
 
 
