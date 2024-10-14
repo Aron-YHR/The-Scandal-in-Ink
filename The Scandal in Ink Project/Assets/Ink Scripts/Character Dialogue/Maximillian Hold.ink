@@ -33,7 +33,7 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
 -> Start
 
-+ {test_secret} [I know about your affair with Theodosia.]
++{Chair}[I know about your affair with Theodosia.]
 Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Secret_Revealed
 
@@ -41,9 +41,7 @@ Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Examination
 
 +[Leave]
-->DONE
-
-
+-> END
 
 === Relationship ===
 

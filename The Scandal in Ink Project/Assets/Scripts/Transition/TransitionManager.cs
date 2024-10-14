@@ -4,11 +4,18 @@ using UnityEngine.SceneManagement;
 
 public class TransitionManager : Singleton<TransitionManager>
 {
+    public string startScene;
+
     public CanvasGroup fadeCanvasGroup;
 
     public float fadeDuration;
 
     private bool isFading;
+
+    private void Start()
+    {
+        StartCoroutine(TransitionToScene(string.Empty, startScene));
+    }
 
     public void Transition(string from, string to)
     {
@@ -20,7 +27,12 @@ public class TransitionManager : Singleton<TransitionManager>
     {
         yield return Fade(1);
 
-        yield return SceneManager.UnloadSceneAsync(from);
+        if (from != string.Empty)
+        {
+            EventHandler.CallBeforeSceneUnloadEvent();
+
+            yield return SceneManager.UnloadSceneAsync(from);
+        }
 
         yield return SceneManager.LoadSceneAsync(to,LoadSceneMode.Additive);
 
@@ -31,6 +43,9 @@ public class TransitionManager : Singleton<TransitionManager>
 
         // find background in a new scene
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
+        CameraFollowMouse.Instance.transform.position = Vector3.zero;
+
+        EventHandler.CallAfterSceneLoadedEvent();
 
         yield return Fade(0);
     }

@@ -9,6 +9,8 @@ public class ItemDetails
 
     public Sprite itemIcon;
 
+    public bool isEvidence;
+
     [TextArea]
     public string itemInfo;
 }

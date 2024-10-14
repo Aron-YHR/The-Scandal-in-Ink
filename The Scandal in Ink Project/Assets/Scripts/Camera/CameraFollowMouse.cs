@@ -26,7 +26,7 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
     // Start is called before the first frame update
     void Start()
     {
-        GetNewSceneSpriteRenderer();
+        //GetNewSceneSpriteRenderer();
         //envir = GameObject.Find("Enviro2_Background").GetComponent<SpriteRenderer>();
         //if (envir != null) Debug.Log("1");
         canMove = true;

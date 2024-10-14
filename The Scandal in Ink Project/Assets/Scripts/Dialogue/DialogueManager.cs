@@ -10,6 +10,9 @@ public class DialogueManager : MonoBehaviour
 {
     private static DialogueManager instance;
 
+    [Header("Load Globals JSON")]
+    [SerializeField] private TextAsset globalsInkFile;
+
     [Header("Params")]
     [SerializeField] private float typingSpeed = 0.04f;
 
@@ -41,6 +44,8 @@ public class DialogueManager : MonoBehaviour
     private const string SPEAKER_TAG = "speaker";
     private const string PORTAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
+
+    private DialogueVariables dialogueVariables;
          
     private void Awake()
     {
@@ -52,6 +57,8 @@ public class DialogueManager : MonoBehaviour
         {
             instance = this;
         }
+
+        dialogueVariables = new DialogueVariables(globalsInkFile);
     }
 
     public static DialogueManager GetInstance()
@@ -106,6 +113,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
+        dialogueVariables.StartListening(currentStory);
+
         // reset portrait, layout, and speaker
         displayNameText.text = "???";
         portraitAnimator.Play("Default");
@@ -117,6 +126,8 @@ public class DialogueManager : MonoBehaviour
 
     private void ExitDialogueMode()
     {
+        dialogueVariables.StopListening(currentStory);
+
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
@@ -288,6 +299,21 @@ public class DialogueManager : MonoBehaviour
             currentStory.ChooseChoiceIndex(choiceIndex);
             //Debug.Log(currentStory.currentText);
             ContinueStory();
+        }
+    }
+
+    public void SetVariableState(string variableName, bool state)
+    {
+        Ink.Runtime.Object variableValue;
+        if (state)
+        {
+            dialogueVariables.variables.TryGetValue("test_true",out variableValue);
+            dialogueVariables.VariableChanged(variableName,variableValue);
+        }
+        else
+        {
+            dialogueVariables.variables.TryGetValue("test_false", out variableValue);
+            dialogueVariables.VariableChanged(variableName, variableValue);
         }
     }
 

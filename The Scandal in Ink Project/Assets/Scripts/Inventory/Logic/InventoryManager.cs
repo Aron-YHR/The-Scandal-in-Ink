@@ -15,35 +15,23 @@ public class InventoryManager : Singleton<InventoryManager>
     public Slot slotPrefab;
     public DetailPanel detailPanel;
 
-    private void Start()
+    private void OnEnable()
     {
         RefreshItem();
     }
 
-    private void OnEnable()
-    {
-        Instance.detailPanel.SetItemIcon(null);
-        Instance.detailPanel.SetItemName(null);
-        Instance.detailPanel.SetItemInfo(null);
-    }
-
-    private void OnDisable()
-    {
-        Instance.detailPanel.SetItemIcon(null);
-        Instance.detailPanel.SetItemName(null);
-        Instance.detailPanel.SetItemInfo(null);
-    }
-
-
-    public void AddItem(ItemName itemName)
+    public void AddItem(ItemDetails itemDetails) // to be optimized
     {
         
         //Debug.Log(journal.itemList.Contains(item));
-        if (journal.itemList.Find(i => i.itemName == itemName) == null )
+        if (journal.itemList.Find(i => i.itemName == itemDetails.itemName) == null )
         {   
-            ItemDetails item = itemData.GetItemDetails(itemName);
+            //ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
-            journal.itemList.Add(item);
+            journal.itemList.Add(itemDetails);
+
+            EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work
+
             RefreshItem();
         }
     }
@@ -56,7 +44,7 @@ public class InventoryManager : Singleton<InventoryManager>
         newItem.slotImage.sprite = item.itemIcon;
     }
 
-    public static void RefreshItem()
+    public static void RefreshItem() // to be optimized
     {
         for(int i = 0; i < Instance.slotGrid.transform.childCount; i++)
         {

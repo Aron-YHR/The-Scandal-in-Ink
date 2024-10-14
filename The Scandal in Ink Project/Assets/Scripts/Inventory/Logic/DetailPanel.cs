@@ -24,4 +24,11 @@ public class DetailPanel : MonoBehaviour
     {
         itemInfo.text = info;
     }
+
+    private void OnDisable()// to be optimized
+    {
+        SetItemIcon(null);
+        SetItemName(null);
+        SetItemInfo(null);
+    }
 }
