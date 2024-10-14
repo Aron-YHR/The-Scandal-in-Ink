@@ -27,8 +27,8 @@ TBC
 -> Relationship
 
 
-+{found_love_letters and found_lavender_name}[Looking for these? <i>Show her the letters</i>]
-Joke answer
++{love_letters and found_lavender_name}[Looking for these? <i>Show her the letters</i>]
+Response here
 ->Start
 
 
