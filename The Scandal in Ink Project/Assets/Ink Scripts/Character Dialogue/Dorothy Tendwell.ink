@@ -57,18 +57,18 @@ By which I mean that the Admiral was- expired. Oh, even the thought of it- it's 
 ->Night_Of_Murder
 
 +[Did you hear what Charles and Theodosia were arguing about?]
-Lady Hold has often told me she thinks it is vulgar when servants make excessive use of their senses and faculties, so I thought it especially rude to listen.
+Lady Hold has often tells me she considers it is vulgar when servants make excessive use of their senses and faculties, so I thought it especially rude to listen.
 ->Night_Of_Murder
 
 +[Why were you cleaning the Admiral's duelling pistols?]
 Well, before he- expired- Admiral Hold requested that I prepare his duelling pistols for him.
-He seemed to imply that he would have some use for them upon your arrival, though what use exactly, he didn't specify.
+He seemed to imply that he would have some use for them upon your arrival, though what use exactly, I couldn't say
 ->Night_Of_Murder
 
 +[Do you think Avery could have been involved in the Admiral's death somehow?]
-<i?Sir!</i>
+<i>Sir!</i>
 Young Master Avery is a <i>child</i>! Hardly even eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
-Well it's simply unthinkable! And I am quite sure the noble profession of journalism would <i>never</i> engage in wild, unproven speculation!
+Well, it's simply unthinkable! And I am quite sure the noble profession of journalism would <i>never</i> engage in baseless speculation!
 ->Night_Of_Murder
 
 +[Let's talk about something else.]
@@ -133,14 +133,14 @@ Poor Lady Hold. She would never dare admit it, but she was terribly upset over h
 ===Lesbians_Revealed===
 
 *[What's the big deal? It's just an ankle.]
-Thank you for being so kind, sir, but I know you must think, and you're quite right: I'm a harlot. I've turned the noble Wenchwatch Hall into a mere brothel.
+Thank you for being so kind, sir, but I know you must think, and you're quite right: I'm a harlot. A strumpet. I've turned the noble Wenchwatch Hall into a mere brothel!
 But I swear to you, those letters were a momentary lapse in judgement, and L-
 They were only ever intended for one particular person's private enjoyment. They were not intended for- public consumption.
 
 ->Lesbians_Revealed
 
 *[You trollop!]
-You are quite right sir. I've debased myself. You must think me some sort of harlot, or brothel-keeper. I've disgraced the name of noble Wenchwatch Hall.
+You are quite right sir. I've debased myself. You must think me some sort of harlot, or strumpet, or- brothel-keeper. I've disgraced the name of noble Wenchwatch Hall.
 But I swear to you, those letters were a momentary lapse in judgement, and L-
 They were only ever intended for one particular person's private enjoyment. They were not intended for- public consumption.
 ->Lesbians_Revealed
