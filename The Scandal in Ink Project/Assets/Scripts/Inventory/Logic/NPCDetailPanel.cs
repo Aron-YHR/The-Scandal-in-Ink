@@ -34,10 +34,24 @@ public class NPCDetailPanel : MonoBehaviour
 
     public void SetNPCStatements(List<string> npcStates)
     {
-        npcStatements.text = null;
-        for(int i = 0; i < npcStates.Count; i++)
+        if(npcStatements != null)
+            npcStatements.text = null;
+
+        if (npcStates != null)
         {
-            npcStatements.text += npcStates[i]+ "\n";
+            for (int i = 0; i < npcStates.Count; i++)
+            {
+                npcStatements.text += npcStates[i] + "\n";
+            }
         }
+    }
+
+    private void OnDisable()// to be optimized
+    {
+        SetNPCIcon(null);
+        SetNPCName(null);
+        SetNPCLocation(null);
+        SetNPCInfo(null);
+        SetNPCStatements(null);
     }
 }

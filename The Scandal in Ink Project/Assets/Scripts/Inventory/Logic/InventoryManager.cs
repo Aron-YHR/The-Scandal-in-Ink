@@ -36,7 +36,9 @@ public class InventoryManager : Singleton<InventoryManager>
     private void OnStartNewGameEvent()
     {
         journal.itemList.Clear();
+        journal.npcList.Clear();
         RefreshItem();
+        RefreshNPC();
     }
 
     public void AddItem(ItemDetails itemDetails) // to be optimized
@@ -108,7 +110,7 @@ public class InventoryManager : Singleton<InventoryManager>
         for(int i = 0;i < Instance.npcSlotGrid.transform.childCount; i++)
         {
             if (Instance.npcSlotGrid.transform.childCount == 0) break;
-            Destroy(Instance.slotGrid.transform.GetChild(i).gameObject);
+            Destroy(Instance.npcSlotGrid.transform.GetChild(i).gameObject);
         }
 
         for(int i = 0; i<Instance.journal.npcList.Count; i++)
