@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Observation
   m_EditorClassIdentifier: 
   itemList: []
+  npcList: []

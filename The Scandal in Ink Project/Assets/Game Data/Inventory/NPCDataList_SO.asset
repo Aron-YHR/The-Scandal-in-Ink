@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2b89937154ed4438ef0a8aee0c8104, type: 3}
+  m_Name: NPCDataList_SO
+  m_EditorClassIdentifier: 
+  npcDetailsList:
+  - npcName: 1
+    npcIcon: {fileID: 21300000, guid: a6c74fc6ea9ffe449a44e690d1c004a6, type: 3}
+    npcPortrait: {fileID: -6889561782916532141, guid: 95d8466026640b941ab151f92b70679f, type: 3}
+    location: Study
+    npcInfo: She is a wonderful wowan...
+    npcStatements:
+    - 1
+    - 2

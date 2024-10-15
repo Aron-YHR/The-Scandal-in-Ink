@@ -6,3 +6,9 @@ public enum ItemName
     Chair,
     Candle
 }
+
+public enum NPCName
+{
+    None,
+    Maximillian_Hold,
+}

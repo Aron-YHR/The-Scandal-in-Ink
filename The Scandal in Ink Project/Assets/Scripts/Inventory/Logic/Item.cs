@@ -8,7 +8,7 @@ public class Item : MonoBehaviour
 
     public void Start()
     {
-        itemDetails = InventoryManager.Instance.itemData.GetItemDetailsByString(gameObject.name);
+        itemDetails = InventoryManager.Instance.itemData.GetItemDetails(itemDetails.itemName);
     }
 
     public void ItemClicked()
