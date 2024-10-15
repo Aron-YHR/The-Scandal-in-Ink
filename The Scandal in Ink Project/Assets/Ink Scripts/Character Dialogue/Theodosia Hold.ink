@@ -94,7 +94,7 @@ My deepest sympathies.
 ->Relationship
 
 +[That's horrendous. I love my daughter with all my heart!]
-Expressing parental affection so blatantly? How quaint! The eccentricities of the common folk never cease to amaze.
+Expressing parental affection so blatantly? How quaint! The eccentricities of the common rabble never cease to amaze.
 -> Relationship
 
 +[Let's move on.]

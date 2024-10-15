@@ -35,6 +35,10 @@ Joke answer
 +[Kid, I can't understand a single word you're saying.]
 ->Call_Dorothy
 
++[Y'know you really remind me of my son.]
+FILL THIS IN
+->DONE
+
 +[<i> Examine the suspect more closely. </i>]
 ->Examination
 
@@ -154,7 +158,6 @@ TBC
 -> You_Fucked_Up
 
 +[Spare me your crocodile tears, you patricidal maniac! You're going away for a long time!]
-...
 ...
 WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
 -> You_Fucked_Up

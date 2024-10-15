@@ -15,7 +15,6 @@ I haven't seen it. I was in bed when he got done in. And I've no interest in ogl
 ->Start
 
 
-
 *[Have you noticed anything suspicious?]
 Nothing I'd tell some bloody scribbler sticking his nose where it don't belong. Now bugger off.
 ->Start
@@ -27,16 +26,15 @@ Can you get through that thick newsmonger skull of yours, hah?
 -> Start
 
 
-+{love_letters and found_lavender_name}[Looking for these? <i>Show her the letters</i>]
+*{love_letters and found_lavender_name}[Looking for these? <i>(Show her the letters)</i>]
 Where did you get those?
-It was that bloody fop, wasn't it? I'll wring that thieving bugger's neck for this!
-The two of you are in cahoots then, is that it? Is that how you newsmongers get by, hah? Pinching some some stablehands shillings?
-What is it <i>you</i> want, then?
+Give me those letters! Please, before he knows I've found them!
 ->Letters_Discovered
 
 
-+{Brooch}[I found the Admiral's brooch hidden in the horse's saddle.]
-And why should I care?
+*{Brooch}[I found the Admiral's brooch hidden in the horse's saddle.]
+And what of it?
+You accusing me of stealing? I know I've not any fancy airs or graces, but that doesn't make me a thief.
 ->Brooch_Discovered
 
 
@@ -47,10 +45,7 @@ And why should I care?
 +[Leave]
 ->DONE
 
-
-
-
-===Night_Of_Murder===
+/* ===Night_Of_Murder===
 
 
 +[How did you discover the body?]
@@ -75,7 +70,7 @@ TBC
 ->Start 
 
 
-===Relationship===
+// NOT CURRENTLY===Relationship===
 
 +[Blank]
 TBC
@@ -89,10 +84,10 @@ TBC
 TBC->Relationship
 
 +[Let's talk about something else.]
-->Start
+->Start  */
 
 
-===Suspicious===
+/* ===Suspicious===
 
 +[Blank]
 TBC
@@ -108,9 +103,9 @@ TBC
 -> Suspicious
 
 +[Let's talk about something else.]
-->Start
+->Start */
 
-===Brooch_Discovered===
+ ===Brooch_Discovered===
 
 +[The brooch is covered in the Admiral's blood.]
 ->Murder_Weapon
@@ -122,11 +117,92 @@ TBC
 ->Murder_Weapon
 
 =Murder_Weapon
-FILL ME IN!
-->DONE
+I... I know how that looks. But I didn't know that was there. Honest.
+I was in my chambers last night when the Admiral got done in, cross my heart.
+I'm not a killer. And I don't go round diddling what isn't mine. I just keep to myself.
+More than I can say for some in this house...
+->Alibis
+
+=Alibis
+
+*[What do you mean by that?]
+...Nothing. Forget I said anything.
+->Alibis
+
+*[Do you have an alibi for last night?]
+...I don't, no.
+->Alibis
+
++[I believe you, but I know you're not telling me something.]
+->Start
+
++[You're lying. I think you killed the Admiral, then planned to escape with the family brooch!]
+...
+...
+...
+Believe what you want. I'm no killer, and some thick-headed newsmonger saying otherwise won't change that.
+Now if you're done accusing me of being a killer, you can bugger off.
+->Start 
+
+
+
 
 ===Letters_Discovered====
+*[I've already read them, Lavender. I know all about your relationship with Dorothy.]
+It- it's not like that. I'm a friend of Dorothy, that's all! A very good friend!
+->Letters_Discovered
+
+*[Why are these letters covered in blood?]
+I- I don't know. I swear it wasn't my doing!
+->Letters_Discovered
+
+*[I think it's time you told me what's going on, Lavender.]
+...
+Alright.
+It's true. Me and Dorothy, we're in love. Have been for a while.
+She's everything to me. I don't know what I'd do without Dot
+Sometimes, when the horses are keeping me busy, Dot- Dorothy- she'll hide a letter for me in the stables. Just to say hello, or...
+It's not usual that her letters are this bawdy. That's my influence, not Dot's. 
+And she knows I'm not the best with words and that, so she sometimes leaves me... drawings.
+I always keep the letters hidden under the haystack. It's nice to have a bit of Dot near- horses aren't great company.
+But, the other day, somehow- <i>he</i> found them.
+->Lavender_Tells_All
+
+
+
+=Lavender_Tells_All
+*[Then why are the letters covered in the Admiral's blood?]
+I don't know. I swear, I'm no fan of these hoity-toity sorts, but that doesn't make me a killer!
+->Lavender_Tells_All
+
+*[Theodosia said she heard strange noises coming from Dorothy's room. Were you there?]
+Yes, I was in Dorothy's room last night. 
+But you can't tell anyone. There's no telling what will happen to us if people find out what we are.
+I've seen what they do to the doxies and unfortunate women they drag out of the bordellos.
+I'd not like to find out what they'd do to us.
+->Lavender_Tells_All
+
+*[Who is this "he"?]
+That bloody fop, Maximillian.
+Lord knows how, but he found Dot's letters. 
+Last night, after the Admiral got knocked off, he came and found me.
+He made me swear I'd keep quiet. Or else he'd tell everyone 'bout me and Dot.
+**[Keep quiet? About what?]
+Well- the other day- when the Lady Hold and Sir Max were out for their weekly ride, I went to muck out the stalls, and-
+And I found the Lady and Max- basket making, if you catch my meaning.
+***[What the hell does that mean?]
+They were making the beast with two backs!
+****[Why can't anyone in this house talk normally?!]
+They were shagging!
+[<i>Gasp!</i>]
+TBC
 ->DONE
+
+
+
+
+
+
 
 ===Examination===
 
@@ -144,6 +220,7 @@ FILL ME IN!
 
 +[Return to the conversation]
 -> Start
+
 
 
 
