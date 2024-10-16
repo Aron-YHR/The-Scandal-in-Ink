@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5214d11ff9b6ff140a13ca5079ad5902, type: 3}
+  m_Name: DeductionDataList_SO
+  m_EditorClassIdentifier: 
+  npcNameList:
+  - Maximillian Hold
+  - LAVENDER DITCH
+  - ADMIRAL CHARLES HOLD
+  locationList:
+  - Study
+  - Stables
+  - Reception
+  - On the highway to hell
+  motiveList:
+  - For bad romance
+  - Some people just for the fame
+  - For fortune
+  wayOfEscapeList:
+  - Got out of the window
+  - Rode a horse
+  - Everyone blinded by the light
