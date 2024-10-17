@@ -12,10 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5214d11ff9b6ff140a13ca5079ad5902, type: 3}
   m_Name: DeductionDataList_SO
   m_EditorClassIdentifier: 
-  npcNameList:
-  - Maximillian Hold
-  - LAVENDER DITCH
-  - ADMIRAL CHARLES HOLD
   locationList:
   - Study
   - Stables
@@ -29,3 +25,10 @@ MonoBehaviour:
   - Got out of the window
   - Rode a horse
   - Everyone blinded by the light
+  nameAndImageList:
+  - name: Maximillian Hold
+    image: {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
+  - name: ADMIRAL CHARLES HOLD
+    image: {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
+  - name: LAVENDER DITCH
+    image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}

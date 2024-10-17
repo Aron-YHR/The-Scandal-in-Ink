@@ -21,7 +21,7 @@ public class DeductionPanel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nameDropdown.AddOptions(deductionData.npcNameList);
+        nameDropdown.AddOptions(deductionData.GetNPCNameList());
         locationDropdown.AddOptions(deductionData.locationList);
         motiveDropdown.AddOptions(deductionData.motiveList);
         escapeDropdown.AddOptions(deductionData.wayOfEscapeList);
@@ -31,7 +31,7 @@ public class DeductionPanel : MonoBehaviour
 
     public void ChangeImage()
     {
-        caseImage.sprite = caseImgList[nameDropdown.value];
+        caseImage.sprite = deductionData.nameAndImageList[nameDropdown.value].image;
     }
 
 }
