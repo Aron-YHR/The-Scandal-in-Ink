@@ -209,6 +209,8 @@ I see. Thank you, sir.
 Oh. I see. I don't mean to anger you, sir, but I have precious little to give. One week's wages is all I have in savings.
 
 +[Pay up or let the world know. Your choice.]
+I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened.
+->Start
 +[I'm sorry, but I need the money. I have a family. My kids need to eat.]
 I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened.
 ~extort_Dorothy = true

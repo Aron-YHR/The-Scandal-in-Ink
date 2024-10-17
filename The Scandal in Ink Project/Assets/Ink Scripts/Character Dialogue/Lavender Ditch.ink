@@ -28,7 +28,7 @@ Can you get through that thick newsmonger skull of yours, hah?
 
 *{love_letters and found_lavender_name}[Looking for these? <i>(Show her the letters)</i>]
 Where did you get those?
-Give me those letters! Please, before he knows I've found them!
+Give me those! Please, before he knows I've found them!
 ->Letters_Discovered
 
 
@@ -117,7 +117,7 @@ TBC
 ->Murder_Weapon
 
 =Murder_Weapon
-I... I know how that looks. But I didn't know that was there. Honest.
+Alright, I know how that looks. But I didn't know that was there. Honest.
 I was in my chambers last night when the Admiral got done in, cross my heart.
 I'm not a killer. And I don't go round diddling what isn't mine. I just keep to myself.
 More than I can say for some in this house...
@@ -178,29 +178,98 @@ I don't know. I swear, I'm no fan of these hoity-toity sorts, but that doesn't m
 *[Theodosia said she heard strange noises coming from Dorothy's room. Were you there?]
 Yes, I was in Dorothy's room last night. 
 But you can't tell anyone. There's no telling what will happen to us if people find out what we are.
-I've seen what they do to the doxies and unfortunate women they drag out of the bordellos.
+I've seen what they do to the doxies when they catch hem. And the women of the town they drag out of the bordellos.
 I'd not like to find out what they'd do to us.
 ->Lavender_Tells_All
 
 *[Who is this "he"?]
+->Max_Revealed_P1
+
+
+=Max_Revealed_P1
+
 That bloody fop, Maximillian.
 Lord knows how, but he found Dot's letters. 
 Last night, after the Admiral got knocked off, he came and found me.
 He made me swear I'd keep quiet. Or else he'd tell everyone 'bout me and Dot.
-**[Keep quiet? About what?]
+*[Keep quiet? About what?]
 Well- the other day- when the Lady Hold and Sir Max were out for their weekly ride, I went to muck out the stalls, and-
 And I found the Lady and Max- basket making, if you catch my meaning.
-***[What the hell does that mean?]
-They were making the beast with two backs!
-****[Why can't anyone in this house talk normally?!]
+->Max_Revealed_P2
+
+
+
+=Max_Revealed_P2
+*[I don't understand.]
+They were- making the beast with two backs.
+->Max_Revealed_P3
+
+*[What's so wrong about making baskets?]
+No, you don't understand! They were- making the beast with two backs.
+->Max_Revealed_P3
+
+*[Ooh, I love baskets!]
+No, you don't understand! They were- making the beast with two backs.
+->Max_Revealed_P3
+
+*[<i>Gasp!</i> You caught Maximillian sleeping with the Admiral's wife?]
+Yes, I did.
+->The_Admiral_Informed
+
+
+
+
+=Max_Revealed_P3
+*[Why can't anyone in this house talk normally?!]
 They were shagging!
-[<i>Gasp!</i>]
-TBC
+**[<i>Gasp!</i>]
+->The_Admiral_Informed
+
+*[Do you mean to say Max was sleeping with his own brother's wife?]
+Just that, lad.
+->The_Admiral_Informed
+
+
+=The_Admiral_Informed
+I s'pose they saw me, because they leapt up and started dressing. 
+But I was already gone to tell the Admiral. I've never seen a man that mad.
+That night, I was with Dot when she heard the little lad of the house scream.
+She rushed off, and I went to follow after her, only Max found me first. Only he hardly looked like himself. His wig was crooked, his hands were soaking wet, and he had this mad sorta look in his eye.
+Then he tells me he found my letters, and he says that if I tell anyone what I saw, he'd tell everyone about me & Dot, about her letter. Said he'd have them published in all the papers.
+He can do what he likes to me- but I won't let him do that to Dot. She doesn't deserve that.
+->The_Admiral_Informed_P2
+
+
+
+
+=The_Admiral_Informed_P2
+
+*[Can you prove any of this?]
+Ask Dot. She'll vouch for where I was last night. Just- please don't let on you know about us, or about the letters.
+I don't want her to know 'bout any of this.
+->The_Admiral_Informed_P2
+
+
+
+*[Do you think that Max could be the killer?]
+I'd have said that puffed up maccaroni didn't have it in him only a day ago.
+I'm not so sure anymore. But to kill your own brother.
+I can't understand how anyone could do that.
+->The_Admiral_Informed_P2
+
+
+*[This is clearly a lie. Lesbians aren't real!]
+...
+If you had as much brains as guts, saying something like that, you'd almost be clever.
+->The_Admiral_Informed_P2
+
+
+*[I need to think about what this all means.]
+Do what you have to. I'll only ask you to please keep this to yourself. I know that's not in your nature, being a newsmonger and all.
+I've seen what they do to the doxies when they catch hem. And the women of the town they drag out of the bordellos.
+I don't know what they'd do to us, to Dot, but I'd not like to find out.
+She doesn't deserve to have her name dragged through the muck.
 ->DONE
-
-
-
-
 
 
 

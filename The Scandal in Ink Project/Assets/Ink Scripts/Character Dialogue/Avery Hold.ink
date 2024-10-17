@@ -1,18 +1,24 @@
 INCLUDE Secrets.ink
 
-VAR dorothy_present = false
+
 
 
 -> Start
 
 === Start ===
 
-{!Yes, sir?} #speaker: Avery Hold
+{!Salutations to you, good sir on, this most melancholy of morns! You are the purveyor of the printed word who hast descended upon my most humble abode, I presume?} #speaker: Avery Hold
 
 
 
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
-TBC
+'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to to witness the end of my dear paterfamilias.
+Roused from slumber was I by a most discomfiting cacophony emanating from my progenitor's sanctum. Two voices, both brimming with vexation and trepidation, one clashing 'gainst t'other as Achilles did strike at Hector's shield!
+Compelled was I by divine providence to hasten to my father's side. 
+Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole.
+And thus was my juvenescence brought to a tragic close.
+
+
 ->Night_Of_Murder
 
 
@@ -29,8 +35,8 @@ TBC
 
 
 +{avery_confiscated_item}[I know your father confiscated your copy of the Iliad.]
-Joke answer
-->Start
+Ah, yes 
+->Iliad_Confiscated
 
 +[Kid, I can't understand a single word you're saying.]
 ->Call_Dorothy
@@ -52,26 +58,28 @@ FILL THIS IN
 
 ===Night_Of_Murder===
 
-
-+[How did you discover the body?]
-TBC
+*[So, you went to inspect an argument in your father's study, but he was dead by the time you got there. Is that right?]
+Correct, a most apt abridgement.
 ->Night_Of_Murder
 
-+[You said the Admiral was arguing with someone. About what?]
-TBC
++[You said you overheard an argument. What were they arguing about?]
+Alas, so impassioned had this fatal tête-à-tête become that it devolved into a deadly conflagration before I could reach the study.
+Thus the subject matter eluded me. Confound these juvenile feet! Would that I were blessed with the nimble stride of Hermes!
 ->Night_Of_Murder
 
-+[Did you see the murderer?]
-TBC
++[Was the murderer still present?]
+Yes, although their countenance I could not make out. In the window were they framed, their back turned. 
+Naught could I do but watch as the dastardly assailant did defenestrate themselves and abscond into the dark!
 ->Night_Of_Murder
 
-+[Was there anything unusual you noticed about the body?]
-TBC
++[Did you notice anything unusual about the body?]
+Only the familial emblem brazenly torn from the admiralty's coatee. I can only conjecture that the brigand is some sort of larcenist, intent on selling our family crest.
+But to dispatch my noble Father... Could a petty thief debauch their mortal souls for mere coin?
 ->Night_Of_Murder
 
 
 +[Let's talk about something else.]
-TBC
+
 ->Start 
 
 
@@ -86,7 +94,8 @@ TBC
 ->Relationship
 
 +[Did your father treat the servants kindly?]
-TBC->Relationship
+TBC
+->Relationship
 
 +[Let's talk about something else.]
 ->Start
@@ -131,7 +140,7 @@ Very well.
 
 ===Iliad_Confiscated
 
-+[And that's why you killed him, isn't it? Isn't it, Avery?! J'accuse!]
++[And that's why you killed him, isn't it Avery?! Your J'accuse!]
 ...
 ->Crying
 
@@ -143,6 +152,9 @@ TBC
 TBC
 ->Start
 
++[Never mind.]
+->Start
+
 
 
 
@@ -150,11 +162,11 @@ TBC
 Waaaaaaaah! Waaaaaaaaaaah! Mommy! Dorothy! WAAAAAAAAH!
 
 +[Oh shit.]
-TBC
+WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
 -> You_Fucked_Up
 
 +[Wait wait wait! Don't cry! I was only joking, I swear!]
-TBC
+WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
 -> You_Fucked_Up
 
 +[Spare me your crocodile tears, you patricidal maniac! You're going away for a long time!]
@@ -171,15 +183,15 @@ She tells you to mind your fucking manners.
 ===Examination===
 
 +[Examine his hands.]
-<i> TBC </i>
+<i> His fingertips seems slightly sticky. You think he may have recently been eating something covered in jam. </i>
 ->Examination
 
 +[Examine his face.]
-<i> TBC </i> 
+<i> His cheeks are stained red. You think he may have been crying recently. </i> 
 -> Examination
 
 +[Examine his clothing.]
-<i> TBC </i> 
+<i> He has been dressed in appropriate mourning attire. </i> 
 -> Examination
 
 

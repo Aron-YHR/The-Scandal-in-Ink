@@ -36,3 +36,4 @@ VAR Brooch = false
 
 //MISC
 VAR extort_Dorothy = false
+VAR dorothy_present = false
