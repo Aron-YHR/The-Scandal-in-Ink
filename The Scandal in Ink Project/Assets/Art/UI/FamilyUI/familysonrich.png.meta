@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      familysonrich_0: -8889386786242773131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

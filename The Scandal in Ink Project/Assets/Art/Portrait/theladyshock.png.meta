@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      theladyshock_0: 7328294448731579268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      payslipui_0: -2003197214042651868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

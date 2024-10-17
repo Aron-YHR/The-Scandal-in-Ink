@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathcertificateui_0: -4238815432900213049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

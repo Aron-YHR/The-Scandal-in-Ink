@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horsepositive_0: -4118409255438244258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

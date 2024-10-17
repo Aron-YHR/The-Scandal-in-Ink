@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      theladynegative_0: 3973479691014097672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

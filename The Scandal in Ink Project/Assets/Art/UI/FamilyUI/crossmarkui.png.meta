@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crossmarkui_0: -8100035303977017059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

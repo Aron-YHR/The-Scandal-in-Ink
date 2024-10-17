@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      childshock_0: 6658660961419635110
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

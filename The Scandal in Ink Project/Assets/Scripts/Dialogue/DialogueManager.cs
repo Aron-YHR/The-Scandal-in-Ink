@@ -19,6 +19,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private Image portraitImage;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private Animator portraitAnimator;
@@ -135,6 +136,7 @@ public class DialogueManager : MonoBehaviour
         // reset portrait, layout, and speaker
         displayNameText.text = "???";
         portraitAnimator.Play("Default");
+        //portraitImage.SetNativeSize();
         layoutAnimator.Play("right");
 
         ContinueStory();
@@ -266,6 +268,7 @@ public class DialogueManager : MonoBehaviour
                 case PORTAIT_TAG:
                     //Debug.Log("portait=" + tagValue);
                     portraitAnimator.Play(tagValue);
+                    //portraitImage.SetNativeSize();
                     break;
                 case LAYOUT_TAG:
                     //Debug.Log("layout=" + tagValue);

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      financesui_0: 1572431582244038905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -219,7 +219,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horseshock_0: 7089421885707616857
+      horseshock_1: -1886839406635931587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
