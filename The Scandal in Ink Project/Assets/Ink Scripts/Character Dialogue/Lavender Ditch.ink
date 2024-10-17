@@ -10,8 +10,8 @@ What? #speaker: Ms. Ditch
 
 
 
-*[When did you discover the body?]
-I haven't seen it. I was in bed when he got done in. And I've no interest in ogling  a corpse. Nor should you.
+*[Where were you the night of the murder?]
+FIX MEEEEE
 ->Start
 
 

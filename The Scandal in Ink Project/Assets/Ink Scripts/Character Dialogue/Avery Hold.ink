@@ -7,30 +7,22 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-Salutations to you, good sir on, this most melancholy of morns! You are the purveyor of the printed word who hast descended upon my most humble abode, I presume? #speaker: Avery Hold
+Salutations to you, good sir, on this most melancholy of morns! You are the purveyor of the printed word who hast descended upon my most humble abode, I presume? #speaker: Avery Hold
 
 
 
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
 'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to to witness the end of my dear paterfamilias.
 Roused from slumber was I by a most discomfiting cacophony emanating from my progenitor's sanctum. Two voices, both brimming with vexation and trepidation, one clashing 'gainst t'other as Achilles did strike at Hector's shield!
-Compelled was I by divine providence to hasten to my father's side. 
-Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole.
+Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole.
 And thus was my juvenescence brought to a tragic close.
-
-
 ->Night_Of_Murder
 
-
-
-+[Have you noticed anything suspicious?]
-TBC
-->Suspicious
-
++[Kid, I can't understand a single word you're saying.]
+->Call_Dorothy
 
 
 +[Tell me about your family life.]
-
 -> Relationship
 
 
@@ -39,8 +31,7 @@ Ah, yes. A rare disturbance between my father and I. Most inflamed was I that he
 Yet in light of recent events, it does seem such a petty squabble...
 ->Iliad_Confiscated
 
-+[Kid, I can't understand a single word you're saying.]
-->Call_Dorothy
+
 
 +[Y'know you really remind me of my son.]
 FILL THIS IN
@@ -81,6 +72,7 @@ But to dispatch my noble Father... Would a petty thief truly debauch their morta
 
 
 +[Let's talk about something else.]
+As you say, sir.
 ->Start 
 
 
@@ -97,7 +89,6 @@ Ha! A mere jape to raise the spirit!
 But yes, a most agreeable household. Father & mother did tend to my every need, their happy matrimony the cornerstone of our familial bliss.
 Mother and uncle shared an ardour for the equestrian arts. Their hebdomadary treks astride the noble beasts in our stables brought them much joy.
 And the fraternal bond between dear father and uncle? 'Twas nigh unshakeable! Often did they exchange good-natured bon mots and rapier repartees! But ne'er could their sibling bond be put asunder. Naught but the icy hand of death could accomplish such a feat...
-
 ->Relationship
 
 +[Did your father treat the servants kindly?]
@@ -105,6 +96,7 @@ Most propitious were the servile sentiments towards the Admiral. Ne'er once did 
 ->Relationship
 
 +[Let's talk about something else.]
+Of course. I shall acquiesce to your every whim.
 ->Start
 
 
@@ -130,18 +122,18 @@ TBC
 Oft is it that this damnable jejune tongue of mine does confound the guests of Wenchwatch Hall. If it would please you, Ms. Tendwell can act as a dragoman of sorts, if you wish? A translator?
 
 +[What the hell does that even mean?!]
-TBC
+I- shall call for Ms.Tendwell.
 ~dorothy_present = true
 -> Start
 
 +[Please do.]
-TBC
+Ms. Tendwell, would you be so kind as to act as a dagoman, so to speak?
 ~dorothy_present = true
 -> Start
 
 +[No, it's fine. I'll manage.]
 ~dorothy_present = false
-Very well.
+Very well. However, should my ineloquent tongue befuddle you again, only speak! And I shall summon Ms. Tendwell anon.
 -> Start
 
 
