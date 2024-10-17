@@ -12,9 +12,23 @@ public class TransitionManager : Singleton<TransitionManager>
 
     private bool isFading;
 
-    private void Start()
+    /*private void Start()
     {
         StartCoroutine(TransitionToScene(string.Empty, startScene));
+    }*/
+
+    private void OnEnable()
+    {
+        EventHandler.StartNewGameEvent += OnStartNewGameEvent;
+    }
+
+    private void OnDisable()
+    {
+        EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
+    }
+    private void OnStartNewGameEvent()
+    {
+        StartCoroutine(TransitionToScene("Menu", startScene));
     }
 
     public void Transition(string from, string to)
@@ -42,6 +56,7 @@ public class TransitionManager : Singleton<TransitionManager>
         SceneManager.SetActiveScene(newScene);
 
         // find background in a new scene
+        if(to != "Menu")
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
         CameraFollowMouse.Instance.transform.position = Vector3.zero;
 

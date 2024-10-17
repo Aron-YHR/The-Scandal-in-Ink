@@ -50,6 +50,8 @@ public class MouseAndClick : MonoBehaviour
                 break;
             case "NPC":
                 clickObject.GetComponent<DialogueTrigger>().isClicked = true;
+                var npc = clickObject.GetComponent<NPC>();
+                npc?.NPCClicked();
                 break;
             case "Item":
                 var item = clickObject.GetComponent<Item>();
