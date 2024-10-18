@@ -13,10 +13,22 @@ VAR Brooch = false
 
 //OBSERVATIONS
 
+//Charles
+VAR hair_clump = true
+
+
+//Maximillian
+VAR maximillian_hair = false
+VAR kiss_mark = false
+
+
+//Theodosia
+VAR lipstick = false
 
 
 
-
+//Study
+VAR divorce_letter = false
 
 
 
@@ -25,7 +37,7 @@ VAR Brooch = false
 
 //STATEMENTS
 
-
+VAR affair_revealed = true
 
 
 

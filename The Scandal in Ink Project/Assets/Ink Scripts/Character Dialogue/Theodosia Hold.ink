@@ -33,11 +33,11 @@ A most invasive question to ask a freshly made widow, though I shall allow it. I
 
 
 
-+ {test_secret} [I know about your affair with Maximillian.]
-Hm? What's this? I am quite sure I have no idea what you mean.
-->DONE
++ {affair_revealed} [I know about your affair with Maximillian.]
+Affair? How perplexing an accusation. And most thrilling. Do go on.
+->Affair
 
-+ {test_secret} [Did you know your husband was planning to divorce you?]
++ {divorce_letter} [Did you know your husband was planning to divorce you?]
 Oh yes, I intuited as much. A well-bred woman has an instinct for her husband's flights of fancy.
 I am quite sure he would have abandoned the idea entirely, had he not perished.
 ->Divorce
@@ -94,7 +94,7 @@ My deepest sympathies.
 ->Relationship
 
 +[That's horrendous. I love my daughter with all my heart!]
-Expressing parental affection so blatantly? How quaint! The eccentricities of the common rabble never cease to amaze.
+Expressing parental affection in such a flagrant manner? And in public no less! How quaint! The eccentricities of the common rabble never cease to amaze.
 -> Relationship
 
 +[Let's move on.]
@@ -191,7 +191,32 @@ He would have come to this realisation himself. I am quite sure he would.
 
 ===Affair===
 
-TTBC
++[I spoke to Lavender. She told what she saw, and there's evidence to back it up.]
+Ah, I see.
+->Affair_Cont
+
++{kiss_mark and lipstick}[Your lipstick matches the mark on Maximillian's neck.]
+
+->Affair_Cont
+
++[You accidentally swapped gloves with Max when Lavender spotted you in the stables.]
+One always feared this day would come. You are correct sir. My hands are unseemly large- manlike, one might say.
+One presumes this great scandal shall be gracing your front page? I only pray you note my widowed status so as to soften the blow this shall have upon my reputation.
+++[No, not your hands! You're sleeping with your husband's brother!]
+Ah. That? Yes, I suppose. 
+->Affair_Cont
+
+
+=Affair_Cont
+ You see, in marrying a older man, I was rather assured to be made a dowager. Maximillian, being vividly aware of how unfashionable a title that is for a woman in her prime, merely suggested we marry upon my late husband's inevitable demise to avoid such a garish moniker, an offer one firmly accepted. And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our conjugal duties in advance, so to speak.
+ Maximillian is a most foreward-looking man, you see. Much like his brother in that regard.
++[Are you trying to justify an affair with your brother-in-law?]
+One would hardly call such a liaison an affair. Charles had a litany of his own lovers and companions, as is the case with most men of his rank.
+It is entirely appropriate for a lady of my rank to source a discrete companion of her own.
+Charles understood this, one is quite sure. Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider.
+
+
+
 ->DONE
 
 
