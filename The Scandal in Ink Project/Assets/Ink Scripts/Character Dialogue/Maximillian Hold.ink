@@ -1,5 +1,4 @@
 INCLUDE Secrets.ink
-EXTERNAL unlockStatement(npcName, index)
 
 
 -> Start
