@@ -1,5 +1,5 @@
 INCLUDE Secrets.ink
-
+EXTERNAL unlockStatement(npcName, index)
 
 
 -> Start
@@ -14,7 +14,7 @@ INCLUDE Secrets.ink
 
 
 +[Where were you the night of the murder?]
-
+~ unlockStatement("Maximillian_Hold",1)
 I retired to my chambers early that night.
 
 ->Night_Of_Murder
@@ -23,6 +23,7 @@ I retired to my chambers early that night.
 
 +[Have you noticed anything suspicious?]
 Such as?
+~ unlockStatement("Maximillian_Hold",3)
 ->Suspicions
 
 
@@ -32,6 +33,7 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 -> Relationship
 
 +[What the hell are you wearing?!]
+~ unlockStatement("Maximillian_Hold",2)
 Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
 -> Start
 

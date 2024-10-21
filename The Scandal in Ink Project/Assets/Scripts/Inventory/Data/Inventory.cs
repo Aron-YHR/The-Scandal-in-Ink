@@ -10,4 +10,6 @@ public class Inventory : ScriptableObject
     public List<ItemDetails> itemList = new List<ItemDetails>(); 
     // NPC iteracted
     public List<NPCDetails> npcList = new List<NPCDetails>();
+
+
 }

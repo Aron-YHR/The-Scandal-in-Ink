@@ -91,10 +91,14 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         if (journal.npcList.Find(i => i.npcName == npcDetails.npcName) == null)
         {
+            //NPCDetails npc = new NPCDetails();
+            //npc = npcDetails;
             journal.npcList.Add(npcDetails);
+            //journal.npcList.Find(i => i.npcName == npcDetails.npcName).npcStatements.Clear();
             
             RefreshNPC();
         }
+        
     }
 
     public static void CreateNewNPC(NPCDetails npc)
@@ -126,5 +130,16 @@ public class InventoryManager : Singleton<InventoryManager>
         Instance.npcDetailPanel.SetNPCLocation(npcDetails.location);
         Instance.npcDetailPanel.SetNPCInfo(npcDetails.npcInfo);
         Instance.npcDetailPanel.SetNPCStatements(npcDetails.npcStatements);
+    }
+
+    // if npc is already in the journal(player has talked with this npc), unlock the statement if player has trigger the certain line
+    public void UnlockStatementsInJournal(string npcName, int index) 
+    {
+        //string statement = npcData.npcDetailsList.Find(i => i.npcName.ToString() == npcName).npcStatements[index-1];
+
+        journal.npcList.Find(i => i.npcName.ToString() == npcName).npcStatements[index-1].isUnlocked = true;
+
+        // sort the statements 
+        //journal.npcList.Find(i => i.npcName.ToString() == npcName).npcStatements.Sort();
     }
 }

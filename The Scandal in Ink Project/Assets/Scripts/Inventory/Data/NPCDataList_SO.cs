@@ -11,7 +11,7 @@ public class NPCDataList_SO : ScriptableObject
 
     public NPCDetails GetNPCDetails(NPCName npcName)
     {
-        return npcDetailsList.Find(i => i.npcName == npcName);
+        return new NPCDetails( npcDetailsList.Find(i => i.npcName == npcName));
     }
     public NPCDetails GetNPCDetailsByString(string npcName)
     {
@@ -31,6 +31,36 @@ public class NPCDetails
     [TextArea]
     public string npcInfo;
 
+
+    public List<Statement> npcStatements;
+
+    public NPCDetails(NPCDetails npcDetails)
+    {
+        this.npcName = npcDetails.npcName;
+        this.npcIcon = npcDetails.npcIcon;
+        this.npcPortrait = npcDetails.npcPortrait;
+        this.location = npcDetails.location;
+        this.npcInfo = npcDetails.npcInfo;
+        this.npcStatements = new List<Statement>();
+
+        for (int i = 0; i < npcDetails.npcStatements.Count; i++)
+        {
+            this.npcStatements.Add(new Statement(npcDetails.npcStatements[i].statementLine,false));
+        }
+    }
+}
+
+[System.Serializable]
+public class Statement
+{
     [TextArea]
-    public List<string> npcStatements;
+    public string statementLine;
+
+    public bool isUnlocked;
+
+    public Statement(string statementLine, bool isUnlocked)
+    {
+        this.statementLine = statementLine;
+        this.isUnlocked = isUnlocked;
+    }
 }

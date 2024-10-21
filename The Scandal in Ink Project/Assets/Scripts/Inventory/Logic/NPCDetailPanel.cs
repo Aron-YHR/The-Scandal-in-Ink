@@ -10,7 +10,11 @@ public class NPCDetailPanel : MonoBehaviour
     [SerializeField] private TextMeshProUGUI npcName;
     [SerializeField] private TextMeshProUGUI npcLocation;
     [SerializeField] private TextMeshProUGUI npcInfo;
-    [SerializeField] private TextMeshProUGUI npcStatements;
+    //[SerializeField] private TextMeshProUGUI npcStatements;
+    //[SerializeField] private List<TextMeshProUGUI> statementsList;
+
+    public GameObject contentList;
+    public StatementSlot statementPrefab;
 
     public void SetNPCIcon(Sprite portrait)
     {
@@ -32,9 +36,16 @@ public class NPCDetailPanel : MonoBehaviour
         npcInfo.text = info;
     }
 
-    public void SetNPCStatements(List<string> npcStates)
+    public void CreateNewStatement(Statement statement)
     {
-        if(npcStatements != null)
+        StatementSlot newSlot = Instantiate(statementPrefab, contentList.transform);
+        newSlot.statement.text = statement.statementLine;
+        newSlot.coverImage.gameObject.SetActive(!statement.isUnlocked);
+    }
+
+    public void SetNPCStatements(List<Statement> npcStates)
+    {
+        /*if (npcStatements != null)
             npcStatements.text = null;
 
         if (npcStates != null)
@@ -43,8 +54,25 @@ public class NPCDetailPanel : MonoBehaviour
             {
                 npcStatements.text += npcStates[i] + "\n";
             }
+        }*/
+
+        for (int i = 0; i < contentList.transform.childCount; i++)
+        {
+            if (contentList.transform.childCount == 0) break;
+            Destroy(contentList.transform.GetChild(i).gameObject);
         }
+
+        if (npcStates != null)
+        {
+            for (int i = 0; i < npcStates.Count; i++)
+            {
+                CreateNewStatement(npcStates[i]);
+            }
+        }
+
     }
+
+
 
     private void OnDisable()// to be optimized
     {

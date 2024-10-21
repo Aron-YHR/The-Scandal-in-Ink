@@ -19,5 +19,17 @@ MonoBehaviour:
     location: Study
     npcInfo: She is a wonderful wowan...
     npcStatements:
-    - 1
-    - 2
+    - statementLine: 1. I saw him...
+      isUnlocked: 0
+    - statementLine: 2. I was so shocked just like on the highway to hell...
+      isUnlocked: 0
+    - statementLine: 3. You know nothing, Mr. Journalist...
+      isUnlocked: 0
+    - statementLine: 4.
+      isUnlocked: 0
+    - statementLine: 5.
+      isUnlocked: 0
+    - statementLine: 6.
+      isUnlocked: 0
+    - statementLine: 7.
+      isUnlocked: 0
