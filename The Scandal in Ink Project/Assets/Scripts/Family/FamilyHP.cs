@@ -13,9 +13,9 @@ public class FamilyHP : MonoBehaviour
 
     void FixedUpdate()
     {
-        int sizeVal = FamilyWellbeing.FamilyLevel[FamilyNum];
+        //int sizeVal = FamilyWellbeing.FamilyLevel[FamilyNum];
 
-        transform.localScale = new Vector3 (sizeVal * sizeScaler, sizeVal * sizeScaler, sizeVal * sizeScaler);
+       // transform.localScale = new Vector3 (sizeVal * sizeScaler, sizeVal * sizeScaler, sizeVal * sizeScaler);
    
     }
 }

@@ -7,7 +7,7 @@ using UnityEngine;
 public class wellbeingScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public string[] FamilyNames = new string[3];
+    /*public string[] FamilyNames = new string[3];
     public int[] FamilyLevel = new int[3];
     public bool[] IsFamilyDead = new bool[3];
 
@@ -15,13 +15,13 @@ public class wellbeingScript : MonoBehaviour
     public BillsScript BillsScript;
 
     int lowerLimit;
-    int upperLimit;
+    int upperLimit;*/
 
 
 
 
     // Update is called once per frame
-    private void Start()
+   /* private void Start()
     {
         lowerLimit = 0;
         upperLimit = states.Length;
@@ -102,7 +102,7 @@ public class wellbeingScript : MonoBehaviour
             FamilyLevel[familymember] = 3;
             print("is working");
         }
-    }
+    }*/
 
 
 }

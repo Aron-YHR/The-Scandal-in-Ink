@@ -10,10 +10,12 @@ public class ButtonInputs : MonoBehaviour
     public BillsScript bScript;
     public wellbeingScript wScript;
 
-    public void SelectExpenseOption(string ExpenseOption)
+
+/*    public void SelectExpenseOption(string expenseOption,bool isChosen)
     {
-        ExpenseOption = ExpenseOption.ToLower();
-        switch (ExpenseOption)
+        expenseOption = expenseOption.ToLower();
+        
+        switch (expenseOption)
         {
             case "food":
                 bScript.FoodBool = !bScript.FoodBool ;
@@ -39,14 +41,15 @@ public class ButtonInputs : MonoBehaviour
                 bScript.SchoolingBool = !bScript.SchoolingBool;
 
                 break;
-
         }
+        
+        bScript.Calculate();
     }
 
     public void SubmitBills()
     {
         wScript.WellbeingSubmission();
-    }
+    }*/
 
 
 }
