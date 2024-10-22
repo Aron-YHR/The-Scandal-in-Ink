@@ -48,6 +48,8 @@ public class DialogueManager : MonoBehaviour
     private const string LAYOUT_TAG = "layout";
 
     private DialogueVariables dialogueVariables;
+
+    private InkExternalFunctions inkExternalFunctions;
          
     private void Awake()
     {
@@ -61,6 +63,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         dialogueVariables = new DialogueVariables(globalsInkFile);
+
+        inkExternalFunctions = new InkExternalFunctions();
     }
 
     public static DialogueManager GetInstance()
@@ -133,10 +137,8 @@ public class DialogueManager : MonoBehaviour
 
         dialogueVariables.StartListening(currentStory);
 
-        currentStory.BindExternalFunction("unlockStatement", (string npcName, int index) =>
-        {
-            InventoryManager.Instance.UnlockStatementsInJournal(npcName, index);
-        });
+        inkExternalFunctions.Bind(currentStory);
+
 
         // reset portrait, layout, and speaker
         displayNameText.text = "???";
@@ -152,9 +154,9 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueVariables.StopListening(currentStory);
 
-        currentStory.UnbindExternalFunction("unlockStatement");
+        inkExternalFunctions.Unbind(currentStory);
 
-       dialogueIsPlaying = false;
+        dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
 
