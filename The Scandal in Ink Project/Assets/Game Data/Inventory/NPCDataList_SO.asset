@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcDetailsList:
   - npcName: 1
-    npcIcon: {fileID: 21300000, guid: a6c74fc6ea9ffe449a44e690d1c004a6, type: 3}
-    npcPortrait: {fileID: -6889561782916532141, guid: 95d8466026640b941ab151f92b70679f, type: 3}
+    npcIcon: {fileID: -7971006780844452549, guid: 8db028811e2620e479a3e4171ba5d4b7, type: 3}
+    npcPortrait: {fileID: -1923596855291015120, guid: e84264d80a109144fbe85092a1ff3300, type: 3}
     location: Study
     npcInfo: She is a wonderful wowan...
     npcStatements:
