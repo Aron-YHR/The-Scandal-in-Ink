@@ -23,3 +23,13 @@ public enum Location
     Reception,
     On_the_highway_to_hell
 }
+
+public enum LifeState
+{
+    Dead,
+    Sickly,
+    Unwell,
+    Fine,
+    Healthy,
+    None
+}

@@ -1,7 +1,6 @@
-using TMPro;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BillData_SO", menuName = "FamilyBill/BillData_SO")]
+[CreateAssetMenu(fileName = "BillData_SO", menuName = "Family/BillData_SO")]
 public class BillsScript : ScriptableObject
 {
     /*[HideInInspector]
@@ -20,6 +19,89 @@ public class BillsScript : ScriptableObject
     public int Heat;
     public int Medicine;
     public int Schooling;
+
+    /// <summary>
+    /// Impacts to wellbeing
+    /// </summary>
+    /// <param name="tag"></param>
+    /// <returns></returns>
+    public int minesImpact;
+    public int millsImpact;
+    public int foodImpact;
+    public int heatImpact;
+    public int medicineImpact;
+    public int schoolingImpact;
+
+
+    public int GetValue(string tag)
+    {
+        int value = 0;
+        if (tag == null) return 0;
+        else
+        {
+            switch (tag)
+            {
+                case "savings":
+                    value = Savings;
+                    break;
+                case "salary":
+                    value = Salary;
+                    break;
+                case "misc_income":
+                    value = Misc_income;
+                    break;
+                case "mines":
+                    value = Mines;
+                    break;
+                case "mills":
+                    value = Mills;
+                    break;
+                case "rent":
+                    value = Rent;
+                    break;
+                case "food":
+                    value = Food;
+                    break;
+                case "heat":
+                    value = Heat;
+                    break;
+                case "medicine":
+                    value = Medicine;
+                    break;
+                case "schooling":
+                    value = Schooling;
+                    break;
+            }
+        }
+        return value;
+    }
+
+    public int GetImpact(string tag)
+    {
+        int impact = 0;
+        switch (tag)
+        {
+            case "mines":
+                impact = minesImpact;
+                break;
+            case "mills":
+                impact = millsImpact;
+                break;
+            case "food":
+                impact = foodImpact;
+                break;
+            case "heat":
+                impact = heatImpact;
+                break;
+            case "medicine":
+                impact = medicineImpact;
+                break;
+            case "schooling":
+                impact = schoolingImpact;
+                break;
+        }
+        return impact;
+    }
 
 
     //public int TotalMoney = 0;

@@ -22,3 +22,9 @@ MonoBehaviour:
   Heat: 10
   Medicine: 18
   Schooling: 18
+  minesImpact: 25
+  millsImpact: 25
+  foodImpact: 10
+  heatImpact: 10
+  medicineImpact: 10
+  schoolingImpact: 10

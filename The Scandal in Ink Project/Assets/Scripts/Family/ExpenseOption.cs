@@ -12,12 +12,18 @@ public class ExpenseOption : MonoBehaviour
 
     private void Start()
     {
-        //expenseValueText.text = FamilyManager.Instance.billsScript;
+        expenseValueText.text = FamilyManager.Instance.billsScript.GetValue(expenseTag).ToString()+"s";
     }
 
     public void OnOptionSelected()
     {
         FamilyManager.Instance.SelectExpenseOption(expenseTag, toggle.isOn);
+    }
+
+    public void OnExpensesSubmited()
+    {
+        toggle.enabled = false;
+        FamilyManager.Instance.CalculateWellbeing(expenseTag, toggle.isOn);
     }
 
 }

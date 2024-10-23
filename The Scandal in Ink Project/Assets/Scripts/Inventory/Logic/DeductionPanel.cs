@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -32,6 +33,14 @@ public class DeductionPanel : MonoBehaviour
     public void ChangeImage()
     {
         caseImage.sprite = deductionData.nameAndImageList[nameDropdown.value].image;
+    }
+
+    public void GoToFamily()
+    {
+        var currentScene = SceneManager.GetActiveScene().name;
+        TransitionManager.Instance.Transition(currentScene, "Family");
+
+        
     }
 
 }

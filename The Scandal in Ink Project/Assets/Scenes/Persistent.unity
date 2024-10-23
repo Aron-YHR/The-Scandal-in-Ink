@@ -6815,7 +6815,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 771155794}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1642489447}
+        m_TargetAssemblyTypeName: DeductionPanel, Assembly-CSharp
+        m_MethodName: GoToFamily
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &771155794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7906,7 +7918,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 914425648}
   m_HandleRect: {fileID: 0}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.29999998
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -13725,7 +13737,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -14125,6 +14137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1d42ca06d2171d449b12c8bbca9b215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  familyMembers: {fileID: 11400000, guid: cf5bb710e5495fa46b349b3d12a47a32, type: 2}
   isJournalOpened: 0
 --- !u!1 &1755568090
 GameObject:
