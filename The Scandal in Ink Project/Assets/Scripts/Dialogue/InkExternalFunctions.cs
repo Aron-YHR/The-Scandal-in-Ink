@@ -16,4 +16,14 @@ public class InkExternalFunctions
         // unbind the function
         story.UnbindExternalFunction("unlockStatement");
     }
+
+    public void BindTransition(Story story)
+    {
+
+    }
+
+    public void UnbindTransition(Story story)
+    {
+
+    }
 }
