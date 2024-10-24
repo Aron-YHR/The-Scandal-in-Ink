@@ -48,6 +48,8 @@ public class DialogueManager : MonoBehaviour
     private const string LAYOUT_TAG = "layout";
 
     private DialogueVariables dialogueVariables;
+
+    private InkExternalFunctions inkExternalFunctions;
          
     private void Awake()
     {
@@ -61,6 +63,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         dialogueVariables = new DialogueVariables(globalsInkFile);
+
+        inkExternalFunctions = new InkExternalFunctions();
     }
 
     public static DialogueManager GetInstance()
@@ -133,6 +137,9 @@ public class DialogueManager : MonoBehaviour
 
         dialogueVariables.StartListening(currentStory);
 
+        inkExternalFunctions.Bind(currentStory);
+
+
         // reset portrait, layout, and speaker
         displayNameText.text = "???";
         portraitAnimator.Play("Default");
@@ -146,6 +153,8 @@ public class DialogueManager : MonoBehaviour
     private void ExitDialogueMode()
     {
         dialogueVariables.StopListening(currentStory);
+
+        inkExternalFunctions.Unbind(currentStory);
 
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
@@ -167,10 +176,21 @@ public class DialogueManager : MonoBehaviour
             {
                 StopCoroutine(displayLineCoroutine);
             }
-            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
+            string nextLine = currentStory.Continue();
 
-            // handle tags
-            HandleTags(currentStory.currentTags);
+            // handle case where the last line is an external function(empty line)
+            if (nextLine.Equals("") && !currentStory.canContinue)
+            {
+                ExitDialogueMode();
+            }
+            // otherwise, handle the normal case for continuing the story
+            else
+            {
+                // handle tags
+                HandleTags(currentStory.currentTags);
+                
+                displayLineCoroutine = StartCoroutine(DisplayLine(nextLine));
+            }
         }
         else
         {

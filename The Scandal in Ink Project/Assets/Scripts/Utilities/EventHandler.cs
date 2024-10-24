@@ -32,5 +32,19 @@ public static class EventHandler
         StartNewGameEvent?.Invoke();
     }
 
+    public static event Action<AudioClip> PlayFXAudioEvent;
+
+    public static void CallPlayFXAudioEvent(AudioClip audioClip)
+    {
+        PlayFXAudioEvent?.Invoke(audioClip);
+    }
+
+    public static event Action<AudioClip> PlayBGMAudioEvent;
+
+    public static void CallPlayBGMAudioEvent(AudioClip audioClip)
+    {
+        PlayBGMAudioEvent?.Invoke(audioClip);
+    }
+
 
 }

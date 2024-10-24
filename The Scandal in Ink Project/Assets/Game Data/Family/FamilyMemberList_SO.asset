@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c8113f0f446a4abc45977b2b1c5a4, type: 3}
+  m_Name: FamilyMemberList_SO
+  m_EditorClassIdentifier: 
+  familyMembersList:
+  - name: MARY
+    wellbeing: 50
+    isDead: 0
+    state: 2
+    familyMemberImages:
+    - {fileID: -7277809227901697669, guid: d1ca3d4e506b5d04385bf5e7ab9e9ac8, type: 3}
+    - {fileID: -986308017346884315, guid: 56735693f7d449542bd8413e9cc8db84, type: 3}
+    - {fileID: 1917998933518678033, guid: 445b91b9170e5b54f8e2025d61d68336, type: 3}
+    - {fileID: 8635954471924279282, guid: a0e8bd7e45477e94bbae42aff5553e0a, type: 3}
+    - {fileID: 1780724167031731095, guid: 2cdd812ba96f7b34f982d54a11286632, type: 3}
+  - name: OLIVER
+    wellbeing: 50
+    isDead: 0
+    state: 2
+    familyMemberImages:
+    - {fileID: -5122665220568138937, guid: 8b532ce8a67d5a743a7582b3947127cb, type: 3}
+    - {fileID: -9172551177008838433, guid: 5d8e514c98966e74fa2734f72f0457c7, type: 3}
+    - {fileID: -5443986309109223515, guid: 023081749695bc2498991ee0162c0be1, type: 3}
+    - {fileID: -8889386786242773131, guid: 1671b2d8dc8a5b9419eb30623940d849, type: 3}
+    - {fileID: 8657421822500254508, guid: 8b131f2d88410d349a78ff79d2461e5b, type: 3}
+  - name: MARGARET
+    wellbeing: 50
+    isDead: 0
+    state: 2
+    familyMemberImages:
+    - {fileID: -683011352893483147, guid: 5e8429a0753672643b5ef7f04325fbf3, type: 3}
+    - {fileID: -4424947819278837998, guid: 86d46ce4977aed242a95e29f9175ca26, type: 3}
+    - {fileID: 4657646135719886262, guid: f254db385511ee44d9c22906bd2c0e70, type: 3}
+    - {fileID: -1448726468572947026, guid: 7bc01d9788dd51341b9f8a754fc95cca, type: 3}
+    - {fileID: -9183507967556968308, guid: c42b41c1c38a8d84eb8a3e363894fdfc, type: 3}

@@ -56,7 +56,7 @@ public class TransitionManager : Singleton<TransitionManager>
         SceneManager.SetActiveScene(newScene);
 
         // find background in a new scene
-        if(to != "Menu")
+        if(to != "Menu" && to != "Family")
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
         CameraFollowMouse.Instance.transform.position = Vector3.zero;
 
