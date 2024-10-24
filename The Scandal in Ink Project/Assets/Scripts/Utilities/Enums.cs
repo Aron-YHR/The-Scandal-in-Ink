@@ -4,7 +4,8 @@ public enum ItemName
     Key,
     Ticket,
     Chair,
-    Candle
+    Candle,
+    Pen
 }
 
 public enum NPCName

@@ -18,7 +18,8 @@ public class DialogueTrigger : MonoBehaviour
     {
         mouseInRange = false;
         isClicked = false;
-        Highlight.SetActive(false);
+        if(Highlight != null)
+            Highlight.SetActive(false);
     }
 
     private void Update()
@@ -26,7 +27,8 @@ public class DialogueTrigger : MonoBehaviour
         if (mouseInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             //Debug.Log(mouseInRange);
-            Highlight.SetActive(true);
+            if (Highlight != null)
+                Highlight.SetActive(true);
             if (isClicked)
             {
                 //Debug.Log(inkJson.text);
@@ -38,7 +40,8 @@ public class DialogueTrigger : MonoBehaviour
         }
         else
         {
-            Highlight.SetActive(false);
+            if (Highlight != null)
+                Highlight.SetActive(false);
         }
     }
 
