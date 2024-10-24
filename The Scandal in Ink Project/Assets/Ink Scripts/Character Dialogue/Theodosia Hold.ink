@@ -22,7 +22,7 @@ You may confer with my maid to confirm this.
 
 
 +[Have you noticed anything suspicious?]
-
+Such as?
 ->Suspicions
 
 
@@ -80,7 +80,7 @@ A widow must be demure in the face of death. It is one's duty to maintain the di
 ->Relationship
 
 +[Tell me about how you two met.]
-Ah, a wonderful day. My dear mother informed me that I was to be married to the Admiral Hold, and that I would be permitted five minutes of polite conversation with him that evening.
+Ah, a wonderful day. My dear mother informed me that a cousin of mine was searching for a wife of good breeding, and that my father had suggested me as an appropriate match. That cousin was the late Admiral Hold. I was permitted five minutes of polite conversation with him that very evening. Two weeks later, we were wed.
 It was quite perfect. Exactly as I had imagined it as a young girl.
 ->Relationship
 
@@ -140,7 +140,7 @@ I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as 
 +[Has anyone in the house been acting strange?]
 I have always found one Ms. Lavender Ditch to be a most unusual character. Her manner is most sullen, and one cannot help but question the morals of a woman who elects to spend her days mucking about in a stables.
 I requested Charles release her from her duties several times. Alas, men of Charles' calibre are often dodddering when expedition is required and far too quick to finish when strenuous labour would be of benefit.
-One does hope you will make note of these pithy observations of mine in your publication.
+That was rather clever. One does hope you will make note of these pithy observations of mine in your publication.
 ->Suspicions
 
 +[Did you notice anything unusual about the body?]
@@ -152,7 +152,7 @@ Charles was fond of all peoples and creatures under the sun.
 Barring the Irish. He loathed the Irish.
 -> Suspicions
 
-+[Let's talk about something else]
++[Let's talk about something else.]
 ->Start
 
 
@@ -210,7 +210,8 @@ Ah. That? Yes, I suppose.
 =Affair_Cont
  You see, in marrying a older man, I was rather assured to be made a dowager. Maximillian, being vividly aware of how unfashionable a title that is for a woman in her prime, merely suggested we marry upon my late husband's inevitable demise to avoid such a garish moniker, an offer one firmly accepted. And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our conjugal duties in advance, so to speak.
  Maximillian is a most foreward-looking man, you see. Much like his brother in that regard.
-+[Are you trying to justify an affair with your brother-in-law?]
+
+
 One would hardly call such a liaison an affair. Charles had a litany of his own lovers and companions, as is the case with most men of his rank.
 It is entirely appropriate for a lady of my rank to source a discrete companion of her own.
 Charles understood this, one is quite sure. Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider.

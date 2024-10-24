@@ -11,11 +11,11 @@ What? #speaker: Ms. Ditch
 
 
 *[Where were you the night of the murder?]
-FIX MEEEEE
+That's no concern of yours.
 ->Start
 
 
-*[Have you noticed anything suspicious?]
+*[Are you looking or something?]
 Nothing I'd tell some bloody scribbler sticking his nose where it don't belong. Now bugger off.
 ->Start
 
@@ -28,7 +28,7 @@ Can you get through that thick newsmonger skull of yours, hah?
 
 *{love_letters and found_lavender_name}[Looking for these? <i>(Show her the letters)</i>]
 Where did you get those?
-Give me those! Please, before he knows I've found them!
+Give me those! Please! 
 ->Letters_Discovered
 
 
@@ -45,65 +45,7 @@ You accusing me of stealing? I know I've not any fancy airs or graces, but that 
 +[Leave]
 ->DONE
 
-/* ===Night_Of_Murder===
 
-
-+[How did you discover the body?]
-TBC
-->Night_Of_Murder
-
-+[You said the Admiral was arguing with someone. About what?]
-TBC
-->Night_Of_Murder
-
-+[Did you see the murderer?]
-TBC
-->Night_Of_Murder
-
-+[Was there anything unusual you noticed about the body?]
-TBC
-->Night_Of_Murder
-
-
-+[Let's talk about something else.]
-TBC
-->Start 
-
-
-// NOT CURRENTLY===Relationship===
-
-+[Blank]
-TBC
-->Relationship
-
-+[Blank]
-TBC
-->Relationship
-
-+[Blank]
-TBC->Relationship
-
-+[Let's talk about something else.]
-->Start  */
-
-
-/* ===Suspicious===
-
-+[Blank]
-TBC
-->Suspicious
-
-
-+[Blank]
-TBC
-->Suspicious
-
-+[Blank]
-TBC 
--> Suspicious
-
-+[Let's talk about something else.]
-->Start */
 
  ===Brooch_Discovered===
 
@@ -117,9 +59,9 @@ TBC
 ->Murder_Weapon
 
 =Murder_Weapon
-Alright, I know how that looks. But I didn't know that was there. Honest.
+...I didn't know that was there. Honest.
 I was in my chambers last night when the Admiral got done in, cross my heart.
-I'm not a killer. And I don't go round diddling what isn't mine. I just keep to myself.
+I'm not a killer. And I don't go round swindling what isn't mine. I just keep to myself.
 More than I can say for some in this house...
 ->Alibis
 
@@ -172,7 +114,7 @@ But, the other day, somehow- <i>he</i> found them.
 
 =Lavender_Tells_All
 *[Then why are the letters covered in the Admiral's blood?]
-I don't know. I swear, I'm no fan of these hoity-toity sorts, but that doesn't make me a killer!
+I don't know. I swear, I'm no fan of these hoity-toity sorts of blokes, but that doesn't make me a killer!
 ->Lavender_Tells_All
 
 *[Theodosia said she heard strange noises coming from Dorothy's room. Were you there?]

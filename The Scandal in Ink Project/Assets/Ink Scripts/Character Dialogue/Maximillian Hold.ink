@@ -150,7 +150,7 @@ She is hysterical! Poor Theodosia is newly widowed and not in her right mind, an
 
 
 =Secret_Cont_2
-Besides, this is nothing but idle gossip, and relates in no way to Charles' murder! You are merely launching scurrilous attacks against a family in mourning. Shame on thee, sir!
+This is nothing but idle gossip, and relates in no way to Charles' murder! You are merely launching scurrilous attacks against a family in mourning. Shame on thee, sir!
 
 +[This was the scandal Charles spoke of in his letter. You killed your own brother to keep it hidden!]
 Lies! Slander! Derogation! Are there no depths to which you will not descend. you cad? To accuse me of such heinous deeds without a shred of proof!
@@ -204,7 +204,7 @@ I'm sure you and that <i>prestigious</i> paper of yours will come to that conclu
 +[What are you getting at?]
 ->Bargaining_Cont
 
-+[Are you trying to bribe me right now?]
++[Are you offering me a bribe?]
 Oh, heavens. Perish the thought!
 ->Bargaining_Cont
 
@@ -228,7 +228,7 @@ I am quite sure that whatever journalist were to publish such a scandal would be
 =Bargaining_Final
 +[As I suspected! It was the stable hand all along!]
 Ah! How wonderful to hear! I look forward to seeing Charles' true assailant revealed on the front page!
-And
+And you can look forward to a 
 ->DONE
 
 +[Keep your blood money. I'm going to publish the truth about what happened here.]

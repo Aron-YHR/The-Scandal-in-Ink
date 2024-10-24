@@ -13,7 +13,7 @@ Yes sir?
 
 +[Where were you the night of the murder?]
 Well sir, that evening I busied myself cleaning the Admiral's duelling pistols when I heard a commotion in the Admiral's study. There, I overheard the Admiral and Lady Hold in a rather heated conversation. Lady Hold left the Admiral's office quite distraught.
-I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters.
+I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters. And that is where I stayed until I heard the young master scream.
 ->Night_Of_Murder
 
 
@@ -50,7 +50,7 @@ Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. 
 
 
 +[How did you discover the body?]
-Well sir, I was alone in my quarters last night, when I suddenly heard young Master Avery screaming.
+Well sir, as I said, I was alone in my quarters last night, when I suddenly heard young Master Avery screaming.
 I was in such an awful rush to find the poor boy that- to my shame- I ran down the main staircase while still in my nightgown. 
 I'm afraid by the time I found him, poor Avery had already seen the Amdiral's-
 By which I mean that the Admiral was- expired. Oh, even the thought of it- it's too horrible to bear!
@@ -90,6 +90,9 @@ I only wish that his younger brother took after the Admiral in that regard. He c
 A bit- lustful, if you'll excuse my language.
 ->Lustful
 
++[Let's talk about something else.]
+->Start
+
 =Lustful
 +[Has Maximillian made inappropriate advances towards you?]
 I'm afraid so. Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
@@ -97,8 +100,7 @@ But please do keep that to yourself, sir. I know Lady Hold would be terrible dis
 -> Relationship
 
 +[Wait, you mean the gay guy in the wig?!]
-Sir Maximillian is a very happy chap, you are quite right. I was surprised too that a man of such esteem and grace could have such a- wandering hand.
-But I must admit, he has garnered a reputation for being <i>fond</i> of the company of women.
+Sir Maximillian is a very happy and joyous gentleman, sir, I quite agree. I only wish his behaviour was more gentlemanly. I could hardly believe a man with such class and elegant fashion could have such a- wandering hand.
 ->Relationship
 
 
@@ -117,7 +119,7 @@ Barring that, I can't think of a single reason for anyone to dislike Charles.
 
 
 +[Did you notice anything unusual about the body?]
-Well, I did notice that the Admiral seemed to have something in his grasp. 
+Well, I did notice that the Admiral seemed to have something in his hand. 
 Though I must admit, I didn't look very closely.
 ->Suspicious
 
@@ -178,7 +180,7 @@ Thank you, sir. I can't possibly thank you enough.
 ->Start
 
 +[This is too juicy to pass up! It's going on the front page!]
-Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i>
+Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action!
 ->Start
 
 +[Okay. But it's gonna cost you.]
@@ -187,7 +189,7 @@ Cost, sir? I'm not sure I understand.
 
 
 +[I need to think about this.]
-Sir, I beg you to forget you ever saw those letters. It was a momentary lapse in judgement, I swear. I will never be so reckless again!
+Sir, I beg you to forget you ever saw those letters. It was a momentary lapse in judgement, I swear. I will never so recklessly depict an ankle again!
 ->Start
 
 
@@ -199,7 +201,7 @@ Sir, I beg you to forget you ever saw those letters. It was a momentary lapse in
 +[I'll keep this quiet. For a fee.]
 ->Extortion_Final
 
-+[Neiher do I. Ignore me.]
++[Neither do I. Ignore me.]
 I see. Thank you, sir.
 ->Start
 
@@ -212,12 +214,12 @@ Oh. I see. I don't mean to anger you, sir, but I have precious little to give. O
 I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened.
 ->Start
 +[I'm sorry, but I need the money. I have a family. My kids need to eat.]
-I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened.
+I see. Very well, sir. Here. That is everything I have. Now please. Let us both forget this conversation ever happened.
 ~extort_Dorothy = true
 ->Start
 
 +[Never mind. Forget I said anything.]
-Thank you, sir. Thank you.
+Thank you, sir. Truly. Thank you.
 ->Start
 
 
@@ -228,7 +230,7 @@ Thank you, sir. Thank you.
 ->Examination
 
 +[Examine her face.]
-<i> Her face is clean, though her eyes are slightly red, as though she has been crying. </i> 
+<i> Her face is clean. Her bonnet holds back a flood of red hair. </i> 
 -> Examination
 
 +[Examine her clothing.]
