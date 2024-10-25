@@ -25,6 +25,10 @@ Such as?
 ~ unlockStatement("Maximillian_Hold",3)
 ->Suspicions
 
++{divorce_petition}[Look! It works!]
+Well done!
+->Start
+
 
 
 +[How was your relationship with your brother?]
@@ -36,10 +40,13 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
 -> Start
 
-+{Chair}[I know about your affair with Theodosia.]
++{affair_revealed}[I know about your affair with Theodosia.]
 Hm? What's this? I am quite sure I have no idea what you mean, good fellow
 ->Secret_Revealed
 
++[It was you! You killed the Admiral!]
+Moi, sir? Kill my dear brother? What could possibly have brought you to such an outrageous conclusion?
+->Accuse
 
 
 +[Leave]
@@ -174,6 +181,23 @@ DIALOGUE NEEDED HERE
 AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
 -> DONE
 
+===Accuse===
+
++[I have proof!]
+->Proof
+
+
++[Forget I said anything.]
+Already forgotten, good sir.
+->Start
+
+
+
+
+
+
+=Proof
+->DONE
 
 
 

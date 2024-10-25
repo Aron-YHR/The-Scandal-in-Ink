@@ -6,9 +6,11 @@ public enum ItemName
     Chair,
     Candle,
     Brooch,
-    Divorce_Petition,
+    divorce_petition,
     Love_Letter_1,
-    Love_Letter_2
+    Love_Letter_2,
+    Theodosia_Note,
+    testme
 }
 
 public enum NPCName
@@ -19,6 +21,7 @@ public enum NPCName
     ADMIRAL_CHARLES_HOLD,
     AVERY_HOLD,
     THEODOSIA_HOLD,
+    DOROTHY_TENDWELL
 }
 
 public enum Location

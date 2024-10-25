@@ -24,7 +24,17 @@ MonoBehaviour:
       an exceptionally sharp pin which is coated in blood. A scrap of the Admiral''s
       coat is still attached '
   - itemName: 6
-    itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
-    isEvidence: 0
-    itemInfo: An unsent divorce petition written by Admiral Hold, dated the day before
-      his death. It accuses Lady Theodosia Hold of adultery.
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    itemInfo: An unsent letter of Admiral Hold filing for divorce from his wife,
+      Theodosia. The letter is dated the day before his death. It states that Theodosia
+      has been unfaithful.
+  - itemName: 9
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
+      the maid and the stable hand in spite of their "scandalous actions."
+  - itemName: 10
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    itemInfo: You picked it up!

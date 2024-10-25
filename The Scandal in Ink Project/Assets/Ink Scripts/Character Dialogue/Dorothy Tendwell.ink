@@ -1,14 +1,14 @@
 INCLUDE Secrets.ink
 
 
-Yes sir?
+
 
 -> Start
 
 === Start ===
 
  #speaker: Ms. Tendwell
-
+Yes sir?
 
 
 +[Where were you the night of the murder?]
