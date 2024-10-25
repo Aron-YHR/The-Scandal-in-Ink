@@ -18,6 +18,10 @@ I retired to my chambers early that night.
 
 ->Night_Of_Murder
 
++[Pickpocket.]
+~Transition("Study", "LadyPocket")
+->DONE
+
 
 
 +[Have you noticed anything suspicious?]

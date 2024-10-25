@@ -23,9 +23,9 @@ VAR divorce_petition = false
 
 
 
-
+//EXTERNAL FUNCTIONS
 EXTERNAL unlockStatement(npcName, index)
-
+EXTERNAL Transition(from,to)
 
 
 

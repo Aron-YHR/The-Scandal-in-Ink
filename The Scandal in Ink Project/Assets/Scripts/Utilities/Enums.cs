@@ -10,7 +10,8 @@ public enum ItemName
     Love_Letter_1,
     Love_Letter_2,
     Theodosia_Note,
-    testme
+    testme,
+    Bloody_Trail
 }
 
 public enum NPCName
