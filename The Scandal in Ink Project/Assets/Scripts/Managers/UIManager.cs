@@ -1,12 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
     public FamilyMember_SO familyMembers;
 
-    public bool isJournalOpened = false;
+    public GameObject showcasePanel;
+    public Image itemShowcaseImg;
+    public TextMeshProUGUI infoText;
+    public TextMeshProUGUI itemNameText;
+
+    public bool isUIOpened = false;
 
     private void OnEnable()
     {
@@ -35,12 +42,21 @@ public class UIManager : Singleton<UIManager>
 
     public void ActivateJournal()
     {
-        isJournalOpened = true;
+        isUIOpened = true;
     }
 
     public void DesactivateJournal()
     {
-        isJournalOpened = false;
+        isUIOpened = false;
+    }
+
+    public void SetItemShowcase(ItemDetails itemDetails)
+    {
+        isUIOpened = true;
+        showcasePanel.gameObject.SetActive(true);
+        itemShowcaseImg.sprite = itemDetails.itemIcon;
+        infoText.text = itemDetails.itemInfo;
+        itemNameText.text = itemDetails.itemName.ToString();
     }
 
 }
