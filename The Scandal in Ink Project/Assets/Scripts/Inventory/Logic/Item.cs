@@ -5,6 +5,8 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemDetails itemDetails;
+    //public AnimationClip clip;
+    public bool isHide;
 
     public void Start()
     {

@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseAndClick : MonoBehaviour
-{
+public class MouseAndClick : Singleton<MouseAndClick>
+{ 
+    public RectTransform hand;
+    public Animator handAnimator;
+
     public Vector3 mouseWorldPos => Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+
 
     private bool canClick;
 
@@ -18,10 +22,16 @@ public class MouseAndClick : MonoBehaviour
             return;
         }
 
+        if (hand.gameObject.activeInHierarchy)
+        {
+            hand.position = Input.mousePosition;
+        }
+
         if (canClick && Input.GetMouseButtonDown(0))
         {
             // identify the situations of mouse interaction
-
+            if (hand.gameObject.activeInHierarchy)
+            handAnimator.Play("HandGrab");
             ClickAction(ObjectAtMousePosition().gameObject);
 
 
@@ -50,11 +60,13 @@ public class MouseAndClick : MonoBehaviour
                 break;
             case "NPC":
                 clickObject.GetComponent<DialogueTrigger>().isClicked = true;
+                hand.gameObject.SetActive(false);
                 var npc = clickObject.GetComponent<NPC>();
                 npc?.NPCClicked();
                 break;
             case "Item":
                 var item = clickObject.GetComponent<Item>();
+                if(!item.isHide)
                 item?.ItemClicked();
                 break;
         }
