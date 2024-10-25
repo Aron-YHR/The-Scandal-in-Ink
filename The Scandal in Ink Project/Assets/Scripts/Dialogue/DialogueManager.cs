@@ -6,6 +6,7 @@ using Ink.Runtime;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -164,7 +165,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
 
         CameraFollowMouse.Instance.canMove = true;
-        if(!MouseAndClick.Instance.hand.gameObject.activeInHierarchy)
+        if(MouseAndClick.Instance.isHandShowed && !MouseAndClick.Instance.hand.gameObject.activeInHierarchy )
         MouseAndClick.Instance.hand.gameObject.SetActive(true);
     }
 

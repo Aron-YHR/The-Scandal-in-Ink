@@ -6,6 +6,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
 { 
     public RectTransform hand;
     public Animator handAnimator;
+    public bool isHandShowed;
 
     public Vector3 mouseWorldPos => Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
 
@@ -17,7 +18,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
     {
         canClick = ObjectAtMousePosition();
 
-        if(DialogueManager.GetInstance().dialogueIsPlaying || UIManager.Instance.isJournalOpened)
+        if(DialogueManager.GetInstance().dialogueIsPlaying || UIManager.Instance.isUIOpened)
         {
             return;
         }

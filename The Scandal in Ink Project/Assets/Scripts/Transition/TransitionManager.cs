@@ -58,9 +58,11 @@ public class TransitionManager : Singleton<TransitionManager>
         if(newScene != null && newScene.name == "LadyPocket")
         {
             MouseAndClick.Instance.hand.gameObject.SetActive(true);
+            MouseAndClick.Instance.isHandShowed = true;
         }
         else
         {
+            MouseAndClick.Instance.isHandShowed = false;
             MouseAndClick.Instance.hand.gameObject.SetActive(false);
         }
 

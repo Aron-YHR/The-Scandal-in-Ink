@@ -28,6 +28,7 @@ Well done!
 
 
 +[How was your relationship with your brother?]
+~ Chair = true
 Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon!
 -> Relationship
 

@@ -36,6 +36,9 @@ public class Item : MonoBehaviour
 
     public void ItemClicked()
     {
+        // show the item and its info
+        UIManager.Instance.SetItemShowcase(itemDetails);
+
         // add it into journal and remove it in environment
         InventoryManager.Instance.AddItem(itemDetails);
 
