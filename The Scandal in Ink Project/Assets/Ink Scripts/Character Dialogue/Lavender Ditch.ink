@@ -32,7 +32,7 @@ Give me those! Please!
 ->Letters_Discovered
 
 
-*{Brooch}[I found the Admiral's brooch hidden in the horse's saddle.]
+*{brooch}[I found the Admiral's brooch hidden in the horse's saddle.]
 And what of it?
 You accusing me of stealing? I know I've not any fancy airs or graces, but that doesn't make me a thief.
 ->Brooch_Discovered

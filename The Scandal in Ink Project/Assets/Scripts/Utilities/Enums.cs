@@ -5,13 +5,14 @@ public enum ItemName
     Ticket,
     Chair,
     Candle,
-    Brooch,
+    brooch,
     divorce_petition,
     Love_Letter_1,
     Love_Letter_2,
     Theodosia_Note,
     testme,
-    Bloody_Trail
+    Bloody_Trail,
+    bloody_glove
 }
 
 public enum NPCName

@@ -20,9 +20,8 @@ MonoBehaviour:
   - itemName: 5
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
     isEvidence: 1
-    itemInfo: 'A large, ornate brooch bearing the crest of the Hold family. It has
-      an exceptionally sharp pin which is coated in blood. A scrap of the Admiral''s
-      coat is still attached '
+    itemInfo: A large, ornate brooch bearing the crest of the Hold family. The pin
+      is exceptionally sharp. It is covered in blood.
   - itemName: 6
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -43,3 +42,8 @@ MonoBehaviour:
     isEvidence: 1
     itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood then
       runs from the windowsill towards the stables...
+  - itemName: 12
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    itemInfo: A pair of gloves found in the stables. Once white, now stained red
+      by blood. They are monogrammed with the initials "T.H."

@@ -20,6 +20,7 @@ VAR testme = false
 
 //OBSERVATIONS
 VAR divorce_petition = false
+VAR brooch = false
 
 
 
