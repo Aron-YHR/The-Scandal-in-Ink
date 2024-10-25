@@ -55,6 +55,15 @@ public class TransitionManager : Singleton<TransitionManager>
 
         SceneManager.SetActiveScene(newScene);
 
+        if(newScene != null && newScene.name == "LadyPocket")
+        {
+            MouseAndClick.Instance.hand.gameObject.SetActive(true);
+        }
+        else
+        {
+            MouseAndClick.Instance.hand.gameObject.SetActive(false);
+        }
+
         // find background in a new scene
         if(to != "Menu" && to != "Family")
         CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();

@@ -138,6 +138,7 @@ public class DialogueManager : MonoBehaviour
         dialogueVariables.StartListening(currentStory);
 
         inkExternalFunctions.Bind(currentStory);
+        inkExternalFunctions.BindTransition(currentStory);
 
 
         // reset portrait, layout, and speaker
@@ -156,11 +157,15 @@ public class DialogueManager : MonoBehaviour
 
         inkExternalFunctions.Unbind(currentStory);
 
+        inkExternalFunctions.UnbindTransition(currentStory);
+
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
 
         CameraFollowMouse.Instance.canMove = true;
+        if(!MouseAndClick.Instance.hand.gameObject.activeInHierarchy)
+        MouseAndClick.Instance.hand.gameObject.SetActive(true);
     }
 
     private void ContinueStory()

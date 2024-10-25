@@ -19,11 +19,14 @@ public class InkExternalFunctions
 
     public void BindTransition(Story story)
     {
-
+        story.BindExternalFunction("Transition", (string from, string to) =>
+        {
+            TransitionManager.Instance.Transition(from, to);
+        });
     }
 
     public void UnbindTransition(Story story)
     {
-
+        story.UnbindExternalFunction("Transition");
     }
 }
