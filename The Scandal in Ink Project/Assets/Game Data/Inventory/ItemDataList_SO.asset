@@ -13,11 +13,18 @@ MonoBehaviour:
   m_Name: ItemDataList_SO
   m_EditorClassIdentifier: 
   itemDetailsList:
-  - itemName: 3
+  - itemName: 4
     itemIcon: {fileID: 21300000, guid: bbc6c86941f95fe44b04e95f280b2819, type: 3}
     isEvidence: 1
-    itemInfo: This is a very old chair...
-  - itemName: 4
+    itemInfo: The candle is lighted...
+  - itemName: 5
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
     isEvidence: 1
-    itemInfo: This candle was lighted...
+    itemInfo: 'A large, ornate brooch bearing the crest of the Hold family. It has
+      an exceptionally sharp pin which is coated in blood. A scrap of the Admiral''s
+      coat is still attached '
+  - itemName: 6
+    itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
+    isEvidence: 0
+    itemInfo: An unsent divorce petition written by Admiral Hold, dated the day before
+      his death. It accuses Lady Theodosia Hold of adultery.
