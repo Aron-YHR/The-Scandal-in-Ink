@@ -67,7 +67,8 @@ public class MouseAndClick : Singleton<MouseAndClick>
             case "Item":
                 var item = clickObject.GetComponent<Item>();
                 if(!item.isHide)
-                item?.ItemClicked();
+                    item?.ItemClicked();
+                else item.isClicked = true ;
                 break;
         }
     }

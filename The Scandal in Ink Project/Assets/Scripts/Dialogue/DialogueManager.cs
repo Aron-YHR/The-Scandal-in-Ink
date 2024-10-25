@@ -164,6 +164,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
 
         CameraFollowMouse.Instance.canMove = true;
+        if(!MouseAndClick.Instance.hand.gameObject.activeInHierarchy)
         MouseAndClick.Instance.hand.gameObject.SetActive(true);
     }
 
