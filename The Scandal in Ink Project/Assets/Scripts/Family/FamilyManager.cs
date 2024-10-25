@@ -22,7 +22,7 @@ public class FamilyManager : Singleton<FamilyManager>
 
     //[SerializeField] private List<TextMeshProUGUI> expenseValueTextList;
     private int cost;
-    private int totalIncome;
+    private int totalIncome; // TODO: calculate income and set conditions for not enough income for cost 
 
     private void Start()
     {

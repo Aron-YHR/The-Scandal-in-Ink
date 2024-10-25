@@ -1,3 +1,5 @@
+EXTERNAL Transition(from,to)
+
 Hi, Mr. Stranger! #speaker:NPC_Green #portrait:npc_green_neutral #layout:right
 ->main
 === main ===
