@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ladydooodle_icon_0: -7971006780844452549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

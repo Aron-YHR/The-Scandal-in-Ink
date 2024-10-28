@@ -219,7 +219,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pocketquestion_0: -7082685225521898593
+      pocketquestion_1: 1792180833395241847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

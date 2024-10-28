@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stablehanddoodle_0: 7497023141891618822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

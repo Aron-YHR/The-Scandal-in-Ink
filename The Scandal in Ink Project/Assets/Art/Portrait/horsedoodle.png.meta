@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horsedoodle_0: 1867977283544996391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

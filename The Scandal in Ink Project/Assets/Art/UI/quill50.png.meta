@@ -219,7 +219,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      quill50_0: 1934347770133631639
+      quill50_1: -6791817404462624258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

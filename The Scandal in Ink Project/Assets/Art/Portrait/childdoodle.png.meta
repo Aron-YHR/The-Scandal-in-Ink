@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      childdoodle_0: 1934664660039278667
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
