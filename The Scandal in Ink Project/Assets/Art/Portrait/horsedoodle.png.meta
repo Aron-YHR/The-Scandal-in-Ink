@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: edc81763e8bae7243a95f9f8147754dc
+guid: bbd9cf611e781ea4f97a762785fc6ddb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1923596855291015120
-    second: ladydooodle_0
+      213: 1867977283544996391
+    second: horsedoodle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ladydooodle_0
+      name: horsedoodle_0
       rect:
         serializedVersion: 2
-        x: 110
+        x: 12
         y: 0
-        width: 496
-        height: 925
+        width: 588
+        height: 762
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 030125d0ad20e45e0800000000000000
-      internalID: -1923596855291015120
+      spriteID: 72ad23241736ce910800000000000000
+      internalID: 1867977283544996391
       vertices: []
       indices: 
       edges: []

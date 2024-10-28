@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: edc81763e8bae7243a95f9f8147754dc
+guid: e70bc87a1d91bd14393d5373bca7aa6c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1923596855291015120
-    second: ladydooodle_0
+      213: 1928340194254426671
+    second: doodlemaid_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ladydooodle_0
+      name: doodlemaid_0
       rect:
         serializedVersion: 2
-        x: 110
+        x: 8
         y: 0
-        width: 496
-        height: 925
+        width: 605
+        height: 882
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 030125d0ad20e45e0800000000000000
-      internalID: -1923596855291015120
+      spriteID: f2294ac9037d2ca10800000000000000
+      internalID: 1928340194254426671
       vertices: []
       indices: 
       edges: []
@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      doodlemaid_0: 1928340194254426671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

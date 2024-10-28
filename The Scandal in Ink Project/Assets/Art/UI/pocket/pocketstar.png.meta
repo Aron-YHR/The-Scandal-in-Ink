@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: edc81763e8bae7243a95f9f8147754dc
+guid: a44f2c9bc0537cb4cad196657b3b4070
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1923596855291015120
-    second: ladydooodle_0
+      213: 2020806210176754860
+    second: pocketstar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ladydooodle_0
+      name: pocketstar_0
       rect:
         serializedVersion: 2
-        x: 110
+        x: 0
         y: 0
-        width: 496
-        height: 925
+        width: 251
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 030125d0ad20e45e0800000000000000
-      internalID: -1923596855291015120
+      spriteID: ca42d7d9a885b0c10800000000000000
+      internalID: 2020806210176754860
       vertices: []
       indices: 
       edges: []
