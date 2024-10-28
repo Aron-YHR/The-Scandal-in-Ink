@@ -880,6 +880,18 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 10.51
       objectReference: {fileID: 0}
+    - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: npcDetails.npcIcon
+      value: 
+      objectReference: {fileID: -3445322032421845664, guid: 83aa51d7e56831d408e9ea2545491f36, type: 3}
+    - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: npcDetails.npcName
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: npcDetails.npcPortrait
+      value: 
+      objectReference: {fileID: -3445322032421845664, guid: 83aa51d7e56831d408e9ea2545491f36, type: 3}
     - target: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Name
       value: Maximillian Hold
@@ -891,35 +903,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2145146779}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
---- !u!1 &2145146778 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
-  m_PrefabInstance: {fileID: 2145146777}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2145146779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145146778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a84841e125c433a43a3feaa91bbbf7b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcDetails:
-    npcName: 1
-    npcIcon: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
-    npcPortrait: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
-    location: Study
-    npcInfo: 'The younger brother of Maximillian Hold. '
-    npcStatements: []
 --- !u!1001 &5714087560028859703
 PrefabInstance:
   m_ObjectHideFlags: 0

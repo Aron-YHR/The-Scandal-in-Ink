@@ -21,11 +21,6 @@ Such as?
 ~ unlockStatement("Maximillian_Hold",3)
 ->Suspicions
 
-+{divorce_petition}[Look! It works!]
-Well done!
-->Start
-
-
 
 +[How was your relationship with your brother?]
 ~ Chair = true
