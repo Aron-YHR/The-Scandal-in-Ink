@@ -319,6 +319,26 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4523360286148163110, guid: eeeffc9f31c5e254ab5165c5d29004f6, type: 3}
+    - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 10.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: npcDetails.npcName
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Name
       value: Ms. Lavender Ditch
