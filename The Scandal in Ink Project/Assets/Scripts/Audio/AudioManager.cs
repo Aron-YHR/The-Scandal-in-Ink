@@ -15,8 +15,17 @@ public class AudioManager : Singleton<AudioManager>
     public Slider bgmVolumeSlider;
     public Slider fxVolumeSlider;
 
+    protected override void Awake()
+    {
+        base.Awake();
+        //OnSetSliderEvent();
+
+    }
+
     private void OnEnable()
     {
+        OnSetSliderEvent();
+
         EventHandler.PlayFXAudioEvent += OnFXEvent;
         EventHandler.PlayBGMAudioEvent += OnBGMEvent;
         //EventHandler.SetSliderVolumeEvent += OnSetSliderEvent;
@@ -69,12 +78,15 @@ public class AudioManager : Singleton<AudioManager>
 
     public void OnSetSliderEvent()
     {
-        float amount;
+        float amount = 0;
         audioMixer.GetFloat("MasterVolume", out amount);
-        masterVolumeSlider.value = (amount+80) *100 ;
+        
+        masterVolumeSlider.value = (amount+80) /100 ;//Debug.Log((amount + 80) / 100);
         audioMixer.GetFloat("BGMVolume", out amount);
-        bgmVolumeSlider.value = (amount + 80) * 100;
+        
+        bgmVolumeSlider.value = (amount + 80) /100; //Debug.Log(masterVolumeSlider.value);
         audioMixer.GetFloat("FXVolume", out amount);
-        fxVolumeSlider.value = (amount + 80) * 100;
+        //Debug.Log(amount);
+        fxVolumeSlider.value = (amount + 80) /100; //Debug.Log(masterVolumeSlider.value);
     }
 }
