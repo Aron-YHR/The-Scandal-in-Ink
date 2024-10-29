@@ -38,7 +38,12 @@ You accusing me of stealing? I know I've not any fancy airs or graces, but that 
 ->Brooch_Discovered
 
 
+*{pickpocket_lavender}[<i>Pickpocket Lavender.</i>]
+~Transition("Stables","LadyPocket")
+->DONE
+
 +[<i> Examine the suspect more closely. </i>]
+<i> You subtly inspect Lavender for clues as to what happened last night.</i>
 ->Examination
 
 
@@ -226,11 +231,27 @@ She doesn't deserve to have her name dragged through the muck.
 -> Examination
 
 +[<i>Examine her clothing.]
-<i> Her clothing is unkempt and coated in muck and hay. </i> 
--> Examination
+~pickpocket_lavender = true
+-> Pickpocket
 
 +[Return to the conversation]
 -> Start
+
+=Pickpocket
+<i> Her clothing is unkempt and coated in muck and hay, as expected of a stabe hand.</i> 
+<i>However, you notice something unusual. A letter is poking out of one of her skirt pockets.</i>
+<i>You think you could potentially grab it without her noticing...</i>
+
++[<i>Pickpocket Lavender.</i>]
+~Transition("Stables","LadyPocket")
+->DONE
+
++[<i>Leave the letter for now.</i>]
+->Examination
+
+
+
+
 
 
 

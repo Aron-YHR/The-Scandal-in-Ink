@@ -53,6 +53,7 @@ Really, if the lower orders cannot set us a good example, what on earth is the u
 
 
 +[<i> Examine the suspect. </i>]
+You examine Theodosia more closely.
 ->Examination
 
 

@@ -47,3 +47,14 @@ MonoBehaviour:
     isEvidence: 1
     itemInfo: A pair of gloves found in the stables. Once white, now stained red
       by blood. They are monogrammed with the initials "T.H."
+  - itemName: 13
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    itemInfo: A portrait of the Hold Family. A very large brooch is pinned to the
+      Admiral's chest.
+  - itemName: 14
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    itemInfo: A delicate wooden trellis attached to the side of the house, sitting
+      just above a window on the second floor. Several of its crossbars have been
+      snapped in two, as though someone attempted to climb it...

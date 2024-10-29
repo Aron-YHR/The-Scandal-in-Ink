@@ -12,7 +12,10 @@ public enum ItemName
     Theodosia_Note,
     testme,
     Bloody_Trail,
-    bloody_glove
+    bloody_glove,
+    family_portrait,
+    Trellis,
+    bloody_clothes
 }
 
 public enum NPCName
