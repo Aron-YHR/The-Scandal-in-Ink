@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0ec8e40755577984daf4691f79f2774a
+guid: eaa37c927736e1d4aaa0422fceb0e556
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7914548591629557168
-    second: handopen_0
+      213: 3842158685365155450
+    second: pocketcoin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: handopen_0
+      name: pocketcoin_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 128
-        height: 149
+        y: 0
+        width: 152
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bdd5a1d20026dd60800000000000000
-      internalID: 7914548591629557168
+      spriteID: a763fdbb7f6125530800000000000000
+      internalID: 3842158685365155450
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      handopen_0: 7914548591629557168
+      pocketcoin_0: 3842158685365155450
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

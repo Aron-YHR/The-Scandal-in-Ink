@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aadae98fb4277cf42bb514ebf0befb7b, type: 3}
+  m_Name: CutsceneDataList_SO
+  m_EditorClassIdentifier: 
+  list:
+  - inkJsonForCutscene: {fileID: 4900000, guid: f765c3b69ac69814ba33706b840201e8, type: 3}
+    lettersList:
+    - 'To Miss Amy,
+
+      I didn''t think you''d understand me
+
+      How could
+      you ever even try
+
+      I don''t wanna tiptoe but I don''t wanna hide
+
+      But
+      I don''t wanna feed this monstrous fire
+
+      Just wanna let this story die
+
+      And
+      I''ll be alright
+
+      We can''t be friends
+
+      But I like to just pretend
+
+      You
+      cling to your papers and pens
+
+      Wait until you like me again
+
+      Wait
+      for your love
+
+      My love I''ll wait for your love'
+    - 'To Mr Martin,
+
+      Normally, I can keep my cool but tonight I''m wildin''
+
+      I''ma
+      be in a dangerous mood can you match my timing
+
+      Telling me that you really
+      ''bout it why try hide it
+
+      Talk is cheap so show me that you understand
+      how I like it
+
+      Can you blow my mind
+
+      Set off my whole body whole
+      body
+
+      Make me sweat
+
+      Make me hotter
+
+      Make me lose my breath
+
+      Make
+      me water'
+    - 'To Mr Rian,
+
+      All along it was a fever
+
+      A cold sweat hot-headed
+      believer
+
+      I threw my hands in the air sai "Show me something"
+
+      You
+      said "If you dare come a litttle closer"
+
+      Round and around and around
+      and around we go
+
+      Oh now tell me now tell me now tell me now you know
+
+      Not
+      really sure how to feel about it
+
+      Something in the way you move
+
+      Makes
+      me feel like I can''t live without you
+
+      And it takes me all the way
+
+      I
+      want you to stay'

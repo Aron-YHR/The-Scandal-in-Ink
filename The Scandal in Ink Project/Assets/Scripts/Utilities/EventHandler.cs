@@ -46,5 +46,17 @@ public static class EventHandler
         PlayBGMAudioEvent?.Invoke(audioClip);
     }
 
+    public static event Action<string,float> ChangeVolumeEvent;
 
+    public static void CallPlayChangeVolumeEvent(string name,float amount)
+    {
+        ChangeVolumeEvent?.Invoke(name,amount);
+    }
+
+    public static event Action SetSliderVolumeEvent;
+
+    public static void CallPlayChangeVolumeEvent()
+    {
+        SetSliderVolumeEvent?.Invoke();
+    }
 }

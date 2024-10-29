@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,6 +46,11 @@ public class DialogueTrigger : MonoBehaviour
         }
     }
 
+    public void StartDialogue()
+    {
+        DialogueManager.GetInstance().EnterDialogueMode(inkJson);
+    }
+
     private void OnMouseEnter()
     {
         mouseInRange=true;
@@ -53,6 +59,11 @@ public class DialogueTrigger : MonoBehaviour
     private void OnMouseExit()
     {
         mouseInRange=false;
+    }
+
+    public void SetInkText(TextAsset textAsset)
+    {
+        inkJson = textAsset;
     }
 
 }

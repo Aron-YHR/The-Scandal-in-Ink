@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Characters/LadyPocket.unity
     guid: bca80b926a324df46974d85b69bd4c59
+  - enabled: 1
+    path: Assets/Scenes/BeforeGame.unity
+    guid: 7c1001100253c8840b1fbbe2a8b8691e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

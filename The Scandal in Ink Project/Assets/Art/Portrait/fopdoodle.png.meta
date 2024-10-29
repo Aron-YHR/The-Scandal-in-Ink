@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0ec8e40755577984daf4691f79f2774a
+guid: 0fe8bf97810c5394582a4c00799d1efd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7914548591629557168
-    second: handopen_0
+      213: -7110462291215695874
+    second: fopdoodle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: handopen_0
+      name: fopdoodle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 128
-        height: 149
+        y: 0
+        width: 606
+        height: 991
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bdd5a1d20026dd60800000000000000
-      internalID: 7914548591629557168
+      spriteID: eff374f0830925d90800000000000000
+      internalID: -7110462291215695874
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      handopen_0: 7914548591629557168
+      fopdoodle_0: -7110462291215695874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

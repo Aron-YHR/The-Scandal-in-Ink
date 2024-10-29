@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0ec8e40755577984daf4691f79f2774a
+guid: 138ac273b93d2d8479dca2a747190b8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7914548591629557168
-    second: handopen_0
+      213: 4738142881657293438
+    second: pocket_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: handopen_0
+      name: pocket_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 128
-        height: 149
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bdd5a1d20026dd60800000000000000
-      internalID: 7914548591629557168
+      spriteID: e7a8a3cd8d341c140800000000000000
+      internalID: 4738142881657293438
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      handopen_0: 7914548591629557168
+      pocket_0: 4738142881657293438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
