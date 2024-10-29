@@ -60,7 +60,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
                 teleport?.TeleportToScene(); // check if it is null
                 break;
             case "NPC":
-                clickObject.GetComponent<DialogueTrigger>().isClicked = true;
+                clickObject.GetComponent<DialogueTrigger>().StartDialogue();//.isClicked = true;
                 hand.gameObject.SetActive(false);
                 var npc = clickObject.GetComponent<NPC>();
                 npc?.NPCClicked();

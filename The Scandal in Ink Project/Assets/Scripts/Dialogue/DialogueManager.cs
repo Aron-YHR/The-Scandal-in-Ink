@@ -51,6 +51,8 @@ public class DialogueManager : MonoBehaviour
     private DialogueVariables dialogueVariables;
 
     private InkExternalFunctions inkExternalFunctions;
+
+    private SpriteRenderer currentNPC;
          
     private void Awake()
     {
@@ -128,13 +130,15 @@ public class DialogueManager : MonoBehaviour
         dialogueVariables = new DialogueVariables(globalsInkFile);
     }
 
-    public void EnterDialogueMode(TextAsset inkJson)
+    public void EnterDialogueMode(TextAsset inkJson, SpriteRenderer currentNPC)
     {
         CameraFollowMouse.Instance.canMove = false;
 
         currentStory = new Story(inkJson.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+
+        this.currentNPC = currentNPC;
 
         dialogueVariables.StartListening(currentStory);
 
@@ -163,6 +167,9 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+
+        if (currentNPC != null)
+            currentNPC.enabled = true;
 
         CameraFollowMouse.Instance.canMove = true;
         if(MouseAndClick.Instance.isHandShowed && !MouseAndClick.Instance.hand.gameObject.activeInHierarchy )

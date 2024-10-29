@@ -12,13 +12,15 @@ public class DialogueTrigger : MonoBehaviour
     [Header("Ink Json")]
     [SerializeField] private TextAsset inkJson;
 
+    [SerializeField] private SpriteRenderer image; // the sprite renderer of this npc
+
     private bool mouseInRange;
-    public bool isClicked;
+    //public bool isClicked;
 
     private void Awake()
     {
         mouseInRange = false;
-        isClicked = false;
+        //isClicked = false;
         if(Highlight != null)
             Highlight.SetActive(false);
     }
@@ -30,14 +32,15 @@ public class DialogueTrigger : MonoBehaviour
             //Debug.Log(mouseInRange);
             if (Highlight != null)
                 Highlight.SetActive(true);
-            if (isClicked)
+            /*if (isClicked)
             {
                 //Debug.Log(inkJson.text);
 
-                DialogueManager.GetInstance().EnterDialogueMode(inkJson);
+                //DialogueManager.GetInstance().EnterDialogueMode(inkJson);
+                
 
                 isClicked = false;
-            }
+            }*/
         }
         else
         {
@@ -48,7 +51,9 @@ public class DialogueTrigger : MonoBehaviour
 
     public void StartDialogue()
     {
-        DialogueManager.GetInstance().EnterDialogueMode(inkJson);
+        if(image != null)
+        image.enabled = false;
+        DialogueManager.GetInstance().EnterDialogueMode(inkJson,image);
     }
 
     private void OnMouseEnter()

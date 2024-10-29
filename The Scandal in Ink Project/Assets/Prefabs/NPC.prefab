@@ -236,6 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Highlight: {fileID: 337603564939043219}
   inkJson: {fileID: 0}
+  image: {fileID: 5771627332091841627}
   isClicked: 0
 --- !u!114 &7427765670082968480
 MonoBehaviour:
