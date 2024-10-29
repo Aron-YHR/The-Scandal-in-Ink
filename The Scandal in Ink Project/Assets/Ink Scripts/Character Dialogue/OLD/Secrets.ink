@@ -23,6 +23,8 @@ VAR bloody_clothes = false
 VAR divorce_petition = false
 VAR brooch = false
 VAR missing_jewel = false
+VAR love_letter_1 = false
+VAR love_letter_2 = false
 
 //STATEMENTS
 VAR theodosia_confession = false
@@ -42,6 +44,8 @@ VAR pickpocket_lavender = false
 VAR Max_proof1 = false
 VAR Max_proof2 = false
 VAR Max_proof3 = false
+
+
 
 
 

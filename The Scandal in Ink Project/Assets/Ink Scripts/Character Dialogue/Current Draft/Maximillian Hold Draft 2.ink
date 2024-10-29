@@ -15,10 +15,6 @@ INCLUDE Secrets.ink
 {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} 
 
 +[Where were you the night of the murder?]
-~affair_revealed = true
-~bloody_clothes = true
-~brooch = true
-~theodosia_confession = true
 ~ unlockStatement("Maximillian_Hold",1)
 I retired to my chambers early that night.
 
@@ -26,9 +22,8 @@ I retired to my chambers early that night.
 
 
 +[Have you noticed anything suspicious?]
-~affair_revealed = true
 ~ unlockStatement("Maximillian_Hold",3)
-Such as?
+Oh, you journalist types- such terrible tattlers! I am normally not one for idle gossip, but for you I shall make an exception!
 ->Suspicions
 
 
@@ -37,17 +32,22 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 -> Relationship
 
 +[What the hell are you wearing?!]
-~ unlockStatement("Maximillian_Hold",2)
-Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
+Curse that sharp journalist eye of yours, sir! Yes, I am most scandalously underdressed. In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves! //(Sobs)//
+
+Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian, in front of a journalist no less! I can hardly tell which is worse.
 -> Start
 
-+{affair_revealed}[I know about your affair with Theodosia.]
-Moi? In a dalliance with my dear sister-in-law?
-->Secret_Revealed
+*{affair_revealed}[I know about your affair with Theodosia.]
+Moi? In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir!
+->Affair_Revealed
 
 +[It was you! You killed the Admiral!]
 Moi, sir? Kill my dear brother? What could possibly have brought you to such an outrageous conclusion? Where is the proof of me committing such a horrendous act?
 ->Accuse
+
++[<i> Examine the suspect more closely. </i>]
+<i> You subtly inspect Maximillian for clues.</i>
+->Examination
 
 
 +[Leave.]
@@ -61,11 +61,9 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 -> Relationship
 
 
-
-
-+[So, you were close?]
++[So, you two were close?]
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
-->DONE
+->Relationship
 
 +[Let's move on.]
 Whatever you wish, mon cheri!
@@ -94,23 +92,25 @@ But of course.
 
 =hear_response
 +[I'm sure you would have.]
-Why of course! There is nothing more thoroughly masculine than grabbing a firm shaft and giving it a good thrusting!
+Why of course! There is nothing more thoroughly manly than taking hold of a shaft and engaging in some energetic swordplay!
 ->Night_Of_Murder
 
 +[You need to work on your phrasing.]
+I couldn't possibly know what you mean, my dear fellow! All my chums at the gentleman's club insist that I have a most playful and dextrous tongue!
 ->Night_Of_Murder
 
-+[Let's talk about something else.]
-->Start
++[Let's move to another topic. Quickly]
+->Night_Of_Murder
 
 
 === Suspicions ===
 +[Did your brother have any enemies?]
-One would not normally dare to base slander. However, given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch.
+I do hate to slander the name of another, but given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch.
 ->Ditch
 
 +[Did you notice anything unusual about the murder?]
-One cannot help but notice the dramatic position in which my dear brother chose to die. A true testament to his character. Only one of immaculate breeding such as dear old Chuck would succumb to rigor morits in such a statuesque pose.
+Ah, I can hardly bear to gaze upon my darling Chuck's form. Ah! To perish in such an unflattering position, and in such garishly red attire! I warned my dear brother many times that red merely accentuated his ruddy complexion. 
+He did not take kindly to my suggestions. Alas, Admiral Hold charted his own course in matters of style. 
 ->Suspicions
 
 
@@ -123,62 +123,36 @@ Of course, mon cheri!
 
 +[Did the Admiral have any issues with Ms. Ditch?]
 My dearest departed brother did find her difficult. He spoke often of the dire conditions of the stables and characterised Ms. Hand as slovenly and sullen.
--> Suspicions
+And to speak personally for but a frief moment, she simply <i>has</i> to do something about her hair. I fear birds may soon start roosting within its tangles.
+-> Ditch
     
-
-
 +[Do you think Ms. Ditch could have killed the Admiral?]
 I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty. A most alarming thing to do.
+-> Ditch
+
++[Did you notice anything else suspicious?]
+Such as?
 -> Suspicions
 
 
-=== Secret_Revealed ===
+=== Affair_Revealed ===
+*{lavender_confession}[Lavender told me she saw you in the stables with Theodosia.]
+~ unlockStatement("Maximillian_Hold",6)
+Ah, you've been speaking to the stable hand, have you? 
+I daresay she is not the most <i>reliable</i> source, sir. I do hate to gossip, but I fear the dear girl spends more time at the bottom of a brandy bottle than she does in reality, so to speak!
+By which I mean she's a terrible drunk.
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder.
+->Start
 
-+[I know you're blackmailing Lavender. She told me everything.]
-Ah, to hell with that damnable peasant. An untrustworthy character, by my estimation. Especially given her - unnatural - affections, wouldn't you agree?
-->Secret_Cont_1
-
-=Secret_Cont_1
-
-+[You can't be serious!]
-Oh, I am deathly serious mon petit cheri!
-->Secret_Cont_2
-
-
-+ {found_swapped_gloves} [You're still wearing each other's gloves!]
-That country bumpkin of a maid is surely illiterate. She clearly mixed up our delicates.
--> Secret_Cont_2
-
-+[I've spoken to Theodosia. She'd already admitted it.]
-She is hysterical! Poor Theodosia is newly widowed and not in her right mind, and all this talk of wills and letters and newspapers has addled her delicate mind. Reading is a most harmful activity for an educated lady!
--> Secret_Cont_2
+*{theodosia_confession}[Theodosia confessed to the affair.]
+~ unlockStatement("Maximillian_Hold",6)
+Ah, that Theodosia, such a wonderful wit! 
+Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confusing those who are unknown to her. But I assure you, she spoke merely in jest!
+I know what you're thinking- a humorous woman, in this day and age? Quite unheard of! But that is dear Theodosia- always ahead of the trend!
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder.
+->Start
 
 
-
-=Secret_Cont_2
-Besides, this is nothing but idle gossip, and relates in no way to Charles' murder! You are merely launching scurrilous attacks against a family in mourning. Shame on thee, sir!
-
-+[This was the scandal Charles spoke of in his letter. You killed your own brother to keep it hidden!]
-Lies! Slander! Derogation! Are there no depths to which you will not descend. you cad? To accuse me of such heinous deeds without a shred of proof!
-There is no evidence to say I did any of these vile deeds, and I defy you to find any, you- you-
-Urchin!
-->Wig_Snatch
-
-
-
-+[You murdered your brother then framed the stable hand for your crimes.]
-DIALOGUE NEEDED HERE
--> Wig_Snatch
-
-+[I'm going to tell the world about your terrible fashion faux pas. And all the murder and illicit affair stuff too!]
-DIALOGUE NEEDED HERE
--> Wig_Snatch
-
-
-===Wig_Snatch===
-[Tear off his wig]
-AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
--> DONE
 
 ===Accuse===
 
@@ -210,11 +184,12 @@ AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
 
 
 +[Forget I said anything.]
-Already forgotten, good sir.
+'Tis already forgotten, good sir! I tend to ignore the ramblings of common folk
 ->Start
 
 +[I'll find my proof! And then everyone will know what you did!]
-While I find your- <i>passion</i>- for your work most endearing, sir, I would suggest you direct it towards someone more worthy of its focus.
+While I find your- <i>passion</i>- for your work most endearing, sir, might I suggest you direct it towards someone more worthy of its focus?
+Have you performed a thorough inspection of the stables, for instance?
 ->Start
 
 
@@ -280,13 +255,17 @@ I- I- I-!
 Well, aren't you a clever little commoner.
 You've performed a very <i>thorough</i> investigation, haven't you?
 I admit, this must seem terribly suspicious from your perspective. But I can assure you, there is a perfectly logical explanation for all these unfortunate findings of yours.
-You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. Last night, while gazing quite handsomely from my bedroom window- I saw a terrible sight. That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her murderous clutches!
+You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her murderous clutches!
 Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culprit! I'm sure you and that <i>prestigious</i> paper of yours will come to that same conclusion, given the right... input. 
 
 +[What are you getting at?]
 ->Bargaining_Cont
 
 +[Enough wordplay, Maximillian!]
+->Bargaining_Cont
+
++[Are you trying to bribe me?!]
+Oh heavens, sir! Bribery? Moi? Never!
 ->Bargaining_Cont
 
 
@@ -297,26 +276,27 @@ Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culpri
 
 
 =Bargaining_Cont
-I am merely considering how <i>tricky</i> a thing the truth is, sir. Why, had I not given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite, quite impossible for me to convince anyone of my clear innocence.
+I am merely waxing lyricalabout how <i>tricky</i> a thing the truth is, sir. Why, had I not given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
 Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative? Particularly for a family man such as yourrself...
 
 
 +[I get by.]
+Is that so?
 ->Bargaining_Final
 
-+[It's a livin'!]
++[It's a living!]
+Quite.
 ->Bargaining_Final
 
 +[It pays like shit.]
+Quite.
 ->Bargaining_Final
 
-
-
-+[<i>Garbled peasant noises</i>]
++[I sent my son to the mines yesterday.]
+Yes yes, fascinating. Focus back on me, please.
 ->Bargaining_Final
 
 =Bargaining_Final
-Quite.
 I shall let you know a secret. Given my dear brother's untimely passing, I think it my obligation to protect his family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
 I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.That is assuming the <i>true</i> killer of my brother is found. And of course, assuming our family name remains unstained by rumours. Rumours of affairs and infidelity, for example.
 Does that sound amiable to you, sir?
@@ -327,6 +307,9 @@ Does that sound amiable to you, sir?
 
 
 +[Keep your bribe. I'm going to publish the truth about what happened here.]
+->Refuse_Bribe
+
++[I'm going to tell the world about your terrible fashion sense. And all the murder and illicit affair stuff too!]
 ->Refuse_Bribe
 
 +[Um... Could you explain that again?]
@@ -367,6 +350,31 @@ But think on this, sir; your pride will not keep you or your loved ones fed. Whe
 Ah! How wonderful to hear! I look forward to seeing the face of Charles' killer splayed out on the front page! It will be the scandal for the ages!
 And I must say sir, I think you have a <i>very</i> lucrative career awaiting you. Aha! Ha! Ha!
 ->DONE
+
+
+===Examination===
+
+[<i>Examine his face.</i>]
+His face is excessively powdered and painted.  His wig is made of the finest human hair. It is blindingly white.
+However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
+->Examination
+
+[<i>Examine his clothing.</i>]
+Maximillian is excessively overdressed. You imagine that this is considered highly fashionable.
+However, you notice an unusual lump in Max's back pocket.
+
+[<i>Examine his hands.</i>]
+His hands are ungloved and unadorned.
+->Examination
+
+
+[<i>Return to the conversation.</i>]
+<i>You focus back on your conversation.</i>
+->Start
+
+
+
+
 
 
 

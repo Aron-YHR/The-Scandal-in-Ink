@@ -42,6 +42,13 @@ Oh yes, I intuited as much. A well-bred woman has an instinct for her husband's 
 I am quite sure he would have abandoned the idea entirely, had he not perished.
 ->Divorce
 
+*{lavender_confession and affair_revealed}[How did you find out about Lavender & Dorothy's relationship?]
+Charles was the first to discover their dalliance- though it was rather obvious, in hindsight. The foolish girls were stuffing their ridiculous love letters into every free orifice in the manor.
+They are unaware I am sure of how unfashionable literate women are at present. 
+Charles insisted on dismissing them for "immoral conduct" as he called it.
+However, I objected. I found the notion of a dalliance between two servant girls highly scandalous- and terribly entertaining.
+And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them?
+->Start
 
 
 +[<i> Examine the suspect. </i>]
@@ -198,7 +205,7 @@ Unless the sufferer is impoverished. Neuroticism amongst the poor is a clear sig
 +{lavender_confession}[I spoke to Lavender. She told what she saw, and there's evidence to back it up.]
 Ah, I see. So the stable girl has betrayed me. 
 I should have let Charles dismiss her when he first discovered her predilections.
-I objected, of course. I found the entire revelation terribly scandalous. And really, if the lower orders cannot provide us with some entertainment, what on earth is the use of them?
+I objected, of course. I found the entire revelation terribly scandalous- not to mention entertaining. And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them?
 Alas, it is a lesson learned. One can simply not trust a woman who elects to work with horses.
 ->Affair_Cont
 
@@ -209,6 +216,7 @@ Ah. I see. Quite the deduction.
 
 
 +[Why else would you be wearing another man's gloves?]
+~mannish_hands_gag = true
 ...
 One always feared this day would come. My greatest shame, brought forth into the cold light of day.
 You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands.
@@ -232,7 +240,7 @@ Very well. The bargain is struck.
 
 =Affair_Cont
 ~theodosia_confession = true
-~ unlockStatement("Theodosia_Hold",3)
+~ unlockStatement("Theodosia_Hold",1)
 Now, regarding my connection to Maximillian. I'm afraid you have entirely misunderstood our relation.
  You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
  Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer one did firmly accept. 
@@ -266,11 +274,18 @@ A moment of your time before you go, sir. While not quite as scandalous as, say,
 That is to say, the revelation of this information could pose- difficulties for me.
 Therefore I would appreciate it if you would keep this matter out of your paper.
 
-+[I will, but it'll cost you.]
++[I will, but it's gonna you.]
 Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?!
 A woman of proper breeding possesses no assets. Her home, wealth, and children are entiely the property of her husband.
 I see now that you simply do not understand how civilised society operates. 
 Publish the details of my personal life if you must. But I insist that my portraiture emphasises my rounded chin. It is an indicator of exceptionally thorough breeding.
+->Start
+
++{lavender_confession}[Fine. But in return, Dorothy and Lavender get to keep their jobs.]
+Hmm. I do not care for the sapphically inclined stablehand, but Ms. Tendwell has been performed her duties as a maid quite admirably.
+Very well. Should you refrain from publishing the details of my dalliance with Maximillian, I shall allow Ms.Tendwell and the horse girl to remain at Wenchwatch Hall.
+{mannish_hands_gag} I would also request you refrain from mentioning anything relating to my- ahem- mannish hands. Such a revelation would be truly catastrophic to one's reputation.
+Yes, one does feel that this is a fair arrangement.
 ->Start
 
 

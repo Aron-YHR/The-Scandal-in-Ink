@@ -84,13 +84,13 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 2. I was so shocked just like on the highway to hell...
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: 
       isUnlocked: 0
     - statementLine: 4.
       isUnlocked: 0
     - statementLine: 5.
       isUnlocked: 0
-    - statementLine: 6.
+    - statementLine: Maximillian denies having an affair with Theodosia.
       isUnlocked: 0
     - statementLine: 7.
       isUnlocked: 0
@@ -100,7 +100,8 @@ MonoBehaviour:
     location: Study
     npcInfo: The stable hand of Wenchwatch Hall.
     npcStatements:
-    - statementLine: 1. I saw him...
+    - statementLine: Lavender denies any knowledge of the Admiral's brooch hidden
+        in the horse's saddle.
       isUnlocked: 0
     - statementLine: 2. I was so shocked just like on the highway to hell...
       isUnlocked: 0

@@ -7,14 +7,14 @@ public enum ItemName
     Candle,
     brooch,
     divorce_petition,
-    Love_Letter_1,
-    Love_Letter_2,
+    love_letter_1,
+    love_letter_2,
     Theodosia_Note,
     testme,
     Bloody_Trail,
     bloody_glove,
     family_portrait,
-    Trellis,
+    trellis,
     bloody_clothes
 }
 
@@ -22,11 +22,11 @@ public enum NPCName
 {
     None,
     Maximillian_Hold,
-    LAVENDER_DITCH,
-    ADMIRAL_CHARLES_HOLD,
-    AVERY_HOLD,
-    THEODOSIA_HOLD,
-    DOROTHY_TENDWELL
+    Lavender_Ditch,
+    Admiral_Charles_Hold,
+    Avery_Hold,
+    Theodosia_Hold,
+    Dorothy_Tendwell
 }
 
 public enum Location
