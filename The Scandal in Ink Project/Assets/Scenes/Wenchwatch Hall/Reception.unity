@@ -500,7 +500,7 @@ PrefabInstance:
     - target: {fileID: 1235836600152257404, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: inkJson
       value: 
-      objectReference: {fileID: 4900000, guid: 3f5ac6baf6ef0cb4d86fcbe054ed718f, type: 3}
+      objectReference: {fileID: 4900000, guid: c7087e7a55e36b441a5f061299d32761, type: 3}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.162

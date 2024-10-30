@@ -1,11 +1,17 @@
+//IN NEED OF A RE-WRITE
+
+
 INCLUDE Secrets.ink
 
 
+->INTRO
+===INTRO===
 -> Start
+
 
 === Start ===
 
-What? #speaker: Ms. Ditch
+{TURNS_SINCE(-> INTRO) == 0: What?}  #speaker: Ms. Ditch
 
 
 
@@ -59,51 +65,46 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 ->Murder_Weapon
 
 =Murder_Weapon
-~ unlockStatement("Lavender_Ditch",1)
+
 Oh shite.
+~unlockStatement("Lavender_Ditch",1) 
 I- I didn't know that was there. Honest.
 I was in my chambers last night when the Admiral got done in, cross my heart.
 I'm not a killer. And I don't go round swindling what isn't mine. I don't cause trouble.
-More than I can say for some in this house...
-->Alibis
+More than I can say for some in this house... ->Alibis
+
+
 
 =Alibis
-
 *[What do you mean by that?]
-...Nothing. Forget I said anything.
-->Alibis
+...Nothing. Forget I said anything. ->Alibis
 
 *[Do you have an alibi for last night?]
-...I- no I don't, no.
-->Alibis
+...I- no I don't, no. ->Alibis
 
-+[I believe you, but I know you're not telling me something.]
-I- listen, just forget I said anything, alright?
-->Start
+*[I believe you, but I know you're not telling me something.]
+I- listen, just forget I said anything, alright? ->Start
 
-+[You're lying. I think you killed the Admiral, then planned to escape with the family brooch!]
+*[You're lying. I think you killed the Admiral, then planned to escape with the family brooch!]
 ...
 ...Believe what you want. I'm no killer, and some thick-headed newsmonger saying otherwise won't change that.
-Now if you're done accusing me of being a killer, you can bugger off.
-->Start 
+Now if you're done accusing me of being a killer, you can bugger off. ->Start 
 
-+[I need to think about what this means.]
-Oh <i>shite</i>.
-->Start
+*[I need to think about what this means.]
+... ->Start
 
 
 
 
 ===Letters_Discovered====
-~ unlockStatement("Lavender_Ditch",3)
-~affair_revealed = true
+
 *[I've already read them, Lavender. I know all about your relationship with Dorothy.]
-Alright. It's true. Me and Dorothy, we're in love. Have been for a while.
-I haven't a clue how you got your hands on that letter, just- please keep it to yourself.
+~ unlockStatement("Lavender_Ditch",3)
+Alright. It's true. Me and Dorothy, we're- together.
+Just- please keep that to yourself.
 I know that's not in your nature, being a newspaper man and all. It's just-
-We've been doing our best to keep our- unique relationship quiet.
-I've seen how they treat men who fancy each other's company- I'd not like to find out what they'd do to us...
-->Letters_Discovered
+We've been doing our best to keep it quiet.
+And I've seen how they treat men who fancy each other's company- I'd not like to find out what they'd do to us... ->Letters_Discovered
 
 
 *[Is this what you were trying to hide?]
@@ -150,9 +151,11 @@ I promised the Lady of the house I wouldn't say...
 =Affair_Revealed
 
 Alright, fine.
-Well- the other day- the Lady Hold and Sir Max were out for their weekly horse ride. Now ususally, I can sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.
-Only, when I got to the stables, I found the Lady and Max- I found themin an awkward-
+Well- the other day- the Lady Hold and Sir Max were out for their weekly horse ride. Now ususally, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.
+Only, when I got to the stables, I found the Lady and Max- I found them in an awkward-
 They were basket making, if you catch my meaning.
+~lavender_confession = true
+~affair_revealed = true
 ->Affair_Revealed_P2
 
 
@@ -163,7 +166,7 @@ They were- making the beast with two backs.
 ->Affair_Revealed_P3
 
 *[What's so wrong about making baskets?]
-No, you don't understand! They were- making the beast with two backs.
+No!They were- y'know! Making the beast with two backs!
 ->Affair_Revealed_P3
 
 *[Ooh, I love baskets!]
@@ -183,8 +186,9 @@ They were shagging!
 **[<i>Gasp!</i>]
 ->The_Admiral_Informed
 
+
 *[Do you mean to say Max was sleeping with his own brother's wife?]
-Just that, lad.
+Exactly that.
 ->The_Admiral_Informed
 
 
@@ -194,10 +198,8 @@ But I was already gone to tell the Admiral. He was furious. I've never seen a ma
 Then the Lady Hold this morning, when you arrived, she pulled me aside.
 See, she said she knew about me and Dot. Said she'd have us both dismissed if I didn't keep mum about what I saw.
 She can do what she likes to me, but...
-I can't let that happen to Dot. She loves her work, loves nurturing the little lad. She'd be a great mother...
-So please, don't tell 
-
-->The_Admiral_Informed_P2
+I can't let that happen to Dot. She needs the pay. And she loves caring for the little lad...
+Please, don't tell the Lady I've let slip. It'll ruin everything... ->The_Admiral_Informed_P2
 
 
 
@@ -206,28 +208,24 @@ So please, don't tell
 
 *[Can you prove any of this?]
 Ask Dot. She'll vouch for where I was last night. Just- please don't let on you know about us, or about the letters.
-I don't want her to know 'bout any of this.
-->The_Admiral_Informed_P2
+I don't want her to know 'bout any of this. ->The_Admiral_Informed_P2
 
 
 
 *[Do you think that Theodosia could be the killer?]
 Anything's possible, but...
-I don't think so. She was crying the whole bloody night.
-->The_Admiral_Informed_P2
+I don't think so. I could hear her crying her eyes out all bloody night. ->The_Admiral_Informed_P2
 
 
 *[This is clearly all lies. Lesbians aren't real!]
-...Are you sure you're a journalist?
-->The_Admiral_Informed_P2
+...Are you sure you're a journalist? ->The_Admiral_Informed_P2
 
 
 *[I need to think about what this all means.]
 Do what you have to. I'll only ask you to please keep this to yourself. I know that's not in your nature, being a newsmonger and all.
 I've seen what they do to the doxies when they catch hem. And the women of the town they drag out of the bordellos.
 I don't know what they'd do to us, to Dot, but I'd not like to find out.
-She doesn't deserve to have her name dragged through the muck.
-->DONE
+She doesn't deserve to have her name dragged through the muck. ->Start
 
 
 

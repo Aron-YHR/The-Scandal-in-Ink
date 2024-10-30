@@ -188,14 +188,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      locked door_0: -4219442401172761274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

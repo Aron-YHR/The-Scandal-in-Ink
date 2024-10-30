@@ -187,7 +187,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 'Tis already forgotten, good sir! I tend to ignore the ramblings of common folk
 ->Start
 
-+[I'll find my proof! And then everyone will know what you did!]
++[I don't have anymore proof. I'll find some! And then everyone will know what you did!]
 While I find your- <i>passion</i>- for your work most endearing, sir, might I suggest you direct it towards someone more worthy of its focus?
 Have you performed a thorough inspection of the stables, for instance?
 ->Start

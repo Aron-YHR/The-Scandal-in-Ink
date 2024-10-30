@@ -54,12 +54,6 @@ VAR mannish_hands_gag = false
 
 
 
-//Door
-VAR checked_door = false
-
-
-
-
 
 
 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      loveletter1_0: -3228228211830984768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

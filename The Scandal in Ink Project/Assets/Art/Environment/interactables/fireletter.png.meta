@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fireletter_0: 2991606661771570988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

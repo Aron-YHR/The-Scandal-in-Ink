@@ -267,7 +267,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pastry2_0: 4901527351039375250
+      pastry2_1: 1593745568866057959
+      pastry2_2: -6453082873080859098
+      pastry2_3: 2653794232964907623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -20,8 +20,11 @@ MonoBehaviour:
   - itemName: 5
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
     isEvidence: 1
-    itemInfo: A large, ornate brooch bearing the crest of the Hold family. The pin
-      is exceptionally sharp. It is covered in blood.
+    itemInfo: 'A large, ornate brooch bearing the crest of the Hold family. The pin
+      is exceptionally sharp and coated in blood.
+
+      The brooch appears to be
+      missing one of its jewels...'
   - itemName: 6
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1

@@ -1,3 +1,5 @@
+//SOME RE-WRITES NEEDED - SPECIFICALLY FOR THE AFFAIR
+
 INCLUDE Secrets.ink
 
 VAR argument = false
@@ -202,9 +204,9 @@ Unless the sufferer is impoverished. Neuroticism amongst the poor is a clear sig
 
 ===Affair===
 
-+{lavender_confession}[I spoke to Lavender. She told what she saw, and there's evidence to back it up.]
++{lavender_confession}[I spoke to Lavender. She told everything.]
 Ah, I see. So the stable girl has betrayed me. 
-I should have let Charles dismiss her when he first discovered her predilections.
+I should have let Charles dismiss her when he first discovered her <i>sapphic</i> inclination.
 I objected, of course. I found the entire revelation terribly scandalous- not to mention entertaining. And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them?
 Alas, it is a lesson learned. One can simply not trust a woman who elects to work with horses.
 ->Affair_Cont
@@ -215,25 +217,20 @@ Ah. I see. Quite the deduction.
 
 
 
-+[Why else would you be wearing another man's gloves?]
++[You're wearing his gloves!]
 ~mannish_hands_gag = true
-...
-One always feared this day would come. My greatest shame, brought forth into the cold light of day.
+...One always feared this day would come. My greatest shame, brought forth into the cold light of day.
 You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands.
-<i>Oh!</i> To even say it aloud- I feel faint!
-Sir, you must understand- this information you have ascertained- if it were to become public knowledge- it would ruin me.
-I offer you a bargain- I shall tell you the truth of the relationship myself and Maximillian.
-But I must insist that in return, the knowledge you hold regarding my- affliction- you must take that to your grave.
-->Hands_Gag
+<i>Oh!</i> To even say it aloud- I feel faint! I am ruined. ->Hands_Gag
 
 
 =Hands_Gag
 
-+[Nobody cares about your hands! Tell me about the affair!]
-I will take that as an implicit agreement to the terms.
++[I don't care about your hands! Tell me about the affair!]
+Ah, yes
 ->Affair_Cont
 
-+[I accept.]
++[Also you're sleeping with your brother-in-law.]
 Very well. The bargain is struck.
 ->Affair_Cont
 

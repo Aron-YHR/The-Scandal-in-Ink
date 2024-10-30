@@ -29,6 +29,7 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 
 
 +[<i>Examine the suspect.</i>]
+<i> You subtly inspect Dorothy for clues.</i>
 ->Examination
 
 +[Leave]

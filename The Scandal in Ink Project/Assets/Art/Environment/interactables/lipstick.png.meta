@@ -219,7 +219,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lipstick_0: -6432330495511635143
+      lipstick_1: -1315758751624245765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
