@@ -15,7 +15,8 @@ public enum ItemName
     bloody_glove,
     family_portrait,
     trellis,
-    bloody_clothes
+    bloody_clothes,
+    door_key
 }
 
 public enum NPCName

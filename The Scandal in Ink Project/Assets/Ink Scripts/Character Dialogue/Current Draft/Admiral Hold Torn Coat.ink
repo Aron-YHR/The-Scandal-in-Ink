@@ -1,7 +1,7 @@
 INCLUDE Secrets.ink
 
-~ unlockStatement("Admiral_Charles_Hold", 2)
-Something was forcefully torn from the Admiral's coat.
 
+Something was forcefully torn from the Admiral's coat.
+~ unlockStatement("Admiral_Charles_Hold", 2)
 +[Continue.]
 ->DONE

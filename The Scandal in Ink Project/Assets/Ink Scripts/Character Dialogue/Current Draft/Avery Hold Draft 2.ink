@@ -1,16 +1,15 @@
 INCLUDE Secrets.ink
 
-
+->INTRO
+===INTRO===
+-> Start
 
 
 -> Start
 
 === Start ===
 
-Salutations to you, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume? #speaker: Avery Hold
-
-
-
+{TURNS_SINCE(-> INTRO) == 0: Salutations to you, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} #speaker: Avery Hold
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
 'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to to witness the end of our dear paterfamilias. Roused from slumber was I by a most discomfiting cacophony emanating from my progenitor's sanctum. Two voices, both brimming with vexation and trepidation, one clashing 'gainst t'other as Achilles did strike at Hector's shield! Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole.
 And thus was my juvenescence brought to a tragic close.
@@ -32,6 +31,7 @@ Yet in light of recent events, it does seem such a petty squabble...
 ->Iliad_Confiscated
 
 +[<i> Examine the suspect more closely. </i>]
+<i> You subtly inspect Avery for clues.</i>
 ->Examination
 
 
@@ -168,19 +168,16 @@ Quite.
 ===Examination===
 
 +[Examine his hands.]
-<i> His fingertips seems slightly sticky. You think he may have recently been eating something covered in jam. </i>
-->Examination
+<i> His fingertips seems slightly sticky. You think he may have recently been eating something covered in jam. </i> ->Examination
 
 +[Examine his face.]
-<i> His cheeks are stained red. You think he may have been crying recently. </i> 
--> Examination
+<i> His cheeks are stained red. You think he may have been crying recently. </i> -> Examination
 
 +[Examine his clothing.]
-<i> He has been dressed in appropriate mourning attire. </i> 
--> Examination
+<i> He has been dressed in appropriate mourning attire. </i>  -> Examination
 
 
 +[Return to the conversation]
--> Start
+<i> You return to your conversation with the unusually verbose child.</i> -> Start
 
 

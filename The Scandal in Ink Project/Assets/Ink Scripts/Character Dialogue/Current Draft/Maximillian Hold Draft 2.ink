@@ -354,24 +354,34 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 
 ===Examination===
 
-[<i>Examine his face.</i>]
++[<i>Examine his face.</i>]
 His face is excessively powdered and painted.  His wig is made of the finest human hair. It is blindingly white.
 However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
 ->Examination
 
-[<i>Examine his clothing.</i>]
-Maximillian is excessively overdressed. You imagine that this is considered highly fashionable.
-However, you notice an unusual lump in Max's back pocket.
++[<i>Examine his clothing.</i>]
+->Pickpocket
 
-[<i>Examine his hands.</i>]
++[<i>Examine his hands.</i>]
 His hands are ungloved and unadorned.
 ->Examination
 
 
-[<i>Return to the conversation.</i>]
++[<i>Return to the conversation.</i>]
 <i>You focus back on your conversation.</i>
 ->Start
 
+=Pickpocket
+~pickpocket_lavender = true
+<i>Maximillian is excessively overdressed. You imagine that this is considered highly fashionable.
+<i>However, you notice an unusual lump in Max's back pocket. You think you might be able to grab it without him noticing...
+
++[<i>Pickpocket Max.</i>]
+~Transition("Study","Maximillian Pocket")
+->DONE
+
++[<i>Leave it for now.</i>]
+->Examination
 
 
 

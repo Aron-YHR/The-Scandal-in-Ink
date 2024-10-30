@@ -8,8 +8,10 @@ Yes, sir?
    
 
 +[Where were you the night of the murder?]
-Well sir, that evening I busied myself cleaning the Admiral's duelling pistols when I heard a commotion in the Admiral's study. There, I overheard the Admiral and Lady Hold in a rather heated conversation. Lady Hold left the Admiral's office quite distraught.
-I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters. And that is where I stayed until I heard the young master scream.
+Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery screaming.
+I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while still in my nightgown. 
+I'm afraid by the time I found him, poor Avery had already seen the Amdiral's-
+By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
 ->Night_Of_Murder
 
 
@@ -34,22 +36,21 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 
 
 
-+ {love_letters and not extort_Dorothy} [Ms. Tendwell, I found some letters that you wrote...]
++{love_letters and not extort_Dorothy} [Ms. Tendwell, I found some letters that you wrote...]
 I-
 How could you possibly have- Oh heavens. Oh heavens!  Oh <i>heavens</i>!
 Sir, this is not what you think it is! I know the content of those letters is terribly debaucherous. But I can explain, sir, truly!
-Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. She would be so ashamed to discover her lady's maid speaking in such a lewd manner.
+Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. She would be so ashamed to discover her lady's maid drawing such- lewd images!
 ->Lesbians_Revealed
 
 
+//No re-writes urgently needed
 ===Night_Of_Murder===
 
 
-+[How did you discover the body?]
-Well sir, as I said, I was alone in my quarters last night, when I suddenly heard young Master Avery screaming.
-I was in such an awful rush to find the poor boy that- to my shame- I ran down the main staircase while still in my nightgown. 
-I'm afraid by the time I found him, poor Avery had already seen the Amdiral's-
-By which I mean that the Admiral was- expired. Oh, even the thought of it- it's too horrible to bear!
++[Did anything unusual happen before the murder?]
+Well sir, that evening I was cleaning the Admiral's duelling pistols when I heard a commotion in the Admiral's study. There, I overheard the Admiral and Lady Hold in a rather heated conversation. Lady Hold left the Admiral's office quite distraught.
+I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters. And that is where I stayed until I heard the young master scream.
 ->Night_Of_Murder
 
 +[Did you hear what Charles and Theodosia were arguing about?]
@@ -63,25 +64,28 @@ He seemed to imply that he would have some use for them upon your arrival, thoug
 
 +[Do you think Avery could have been involved in the Admiral's death somehow?]
 <i>Sir!</i>
-Young Master Avery is a <i>child</i>! Hardly even eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
-Well, it's simply unthinkable! And I am quite sure the noble profession of journalism would <i>never</i> engage in baseless speculation!
+Young Master Avery is a <i>child</i>! Hardly eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
+Well, it's simply-
+Simply-
+<i>Baseless slander</i>!
+And if there is one thing I am sure of, it is that the noble profession of journalism would <i>never</i> engage in slander!
 ->Night_Of_Murder
 
 +[Let's talk about something else.]
 Very well.
 ->Start 
 
-
+//No re-writes urgently needed
 ===Relationship===
 
 +[How long have you worked for the Hold family?]
-Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery. They have been remarkably kind to me.  I only hope to repay their kindness.
+Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery. They have been remarkably kind to me.  I only hope to one day repay their kindness.
 ->Relationship
 
 +[Did the Admiral ever treat you poorly?]
 Oh no sir, Admiral Hold was very respectful, a perfect gentleman. If anything, I have treated the Admiral poorly.
 Why, only last week, I was four minutes late delivering his breakfast to him.
-That was a dark day.
+That was- a dark day for me...
 I only wish that his younger brother took after the Admiral in that regard. He can at times be a bit-
 A bit- lustful, if you'll excuse my language.
 ->Lustful
@@ -101,22 +105,23 @@ Sir Maximillian is a very happy and joyous gentleman, sir, I quite agree. I only
 
 
 +[Let's move on.]
-Yes sir.
-->Start
+Os you wish, sir.
+->Relationship
 
-
+//No re-writes urgently needed
 ===Suspicious===
 
 +[Did anyone in the house hold a grudge against Charles?]
 Well, young master Avery was admittedly somewhat displeased that the Admiral confiscated his copy of the Iliad.
-Barring that, I can't think of a single reason for anyone to dislike Charles.
-
+But that is hardly reason to suspect a small child of- what occurred.
+Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very kindly...
 ->Suspicious
 
 
 +[Did you notice anything unusual about the body?]
-Well, I did notice that the Admiral seemed to have something in his hand. 
-Though I must admit, I didn't look very closely.
+Well, I did notice that the Admiral's brooch was missing.
+He was very fond of the family crest. I hardly ever saw him without it.
+~unlockStatement("Admiral_Charles_Hold", 3)
 ->Suspicious
 
 +[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
@@ -143,23 +148,12 @@ But I swear to you, those letters were a momentary lapse in judgement, and L-
 They were only ever intended for one particular person's private enjoyment. They were not intended for- public consumption.
 ->Lesbians_Revealed
 
-+{not found_lavender_name} [Who is "L"?]
-Someone who- I care about deeply. And who cares for me in return. 
-Someone without who life would be a little less colourful without.
-Sir, I know I've acted disgracefully. And I know I have no reason to ask it- but-
-Could you possibly look past this terrible indiscretion on my part?
-->Lesbians_Cont
-
 +{found_lavender_name} [So, you and Lavender are an item?]
 Lavender and I...
-Yes. Lavender and I are together. I'm sure this must surprise you. It surprised me. For many reasons.
-Lavender can be rude, abrasive. She has hardly a trace of decorum, and more often than not smells of horse.
-But she is also kind. And gentle. And she loves me. For all my flaws and inadequacies. She loves me regardless. And I love her.
-In all my years, never did I imagine that such a love such as Lavender's was even possible. But now that I have found her, I couldn't bear to be without it. Without her.
-Sir, I know I have acted shamefully. I know you must think little of me. And I know I do not deserve it. But I would ask that you find some way to forget what you saw in those letters.
+Yes. Lavender and I are together. I'm sure this must surprise you. 
 People may not understand what Lavender- what <i>we</i> are, and should Lady Hold- should our families find out about us-
 I fear what the consequences of their discovery might be.
-Could you possibly look past this terrible indiscretion on my part?
+Could you possibly consider not mentioning our- connection- in your article?
 ->Lesbians_Cont
 
 
@@ -169,10 +163,14 @@ Could you possibly look past this terrible indiscretion on my part?
 
 =Lesbians_Cont
 
-
-
 +[Don't worry. I'll keep this to myself.]
 Thank you, sir. I can't possibly thank you enough.
+->Start
+
++{checked_door}[I will- if you give me the key to Maximillian's room?]
+The key to- well- I suppose, given the present situation- just this once- I can permit you access to Maximillian's private quarters. I shall fetch it for you.
+Now I beg you to forget you ever saw those letters. It was a momentary lapse in judgement, I swear. I will never so recklessly depict an ankle again!
+~door_key = true
 ->Start
 
 +[This is too juicy to pass up! It's going on the front page!]
@@ -184,11 +182,6 @@ Cost, sir? I'm not sure I understand.
 ->Extortion
 
 
-+[I need to think about this.]
-Sir, I beg you to forget you ever saw those letters. It was a momentary lapse in judgement, I swear. I will never so recklessly depict an ankle again!
-->Start
-
-
 =Extortion
 
 +[I'm blackmailing you, idiot! Haven't you ever met a journalist before?!]
@@ -197,7 +190,7 @@ Sir, I beg you to forget you ever saw those letters. It was a momentary lapse in
 +[I'll keep this quiet. For a fee.]
 ->Extortion_Final
 
-+[Neither do I. Ignore me.]
++[Neither do I. Let's forget I said anything.]
 I see. Thank you, sir.
 ->Start
 

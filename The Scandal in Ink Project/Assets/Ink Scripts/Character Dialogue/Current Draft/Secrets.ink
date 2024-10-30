@@ -25,7 +25,6 @@ VAR brooch = false
 VAR missing_jewel = false
 VAR love_letter_1 = false
 VAR love_letter_2 = false
-VAR trellis = false
 
 //STATEMENTS
 VAR theodosia_confession = false
@@ -37,16 +36,28 @@ EXTERNAL Transition(from,to)
 
 
 //Pickpocket
-VAR door_key = false
 VAR pickpocket_lavender = false
-
+VAR door_key = false
 
 //MISC
 
 VAR Max_proof1 = false
 VAR Max_proof2 = false
 VAR Max_proof3 = false
+
+
+
+
+//Theodosia
 VAR mannish_hands_gag = false
+
+
+
+
+//Door
+VAR checked_door = false
+
+
 
 
 

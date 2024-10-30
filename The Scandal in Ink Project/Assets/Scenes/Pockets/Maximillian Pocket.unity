@@ -150,8 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 483407f7b28eec94cad2b07a7c5ce5c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneFrom: LadyPocket
-  sceneToGo: Stables
+  sceneFrom: Maximillian Pocket
+  sceneToGo: Study
 --- !u!60 &112713320
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
   inkJson: {fileID: 4900000, guid: 259e93fe88de86b4a9395effa45263f0, type: 3}
-  isClicked: 0
+  image: {fileID: 0}
 --- !u!1 &568315519
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDetails:
-    itemName: 7
+    itemName: 16
     itemIcon: {fileID: 0}
     isEvidence: 0
     itemInfo: 
