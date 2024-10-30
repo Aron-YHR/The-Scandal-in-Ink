@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ladypocket_0: -2613680718248114710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

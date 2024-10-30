@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      divorceletter_0: -4684013747395606549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      knickers_0: -2201274645948157514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gardennew_0: -1054063460415041135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hallwaylonger copy_0: 5326161920953296437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -364,7 +364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
   inkJson: {fileID: 4900000, guid: 259e93fe88de86b4a9395effa45263f0, type: 3}
-  isClicked: 0
+  image: {fileID: 0}
 --- !u!1 &568315519
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,19 +434,19 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 38.399998, y: 10.799999}
+    newSize: {x: 38.399998, y: 10.799999}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 13.9, y: 5.4}
-      - {x: -13.9, y: 5.4}
-      - {x: -13.9, y: -5.4}
-      - {x: 13.9, y: -5.4}
+    - - {x: -19.199999, y: 5.3999996}
+      - {x: -19.199999, y: -5.3999996}
+      - {x: 19.199999, y: -5.3999996}
+      - {x: 19.199999, y: 5.3999996}
   m_UseDelaunayMesh: 0
 --- !u!1 &570229777
 GameObject:
@@ -833,12 +833,12 @@ SpriteRenderer:
   m_SortingLayerID: 158067675
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7561445559858082440, guid: a64e6cc48003af546824cc631c356916, type: 3}
+  m_Sprite: {fileID: 1543465055912130048, guid: e6ecacf121f2f0d4e84e648a78e6735e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 27.8, y: 10.805078}
+  m_Size: {x: 38.399998, y: 10.799999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
