@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class InventoryManager : Singleton<InventoryManager>
@@ -19,6 +18,8 @@ public class InventoryManager : Singleton<InventoryManager>
     public GameObject npcSlotGrid;
     public NPCSlot npcSlotPrefab;
     public NPCDetailPanel npcDetailPanel;
+
+    public GameObject journalHighlight;
 
     private void OnEnable()
     {
@@ -47,6 +48,9 @@ public class InventoryManager : Singleton<InventoryManager>
         //Debug.Log(journal.itemList.Contains(item));
         if (journal.itemList.Find(i => i.itemName == itemDetails.itemName) == null)
         {
+            //StartCoroutine(ShowJournalHighlight());
+            ShowJournalHighlight();
+
             //ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(itemDetails);
@@ -85,6 +89,14 @@ public class InventoryManager : Singleton<InventoryManager>
         Instance.detailPanel.SetItemIcon(itemDetails.itemIcon);
         Instance.detailPanel.SetItemName(itemDetails.itemName.ToString());
         Instance.detailPanel.SetItemInfo(itemDetails.itemInfo);
+    }
+
+    public void ShowJournalHighlight()
+    {
+        journalHighlight.GetComponent<Animator>().Play("HighlightShowUp");
+        //journalHighlight.SetActive(true);
+        //yield return new WaitForSeconds(2f);
+        //journalHighlight.SetActive(false);
     }
 
     public void AddNPC(NPCDetails npcDetails)
