@@ -37,6 +37,7 @@ EXTERNAL Transition(from,to)
 
 
 //Pickpocket
+VAR door_key = false
 VAR pickpocket_lavender = false
 
 

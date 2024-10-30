@@ -26,8 +26,8 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     itemInfo: An unsent letter of Admiral Hold filing for divorce from his wife,
-      Theodosia. The letter is dated the day before his death. It states that Theodosia
-      has been unfaithful.
+      Theodosia. The letter is dated the day before his death. It cites adultery
+      as the primary reason for the separation.
   - itemName: 9
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1

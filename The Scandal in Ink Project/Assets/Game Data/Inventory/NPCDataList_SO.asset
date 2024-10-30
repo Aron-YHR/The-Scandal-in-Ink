@@ -116,16 +116,17 @@ MonoBehaviour:
     - statementLine: 7.
       isUnlocked: 0
   - npcName: 3
-    npcIcon: {fileID: -8922647640725380511, guid: 77a392ac159fa6142b86c4c07932e1bf, type: 3}
-    npcPortrait: {fileID: -8922647640725380511, guid: 77a392ac159fa6142b86c4c07932e1bf, type: 3}
+    npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     location: Study
     npcInfo: The victim!
     npcStatements:
-    - statementLine: 1. I saw him...
+    - statementLine: The Admiral was stabbed multiple times in the chest with something
+        particularly sharp.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: Something was forcefully torn from the Admiral's coat.
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: The Admiral's brooch is missing.
       isUnlocked: 0
     - statementLine: 4.
       isUnlocked: 0
