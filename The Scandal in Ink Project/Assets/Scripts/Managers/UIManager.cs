@@ -54,6 +54,8 @@ public class UIManager : Singleton<UIManager>
     {
         isUIOpened = true;
         showcasePanel.gameObject.SetActive(true);
+        CameraFollowMouse.Instance.DesactivateMove();
+
         itemShowcaseImg.sprite = itemDetails.itemIcon;
         infoText.text = itemDetails.itemInfo;
         itemNameText.text = itemDetails.itemName.ToString();
