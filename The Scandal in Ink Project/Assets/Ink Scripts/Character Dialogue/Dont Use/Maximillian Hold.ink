@@ -1,17 +1,14 @@
 INCLUDE Secrets.ink
 
-
+->INTRO
+===INTRO===
 -> Start
 
 === Start ===
-
-
-
-{!Ah, brother dearest! I am beset by grief!}
-
-
-
-
+//Must be a space at the start of this thread.
+ {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} 
+ 
+ 
 +[Where were you the night of the murder?]
 ~ unlockStatement("Maximillian_Hold",1)
 I retired to my chambers early that night.
@@ -19,12 +16,10 @@ I retired to my chambers early that night.
 ->Night_Of_Murder
 
 
-
 +[Have you noticed anything suspicious?]
 Such as?
 ~ unlockStatement("Maximillian_Hold",3)
 ->Suspicions
-
 
 
 +[How was your relationship with your brother?]
@@ -37,13 +32,16 @@ Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too so
 Ah, my sincerest apologies. I am scandalously underdressed for such an occassion.
 -> Start
 
-+{Chair}[I know about your affair with Theodosia.]
-Hm? What's this? I am quite sure I have no idea what you mean, good fellow
++{affair_revealed}[I know about your affair with Theodosia.]
+Moi? In a dalliance with my dear sister-in-law?
 ->Secret_Revealed
 
++[It was you! You killed the Admiral!]
+Moi, sir? Kill my dear brother? What could possibly have brought you to such an outrageous conclusion?
+->Accuse
 
 
-+[Leave]
++[Leave.]
 -> END
 
 === Relationship ===
@@ -60,7 +58,9 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
 ->DONE
 
-
++[Let's move on.]
+Whatever you wish, mon cheri!
+->Start
 
 
 === Night_Of_Murder ===
@@ -78,17 +78,17 @@ Oh, such a frightful thought! I was roused from my sleep by a most terrible scre
 
 
 +[Let's talk about something else.]
+But of course.
 ->Start
 
 
 
 =hear_response
-+[I'm sure you have have. ]
-Why of course!
++[I'm sure you would have.]
+Why of course! There is nothing more thoroughly masculine than grabbing a firm shaft and giving it a good thrusting!
 ->Night_Of_Murder
 
 +[You need to work on your phrasing.]
-
 ->Night_Of_Murder
 
 +[Let's talk about something else.]
@@ -175,6 +175,23 @@ DIALOGUE NEEDED HERE
 AGH! HEAVENS! ZOUNDS! ET CETERA! TO BE FINISHED!
 -> DONE
 
+===Accuse===
+
++[I have proof!]
+->Proof
+
+
++[Forget I said anything.]
+Already forgotten, good sir.
+->Start
+
+
+
+
+
+
+=Proof
+->DONE
 
 
 

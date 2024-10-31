@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 147744917}
   - component: {fileID: 147744920}
   m_Layer: 0
-  m_Name: Pen
+  m_Name: Divorce Petition
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -389,10 +389,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDetails:
-    itemName: 5
+    itemName: 6
     itemIcon: {fileID: 0}
-    isEvidence: 0
-    itemInfo: 
+    isEvidence: 1
+    itemInfo: An unsent letter written by Admiral Hold filing for divorce from his
+      wife, Theodosia. The letter is dated the day before his death. It claims that
+      Theodosia has commited adultery.
+  isHide: 0
+  isClicked: 0
 --- !u!212 &147744918
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -436,7 +440,7 @@ SpriteRenderer:
   m_SortingLayerID: -1811482617
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2603993927680779433, guid: 614c6db5bc596fa44bc9efa406096d6b, type: 3}
+  m_Sprite: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -456,7 +460,7 @@ Transform:
   m_GameObject: {fileID: 147744915}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.64, y: -0.74, z: 0}
+  m_LocalPosition: {x: 0.3, y: -3.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -500,7 +504,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 1.15, y: 0.47}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -596,6 +600,83 @@ Transform:
   - {fileID: 106605834}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &213979319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1235836600152257404, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: inkJson
+      value: 
+      objectReference: {fileID: 4900000, guid: 54d6e94227fb63743a36e1bbae5736bc, type: 3}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: npcDetails.npcName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Name
+      value: Admiral Hold Torn Coat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
 --- !u!1 &1032270921
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,10 +760,89 @@ PolygonCollider2D:
       - {x: -13.9, y: -5.4}
       - {x: 13.9, y: -5.4}
   m_UseDelaunayMesh: 0
+--- !u!1001 &1453338085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1235836600152257404, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: inkJson
+      value: 
+      objectReference: {fileID: 4900000, guid: 902e71186825a9343a496ff18cb060b2, type: 3}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: npcDetails.npcName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_Name
+      value: Admiral Hold Stab Wounds
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 154824625}
   - {fileID: 92248273}
+  - {fileID: 1453338085}
+  - {fileID: 213979319}
   - {fileID: 147744919}

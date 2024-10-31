@@ -5,15 +5,29 @@ public enum ItemName
     Ticket,
     Chair,
     Candle,
-    Pen
+    brooch,
+    divorce_petition,
+    love_letter_1,
+    love_letter_2,
+    Theodosia_Note,
+    testme,
+    Bloody_Trail,
+    bloody_glove,
+    family_portrait,
+    trellis,
+    bloody_clothes,
+    door_key,
 }
 
 public enum NPCName
 {
     None,
     Maximillian_Hold,
-    LAVENDER_DITCH,
-    ADMIRAL_CHARLES_HOLD
+    Lavender_Ditch,
+    Admiral_Charles_Hold,
+    Avery_Hold,
+    Theodosia_Hold,
+    Dorothy_Tendwell
 }
 
 public enum Location
@@ -22,6 +36,7 @@ public enum Location
     Study,
     Stables,
     Reception,
+    Body,
     On_the_highway_to_hell
 }
 

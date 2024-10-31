@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a7c4a1fbda1dbf4cafd5aeb6a387ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalsInkFile: {fileID: 4900000, guid: 7d0bce988783e2548ba6a78082a896ee, type: 3}
+  globalsInkFile: {fileID: 4900000, guid: df77f1e1494cd604199d4ea25b6f49f0, type: 3}
   typingSpeed: 0.04
   dialoguePanel: {fileID: 101198922}
   portraitImage: {fileID: 2065597594}
