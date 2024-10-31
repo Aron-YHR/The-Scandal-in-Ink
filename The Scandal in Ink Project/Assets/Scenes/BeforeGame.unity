@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
   inkJson: {fileID: 0}
-  isClicked: 0
+  image: {fileID: 0}
 --- !u!1 &284021018
 GameObject:
   m_ObjectHideFlags: 0
