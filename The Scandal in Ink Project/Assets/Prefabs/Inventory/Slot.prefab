@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6384666248355879687}
   - component: {fileID: 7496749333389219550}
   - component: {fileID: -1557758403027624668}
+  - component: {fileID: -6608939997405583805}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -133,6 +134,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: -6608939997405583805}
+        m_TargetAssemblyTypeName: AudioDefinition, Assembly-CSharp
+        m_MethodName: PlayFXAudioClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &-1557758403027624668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,5 +161,20 @@ MonoBehaviour:
   slotItem:
     itemName: 0
     itemIcon: {fileID: 0}
+    isEvidence: 0
     itemInfo: 
   slotImage: {fileID: 6384666248355879687}
+--- !u!114 &-6608939997405583805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044725997488203096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 5f4f9a7d99e9d91429cd7301d7f726d3, type: 3}
+  playOnEnable: 0
