@@ -44,7 +44,7 @@ VAR door_key = false
 VAR Max_proof1 = false
 VAR Max_proof2 = false
 VAR Max_proof3 = false
-
+VAR checked_door = false
 
 
 

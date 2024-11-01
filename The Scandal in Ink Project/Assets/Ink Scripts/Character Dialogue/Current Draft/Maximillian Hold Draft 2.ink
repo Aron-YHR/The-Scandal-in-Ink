@@ -187,7 +187,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 'Tis already forgotten, good sir! I tend to ignore the ramblings of common folk
 ->Start
 
-+[I don't have anymore proof. I'll find some! And then everyone will know what you did!]
++[I'll find more proof! And then everyone will know what you did!]
 While I find your- <i>passion</i>- for your work most endearing, sir, might I suggest you direct it towards someone more worthy of its focus?
 Have you performed a thorough inspection of the stables, for instance?
 ->Start
@@ -276,7 +276,7 @@ Oh heavens, sir! Bribery? Moi? Never!
 
 
 =Bargaining_Cont
-I am merely waxing lyricalabout how <i>tricky</i> a thing the truth is, sir. Why, had I not given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
+I am merely waxing lyrical, sir! How <i>tricky</i> a thing the truth is, is it not. Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
 Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative? Particularly for a family man such as yourrself...
 
 
