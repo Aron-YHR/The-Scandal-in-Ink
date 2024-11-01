@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDetails:
-    itemName: 3
+    itemName: 16
     itemIcon: {fileID: 0}
     isEvidence: 0
     itemInfo: 
@@ -836,7 +836,7 @@ PrefabInstance:
     - target: {fileID: 1235836600152257404, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: inkJson
       value: 
-      objectReference: {fileID: 4900000, guid: adddfa3601e56e349b5e755a536d96a8, type: 3}
+      objectReference: {fileID: 4900000, guid: e56f8556866338f4aae64ec29b04d7d1, type: 3}
     - target: {fileID: 1878073013477322716, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -932,7 +932,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3727998547543468360, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: itemDetails.itemName
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Name

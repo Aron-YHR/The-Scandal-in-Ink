@@ -103,6 +103,7 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         if (journal.npcList.Find(i => i.npcName == npcDetails.npcName) == null)
         {
+            ShowJournalHighlight();
             //NPCDetails npc = new NPCDetails();
             //npc = npcDetails;
             journal.npcList.Add(npcDetails);
@@ -148,7 +149,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public void UnlockStatementsInJournal(string npcName, int index) 
     {
         //string statement = npcData.npcDetailsList.Find(i => i.npcName.ToString() == npcName).npcStatements[index-1];
-
+        ShowJournalHighlight();
         journal.npcList.Find(i => i.npcName.ToString() == npcName).npcStatements[index-1].isUnlocked = true;
 
         // sort the statements 
