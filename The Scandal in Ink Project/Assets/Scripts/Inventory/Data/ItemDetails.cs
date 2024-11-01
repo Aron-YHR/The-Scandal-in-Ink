@@ -11,6 +11,8 @@ public class ItemDetails
 
     public bool isEvidence;
 
+    public int value;
+
     [TextArea]
     public string itemInfo;
 }

@@ -32,6 +32,12 @@ public class BillsScript : ScriptableObject
     public int medicineImpact;
     public int schoolingImpact;
 
+    public void SetDefault()
+    {
+        Savings = 0;
+        Salary = 24;
+        Misc_income = 0;
+    }
 
     public int GetValue(string tag)
     {

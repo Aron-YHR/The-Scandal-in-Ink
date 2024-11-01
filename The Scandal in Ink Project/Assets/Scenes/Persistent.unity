@@ -10924,6 +10924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemData: {fileID: 11400000, guid: fd0b044331f742345a7075c0dac077aa, type: 2}
   npcData: {fileID: 11400000, guid: cff0b79b477dbc643b75821b7a0700f8, type: 2}
+  billsScript: {fileID: 11400000, guid: a80f261d9a68d3345a0e2fa92d642612, type: 2}
   journal: {fileID: 11400000, guid: d749c2e3e4db39d488eee8e2a9c9989c, type: 2}
   slotGrid: {fileID: 1644741260}
   slotPrefab: {fileID: -1557758403027624668, guid: 86d621e48bba14145a63aeb37408728a, type: 3}

@@ -8,6 +8,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
     public ItemDataList_SO itemData;
     public NPCDataList_SO npcData;
+    public BillsScript billsScript;
 
     public Inventory journal;
 
@@ -38,6 +39,7 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         journal.itemList.Clear();
         journal.npcList.Clear();
+        billsScript.SetDefault();
         RefreshItem();
         RefreshNPC();
     }
@@ -54,6 +56,9 @@ public class InventoryManager : Singleton<InventoryManager>
             //ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(itemDetails);
+
+            if(itemDetails.value != 0)
+            billsScript.Savings += itemDetails.value;
 
             // renew the item's state in game
             EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work

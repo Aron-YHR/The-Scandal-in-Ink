@@ -31,9 +31,7 @@ public class FamilyManager : Singleton<FamilyManager>
         {
             wellbelingList[i] = familyMember_SO.familyMembersList[i].wellbeing;
         }*/
-        SalaryPayText.text = billsScript.Salary.ToString()+"s";
-        extraPayText.text = billsScript.Misc_income.ToString()+"s";
-        savingsText.text = billsScript.Savings.ToString() + "s";
+        
     }
 
     private void OnEnable()
@@ -41,6 +39,10 @@ public class FamilyManager : Singleton<FamilyManager>
         submitButton.SetActive(true);
         cost = billsScript.Rent;
         costText.text = cost.ToString()+"s";
+
+        SalaryPayText.text = billsScript.Salary.ToString() + "s";
+        extraPayText.text = billsScript.Misc_income.ToString() + "s";
+        savingsText.text = billsScript.Savings.ToString() + "s";
     }
 
     public void SelectExpenseOption(string expenseOption, bool isChosen)
