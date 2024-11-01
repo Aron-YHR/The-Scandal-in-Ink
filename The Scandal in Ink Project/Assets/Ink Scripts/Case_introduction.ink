@@ -98,18 +98,34 @@ But I assure you, six months from now, every man about town shall be following s
 I am not typically one for interviews, being a terribly shy and private individual-
 But for you, mon cheri, I shall make an exception!
 
-+[Actually, I was invited here by the Admiral.]
-
++[Actually, I came here to speak to the Admiral.]
+->Theodosia_Enters
 
 +[I don't care about your gloves! A man is dead!]
-
+->Theodosia_Enters
 
 
 +[This is going to revolutionise high fashion. I'm giving you a front page spread!]
+->Theodosia_Enters
 
 
 
 
+=Theodosia_Enters
+Maximillian, sir, it seems that the Admiral requested to speak to the gentleman before you. Apparently he had a story he felt important to share with the Weekly Wag- and the wider world.
 
-->DONE
+
+A journalist, you say? #speaker: Theodosia_Hold #layout:left
+How enterprising of Charles to summon a newspaperman to Wenchwatch Hall in anticipation of his own murder.
+Such was the nature of my late husband- always a most forward-thinking fellow.
+
+
+Lady Hold! You should be resting! #speaker: Ms. Tendwell #layout:right
+
+Dorothy, I assure you, I am most well rested. One of the few benefits of widowhood is a night's sleep free of undisturbed sleep.
+A pleasure to meet you, sir. One is a most avid reader of your publication. The exposé on Lady Sullivan's imndecent table etiquette was <i>particularly</i> delectable.
+
+
+
+
 
