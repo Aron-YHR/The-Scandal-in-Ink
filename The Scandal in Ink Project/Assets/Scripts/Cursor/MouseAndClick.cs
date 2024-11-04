@@ -17,6 +17,11 @@ public class MouseAndClick : Singleton<MouseAndClick>
     void Update()
     {
         canClick = ObjectAtMousePosition();
+        /*if (ObjectAtMousePosition() != null)
+        {
+            Debug.Log(ObjectAtMousePosition().gameObject.name);
+        }*/
+        
 
         if(DialogueManager.GetInstance().dialogueIsPlaying || UIManager.Instance.isUIOpened)
         {
@@ -33,6 +38,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
             // identify the situations of mouse interaction
             if (hand.gameObject.activeInHierarchy)
             handAnimator.Play("HandGrab");
+
             ClickAction(ObjectAtMousePosition().gameObject);
 
 
@@ -53,6 +59,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
 
     private void ClickAction(GameObject clickObject)
     {
+        Debug.Log(clickObject.tag);
         switch (clickObject.tag)
         {
             case "Teleport":

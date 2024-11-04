@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
     public ItemDataList_SO itemData;
     public NPCDataList_SO npcData;
+    public BillsScript billsScript;
 
     public Inventory journal;
 
@@ -20,6 +22,8 @@ public class InventoryManager : Singleton<InventoryManager>
     public NPCDetailPanel npcDetailPanel;
 
     public GameObject journalHighlight;
+
+    private ItemDetails currentItem;
 
     private void OnEnable()
     {
@@ -38,13 +42,14 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         journal.itemList.Clear();
         journal.npcList.Clear();
+        billsScript.SetDefault();
         RefreshItem();
         RefreshNPC();
     }
 
     public void AddItem(ItemDetails itemDetails) // to be optimized
     {
-
+        currentItem = itemDetails;
         //Debug.Log(journal.itemList.Contains(item));
         if (journal.itemList.Find(i => i.itemName == itemDetails.itemName) == null)
         {
@@ -55,11 +60,19 @@ public class InventoryManager : Singleton<InventoryManager>
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(itemDetails);
 
+            /*if(itemDetails.value != 0)
+            billsScript.Savings += itemDetails.value;*/
+
             // renew the item's state in game
             EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work
 
             RefreshItem();
         }
+    }
+
+    public void AddItemValue()
+    {
+        billsScript.Savings += currentItem.value;
     }
 
     public static void CreateNewItem(ItemDetails item)
@@ -103,6 +116,7 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         if (journal.npcList.Find(i => i.npcName == npcDetails.npcName) == null)
         {
+            ShowJournalHighlight();
             //NPCDetails npc = new NPCDetails();
             //npc = npcDetails;
             journal.npcList.Add(npcDetails);
@@ -148,7 +162,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public void UnlockStatementsInJournal(string npcName, int index) 
     {
         //string statement = npcData.npcDetailsList.Find(i => i.npcName.ToString() == npcName).npcStatements[index-1];
-
+        ShowJournalHighlight();
         journal.npcList.Find(i => i.npcName.ToString() == npcName).npcStatements[index-1].isUnlocked = true;
 
         // sort the statements 

@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class DeductionPanel : MonoBehaviour
 {
     public DeductionDataList_SO deductionData;
+
     public TMP_Dropdown nameDropdown;
     public TMP_Dropdown locationDropdown;
     public TMP_Dropdown motiveDropdown;
@@ -23,11 +24,10 @@ public class DeductionPanel : MonoBehaviour
     void Start()
     {
         nameDropdown.AddOptions(deductionData.GetNPCNameList());
-        locationDropdown.AddOptions(deductionData.locationList);
-        motiveDropdown.AddOptions(deductionData.motiveList);
-        escapeDropdown.AddOptions(deductionData.wayOfEscapeList);
-
-        
+        locationDropdown.AddOptions(deductionData.GetLocationList());
+        motiveDropdown.AddOptions(deductionData.GetMotiveList());
+        escapeDropdown.AddOptions(deductionData.GetWayOfEscapeList());
+   
     }
 
     public void ChangeImage()
@@ -38,9 +38,27 @@ public class DeductionPanel : MonoBehaviour
     public void GoToFamily()
     {
         var currentScene = SceneManager.GetActiveScene().name;
-        TransitionManager.Instance.Transition(currentScene, "Family");
+        TransitionManager.Instance.Transition(currentScene, "Family");  
+    }
 
-        
+    public void SubmitNews()
+    {
+        int totalIncome = 0;
+        if (deductionData.nameAndImageList[nameDropdown.value].isTheRightAnswer)
+        {
+            totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount
+            + deductionData.locationList[locationDropdown.value].amount
+            + deductionData.motiveList[motiveDropdown.value].amount
+            + deductionData.wayOfEscapeList[escapeDropdown.value].amount;
+            
+        }
+        else
+        {
+            totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
+        }
+        Debug.Log(totalIncome);
+
+        InventoryManager.Instance.billsScript.Salary = totalIncome;
     }
 
 }

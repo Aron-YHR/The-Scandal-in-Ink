@@ -109,6 +109,8 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
         float rectWith = envir.size.x / 2;
         float rectHeight = envir.size.y / 2;
 
+        //Debug.Log(rectWith +" " +rectHeight);
+
         return new Rect(0-rectWith/2, 0-rectHeight/2, rectWith, rectHeight);
     }
 
