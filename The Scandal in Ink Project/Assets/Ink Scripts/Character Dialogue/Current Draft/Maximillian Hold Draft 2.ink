@@ -368,7 +368,7 @@ His hands are ungloved and unadorned.
 
 
 +[<i>Return to the conversation.</i>]
-<i>You focus back on your conversation.</i>
+<i>You return to your conversation.</i>
 ->Start
 
 =Pickpocket

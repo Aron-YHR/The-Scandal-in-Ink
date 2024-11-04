@@ -25,11 +25,12 @@ VAR brooch = false
 VAR missing_jewel = false
 VAR love_letter_1 = false
 VAR love_letter_2 = false
+VAR iliad = false
 
 //STATEMENTS
 VAR theodosia_confession = false
 VAR lavender_confession = false
-VAR iliad_confiscated = false
+
 
 //EXTERNAL FUNCTIONS
 EXTERNAL unlockStatement(npcName, index)
@@ -51,6 +52,22 @@ VAR checked_door = false
 
 //Theodosia
 VAR mannish_hands_gag = false
+
+
+
+//Dorothy
+VAR iliad_confiscated = false
+VAR overheard_argument = false
+
+
+
+//Greeted
+
+
+
+
+//Avery
+VAR avery_book_confession = false
 
 
 

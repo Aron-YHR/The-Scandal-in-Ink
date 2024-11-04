@@ -60,13 +60,17 @@ MonoBehaviour:
     location: Study
     npcInfo: The son of Admiral Hold and his wife, Theodosia Hold
     npcStatements:
-    - statementLine: 1. I saw him...
+    - statementLine: Avery states he overheard an argument in the study between someone
+        and the Admiral before his murder.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: Avery states he witnessed the murderer escape through the study
+        window.
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: Avery states that Theodosia and Maximillian go horseback riding
+        on a weekly basis.
       isUnlocked: 0
-    - statementLine: 4.
+    - statementLine: Avery admitted that he was angry at his father for confiscating
+        his book
       isUnlocked: 0
     - statementLine: 5.
       isUnlocked: 0

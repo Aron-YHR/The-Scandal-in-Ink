@@ -1,15 +1,18 @@
 INCLUDE Secrets.ink
 
- #speaker: Ms. Tendwell
-Yes, sir?
+
+->INTRO
+===INTRO===
 -> Start
 
+
+
 === Start ===
-   
+  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Ms. Tendwell
 
 +[Where were you the night of the murder?]
-Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery screaming.
-I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while still in my nightgown. 
+Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
+I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
 I'm afraid by the time I found him, poor Avery had already seen the Amdiral's-
 By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
 ->Night_Of_Murder
@@ -29,8 +32,8 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 
 
 +[<i>Examine the suspect.</i>]
-<i> You subtly inspect Dorothy for clues.</i>
-->Examination
+Test.
+<i>You subtly inspect Dorothy for clues.</i> ->Examination
 
 +[Leave]
 ->DONE
@@ -49,18 +52,15 @@ Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. 
 ===Night_Of_Murder===
 
 
-+[Did anything unusual happen before the murder?]
-Well sir, that evening I was cleaning the Admiral's duelling pistols when I heard a commotion in the Admiral's study. There, I overheard the Admiral and Lady Hold in a rather heated conversation. Lady Hold left the Admiral's office quite distraught.
++[Did anything unusual happen yesterday?]
+Well, I did notice... <i>something</i>.
+Yesterday evening, while I was dusting down the stairwell, I overheard the Admiral and Lady Hold in a rather- heated conversation. Lady Hold left the Admiral's office quite distraught.
 I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters. And that is where I stayed until I heard the young master scream.
+~overheard_argument = true
 ->Night_Of_Murder
 
-+[Did you hear what Charles and Theodosia were arguing about?]
++{overheard_argument}[Did you hear what Charles and Theodosia were arguing about?]
 Lady Hold has often tells me she considers it is vulgar when servants make excessive use of their senses and faculties, so I thought it especially rude to listen.
-->Night_Of_Murder
-
-+[Why were you cleaning the Admiral's duelling pistols?]
-Well, before he- expired- Admiral Hold requested that I prepare his duelling pistols for him.
-He seemed to imply that he would have some use for them upon your arrival, though what use exactly, I couldn't say
 ->Night_Of_Murder
 
 +[Do you think Avery could have been involved in the Admiral's death somehow?]
@@ -97,16 +97,22 @@ A bit- lustful, if you'll excuse my language.
 =Lustful
 +[Has Maximillian made inappropriate advances towards you?]
 I'm afraid so. Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
-But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law.
+But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law. 
+I could hardly believe a man with such a noble reputation could have such a- philanderer, to be quite frank!
+~ unlockStatement("Dorothy_Tendwell", 3)
 -> Relationship
 
 +[Wait, you mean the gay guy in the wig?!]
-Sir Maximillian is a very happy and joyous gentleman, sir, I quite agree. I only wish his behaviour was more gentlemanly. I could hardly believe a man with such class and elegant fashion could have such a- wandering hand.
+Sir Maximillian is a very happy and joyous gentleman, sir, I quite agree. I only wish his behaviour was more gentlemanly. 
+Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
+But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law. 
+I could hardly believe a man with such a noble reputation could have such a- philanderer, to be quite frank!
+~ unlockStatement("Dorothy_Tendwell", 3)
 ->Relationship
 
 
 +[Let's move on.]
-Os you wish, sir.
+As you wish, sir.
 ->Relationship
 
 //No re-writes urgently needed
@@ -214,7 +220,6 @@ Thank you, sir. Truly. Thank you.
 
 
 ===Examination===
-
 +[Examine her hands.]
 <i> Her hands are clean and unmarked.  </i>
 ->Examination
@@ -229,7 +234,7 @@ Thank you, sir. Truly. Thank you.
 
 
 +[Return to the conversation]
--> Start
+<i>Your focus returns to the conversation at hand.</i> -> Start
 
 
 
