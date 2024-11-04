@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FamilyManager : Singleton<FamilyManager>
@@ -188,6 +189,8 @@ public class FamilyManager : Singleton<FamilyManager>
             warningPanel.SetActive(true);
             //Debug.Log("There is not enough income for expenditure");
         }
+
+        TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
     }
 
 

@@ -86,21 +86,24 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
 
     public void GetNewSceneSpriteRenderer()
     {
-        envir = GameObject.FindGameObjectWithTag("Background").GetComponent<SpriteRenderer>();
-        if (envir != null) 
+        if (canMove)
         {
-            //Debug.Log( Screen.width);
-            //Debug.Log(envir.sprite.texture.Size().y / 2 - Screen.height);
+            envir = GameObject.FindGameObjectWithTag("Background").GetComponent<SpriteRenderer>();
+            if (envir != null)
+            {
+                //Debug.Log( Screen.width);
+                //Debug.Log(envir.sprite.texture.Size().y / 2 - Screen.height);
 
-            // set the area for limiting player pos
-            rectArea = SetArea();
+                // set the area for limiting player pos
+                rectArea = SetArea();
 
-            // get the collider for virtual camera
-            cinemachine.GetComponent<CinemachineConfiner>().m_BoundingShape2D = envir.GetComponentInChildren<PolygonCollider2D>();
-        }
-        else
-        {
-            Debug.LogWarning("No Environment");
+                // get the collider for virtual camera
+                cinemachine.GetComponent<CinemachineConfiner>().m_BoundingShape2D = envir.GetComponentInChildren<PolygonCollider2D>();
+            }
+            else
+            {
+                Debug.LogWarning("No Environment");
+            }
         }
     }
 

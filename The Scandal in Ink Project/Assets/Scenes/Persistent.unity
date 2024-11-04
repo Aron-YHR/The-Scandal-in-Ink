@@ -17215,6 +17215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c78b9240195ccd8459343efd3669407f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 25
+  edgeScrollSize: 30
   cinemachine: {fileID: 1452090258}
   envir: {fileID: 0}
   canMove: 0

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -56,9 +57,16 @@ public class DeductionPanel : MonoBehaviour
         {
             totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
         }
+
+        InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(locationDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(motiveDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(escapeDropdown.value);
+
         Debug.Log(totalIncome);
 
         InventoryManager.Instance.billsScript.Salary = totalIncome;
+        
     }
 
 }
