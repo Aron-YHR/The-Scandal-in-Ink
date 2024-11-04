@@ -23,12 +23,15 @@ By which I mean that the Admiral was- Oh, even the mention of it- it's too horri
 Suspicious, sir? I'm not sure I understand.
 ->Suspicious
 
-
++{checked_door and not door_key}[Can I have the key to Maximillian's room?]
+->Door_Key
 
 +[What did you think of Admiral Hold?]
 Admiral Hold was an excellent employer. He provided me with clean lodgings, a warm bed, and six shillings a week in pay. And he adored little Avery. I thought very highly of him.
 -> Relationship
 
+*{love_letter_1 or love_letter_2 and not extort_Dorothy} [Ms. Tendwell, I found some letters that you wrote...]
+->Lesbians_Revealed
 
 
 +[<i>Examine the suspect.</i>]
@@ -40,12 +43,7 @@ Test.
 
 
 
-+{love_letters and not extort_Dorothy} [Ms. Tendwell, I found some letters that you wrote...]
-I-
-How could you possibly have- Oh heavens. Oh heavens!  Oh <i>heavens</i>!
-Sir, this is not what you think it is! I know the content of those letters is terribly debaucherous. But I can explain, sir, truly!
-Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. She would be so ashamed to discover her lady's maid drawing such- lewd images!
-->Lesbians_Revealed
+
 
 
 //No re-writes urgently needed
@@ -141,26 +139,43 @@ Poor Lady Hold. She would never dare admit it, but she was terribly upset over h
 
 
 ===Lesbians_Revealed===
+I-
+How could you possibly have- Oh heavens. Oh heavens!  Oh <i>heavens</i>!
+Sir, this is not what you think it is! I know the content of those letters is terribly debaucherous. But I can explain, sir, truly!
+Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. She would be so ashamed to discover her lady's maid drawing such- lewd images!
+
+
 
 *[What's the big deal? It's just an ankle.]
-Thank you for being so kind, sir, but I know you must think, and you're quite right: I'm a harlot. A strumpet. I've turned the noble Wenchwatch Hall into a mere brothel!
-But I swear to you, those letters were a momentary lapse in judgement, and L-
-They were only ever intended for one particular person's private enjoyment. They were not intended for- public consumption.
-
-->Lesbians_Revealed
+Thank you for being so kind, sir, but I know what you must think of me, and you're quite right: I'm a harlot. 
+A strumpet!
+I've turned the noble Wenchwatch Hall into a mere brothel!
+But I swear to you, those letters were a momentary lapse in judgement!
+And those letters- they were only ever intended for her- personal enjoyment. I never had any intention to make such a lewd drawing for- public consumption!
+Sir, I beg you- 
+People may not understand what Lavender and I <i>are</i>, and should Lady Hold find out- should our families find out-!
+I fear what the consequences might be for us...
+Would you consider keeping our- <i>special</i> connection- private?
+->Lesbians_Cont
 
 *[You trollop!]
 You are quite right sir. I've debased myself. You must think me some sort of harlot, or strumpet, or- brothel-keeper. I've disgraced the name of noble Wenchwatch Hall.
-But I swear to you, those letters were a momentary lapse in judgement, and L-
-They were only ever intended for one particular person's private enjoyment. They were not intended for- public consumption.
-->Lesbians_Revealed
+But I swear to you, those letters were a momentary lapse in judgement!
+Lavender and I- you see- she merely has a friendly interest in my ankles! That is all!
+And those letters- they were only ever intended for her- personal enjoyment! I never had any intention to make such a lewd drawing!
+Sir, I beg you- 
+People may not understand what Lavender and I <i>are</i>, and should Lady Hold find out- should our families find out-!
+I fear what the consequences might be for us...
+Would you consider keeping our- <i>special</i> connection- private?
+->Lesbians_Cont
 
-+{found_lavender_name} [So, you and Lavender are an item?]
++[So, you and Lavender are an item?]
 Lavender and I...
-Yes. Lavender and I are together. I'm sure this must surprise you. 
-People may not understand what Lavender- what <i>we</i> are, and should Lady Hold- should our families find out about us-
-I fear what the consequences of their discovery might be.
-Could you possibly consider not mentioning our- connection- in your article?
+Yes. Lavender and I are together. I'm sure this must surprise you. I knw it's an- <i>unusual</i> arrangement.
+Sir, I beg you- 
+People may not understand what Lavender and I <i>are</i>, and should Lady Hold find out- should our families find out-!
+I fear what the consequences might be for us...
+Would you consider keeping our- <i>special</i> connection- private?
 ->Lesbians_Cont
 
 
@@ -171,35 +186,28 @@ Could you possibly consider not mentioning our- connection- in your article?
 =Lesbians_Cont
 
 +[Don't worry. I'll keep this to myself.]
-Thank you, sir. I can't possibly thank you enough.
-->Start
+Thank you, sir. I can't possibly thank you enough. ->Start
 
-+{checked_door}[I will- if you give me the key to Maximillian's room?]
++{checked_door and not door_key}[I'll keep this quiet- if you give me the key to Maximillian's room.]
 The key to- well- I suppose, given the present situation- just this once- I can permit you access to Maximillian's private quarters. I shall fetch it for you.
-Now I beg you to forget you ever saw those letters. It was a momentary lapse in judgement, I swear. I will never so recklessly depict an ankle again!
 ~door_key = true
-->Start
+Now I beg you to forget you ever saw those letters. I promise I shall never so recklessly sketch an ankle again! ->Start
 
 +[This is too juicy to pass up! It's going on the front page!]
-Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action!
-->Start
+Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action! ->Start
 
 +[Okay. But it's gonna cost you.]
-Cost, sir? I'm not sure I understand.
-->Extortion
+Cost, sir? I'm not sure I understand. ->Extortion
 
 
 =Extortion
 
-+[I'm blackmailing you, idiot! Haven't you ever met a journalist before?!]
-->Extortion_Final
++[I'm blackmailing you, idiot! Haven't you ever met a journalist before?!] ->Extortion_Final
 
-+[I'll keep this quiet. For a fee.]
-->Extortion_Final
++[I'll keep this quiet. For a fee.] ->Extortion_Final
 
 +[Neither do I. Let's forget I said anything.]
-I see. Thank you, sir.
-->Start
+I see. Thank you, sir. ->Start
 
 
 =Extortion_Final
@@ -207,11 +215,11 @@ I see. Thank you, sir.
 Oh. I see. I don't mean to anger you, sir, but I have precious little to give. One week's wages is all I have in savings.
 
 +[Pay up or let the world know. Your choice.]
-I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened.
-->Start
+I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened. ->Start
 +[I'm sorry, but I need the money. I have a family. My kids need to eat.]
-I see. Very well, sir. Here. That is everything I have. Now please. Let us both forget this conversation ever happened.
+I see. Very well, sir. Here. That is everything I have.
 ~extort_Dorothy = true
+Now please. Let us both forget this conversation ever happened.
 ->Start
 
 +[Never mind. Forget I said anything.]
@@ -236,7 +244,31 @@ Thank you, sir. Truly. Thank you.
 +[Return to the conversation]
 <i>Your focus returns to the conversation at hand.</i> -> Start
 
+===Door_Key===
 
+
+
+{
+
+- dorothy_confession: ->Gives_Key
+
+- else: ->Keeps_Key
+
+}
+
+
+
+
+=Gives_Key
+I suppose I could lend you the key...
+~door_key = true
+As long as the letters between myself and Lavender remain- private?
+*[Whatever you say. Now gimme that key!]
+Very well. Here you are. But please do return it swiftly! If Lady Hold were to find out I were doing this-
+Oh, heavens- forgive me, Lady Hold... ->Start
+
+=Keeps_Key
+I- don't think that would be appropriate, sir.->Start
 
 
 

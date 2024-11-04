@@ -86,7 +86,7 @@ Well, he's rather-
 
 <i>Dead!</i> #speaker: ??? #layout:left
 ~Transition("Table","Study")
-<i>Dispatched!</i>  #speaker: Maximillian_Hold #layout:left
+<i>Dispatched!</i> 
 <i>Deceased!</i>
 
 
