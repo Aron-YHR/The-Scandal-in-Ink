@@ -16,7 +16,7 @@ MonoBehaviour:
   - itemName: 4
     itemIcon: {fileID: 21300000, guid: bbc6c86941f95fe44b04e95f280b2819, type: 3}
     isEvidence: 1
-    value: 10
+    value: 0
     itemInfo: The candle is lighted...
   - itemName: 5
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
@@ -73,7 +73,7 @@ MonoBehaviour:
   - itemName: 7
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
-    value: 0
+    value: 10
     itemInfo: A love letter between Lavender and Dorothy. Testing to see if this
       works!
   - itemName: 8

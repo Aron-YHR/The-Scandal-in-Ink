@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +22,8 @@ public class InventoryManager : Singleton<InventoryManager>
     public NPCDetailPanel npcDetailPanel;
 
     public GameObject journalHighlight;
+
+    private ItemDetails currentItem;
 
     private void OnEnable()
     {
@@ -46,7 +49,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
     public void AddItem(ItemDetails itemDetails) // to be optimized
     {
-
+        currentItem = itemDetails;
         //Debug.Log(journal.itemList.Contains(item));
         if (journal.itemList.Find(i => i.itemName == itemDetails.itemName) == null)
         {
@@ -57,14 +60,19 @@ public class InventoryManager : Singleton<InventoryManager>
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(itemDetails);
 
-            if(itemDetails.value != 0)
-            billsScript.Savings += itemDetails.value;
+            /*if(itemDetails.value != 0)
+            billsScript.Savings += itemDetails.value;*/
 
             // renew the item's state in game
             EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work
 
             RefreshItem();
         }
+    }
+
+    public void AddItemValue()
+    {
+        billsScript.Savings += currentItem.value;
     }
 
     public static void CreateNewItem(ItemDetails item)

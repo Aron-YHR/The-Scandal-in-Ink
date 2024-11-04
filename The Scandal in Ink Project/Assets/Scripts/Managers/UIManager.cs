@@ -9,6 +9,10 @@ public class UIManager : Singleton<UIManager>
     public FamilyMember_SO familyMembers;
 
     public GameObject showcasePanel;
+
+    public GameObject putbackButton;
+    public GameObject takeButton;
+
     public Image itemShowcaseImg;
     public TextMeshProUGUI infoText;
     public TextMeshProUGUI itemNameText;
@@ -56,9 +60,21 @@ public class UIManager : Singleton<UIManager>
         showcasePanel.gameObject.SetActive(true);
         CameraFollowMouse.Instance.DesactivateMove();
 
+        if(itemDetails.value > 0)
+        {
+            putbackButton.SetActive(true);
+            takeButton.SetActive(true);
+        }
+        else
+        {
+            putbackButton.SetActive(false);
+            takeButton.SetActive(false);
+        }
+
         itemShowcaseImg.sprite = itemDetails.itemIcon;
         infoText.text = itemDetails.itemInfo;
         itemNameText.text = itemDetails.itemName.ToString();
     }
+
 
 }
