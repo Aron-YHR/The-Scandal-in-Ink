@@ -64,7 +64,7 @@ Perhaps it's best you just see for yourself...
 
 
 +[Lady, I'm not leaving here without a story!]
-I see.
+...I see.
 Well, seeing as you are so <i>insistent</i> I suppose it's best you see for yourself.
 If you'd follow me.
 ~Transition("BeforeGame","Table")
@@ -82,11 +82,11 @@ Please, sir- follow me.
 
 ===Body===
 As you can see sir, the Admiral is quite-
-Well, he's rather-
+Well, he's slightly-
 
 <i>Dead!</i> #speaker: ??? #layout:left
 ~Transition("Table","Study")
-<i>Dispatched!</i> 
+<i>Dispatched!</i>  #speaker: ??? #layout:left
 <i>Deceased!</i>
 
 
