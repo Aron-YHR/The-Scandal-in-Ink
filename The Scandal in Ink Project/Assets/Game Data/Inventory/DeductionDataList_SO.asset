@@ -13,22 +13,38 @@ MonoBehaviour:
   m_Name: DeductionDataList_SO
   m_EditorClassIdentifier: 
   locationList:
-  - Study
-  - Stables
-  - Reception
-  - On the highway to hell
+  - text: Study
+    amount: 5
+  - text: Reception
+    amount: 5
+  - text: On the highway to hell
+    amount: 0
+  - text: New York
+    amount: 0
   motiveList:
-  - For bad romance
-  - Some people just for the fame
-  - For fortune
+  - text: For the fortune
+    amount: 5
+  - text: I don't give a fxxk
+    amount: 0
+  - text: 13 reasons
+    amount: 0
   wayOfEscapeList:
-  - Got out of the window
-  - Rode a horse
-  - Everyone blinded by the light
+  - text: Running
+    amount: 5
+  - text: Dance the night away
+    amount: 5
+  - text: Like a firework
+    amount: 0
   nameAndImageList:
   - name: Maximillian Hold
     image: {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
+    amount: 30
+    isTheRightAnswer: 1
   - name: ADMIRAL CHARLES HOLD
     image: {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
+    amount: 20
+    isTheRightAnswer: 0
   - name: LAVENDER DITCH
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    amount: 10
+    isTheRightAnswer: 0
