@@ -714,6 +714,7 @@ GameObject:
   - component: {fileID: 927077266}
   - component: {fileID: 927077265}
   - component: {fileID: 927077264}
+  - component: {fileID: 927077267}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -797,6 +798,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 927077267}
+        m_TargetAssemblyTypeName: AudioDefinition, Assembly-CSharp
+        m_MethodName: PlayFXAudioClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &927077265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,6 +848,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927077262}
   m_CullTransparentMesh: 1
+--- !u!114 &927077267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927077262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 61cec8d94d269154b9c7a93dc681e529, type: 3}
+  playOnEnable: 0
 --- !u!1 &963512691
 GameObject:
   m_ObjectHideFlags: 0
