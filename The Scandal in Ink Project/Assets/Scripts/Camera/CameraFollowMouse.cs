@@ -9,8 +9,8 @@ using UnityEngine;
 
 public class CameraFollowMouse : Singleton<CameraFollowMouse>
 {
-    private float moveSpeed = 25f;
-    private int edgeScrollSize = 30;
+    public float moveSpeed = 25f;
+    public int edgeScrollSize = 30;
     private Vector3 moveDir;
     //private Vector3 preDir;
     private Vector3 inputDir;
