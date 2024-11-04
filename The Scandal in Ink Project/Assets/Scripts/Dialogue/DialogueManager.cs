@@ -100,10 +100,10 @@ public class DialogueManager : MonoBehaviour
     {
 
         // return right away if dialogue isn't playing
-        if (!dialogueIsPlaying)
+        /*if (!dialogueIsPlaying)
         {
             return;
-        }
+        }*/
 
         
         /*if (isClicked)

@@ -13,11 +13,32 @@ MonoBehaviour:
   m_Name: NPCDataList_SO
   m_EditorClassIdentifier: 
   npcDetailsList:
-  - npcName: 1
+  - npcName: 5
     npcIcon: {fileID: -7971006780844452549, guid: 8db028811e2620e479a3e4171ba5d4b7, type: 3}
     npcPortrait: {fileID: -1923596855291015120, guid: e84264d80a109144fbe85092a1ff3300, type: 3}
     location: Study
-    npcInfo: She is a wonderful wowan...
+    npcInfo: Lady of the house & widow of the victim, Admiral Charles Hold. Mother
+      to Avery Hold.
+    npcStatements:
+    - statementLine: Theodosia confessed to having an affair with Maximillian Hold.
+      isUnlocked: 0
+    - statementLine: 2. I was so shocked just like on the highway to hell...
+      isUnlocked: 0
+    - statementLine: 3. You know nothing, Mr. Journalist...
+      isUnlocked: 0
+    - statementLine: 4.
+      isUnlocked: 0
+    - statementLine: 5.
+      isUnlocked: 0
+    - statementLine: 6.
+      isUnlocked: 0
+    - statementLine: 7.
+      isUnlocked: 0
+  - npcName: 6
+    npcIcon: {fileID: 1854441317433310767, guid: 3db6ab2ca03711542a0c949a91aca2d4, type: 3}
+    npcPortrait: {fileID: 1854441317433310767, guid: 3db6ab2ca03711542a0c949a91aca2d4, type: 3}
+    location: Reception
+    npcInfo: The maid of Wenchwatch Hall.
     npcStatements:
     - statementLine: 1. I saw him...
       isUnlocked: 0
@@ -33,9 +54,85 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 7.
       isUnlocked: 0
-  - npcName: 0
-    npcIcon: {fileID: 0}
-    npcPortrait: {fileID: 0}
-    location: 1
-    npcInfo: 1
-    npcStatements: []
+  - npcName: 4
+    npcIcon: {fileID: 7387482362178865813, guid: a1c34d8bca1dad64a910a9766dcf992a, type: 3}
+    npcPortrait: {fileID: 7387482362178865813, guid: a1c34d8bca1dad64a910a9766dcf992a, type: 3}
+    location: Study
+    npcInfo: The son of Admiral Hold and his wife, Theodosia Hold
+    npcStatements:
+    - statementLine: 1. I saw him...
+      isUnlocked: 0
+    - statementLine: 2. I was so shocked just like on the highway to hell...
+      isUnlocked: 0
+    - statementLine: 3. You know nothing, Mr. Journalist...
+      isUnlocked: 0
+    - statementLine: 4.
+      isUnlocked: 0
+    - statementLine: 5.
+      isUnlocked: 0
+    - statementLine: 6.
+      isUnlocked: 0
+    - statementLine: 7.
+      isUnlocked: 0
+  - npcName: 1
+    npcIcon: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
+    npcPortrait: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
+    location: Study
+    npcInfo: The younger brother of Admiral Hold.
+    npcStatements:
+    - statementLine: 1. I saw him...
+      isUnlocked: 0
+    - statementLine: 2. I was so shocked just like on the highway to hell...
+      isUnlocked: 0
+    - statementLine: 
+      isUnlocked: 0
+    - statementLine: 4.
+      isUnlocked: 0
+    - statementLine: 5.
+      isUnlocked: 0
+    - statementLine: Maximillian denies having an affair with Theodosia.
+      isUnlocked: 0
+    - statementLine: 7.
+      isUnlocked: 0
+  - npcName: 2
+    npcIcon: {fileID: 4523360286148163110, guid: eeeffc9f31c5e254ab5165c5d29004f6, type: 3}
+    npcPortrait: {fileID: 4523360286148163110, guid: eeeffc9f31c5e254ab5165c5d29004f6, type: 3}
+    location: Study
+    npcInfo: The stable hand of Wenchwatch Hall.
+    npcStatements:
+    - statementLine: Lavender denies any knowledge of the Admiral's brooch hidden
+        in the horse's saddle.
+      isUnlocked: 0
+    - statementLine: 2. I was so shocked just like on the highway to hell...
+      isUnlocked: 0
+    - statementLine: 3. You know nothing, Mr. Journalist...
+      isUnlocked: 0
+    - statementLine: 4.
+      isUnlocked: 0
+    - statementLine: 5.
+      isUnlocked: 0
+    - statementLine: 6.
+      isUnlocked: 0
+    - statementLine: 7.
+      isUnlocked: 0
+  - npcName: 3
+    npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    location: Study
+    npcInfo: The victim!
+    npcStatements:
+    - statementLine: The Admiral was stabbed multiple times in the chest with something
+        particularly sharp.
+      isUnlocked: 0
+    - statementLine: Something was forcefully torn from the Admiral's coat.
+      isUnlocked: 0
+    - statementLine: The Admiral's brooch is missing.
+      isUnlocked: 0
+    - statementLine: 4.
+      isUnlocked: 0
+    - statementLine: 5.
+      isUnlocked: 0
+    - statementLine: 6.
+      isUnlocked: 0
+    - statementLine: 7.
+      isUnlocked: 0

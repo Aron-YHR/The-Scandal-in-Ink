@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CutsceneDataList_SO
   m_EditorClassIdentifier: 
   list:
-  - inkJsonForCutscene: {fileID: 4900000, guid: f765c3b69ac69814ba33706b840201e8, type: 3}
+  - inkJsonForCutscene: {fileID: 4900000, guid: 5d8b497651da21d4cb1191b93a42bf03, type: 3}
     lettersList:
     - 'To Miss Amy,
 
