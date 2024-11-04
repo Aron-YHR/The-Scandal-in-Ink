@@ -14,11 +14,16 @@ Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Ms. Ten
 +[I'm here to see the Admiral Charles Hold.]
 Oh- I see. Was the Admiral- expecting you, sir?
 It's just- I wasn't aware of your visit.
+++[The Admiral invited me. I received this letter last night.]
+I- I see. How peculiar.
 ->Dorothy
 
 
 +[I'm with the Weekly Wag! Here for the Admiral's big scoop!]
-Oh, you're with the Weekly Wag! Of course, of course. The Admiral told me you'd be coming.
+Oh, you're with the Weekly Wag! How thrilling! The Lady of the House is such a fan of your paper!
+But if you'll excuse me, sir- how have you already heard the news?
+++[The Admiral asked me to speak with him. I received this letter last night.]
+I- I see. How peculiar.
 ->Dorothy
 
 *[And who might you be?]
@@ -112,7 +117,6 @@ But for you, mon chéri, I shall make an exception!
 +[This is going to revolutionise fashion!]
 Precisely, mon chéri! You clearly have a good sense of style, despite your <i>hideous</i> attire.
 ->Theodosia_Enters
-
 
 
 

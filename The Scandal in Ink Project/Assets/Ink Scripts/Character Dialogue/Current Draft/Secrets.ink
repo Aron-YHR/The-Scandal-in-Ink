@@ -29,6 +29,7 @@ VAR love_letter_2 = false
 //STATEMENTS
 VAR theodosia_confession = false
 VAR lavender_confession = false
+VAR iliad_confiscated = false
 
 //EXTERNAL FUNCTIONS
 EXTERNAL unlockStatement(npcName, index)

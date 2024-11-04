@@ -28,13 +28,16 @@ And thus was my juvenescence brought to a tragic close.
 Ah, yes. A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
 Yet in light of recent events, it does seem such a petty squabble...
 {dorothy_present: TEST}
-->Iliad_Confiscated
+->Start
+
++[It was you! You killed the Admiral!]
+Am I to understand, sir that, you intend to level an accusation of patricide against me?
+For what reason?
+->Accuse
 
 +[<i> Examine the suspect more closely. </i>]
 <i> You subtly inspect Avery for clues.</i>
 ->Examination
-
-
 
 +[Leave]
 ~dorothy_present=false
@@ -138,6 +141,7 @@ TBC
 
 
 =Crying
+...
 Waaaaaaaah! Waaaaaaaaaaah! Dorothy! Mommy! WAAAAAAAAH!
 
 +[Oh shit.]
@@ -158,12 +162,11 @@ Ahem.
 -> You_Fucked_Up
 
 =You_Fucked_Up
-Sir. I would recommend you cease bothering the young master. Quickly. <i>Very</i> quickly. The young master did not kill his father, as you suggest. He is <i>eight</i>. And I don't appreciate the suggestion otherwise. #speaker Miss Ditch
+Sir. I would recommend you cease bothering the young master. Quickly. <i>Very</i> quickly. The young master did not kill his father, as you suggest. He is <i>eight</i>. And I don't appreciate the suggestion otherwise. #speaker Dorothy Tendwell
 +[Yes ma'am. Sorry ma'am. Sorry Avery.]
-'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth.
+'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker Avery Hold
 ++[Let's talk about something else.]
-Quite.
-->Start
+Indeed. ->Start
 
 ===Examination===
 
@@ -179,5 +182,19 @@ Quite.
 
 +[Return to the conversation]
 <i> You return to your conversation with the unusually verbose child.</i> -> Start
+
+
+
+===Accuse===
+
++[Your father confiscated your book, and you killed him in a fit of murderous rage! J'accuse!,]
+->Iliad_Confiscated.Crying
+
++[Just kidding! I got you good, kid!]
+A jape of remrkably poor taste, sir. ->Start
+
++[Never mind. Forget I said anything.]
+A most difficult charge to pretermit, though I shall do my best. ->Start
+
 
 

@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89095471}
   - component: {fileID: 89095472}
+  - component: {fileID: 89095473}
   m_Layer: 5
   m_Name: DialogueBeforeGame
   m_TagString: Untagged
@@ -170,6 +171,25 @@ MonoBehaviour:
   Highlight: {fileID: 0}
   inkJson: {fileID: 4900000, guid: 5d8b497651da21d4cb1191b93a42bf03, type: 3}
   image: {fileID: 0}
+--- !u!114 &89095473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89095470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84841e125c433a43a3feaa91bbbf7b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcDetails:
+    npcName: 3
+    npcIcon: {fileID: 0}
+    npcPortrait: {fileID: 0}
+    location: 
+    npcInfo: 
+    npcStatements: []
 --- !u!1 &284021018
 GameObject:
   m_ObjectHideFlags: 0
