@@ -153,16 +153,17 @@ I promised the Lady of the house I wouldn't say...
 Alright, fine.
 Well- the other day- the Lady Hold and Sir Max were out for their weekly horse ride. Now ususally, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.
 Only, when I got to the stables, I found the Lady and Max- I found them in an awkward-
-They were basket making, if you catch my meaning.
 ~lavender_confession = true
 ~affair_revealed = true
+They were- making baskets, if you catch my meaning.
+
 ->Affair_Revealed_P2
 
 
 
 =Affair_Revealed_P2
 *[I don't understand.]
-They were- making the beast with two backs.
+Making the beast with two backs!
 ->Affair_Revealed_P3
 
 *[What's so wrong about making baskets?]
