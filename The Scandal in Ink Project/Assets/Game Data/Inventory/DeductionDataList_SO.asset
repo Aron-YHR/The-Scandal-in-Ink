@@ -13,33 +13,87 @@ MonoBehaviour:
   m_Name: DeductionDataList_SO
   m_EditorClassIdentifier: 
   locationList:
-  - Study
-  - Stables
-  - Reception
-  - On the highway to hell
+  - text: The Stables
+    amount: 0
+  - text: The Study
+    amount: 0
+  - text: The Garden
+    amount: 0
+  - text: The Reception
+    amount: 0
+  - text: The Reception
+    amount: 0
+  - text: The Secret Sex Dungeon
+    amount: 0
+  - text: Maximillian's Room
+    amount: 0
+  - text: The Bathroom
+    amount: 0
   motiveList:
-  - To preserve their reputation
-  - For the thrill of the kill!
-  - To reclaim a stolen book
-  - To keep their job
-  - 
+  - text: The Thrill of the Kill!
+    amount: 0
+  - text: To reclaim a confiscated book.
+    amount: 0
+  - text: To keep their job.
+    amount: 0
+  - text: To usurp the throne.
+    amount: 0
+  - text: To hide a love affair.
+    amount: 0
   wayOfEscapeList:
-  - Jumping out the window
-  - Fleeing on horseback
-  - Hiding behind the curtains
-  - Crawling out
+  - text: Jumped out the window
+    amount: 0
+  - text: Escaped via horse & carriage
+    amount: 0
+  - text: 
+    amount: 0
+  - text: Hid behind the curtain
+    amount: 0
+  - text: Hid in plain sight
+    amount: 0
+  - text: Crawled underneath the floorboards
+    amount: 0
+  weaponsList:
+  - text: Musket
+    amount: 0
+  - text: Antler
+    amount: 0
+  - text: Jam scone
+    amount: 0
+  - text: Garden shears
+    amount: 0
+  - text: Natural Causes
+    amount: 0
+  - text: Natural Causes
+    amount: 0
+  - text: Horse hoof to the head
+    amount: 0
   nameAndImageList:
   - name: Maximillian Hold
     image: {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
+    amount: 0
+    isTheRightAnswer: 0
   - name: Admiral Charles Hold
     image: {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
+    amount: 0
+    isTheRightAnswer: 0
   - name: Lavender Ditch
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    amount: 0
+    isTheRightAnswer: 0
   - name: Theodosia Hold
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    amount: 0
+    isTheRightAnswer: 0
   - name: Avery Hold
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    amount: 0
+    isTheRightAnswer: 0
   - name: Dorothy Tendwell
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
-  - name: A horse
+    amount: 0
+    isTheRightAnswer: 0
+  - name: Horse
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    amount: 0
+    isTheRightAnswer: 0

@@ -11,18 +11,18 @@ Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Ms. Ten
 
 === Start ===
 
-+[I'm here to see the Admiral Charles Hold.]
++[I'm here to see Admiral Charles Hold.]
 Oh- I see. Was the Admiral- expecting you, sir?
 It's just- I wasn't aware of your visit.
-++[The Admiral invited me. I received this letter last night.]
+++[The Admiral asked me to speak with him. I received this letter from him last night.]
 I- I see. How peculiar.
 ->Dorothy
 
 
-+[I'm with the Weekly Wag! Here for the Admiral's big scoop!]
++[I'm with the Weekly Wag! And I'm here for the Admiral's big scoop!]
 Oh, you're with the Weekly Wag! How thrilling! The Lady of the House is such a fan of your paper!
 But if you'll excuse me, sir- how have you already heard the news?
-++[The Admiral asked me to speak with him. I received this letter last night.]
+++[The Admiral asked me to speak with him. I received this letter from him last night.]
 I- I see. How peculiar.
 ->Dorothy
 
@@ -50,7 +50,7 @@ Well- you see, sir-
 Heavens, I'm not quite sure how to explain-
 You see- the Admiral- he's-
 Perhaps it's best you just see for yourself...
-~Transition("BeforeGame","Table")
+~Transition("Reception","Table")
 ->Body
 
 
@@ -59,14 +59,14 @@ Perhaps it's best you just see for yourself...
 ...I see.
 Well, seeing as you are so <i>insistent</i> I suppose it's best you see for yourself.
 If you'd follow me.
-~Transition("BeforeGame","Table")
+~Transition("Reception","Table")
 ->Body
 
 
 +[I really must insist on seeing him. I won't get paid without a story.]
 Well- if that is the case- perhaps it's best you see for yourself.
 Please, sir- follow me.
-~Transition("BeforeGame","Table")
+~Transition("Reception","Table")
 ->Body
 
 
