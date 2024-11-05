@@ -44,7 +44,8 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 2. I was so shocked just like on the highway to hell...
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: Dorothy states that Maximillian is a womanizer, despite his
+        camp appearance and noble reputation.
       isUnlocked: 0
     - statementLine: 4.
       isUnlocked: 0
@@ -60,19 +61,24 @@ MonoBehaviour:
     location: Study
     npcInfo: The son of Admiral Hold and his wife, Theodosia Hold
     npcStatements:
-    - statementLine: 1. I saw him...
+    - statementLine: Avery says he heard an argument in the study just before the
+        Admiral's murder.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: Avery says he witnessed the murderer escape through the study
+        window.
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: Avery says that Theodosia and Maximillian go horseback riding
+        on a weekly basis.
       isUnlocked: 0
-    - statementLine: 4.
+    - statementLine: Avery says the Admiral and Maximillian often traded insults.
       isUnlocked: 0
-    - statementLine: 5.
+    - statementLine: Avery was first to find the crime scene, followed by Dorothy,
+        then Theodosia, then Maximillian.
       isUnlocked: 0
-    - statementLine: 6.
+    - statementLine: Lavender did not appear at the crime scene.
       isUnlocked: 0
-    - statementLine: 7.
+    - statementLine: Avery admitted that he was angry at his father for confiscating
+        his book.
       isUnlocked: 0
   - npcName: 1
     npcIcon: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
@@ -136,9 +142,3 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 7.
       isUnlocked: 0
-  - npcName: 0
-    npcIcon: {fileID: 0}
-    npcPortrait: {fileID: 0}
-    location: 1
-    npcInfo: 1
-    npcStatements: []

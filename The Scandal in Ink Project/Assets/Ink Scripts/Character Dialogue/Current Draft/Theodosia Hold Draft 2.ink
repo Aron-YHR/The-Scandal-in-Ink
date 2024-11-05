@@ -92,15 +92,13 @@ It was quite perfect. Exactly as I had imagined it as a young girl.
 =Eldest_Daughter
 
 +[My eldest child is a girl.]
-My deepest sympathies. 
-->Relationship
+My deepest sympathies.  ->Relationship
 
 +[That's horrendous. I love my daughter with all my heart!]
-Expressing parental affection in such a flagrant manner? And in public no less! How quaint! The eccentricities of the common rabble never cease to amaze.
--> Relationship
+Expressing parental affection in such a flagrant manner? And in public no less! How quaint! The eccentricities of the common rabble never cease to amaze. -> Relationship
 
 +[Let's move on.]
-->Relationship
+Indeed. ->Relationship
 
 
 
