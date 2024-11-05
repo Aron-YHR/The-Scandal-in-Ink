@@ -6953,6 +6953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744f51f65275a4e4c957c38fc07ce0cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemDataList_SO: {fileID: 11400000, guid: fd0b044331f742345a7075c0dac077aa, type: 2}
 --- !u!1 &643205075
 GameObject:
   m_ObjectHideFlags: 0
@@ -16829,6 +16830,7 @@ MonoBehaviour:
   locationDropdown: {fileID: 254494185}
   motiveDropdown: {fileID: 70413242}
   escapeDropdown: {fileID: 1347376508}
+  weaponsDropdown: {fileID: 0}
   caseImgList:
   - {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
   - {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}

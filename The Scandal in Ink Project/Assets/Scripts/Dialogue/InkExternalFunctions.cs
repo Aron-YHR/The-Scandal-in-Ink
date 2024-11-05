@@ -35,7 +35,9 @@ public class InkExternalFunctions
 
     public void UnlockItemInTheScene(string name)
     {
-        GameObject gameObject = GameObject.Find(name);
-        gameObject.SetActive(true);
+        ItemDetails item = InventoryManager.Instance.itemData.itemDetailsList.Find(i => i.itemName.ToString() == name);
+        InventoryManager.Instance.AddItem(item);
     }
+
+
 }

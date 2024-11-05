@@ -17,11 +17,13 @@ MonoBehaviour:
     itemIcon: {fileID: 21300000, guid: bbc6c86941f95fe44b04e95f280b2819, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 1
     itemInfo: The candle is lighted...
   - itemName: 5
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: 'A large, ornate brooch bearing the crest of the Hold family. The pin
       is exceptionally sharp and coated in blood.
 
@@ -31,6 +33,7 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: An unsent letter of Admiral Hold filing for divorce from his wife,
       Theodosia. The letter is dated the day before his death. It cites adultery
       as the primary reason for the separation.
@@ -38,35 +41,41 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
       the maid and the stable hand in spite of their "scandalous actions."
   - itemName: 10
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: You picked it up!
   - itemName: 11
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood then
       runs from the windowsill towards the stables...
   - itemName: 12
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A pair of gloves found in the stables. Once white, now stained red
       by blood. They are monogrammed with the initials "T.H."
   - itemName: 13
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A portrait of the Hold Family. A very large brooch is pinned to the
       Admiral's chest.
   - itemName: 14
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A delicate wooden trellis attached to the side of the house, sitting
       just above a window on the second floor. Several of its crossbars have been
       snapped in two, as though someone attempted to climb it...
@@ -74,16 +83,19 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 10
+    toBeUnlocked: 0
     itemInfo: A love letter between Lavender and Dorothy. Testing to see if this
       works!
   - itemName: 8
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A love letter between Lavender and Dorothy. Testing to see if this
       works!
   - itemName: 16
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
+    toBeUnlocked: 0
     itemInfo: A door key.
