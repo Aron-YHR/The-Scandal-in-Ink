@@ -42,6 +42,8 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         journal.itemList.Clear();
         journal.npcList.Clear();
+        journal.deductionChoices.Clear();
+        journal.familyChoices.Clear();
         billsScript.SetDefault();
         RefreshItem();
         RefreshNPC();

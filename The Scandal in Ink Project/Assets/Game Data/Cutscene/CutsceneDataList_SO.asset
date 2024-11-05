@@ -103,10 +103,10 @@ MonoBehaviour:
   aftergameContentlist:
   - letterText: "Dear Mr Rian,\nI really enjoy your narrative...That makes me water...\nLove,
       \nTheodosia Hold"
-    relativeNumber: 1
+    relativeNumber: 0
     relativeTag: 
   - letterText: Fake news
-    relativeNumber: 2
+    relativeNumber: 1
     relativeTag: 
   - letterText: 'Dear John,
 
