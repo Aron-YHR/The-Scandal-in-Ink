@@ -9158,7 +9158,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 914425648}
   m_HandleRect: {fileID: 0}
   m_Direction: 2
-  m_Value: 0.99999994
+  m_Value: 1.0000001
   m_Size: 0.3
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -12914,9 +12914,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1055869985}
-        m_TargetAssemblyTypeName: InventoryManager, Assembly-CSharp
-        m_MethodName: AddItemValue
+      - m_Target: {fileID: 1671616593}
+        m_TargetAssemblyTypeName: CameraFollowMouse, Assembly-CSharp
+        m_MethodName: ActivateMove
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12926,9 +12926,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1671616593}
-        m_TargetAssemblyTypeName: CameraFollowMouse, Assembly-CSharp
-        m_MethodName: ActivateMove
+      - m_Target: {fileID: 1741135527}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: KeepItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20037,6 +20037,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1671616593}
         m_TargetAssemblyTypeName: CameraFollowMouse, Assembly-CSharp
         m_MethodName: ActivateMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1741135527}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: SetItemBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
