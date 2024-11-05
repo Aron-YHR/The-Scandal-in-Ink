@@ -73,7 +73,7 @@ MonoBehaviour:
   - itemName: 7
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
-    value: 0
+    value: 100
     itemInfo: A love letter between Lavender and Dorothy. Testing to see if this
       works!
   - itemName: 8
