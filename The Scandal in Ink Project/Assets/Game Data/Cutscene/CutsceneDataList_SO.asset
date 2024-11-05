@@ -100,3 +100,21 @@ MonoBehaviour:
 
       I
       want you to stay'
+  aftergameContentlist:
+  - letterText: "Dear Mr Rian,\nI really enjoy your narrative...That makes me water...\nLove,
+      \nTheodosia Hold"
+    relativeNumber: 1
+    relativeTag: 
+  - letterText: Fake news
+    relativeNumber: 2
+    relativeTag: 
+  - letterText: 'Dear John,
+
+      Thanks for the food. Kids miss you.
+
+      Love,
+
+      Your
+      wife'
+    relativeNumber: -1
+    relativeTag: Food

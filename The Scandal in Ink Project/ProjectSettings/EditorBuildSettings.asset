@@ -47,5 +47,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wenchwatch Hall/Max's Room.unity
     guid: d61bbe455b2b7d644a9a2a51cb4df41d
+  - enabled: 1
+    path: Assets/Scenes/AfterGame.unity
+    guid: e7ef7cbcc0be9754c8b4413828b62c60
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
