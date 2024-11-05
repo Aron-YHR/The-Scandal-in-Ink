@@ -31,6 +31,8 @@ public class FamilyManager : Singleton<FamilyManager>
     private int totalIncome; // TODO: calculate income and set conditions for not enough income for cost 
     private int totalSavings;
 
+    private int[] impactForEachMember;
+
     private void Start()
     {
         /*wellbelingList = new List<int>();
@@ -43,6 +45,8 @@ public class FamilyManager : Singleton<FamilyManager>
 
     private void OnEnable()
     {
+        impactForEachMember = new int[3] {0,0,0 };
+
         submitButton.SetActive(true);
         cost = billsScript.Rent;
         costText.text = cost.ToString()+"s";
@@ -115,39 +119,39 @@ public class FamilyManager : Singleton<FamilyManager>
             case "food":
                 if (!isChosen)
                 {
-                    for (int i = 0; i < familyHPList.Count; i++)
+                    for (int i = 0; i < impactForEachMember.Length; i++)
                     {
-                        familyHPList[i].CalculateWellbeingChange(-billsScript.GetImpact(expenseOption));
+                        impactForEachMember[i]+= billsScript.GetImpact(expenseOption);
                     }
                 }
                 break;
             case "heat":
                 if (!isChosen)
                 {
-                    for (int i = 0; i < familyHPList.Count; i++)
+                    for (int i = 0; i < impactForEachMember.Length; i++)
                     {
-                        familyHPList[i].CalculateWellbeingChange(-billsScript.GetImpact(expenseOption));
+                        impactForEachMember[i]+= billsScript.GetImpact(expenseOption);
                     }
                 }
                 break;
             case "mines":
                 if (isChosen)
                 {
-                    familyHPList[1].CalculateWellbeingChange(-billsScript.GetImpact(expenseOption));
+                    impactForEachMember[1]+=billsScript.GetImpact(expenseOption);
                 }
                 break;
             case "mills":
                 if (isChosen)
                 {
-                    familyHPList[2].CalculateWellbeingChange(-billsScript.GetImpact(expenseOption));
+                    impactForEachMember[2] += billsScript.GetImpact(expenseOption);
                 }
                 break;
             case "medicine":
                 if (isChosen)
                 {
-                    for (int i = 0; i < familyHPList.Count; i++)
+                    for (int i = 0; i < impactForEachMember.Length; i++)
                     {
-                        familyHPList[i].CalculateWellbeingChange(billsScript.GetImpact(expenseOption));
+                        impactForEachMember[i] += billsScript.GetImpact(expenseOption);
                     }
                 }
                 break;
@@ -155,13 +159,14 @@ public class FamilyManager : Singleton<FamilyManager>
                 // only for chidren
                 if (isChosen)
                 {
-                    for (int i = 1; i < familyHPList.Count; i++)
+                    for (int i = 1; i < impactForEachMember.Length; i++)
                     {
-                        familyHPList[i].CalculateWellbeingChange(billsScript.GetImpact(expenseOption));
+                        impactForEachMember[i] += billsScript.GetImpact(expenseOption);
                     }
                 }
                 break;
         }
+
     }
 
     public void SubmitBills()
@@ -176,13 +181,16 @@ public class FamilyManager : Singleton<FamilyManager>
                 choices[i].OnExpensesSubmited();
             }
 
-
             // change each family member state
             for (int i = 0; i < familyHPList.Count; i++)
             {
-                familyHPList[i].ChangeWellbeing();
+                if(!familyHPList[i].familyMember.isDead)
+                familyHPList[i].ChangeWellbeing(impactForEachMember[i]);
             }
+
             submitButton.SetActive(false);
+
+            TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
         }
         else
         {
@@ -190,7 +198,7 @@ public class FamilyManager : Singleton<FamilyManager>
             //Debug.Log("There is not enough income for expenditure");
         }
 
-        TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
+        
     }
 
 

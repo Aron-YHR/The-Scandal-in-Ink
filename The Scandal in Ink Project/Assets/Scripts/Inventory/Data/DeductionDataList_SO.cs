@@ -10,6 +10,7 @@ public class DeductionDataList_SO : ScriptableObject
     public List<SentenceAndAmountPair> locationList = new List<SentenceAndAmountPair>();
     public List<SentenceAndAmountPair> motiveList = new List<SentenceAndAmountPair>();
     public List<SentenceAndAmountPair> wayOfEscapeList = new List<SentenceAndAmountPair>();
+    public List<SentenceAndAmountPair> weaponsList = new List<SentenceAndAmountPair>();
 
 
     //public Dictionary<string,Sprite> caseImageDic = new Dictionary<string,Sprite>();
@@ -51,6 +52,15 @@ public class DeductionDataList_SO : ScriptableObject
         for (int i = 0; i < wayOfEscapeList.Count; i++)
         {
             list.Add(wayOfEscapeList[i].text);
+        }
+        return list;
+    }
+    public List<string> GetWeaponsList()
+    {
+        List<string> list = new List<string>();
+        for (int i = 0; i < weaponsList.Count; i++)
+        {
+            list.Add(weaponsList[i].text);
         }
         return list;
     }

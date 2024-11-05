@@ -20,18 +20,18 @@ public class FamilyMember
 
     public LifeState GetLifeState(int wellbeing)
     {
-        if (wellbeing != 0)
+        /*if (wellbeing != 0)
             wellbeing = wellbeing / 25 + 1;
         else if (wellbeing == 100) wellbeing = 4;
-        Debug.Log(wellbeing);
+        Debug.Log(wellbeing);*/
         LifeState lifeState = 0;
         switch (wellbeing)
         {
-            case 0: lifeState = LifeState.Dead; break;
-            case 1: lifeState = LifeState.Sickly; break;
-            case 2: lifeState = LifeState.Unwell; break;
-            case 3: lifeState = LifeState.Fine; break;
-            case 4: lifeState = LifeState.Healthy; break;
+            case 1: lifeState = LifeState.Dead; break;
+            case 2: lifeState = LifeState.Sickly; break;
+            case 3: lifeState = LifeState.Unwell; break;
+            case 4: lifeState = LifeState.Fine; break;
+            case 5: lifeState = LifeState.Healthy; break;
         }
         return lifeState;
     }

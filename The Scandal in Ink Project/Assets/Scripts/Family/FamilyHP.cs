@@ -30,11 +30,24 @@ public class FamilyHP : MonoBehaviour
         wellbeingChange += num;
     }
 
-    public void ChangeWellbeing()
+    public void ChangeWellbeing(int impact)
     {
-        familyMember.wellbeing += wellbeingChange;
-        if(familyMember.wellbeing > 100) familyMember.wellbeing = 100;
-        else if(familyMember.wellbeing < 0) familyMember.wellbeing = 0;
+        if(impact <=2)
+        {
+            impact = -1;
+        }
+        else if(impact >=4) 
+        {
+            impact = 1;
+        }
+        else
+        {
+            impact = 0;
+        }
+
+        familyMember.wellbeing += impact;
+        if(familyMember.wellbeing > 5) familyMember.wellbeing = 5;
+        else if(familyMember.wellbeing <=1) familyMember.wellbeing =1;
 
         // change family member state
         familyMember.state = familyMember.GetLifeState(familyMember.wellbeing);
@@ -46,8 +59,5 @@ public class FamilyHP : MonoBehaviour
         memberImage.sprite = familyMember.familyMemberImages[(int)familyMember.state];
         letterStatement.text = familyMember.name + FamilyManager.Instance.letterStatements.statementsList[(int)familyMember.state];
     }
-
-
-
-    
+  
 }

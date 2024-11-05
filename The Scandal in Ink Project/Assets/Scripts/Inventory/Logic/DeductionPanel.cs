@@ -16,6 +16,7 @@ public class DeductionPanel : MonoBehaviour
     public TMP_Dropdown locationDropdown;
     public TMP_Dropdown motiveDropdown;
     public TMP_Dropdown escapeDropdown;
+    public TMP_Dropdown weaponsDropdown;
 
     public List<Sprite> caseImgList;
 
@@ -28,6 +29,7 @@ public class DeductionPanel : MonoBehaviour
         locationDropdown.AddOptions(deductionData.GetLocationList());
         motiveDropdown.AddOptions(deductionData.GetMotiveList());
         escapeDropdown.AddOptions(deductionData.GetWayOfEscapeList());
+        weaponsDropdown.AddOptions(deductionData.GetWeaponsList());
    
     }
 
@@ -50,7 +52,8 @@ public class DeductionPanel : MonoBehaviour
             totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount
             + deductionData.locationList[locationDropdown.value].amount
             + deductionData.motiveList[motiveDropdown.value].amount
-            + deductionData.wayOfEscapeList[escapeDropdown.value].amount;
+            + deductionData.wayOfEscapeList[escapeDropdown.value].amount
+            + deductionData.weaponsList[weaponsDropdown.value].amount;
             
         }
         else
@@ -62,6 +65,7 @@ public class DeductionPanel : MonoBehaviour
         InventoryManager.Instance.journal.deductionChoices.Add(locationDropdown.value);
         InventoryManager.Instance.journal.deductionChoices.Add(motiveDropdown.value);
         InventoryManager.Instance.journal.deductionChoices.Add(escapeDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(weaponsDropdown.value);
 
         Debug.Log(totalIncome);
 
