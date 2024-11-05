@@ -41,7 +41,7 @@ public class UIManager : Singleton<UIManager>
     {
         for (int i = 0; i<familyMembers.familyMembersList.Count; i++)
         {
-            familyMembers.familyMembersList[i].wellbeing = 50;
+            familyMembers.familyMembersList[i].wellbeing = 3;
             familyMembers.familyMembersList[i].isDead = false;
             familyMembers.familyMembersList[i].state = LifeState.Unwell;
         }

@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: BillData_SO
   m_EditorClassIdentifier: 
   Savings: 0
-  Salary: 24
+  Salary: 0
   Misc_income: 0
-  Mines: 6
-  Mills: 6
-  Rent: 12
-  Food: 10
-  Heat: 10
+  Mines: 3
+  Mills: 3
+  Rent: 6
+  Food: 3
+  Heat: 3
   Medicine: 18
-  Schooling: 18
-  minesImpact: 25
-  millsImpact: 25
-  foodImpact: 10
-  heatImpact: 10
-  medicineImpact: 10
-  schoolingImpact: 10
+  Schooling: 12
+  minesImpact: -2
+  millsImpact: -2
+  foodImpact: -1
+  heatImpact: -1
+  medicineImpact: 2
+  schoolingImpact: 2
