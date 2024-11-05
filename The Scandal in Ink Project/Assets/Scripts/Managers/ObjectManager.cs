@@ -2,8 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectManager : MonoBehaviour
+public class ObjectManager : Singleton<ObjectManager>
 {
+    //public ItemDataList_SO itemDataList_SO;
+
+    /// <summary>
+    /// this dict save all items' states in the scene, true = not be isclicked, false = already clicked, false in the scene
+    /// </summary>
     private Dictionary<ItemName,bool> itemAvailableDict = new Dictionary<ItemName,bool>();
 
     private void OnEnable()
@@ -28,6 +33,10 @@ public class ObjectManager : MonoBehaviour
     private void OnStartNewGameEvent()
     {
         itemAvailableDict.Clear();
+        /*foreach (ItemDetails item in itemDataList_SO.itemDetailsList)
+        {
+            itemAvailableDict.Add(item.itemName, !item.toBeUnlocked);
+        }*/
     }
 
     private void OnBeforeSceneUnloadEvent()
@@ -67,5 +76,13 @@ public class ObjectManager : MonoBehaviour
             //Debug.Log(itemAvailableDict);
         }
     }
+
+    /*public void UnlockItemInTheScene()
+    {
+        foreach (var item in FindObjectsByType<Item>(FindObjectsSortMode.InstanceID))
+        {
+            Debug.Log(item.name);
+        }
+    }*/
 
 }

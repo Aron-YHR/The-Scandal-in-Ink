@@ -11,6 +11,7 @@ public class InkExternalFunctions
         story.BindExternalFunction("unlockStatement", (string npcName, int index) 
             => InventoryManager.Instance.UnlockStatementsInJournal(npcName, index));
         story.BindExternalFunction("unlockItem",(string name) => UnlockItemInTheScene(name));
+        story.BindExternalFunction("unlockNPC", (string name) => UnlockNPC(name));
     }
 
     public void Unbind(Story story)
@@ -18,6 +19,7 @@ public class InkExternalFunctions
         // unbind the function
         story.UnbindExternalFunction("unlockStatement");
         story.UnbindExternalFunction("unlockItem");
+        story.UnbindExternalFunction("unlockNPC");
     }
 
     public void BindTransition(Story story)
@@ -35,7 +37,15 @@ public class InkExternalFunctions
 
     public void UnlockItemInTheScene(string name)
     {
-        GameObject gameObject = GameObject.Find(name);
-        gameObject.SetActive(true);
+        ItemDetails item = InventoryManager.Instance.itemData.itemDetailsList.Find(i => i.itemName.ToString() == name);
+        InventoryManager.Instance.AddItem(item);
     }
+
+    public void UnlockNPC(string name)
+    {
+        NPCDetails npc = InventoryManager.Instance.npcData.npcDetailsList.Find(i => i.npcName.ToString() == name);
+        InventoryManager.Instance.AddNPC(npc);
+    }
+
+
 }

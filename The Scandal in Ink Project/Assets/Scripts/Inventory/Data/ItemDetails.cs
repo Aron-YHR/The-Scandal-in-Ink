@@ -13,6 +13,8 @@ public class ItemDetails
 
     public int value;
 
+    //public bool toBeUnlocked;
+
     [TextArea]
     public string itemInfo;
 }
