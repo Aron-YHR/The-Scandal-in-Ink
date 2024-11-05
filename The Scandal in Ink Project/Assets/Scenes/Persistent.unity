@@ -5154,7 +5154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startScene: BeforeGame
   fadeCanvasGroup: {fileID: 1196971732}
-  fadeDuration: 0.3
+  fadeDuration: 1
 --- !u!1 &506457808
 GameObject:
   m_ObjectHideFlags: 0
@@ -17215,8 +17215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c78b9240195ccd8459343efd3669407f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 25
-  edgeScrollSize: 30
+  moveSpeed: 15
+  edgeScrollSize: 300
   cinemachine: {fileID: 1452090258}
   envir: {fileID: 0}
   canMove: 0

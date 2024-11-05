@@ -13,7 +13,7 @@ INCLUDE Secrets.ink
 +[Where were you the night of the murder?]
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
-I'm afraid by the time I found him, poor Avery had already seen the Amdiral's-
+I'm afraid by the time I found him, poor Avery was standing over the Amdiral's-
 By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
 ->Night_Of_Murder
 
@@ -27,18 +27,15 @@ Suspicious, sir? I'm not sure I understand.
 ->Door_Key
 
 +[What did you think of Admiral Hold?]
-Admiral Hold was an excellent employer. He provided me with clean lodgings, a warm bed, and six shillings a week in pay. And he adored little Avery. I thought very highly of him.
--> Relationship
+Admiral Hold was an excellent employer. He provided me with clean lodgings, a warm bed, and six shillings a week in pay. And he adored little Avery. I thought very highly of him. -> Relationship
 
-*{love_letter_1 or love_letter_2 and not extort_Dorothy} [Ms. Tendwell, I found some letters that you wrote...]
-->Lesbians_Revealed
+*{love_letter_1 or love_letter_2 and not extort_Dorothy}[Ms. Tendwell, I found your letter...] ->Lesbians_Revealed
 
 
 +[<i>Examine the suspect.</i>]
-Test.
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
 
-+[Leave]
++[<i>Leave</i>]
 ->DONE
 
 
@@ -61,7 +58,7 @@ I escorted Lady Hold to her chambers and comforted her, after which I returned t
 Lady Hold has often tells me she considers it is vulgar when servants make excessive use of their senses and faculties, so I thought it especially rude to listen.
 ->Night_Of_Murder
 
-+[Do you think Avery could have been involved in the Admiral's death somehow?]
++[Avery was first at the scene. Could he have been involved in the Admiral's death?]
 <i>Sir!</i>
 Young Master Avery is a <i>child</i>! Hardly eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
 Well, it's simply-
@@ -78,8 +75,7 @@ Very well.
 ===Relationship===
 
 +[How long have you worked for the Hold family?]
-Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery. They have been remarkably kind to me.  I only hope to one day repay their kindness.
-->Relationship
+Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery. They have been remarkably kind to me.  I only hope to one day repay their kindness. ->Relationship
 
 +[Did the Admiral ever treat you poorly?]
 Oh no sir, Admiral Hold was very respectful, a perfect gentleman. If anything, I have treated the Admiral poorly.
@@ -90,6 +86,7 @@ A bit- lustful, if you'll excuse my language.
 ->Lustful
 
 +[Let's talk about something else.]
+Of course, sir.
 ->Start
 
 =Lustful

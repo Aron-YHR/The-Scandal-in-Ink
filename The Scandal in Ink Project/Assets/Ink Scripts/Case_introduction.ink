@@ -4,7 +4,7 @@ VAR question_tracker = 0
 
 
 
-
+~Transition("BeforeGame","Reception")
 Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Ms. Tendwell
 
 ->Start
@@ -31,17 +31,9 @@ Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist yo
 ->Start
 
 +[Skip. Testing Only.]
-~Transition("BeforeGame","Table")
+~Transition("Reception","Table")
 ->DONE
 
-
-
-
-
-
-+[Skip to mission]
-~Transition("BeforeGame","Table")
-->DONE
 
 
 
