@@ -24,6 +24,10 @@ public class ExpenseOption : MonoBehaviour
     {
         toggle.enabled = false;
         FamilyManager.Instance.CalculateWellbeing(expenseTag, toggle.isOn);
+        if (toggle.isOn)
+        {
+            InventoryManager.Instance.journal.familyChoices.Add(expenseTag);
+        }
     }
 
 }

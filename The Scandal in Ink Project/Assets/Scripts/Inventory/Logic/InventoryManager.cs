@@ -23,7 +23,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
     public GameObject journalHighlight;
 
-    private ItemDetails currentItem;
+    //private ItemDetails currentItem;
 
     private void OnEnable()
     {
@@ -42,6 +42,8 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         journal.itemList.Clear();
         journal.npcList.Clear();
+        journal.deductionChoices.Clear();
+        journal.familyChoices.Clear();
         billsScript.SetDefault();
         RefreshItem();
         RefreshNPC();
@@ -49,7 +51,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
     public void AddItem(ItemDetails itemDetails) // to be optimized
     {
-        currentItem = itemDetails;
+        //currentItem = itemDetails;
         //Debug.Log(journal.itemList.Contains(item));
         if (journal.itemList.Find(i => i.itemName == itemDetails.itemName) == null)
         {
@@ -60,8 +62,8 @@ public class InventoryManager : Singleton<InventoryManager>
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(itemDetails);
 
-            /*if(itemDetails.value != 0)
-            billsScript.Savings += itemDetails.value;*/
+            if(itemDetails.value != 0)
+            billsScript.Savings += itemDetails.value;
 
             // renew the item's state in game
             EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work
@@ -70,10 +72,10 @@ public class InventoryManager : Singleton<InventoryManager>
         }
     }
 
-    public void AddItemValue()
+    /*public void AddItemValue()
     {
         billsScript.Savings += currentItem.value;
-    }
+    }*/
 
     public static void CreateNewItem(ItemDetails item)
     {

@@ -10,6 +10,7 @@ public class AfterGameManager : MonoBehaviour
     public List<TextMeshProUGUI> lettersList = new List<TextMeshProUGUI>();
     public List<TextMeshProUGUI> choicesList = new List<TextMeshProUGUI>();
     public TextMeshProUGUI familyLetter;
+    public GameObject endScreen;
 
     public int index;
     public Animator afterGameAnimatorController;
@@ -33,10 +34,10 @@ public class AfterGameManager : MonoBehaviour
         choicesList[2].text = deductionData.GetMotiveList()[InventoryManager.Instance.journal.deductionChoices[2]];
         choicesList[3].text = deductionData.GetWayOfEscapeList()[InventoryManager.Instance.journal.deductionChoices[3]];
 
-        //familyLetter = cutsceneDataList_SO.aftergameContentlist.Find(i =>i.relativeTag == )
+        familyLetter.text = cutsceneDataList_SO.aftergameContentlist.Find(i => i.relativeTag == InventoryManager.Instance.journal.familyChoices[0]).letterText;
     }
 
-    public void SwitchLetters() // TODO: test if it works
+    public void SwitchLetters()
     {
         index++;
         switch (index)
@@ -45,8 +46,13 @@ public class AfterGameManager : MonoBehaviour
             case 1: afterGameAnimatorController.Play("FirstLetter"); break;
             case 2: afterGameAnimatorController.Play("SecondLetter"); break;
             case 3: afterGameAnimatorController.Play("ThirdLetter"); break;
-            case 4: afterGameAnimatorController.Play("ExitLetter");canvas.sortingOrder = -1; break;
+            case 4: afterGameAnimatorController.Play("ExitLetter");endScreen.SetActive(true); break;
         }
+    }
+
+    public void BackToStart()
+    {
+        TransitionManager.Instance.Transition("AfterGame", "Menu");
     }
 
 
