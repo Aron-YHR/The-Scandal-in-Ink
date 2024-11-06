@@ -11,6 +11,7 @@ using UnityEngine.UI;
 public class DeductionPanel : MonoBehaviour
 {
     public DeductionDataList_SO deductionData;
+    public CombinationList_SO combinationData;
 
     public TMP_Dropdown nameDropdown;
     public TMP_Dropdown locationDropdown;
@@ -41,31 +42,38 @@ public class DeductionPanel : MonoBehaviour
     public void GoToFamily()
     {
         var currentScene = SceneManager.GetActiveScene().name;
-        TransitionManager.Instance.Transition(currentScene, "Family");  
+        TransitionManager.Instance.Transition(currentScene, "AfterGame");  
     }
 
     public void SubmitNews()
     {
         int totalIncome = 0;
-        if (deductionData.nameAndImageList[nameDropdown.value].isTheRightAnswer)
+        for (int i = 0; i < combinationData.combinationsList.Count; i++)
         {
-            totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount
-            + deductionData.locationList[locationDropdown.value].amount
-            + deductionData.motiveList[motiveDropdown.value].amount
-            + deductionData.wayOfEscapeList[escapeDropdown.value].amount
-            + deductionData.weaponsList[weaponsDropdown.value].amount;
-            
-        }
-        else
-        {
-            totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
+            if (nameDropdown.value == combinationData.combinationsList[i].killerIndex-1 && motiveDropdown.value == combinationData.combinationsList[i].motiveIndex-1)
+            //(deductionData.nameAndImageList[nameDropdown.value].isTheRightAnswer)
+            {
+                totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount
+                + deductionData.locationList[locationDropdown.value].amount
+                + deductionData.motiveList[motiveDropdown.value].amount
+                + deductionData.wayOfEscapeList[escapeDropdown.value].amount
+                + deductionData.weaponsList[weaponsDropdown.value].amount;
+
+                InventoryManager.Instance.journal.deductionChoices = combinationData.combinationsList[i].resultIndex;
+            }
+            else if(nameDropdown.value == combinationData.combinationsList[i].killerIndex-1)
+            {
+                totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
+                InventoryManager.Instance.journal.deductionChoices = 0;
+            }
         }
 
-        InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
-        InventoryManager.Instance.journal.deductionChoices.Add(locationDropdown.value);
-        InventoryManager.Instance.journal.deductionChoices.Add(motiveDropdown.value);
-        InventoryManager.Instance.journal.deductionChoices.Add(escapeDropdown.value);
-        InventoryManager.Instance.journal.deductionChoices.Add(weaponsDropdown.value);
+
+        //InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
+        //InventoryManager.Instance.journal.deductionChoices.Add(locationDropdown.value);
+        //InventoryManager.Instance.journal.deductionChoices.Add(motiveDropdown.value);
+        //InventoryManager.Instance.journal.deductionChoices.Add(escapeDropdown.value);
+        //InventoryManager.Instance.journal.deductionChoices.Add(weaponsDropdown.value);
 
         Debug.Log(totalIncome);
 

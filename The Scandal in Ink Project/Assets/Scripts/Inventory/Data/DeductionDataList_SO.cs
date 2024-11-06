@@ -72,7 +72,7 @@ public class NameAndImagePair
     public string name;
     public Sprite image;
     public int amount;
-    public bool isTheRightAnswer;
+    //public bool isTheRightAnswer;
 }
 
 [System.Serializable]

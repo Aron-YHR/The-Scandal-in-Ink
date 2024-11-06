@@ -23,7 +23,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image portraitImage;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
+    [SerializeField] private TextMeshProUGUI viceDisplayNameText;
     [SerializeField] private Animator portraitAnimator;
+    [SerializeField] private Animator vicePortraitAnimator;
     private Animator layoutAnimator;
 
     [Header("Choices UI")]
@@ -278,6 +280,9 @@ public class DialogueManager : MonoBehaviour
 
     private void HandleTags(List<string> currentTags)
     {
+        List<string[]> tagsList = new List<string[]>();
+        string layoutTag = "right";
+
         // loop through each tag and handle it accordingly
         foreach (string tag in currentTags)
         {
@@ -290,28 +295,42 @@ public class DialogueManager : MonoBehaviour
 
             string tagKey = splitTag[0].Trim();
             string tagValue = splitTag[1].Trim();
+            tagsList.Add(splitTag);
 
-            // handle the tag
-            switch (tagKey)
+            if (tagValue == "left")
+            {
+                layoutTag = tagValue;
+            }
+        }
+
+        // handle the tag
+        foreach (string[] tags in tagsList)
+        {
+            switch (tags[0])
             {
                 case SPEAKER_TAG:
                     //Debug.Log("speaker="+ tagValue);
-                    displayNameText.text = tagValue;
+                    if (layoutTag == "left")
+                        viceDisplayNameText.text = tags[1];
+                    else
+                        displayNameText.text = tags[1];
                     break;
                 case PORTAIT_TAG:
                     //Debug.Log("portait=" + tagValue);
-                    portraitAnimator.Play(tagValue);
+                    if (layoutTag == "left")
+                        vicePortraitAnimator.Play(tags[1]);
+                    else
+                        portraitAnimator.Play(tags[1]);
                     //portraitImage.SetNativeSize();
                     break;
                 case LAYOUT_TAG:
                     //Debug.Log("layout=" + tagValue);
-                    layoutAnimator.Play(tagValue);
+                    layoutAnimator.Play(tags[1]);
                     break;
                 default:
                     Debug.LogWarning("Tag came in but is not currently being handled:" + tag);
                     break;
             }
-
         }
     }
 
