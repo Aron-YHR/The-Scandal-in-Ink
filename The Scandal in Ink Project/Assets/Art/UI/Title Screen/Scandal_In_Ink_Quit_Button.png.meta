@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scandal_In_Ink_Quit_Button_0: 5948914040706951055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

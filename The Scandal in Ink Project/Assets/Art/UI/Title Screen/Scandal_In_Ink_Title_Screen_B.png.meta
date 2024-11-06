@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scandal_In_Ink_Title_Screen_B_0: 7164406732528835839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
