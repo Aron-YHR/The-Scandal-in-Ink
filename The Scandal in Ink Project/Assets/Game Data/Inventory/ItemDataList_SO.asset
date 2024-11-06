@@ -113,3 +113,8 @@ MonoBehaviour:
     value: 0
     itemInfo: A messy pile of hay covered in blood. You think the killer may have
       tried to wipe the blood from their hands here...
+  - itemName: 23
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: Avery's book!

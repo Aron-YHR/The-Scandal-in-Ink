@@ -305,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Name
-      value: Item
+      value: Confiscated Book
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalScale.x
