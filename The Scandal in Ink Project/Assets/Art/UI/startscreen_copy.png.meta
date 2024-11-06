@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7bf40431eaddb1b4887dd52971ed8ba1
+guid: a902228e01e24204bb51e1f46fe45002
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8289037631633979842
-    second: admiralbody_0
+      213: -1502379670067681669
+    second: startscreen_copy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: admiralbody_0
+      name: startscreen_copy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c9736b0fc3980370800000000000000
-      internalID: 8289037631633979842
+      spriteID: b76e8d766a9762be0800000000000000
+      internalID: -1502379670067681669
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      admiralbody_0: 8289037631633979842
+      startscreen_copy_0: -1502379670067681669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

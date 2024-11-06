@@ -9,8 +9,8 @@ using UnityEngine;
 
 public class CameraFollowMouse : Singleton<CameraFollowMouse>
 {
-    private float moveSpeed = 25f;
-    private int edgeScrollSize = 30;
+    public float moveSpeed = 25f;
+    public int edgeScrollSize = 30;
     private Vector3 moveDir;
     //private Vector3 preDir;
     private Vector3 inputDir;
@@ -86,21 +86,24 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
 
     public void GetNewSceneSpriteRenderer()
     {
-        envir = GameObject.FindGameObjectWithTag("Background").GetComponent<SpriteRenderer>();
-        if (envir != null) 
+        if (canMove)
         {
-            //Debug.Log( Screen.width);
-            //Debug.Log(envir.sprite.texture.Size().y / 2 - Screen.height);
+            envir = GameObject.FindGameObjectWithTag("Background").GetComponent<SpriteRenderer>();
+            if (envir != null)
+            {
+                //Debug.Log( Screen.width);
+                //Debug.Log(envir.sprite.texture.Size().y / 2 - Screen.height);
 
-            // set the area for limiting player pos
-            rectArea = SetArea();
+                // set the area for limiting player pos
+                rectArea = SetArea();
 
-            // get the collider for virtual camera
-            cinemachine.GetComponent<CinemachineConfiner>().m_BoundingShape2D = envir.GetComponentInChildren<PolygonCollider2D>();
-        }
-        else
-        {
-            Debug.LogWarning("No Environment");
+                // get the collider for virtual camera
+                cinemachine.GetComponent<CinemachineConfiner>().m_BoundingShape2D = envir.GetComponentInChildren<PolygonCollider2D>();
+            }
+            else
+            {
+                Debug.LogWarning("No Environment");
+            }
         }
     }
 
@@ -108,6 +111,8 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
     {
         float rectWith = envir.size.x / 2;
         float rectHeight = envir.size.y / 2;
+
+        //Debug.Log(rectWith +" " +rectHeight);
 
         return new Rect(0-rectWith/2, 0-rectHeight/2, rectWith, rectHeight);
     }

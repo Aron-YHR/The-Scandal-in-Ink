@@ -11,6 +11,10 @@ public class ItemDetails
 
     public bool isEvidence;
 
+    public int value;
+
+    //public bool toBeUnlocked;
+
     [TextArea]
     public string itemInfo;
 }

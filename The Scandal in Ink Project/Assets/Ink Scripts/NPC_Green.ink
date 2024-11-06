@@ -1,4 +1,6 @@
 EXTERNAL Transition(from,to)
+EXTERNAL unlockItem(name)
+EXTERNAL unlockNPC(name)
 
 Hi, Mr. Stranger! #speaker:NPC_Green #portrait:npc_green_neutral #layout:right
 ->main
@@ -15,7 +17,9 @@ How are you feeling today?
 
 Well, do you have any more question? #speaker:NPC_Green #portrait:npc_green_neutral #layout:right
 +[Yes]
+    ~unlockItem("door_key")
     ->main
 +[No]
     Goodbye, poor stranger! You don't have to run~
+    ~unlockNPC("Admiral_Charles_Hold")
     -> END

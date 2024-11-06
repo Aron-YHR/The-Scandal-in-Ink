@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -37,14 +38,21 @@ public class Item : MonoBehaviour
     public void ItemClicked()
     {
         // show the item and its info
-        UIManager.Instance.SetItemShowcase(itemDetails);
+        UIManager.Instance.SetItemShowcase(gameObject,itemDetails);
+
 
         // add it into journal and remove it in environment
+        if(itemDetails.value == 0)
         InventoryManager.Instance.AddItem(itemDetails);
 
         if(itemDetails.isEvidence)
         DialogueManager.GetInstance().SetVariableState(itemDetails.itemName.ToString(), itemDetails.isEvidence);
 
         this.gameObject.SetActive(false);
+    }
+
+    public void SetOriginalPos()
+    {
+        transform.position = previousPos;
     }
 }

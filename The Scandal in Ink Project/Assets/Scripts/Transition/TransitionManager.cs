@@ -39,6 +39,8 @@ public class TransitionManager : Singleton<TransitionManager>
 
     private IEnumerator TransitionToScene(string from,string to)
     {
+        if(to == "AfterGame") yield return new WaitForSeconds(3f);
+
         yield return Fade(1);
 
         if (from != string.Empty)

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,10 +11,12 @@ using UnityEngine.UI;
 public class DeductionPanel : MonoBehaviour
 {
     public DeductionDataList_SO deductionData;
+
     public TMP_Dropdown nameDropdown;
     public TMP_Dropdown locationDropdown;
     public TMP_Dropdown motiveDropdown;
     public TMP_Dropdown escapeDropdown;
+    public TMP_Dropdown weaponsDropdown;
 
     public List<Sprite> caseImgList;
 
@@ -23,11 +26,11 @@ public class DeductionPanel : MonoBehaviour
     void Start()
     {
         nameDropdown.AddOptions(deductionData.GetNPCNameList());
-        locationDropdown.AddOptions(deductionData.locationList);
-        motiveDropdown.AddOptions(deductionData.motiveList);
-        escapeDropdown.AddOptions(deductionData.wayOfEscapeList);
-
-        
+        locationDropdown.AddOptions(deductionData.GetLocationList());
+        motiveDropdown.AddOptions(deductionData.GetMotiveList());
+        escapeDropdown.AddOptions(deductionData.GetWayOfEscapeList());
+        weaponsDropdown.AddOptions(deductionData.GetWeaponsList());
+   
     }
 
     public void ChangeImage()
@@ -38,8 +41,35 @@ public class DeductionPanel : MonoBehaviour
     public void GoToFamily()
     {
         var currentScene = SceneManager.GetActiveScene().name;
-        TransitionManager.Instance.Transition(currentScene, "Family");
+        TransitionManager.Instance.Transition(currentScene, "Family");  
+    }
 
+    public void SubmitNews()
+    {
+        int totalIncome = 0;
+        if (deductionData.nameAndImageList[nameDropdown.value].isTheRightAnswer)
+        {
+            totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount
+            + deductionData.locationList[locationDropdown.value].amount
+            + deductionData.motiveList[motiveDropdown.value].amount
+            + deductionData.wayOfEscapeList[escapeDropdown.value].amount
+            + deductionData.weaponsList[weaponsDropdown.value].amount;
+            
+        }
+        else
+        {
+            totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
+        }
+
+        InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(locationDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(motiveDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(escapeDropdown.value);
+        InventoryManager.Instance.journal.deductionChoices.Add(weaponsDropdown.value);
+
+        Debug.Log(totalIncome);
+
+        InventoryManager.Instance.billsScript.Salary = totalIncome;
         
     }
 

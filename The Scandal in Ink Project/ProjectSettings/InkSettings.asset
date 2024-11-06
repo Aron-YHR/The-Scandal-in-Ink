@@ -17,6 +17,7 @@ MonoBehaviour:
   compileAllFilesAutomatically: 1
   includeFilesToCompileAsMasterFiles:
   - {fileID: 102900000, guid: 18da31dd50f42a344b2dbf87199c3c3a, type: 3}
+  - {fileID: 102900000, guid: e7354a4bebd2b13408e6e69ce4c1d3cf, type: 3}
   filesToCompileAutomatically: []
   delayInPlayMode: 1
   handleJSONFilesAutomatically: 1

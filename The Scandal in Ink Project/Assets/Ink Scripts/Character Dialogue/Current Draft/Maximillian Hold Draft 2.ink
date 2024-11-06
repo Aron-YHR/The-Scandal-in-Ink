@@ -1,22 +1,21 @@
+@ -1,386 +0,0 @@
 INCLUDE Secrets.ink
 
 
 
 
-
-
-
-
 ->INTRO
+
 ===INTRO===
 -> Start
 
 === Start ===
-{TURNS_SINCE(-> INTRO) == 0: Yes, sir?} 
+{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend!} 
 
 +[Where were you the night of the murder?]
 ~ unlockStatement("Maximillian_Hold",1)
-I retired to my chambers early that night.
+I retired early to my chambers last night. My revelation in relation to gloveless fashion rather drained me.
+<i>Curse</i> this ingemious mind of mine! Had I only known what would befall that night!
 
 ->Night_Of_Murder
 
@@ -72,8 +71,8 @@ Whatever you wish, mon cheri!
 
 === Night_Of_Murder ===
 
-+[Did you hear anything that night?]
-Alas, I slept soundly through the whole dreadful affair. Would that I had heard that- devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword by the shaft, and given the devil a good thrusting!
++[Did you hear anything unusual from your bedroom?]
+Alas, I retired to my chambers early last night and slept soundly through the whole dreadful affair. Would that I had heard that devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword by the shaft, and given the devil a good thrusting!
 ->hear_response
 
 +[When did you discover the body?]
@@ -81,11 +80,8 @@ Oh, such a frightful thought! I was roused from my sleep by a most terrible scre
 ->Night_Of_Murder
 
 
-
-
-
 +[Let's talk about something else.]
-But of course.
+But of course. Would now be a good time to discuss my new gloveless look, perchance?
 ->Start
 
 
@@ -276,7 +272,7 @@ Oh heavens, sir! Bribery? Moi? Never!
 
 
 =Bargaining_Cont
-I am merely waxing lyrical, sir! How <i>tricky</i> a thing the truth is, is it not. Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
+I am merely waxing lyrical! How <i>tricky</i> a thing the truth is to pin down, wouldn't you agree? Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
 Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative? Particularly for a family man such as yourrself...
 
 
@@ -297,7 +293,7 @@ Yes yes, fascinating. Focus back on me, please.
 ->Bargaining_Final
 
 =Bargaining_Final
-I shall let you know a secret. Given my dear brother's untimely passing, I think it my obligation to protect his family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
+I shall let you know a secret. Given my dear brother's untimely passing, I think it my obligation to protect the family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
 I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.That is assuming the <i>true</i> killer of my brother is found. And of course, assuming our family name remains unstained by rumours. Rumours of affairs and infidelity, for example.
 Does that sound amiable to you, sir?
 
@@ -342,7 +338,7 @@ Have we a deal?
 
 =Refuse_Bribe
 Fine. Cling to your inane theory. I doubt the handful of fools who read that rag of yours will believe it.
-But think on this, sir; your pride will not keep you or your loved ones fed. When youreturn to whatever squalid little hut you call home and find your loved ones wasted away to nothing, I want you to remember that you had the chance to give them a better- no, a <i>resplendant</i> life. And you threw it away. Will it have been worth it, sir?
+But think on this, sir; your pride will not sustain you, or your wretched family. When you return to whatever squalid little hut you call home and find your loved ones wasted away to nothing, I want you to remember that you had the chance to give them a better- no, a <i>resplendant</i> life. And you threw it away. Will it have been worth it, sir?
 ->DONE
 
 
@@ -368,7 +364,7 @@ His hands are ungloved and unadorned.
 
 
 +[<i>Return to the conversation.</i>]
-<i>You focus back on your conversation.</i>
+<i>You return to your conversation.</i>
 ->Start
 
 =Pickpocket
