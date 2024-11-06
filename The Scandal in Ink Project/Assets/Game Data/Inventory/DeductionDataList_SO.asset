@@ -31,15 +31,15 @@ MonoBehaviour:
     amount: 0
   motiveList:
   - text: The Thrill of the Kill!
-    amount: 0
+    amount: 5
   - text: To reclaim a confiscated book.
     amount: 0
   - text: To keep their job.
-    amount: 0
+    amount: 5
   - text: To usurp the throne.
     amount: 0
   - text: To hide a love affair.
-    amount: 0
+    amount: 10
   wayOfEscapeList:
   - text: Jumped out the window
     amount: 0
@@ -71,29 +71,22 @@ MonoBehaviour:
   nameAndImageList:
   - name: Maximillian Hold
     image: {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
-    amount: 0
-    isTheRightAnswer: 0
+    amount: 20
   - name: Admiral Charles Hold
     image: {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
     amount: 0
-    isTheRightAnswer: 0
   - name: Lavender Ditch
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
-    amount: 0
-    isTheRightAnswer: 0
+    amount: 10
   - name: Theodosia Hold
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
     amount: 0
-    isTheRightAnswer: 0
   - name: Avery Hold
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
     amount: 0
-    isTheRightAnswer: 0
   - name: Dorothy Tendwell
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
     amount: 0
-    isTheRightAnswer: 0
   - name: Horse
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
     amount: 0
-    isTheRightAnswer: 0

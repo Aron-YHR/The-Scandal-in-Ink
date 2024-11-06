@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pocket 1_0: 5109791440770194852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

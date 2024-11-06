@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -25,6 +26,7 @@ public class FamilyManager : Singleton<FamilyManager>
     [SerializeField] private TextMeshProUGUI totalSavingsText;
     [SerializeField] private GameObject submitButton;
     [SerializeField] private GameObject warningPanel;
+    [SerializeField] private GameObject endScreen;
 
     //[SerializeField] private List<TextMeshProUGUI> expenseValueTextList;
     private int cost;
@@ -190,7 +192,9 @@ public class FamilyManager : Singleton<FamilyManager>
 
             submitButton.SetActive(false);
 
-            TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
+            StartCoroutine(EndScreen());
+
+            //TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
         }
         else
         {
@@ -199,6 +203,17 @@ public class FamilyManager : Singleton<FamilyManager>
         }
 
         
+    }
+
+    private IEnumerator EndScreen()
+    {
+        yield return new WaitForSeconds(3f);
+        endScreen.SetActive(true);
+    }
+
+    public void BackToStart()
+    {
+        TransitionManager.Instance.Transition("Family", "Menu");
     }
 
 

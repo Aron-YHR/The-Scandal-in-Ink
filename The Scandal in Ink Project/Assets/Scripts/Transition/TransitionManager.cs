@@ -33,13 +33,19 @@ public class TransitionManager : Singleton<TransitionManager>
 
     public void Transition(string from, string to)
     {
-        if(!isFading)
+        if(!isFading) //may cause bug
         StartCoroutine(TransitionToScene(from, to));
     }
 
     private IEnumerator TransitionToScene(string from,string to)
     {
-        if(to == "AfterGame") yield return new WaitForSeconds(3f);
+        if (to == "AfterGame")
+        {
+            yield return new WaitForSeconds(3f);
+            InventoryManager.Instance.journalPanel.SetActive(false);
+        }
+
+        CameraFollowMouse.Instance.DesactivateMove();
 
         yield return Fade(1);
 
@@ -76,6 +82,9 @@ public class TransitionManager : Singleton<TransitionManager>
         EventHandler.CallAfterSceneLoadedEvent();
 
         yield return Fade(0);
+
+        if(!DialogueManager.GetInstance().dialogueIsPlaying)
+        CameraFollowMouse.Instance.ActivateMove();
     }
 
     /// <summary>

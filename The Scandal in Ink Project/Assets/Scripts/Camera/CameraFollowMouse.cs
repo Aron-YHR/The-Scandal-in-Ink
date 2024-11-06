@@ -86,8 +86,8 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
 
     public void GetNewSceneSpriteRenderer()
     {
-        if (canMove)
-        {
+        //if (canMove)
+        //{
             envir = GameObject.FindGameObjectWithTag("Background").GetComponent<SpriteRenderer>();
             if (envir != null)
             {
@@ -104,7 +104,7 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
             {
                 Debug.LogWarning("No Environment");
             }
-        }
+        //}
     }
 
     private Rect SetArea()
