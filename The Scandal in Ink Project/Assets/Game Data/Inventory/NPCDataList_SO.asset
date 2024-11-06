@@ -142,3 +142,16 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 7.
       isUnlocked: 0
+  - npcName: 0
+    npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    location: Study
+    npcInfo: The victim!
+    npcStatements:
+    - statementLine: The Admiral was stabbed multiple times in the chest with something
+        particularly sharp.
+      isUnlocked: 0
+    - statementLine: Something was forcefully torn from the Admiral's coat.
+      isUnlocked: 0
+    - statementLine: Something was forcefully torn from the Admiral's coat.
+      isUnlocked: 0

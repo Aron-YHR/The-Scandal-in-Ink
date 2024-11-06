@@ -522,6 +522,7 @@ MonoBehaviour:
     itemName: 5
     itemIcon: {fileID: 0}
     isEvidence: 1
+    value: 0
     itemInfo: 'A large, ornate brooch bearing the crest of the Hold family. It has
       an exceptionally sharp pin which is coated in blood. A scrap of the Admiral''s
       coat is still attached '

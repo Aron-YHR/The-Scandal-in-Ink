@@ -200,6 +200,7 @@ MonoBehaviour:
     itemName: 9
     itemIcon: {fileID: 0}
     isEvidence: 1
+    value: 0
     itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
       the maid and the stable hand in spite of their "immoral behaviour."
   isHide: 0
@@ -344,6 +345,7 @@ MonoBehaviour:
     itemName: 11
     itemIcon: {fileID: 0}
     isEvidence: 0
+    value: 0
     itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood then
       runs from the windowsill towards the stables.
   isHide: 0
