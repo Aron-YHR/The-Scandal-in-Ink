@@ -44,8 +44,8 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 2. I was so shocked just like on the highway to hell...
       isUnlocked: 0
-    - statementLine: Dorothy states that Maximillian is a womanizer, despite his
-        camp appearance and noble reputation.
+    - statementLine: Dorothy says that Maximillian is a womanizer, despite his camp
+        appearance and noble reputation.
       isUnlocked: 0
     - statementLine: 4.
       isUnlocked: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
     - statementLine: The Admiral was stabbed multiple times in the chest with something
         particularly sharp.
       isUnlocked: 0
-    - statementLine: Something was forcefully torn from the Admiral's coat.
+    - statementLine: Something was forcibly torn off the Admiral's coat.
       isUnlocked: 0
     - statementLine: The Admiral's brooch is missing.
       isUnlocked: 0

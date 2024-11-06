@@ -1,4 +1,3 @@
-@ -1,386 +0,0 @@
 INCLUDE Secrets.ink
 
 
@@ -208,8 +207,6 @@ Alas, that is all it is- a fantasy! If the brooch was found in the stables, I th
 ->How_Follow_Up
 
 
-+{missing_jewel}[I found the missing jewel from the brooch in your room.]
-->How_Follow_Up
 
 =Who
 Aha! I was not aware that you were <i>rifling</i> through my private quarters! That is considered <i>quite</i> inappropriate in civilised society. I assume members of the lower order are unaware of that particular faux pas. You must simply have nothing worth stealing, aha!
@@ -352,6 +349,7 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 
 +[<i>Examine his face.</i>]
 His face is excessively powdered and painted.  His wig is made of the finest human hair. It is blindingly white.
+~unlockItem("dark_red_kissmark")
 However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
 ->Examination
 

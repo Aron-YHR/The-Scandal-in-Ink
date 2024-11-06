@@ -26,7 +26,7 @@ Can you get through that thick newsmonger skull of yours, hah?
 -> Start
 
 
-*{love_letter_1 or love_letter_2}[I found some of your letters...]
+*{ankle_letter}[I found some of your letters...]
 Oh <i>shite</i>.
 Where did you find those?
 It- it's not what it looks like. I'm only friends with Dorothy, that's all! We're close friends!
