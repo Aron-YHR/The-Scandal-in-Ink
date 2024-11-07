@@ -45,7 +45,7 @@ I am quite sure he would have abandoned the idea entirely, had he not perished.
 ->Divorce
 
 *{lavender_confession and affair_revealed}[How did you find out about Lavender & Dorothy's relationship?]
-Charles was the first to discover their dalliance- though it was rather obvious, in hindsight. The foolish girls were stuffing their ridiculous love letters into every free orifice in the manor.
+Well it was rather obvious. The foolish girls were stuffing their ridiculous love letters into every free orifice in the manor.
 They are unaware I am sure of how unfashionable literate women are at present. 
 Charles insisted on dismissing them for "immoral conduct" as he called it.
 However, I objected. I found the notion of a dalliance between two servant girls highly scandalous- and terribly entertaining.
@@ -67,7 +67,7 @@ And really, if the lower orders cannot provide us with entertainment, what on ea
 === Relationship ===
 
 +[Was Charles a good husband?]
-Charles performed his marital duties adequately. He provided a modest dwelling-place, a small allowance to keep me adorned in the most recent fashions, and rarely spoke. A most desirable quality in a husband. He also begot a male heir. A most sensible decision on his part. Eldest daughters are somewhat vulgar, wouldn't you agree?
+Charles performed his marital duties adequately. He provided a modest dwelling-place, a small allowance to keep me adorned in the most recent fashions, and rarely spoke. A most desirable quality in a husband. He also begot a male heir. A most sensible decision on his part. Eldest daughters are somewhat undesirable at present, wouldn't you agree?
 -> Eldest_Daughter
 
 +[Did you love Charles?]
@@ -77,7 +77,7 @@ For a wife of my tenure to express affection, would risk being mistaken for a pr
 ->Relationship
 
 +[You don't seem particularly sad that Charles is dead.]
-Do you expect keening and caterwauling of me, sir? Do you mistake me some sort of Irishman?
+Do you expect keening and caterwauling of me, sir? Do you mistake me for a <i>Spaniard</i>?
 A widow must be demure in the face of death. It is one's duty to maintain the dignity of the family name, as it was Charles' duty to provide for our family. He did the latter relatively adequately in life and continues to do so in the face of death. I must do the same.
 ->Relationship
 
@@ -96,6 +96,9 @@ My deepest sympathies.  ->Relationship
 
 +[That's horrendous. I love my daughter with all my heart!]
 Expressing parental affection in such a flagrant manner? And in public no less! How quaint! The eccentricities of the common rabble never cease to amaze. -> Relationship
+
++[Yeah, my daughter sucks!]
+Yes, that is the general consensus regarding eldest girls. ->Relationship
 
 +[Let's move on.]
 Indeed. ->Relationship
@@ -209,7 +212,7 @@ I objected, of course. I found the entire revelation terribly scandalous- not to
 Alas, it is a lesson learned. One can simply not trust a woman who elects to work with horses.
 ->Affair_Cont
 
-+{kiss_mark and lipstick}[Your lipstick matches the mark on Maximillian's neck.]
++{dark_red_kiss_mark and dark_red_lipstick}[Your lipstick matches the mark on Maximillian's neck.]
 Ah. I see. Quite the deduction.
 ->Affair_Cont
 

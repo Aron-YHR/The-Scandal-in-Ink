@@ -22,24 +22,24 @@ MonoBehaviour:
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: 'A large, ornate brooch bearing the crest of the Hold family. The pin
-      is exceptionally sharp and coated in blood.
+    itemInfo: 'A large, ornate brooch bearing the crest of the Hold family, hidden
+      in the saddle bag in the stables. The pin is exceptionally sharp and coated
+      in blood.
 
-      The brooch appears to be
-      missing one of its jewels...'
+      The brooch appears to be missing one of its jewels...'
   - itemName: 6
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: An unsent letter of Admiral Hold filing for divorce from his wife,
-      Theodosia. The letter is dated the day before his death. It cites adultery
-      as cause of separation.
+    itemInfo: A torn letter penned by Admiral Hold filing for divorce from his wife,
+      Theodosia. The letter is dated the day before his death. The reason for the
+      divorce is not listed. Or perhaps it was written on the other half of the page...?
   - itemName: 9
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
     itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
-      the maid and the stable hand in spite of their "scandalous actions."
+      the maid.
   - itemName: 10
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -55,8 +55,8 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: A pair of gloves found in the stables. Once white, now stained red
-      by blood. They are monogrammed with the initials "T.H."
+    itemInfo: A pair of gloves found in Maximillian's room. Once white, now stained
+      red by blood. They are monogrammed with Theodosia's initials.
   - itemName: 13
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -80,15 +80,41 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: A love letter between Lavender and Dorothy. Testing to see if this
-      works!
+    itemInfo: An unnamed
   - itemName: 16
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
     itemInfo: A door key.
-  - itemName: 15
+  - itemName: 17
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: Bloody clothes found stashed under Max's bed.
+    itemInfo: "A particularly risqu\xE9 love letter written by Dorothy Tendwell addressed
+      to Lavender Ditch. It includes a particularly saucy sketch of Dorothy's ankle.\n\"Lavender,
+      my love,\nI have included the drawing you requested. I  hope you will visit
+      me tonight again so you can see, touch- and taste- the real thing.\nForever
+      yours, Dorothy xoxo \""
+  - itemName: 27
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A pair of gloves with Maximillian's monogrammed initials. Theodosia
+      is wearing them, for some strange reason.
+  - itemName: 18
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A bucket full of blood-tainted water. Perhaps the killer used this
+      to wash the blood from their hands...?
+  - itemName: 21
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A messy pile of hay covered in blood. You think the killer may have
+      tried to wipe the blood from their hands here...
+  - itemName: 23
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: Avery's book!

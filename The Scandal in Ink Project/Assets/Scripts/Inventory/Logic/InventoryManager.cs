@@ -22,6 +22,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public NPCDetailPanel npcDetailPanel;
 
     public GameObject journalHighlight;
+    public GameObject journalPanel;
 
     //private ItemDetails currentItem;
 
@@ -42,8 +43,8 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         journal.itemList.Clear();
         journal.npcList.Clear();
-        journal.deductionChoices.Clear();
-        journal.familyChoices.Clear();
+        journal.deductionChoices = 0;
+        //journal.familyChoices.Clear();
         billsScript.SetDefault();
         RefreshItem();
         RefreshNPC();

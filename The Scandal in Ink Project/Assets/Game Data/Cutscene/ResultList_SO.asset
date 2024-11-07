@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912fc630127d195498f651ae1c474acf, type: 3}
+  m_Name: ResultList_SO
+  m_EditorClassIdentifier: 
+  resultsList:
+  - index: 1
+    newsTitle: Scandal! Mr Rian want to be a level designer!
+    newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
+    lettersList:
+    - "Dear Mr Rian,\nI really enjoy your narrative...That makes me water...\nLove,
+      \nTheodosia Hold"
+    - 
+    - 

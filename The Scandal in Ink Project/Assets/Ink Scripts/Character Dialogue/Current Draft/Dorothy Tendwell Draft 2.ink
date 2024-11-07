@@ -29,7 +29,7 @@ Suspicious, sir? I'm not sure I understand.
 +[What did you think of Admiral Hold?]
 Admiral Hold was an excellent employer. He provided me with clean lodgings, a warm bed, and six shillings a week in pay. And he adored little Avery. I thought very highly of him. -> Relationship
 
-*{love_letter_1 or love_letter_2 and not extort_Dorothy}[Ms. Tendwell, I found your letter...] ->Lesbians_Revealed
+*{ankle_letter and not extort_Dorothy}[Ms. Tendwell, I found this letter you wrote...] ->Lesbians_Revealed
 
 
 +[<i>Examine the suspect.</i>]

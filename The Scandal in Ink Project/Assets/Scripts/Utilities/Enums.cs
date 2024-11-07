@@ -7,16 +7,29 @@ public enum ItemName
     Candle,
     brooch,
     divorce_petition,
-    love_letter_1,
+   stables_love_letter,
     love_letter_2,
     Theodosia_Note,
     testme,
     Bloody_Trail,
-    bloody_glove,
+    theodosias_gloves,
     family_portrait,
     trellis,
     bloody_clothes,
     door_key,
+    ankle_letter,
+    bloody_bucket,
+    burnt_letter,
+    jam_scone,
+    bloody_hay,
+    dorothy_coins,
+    confiscated_book,
+    dark_red_lipstick,
+    dark_red_kissmark,
+    jam_scone_tray,
+    maximillians_gloves,
+    theodosias_pants
+   
 }
 
 public enum NPCName
@@ -37,7 +50,8 @@ public enum Location
     Stables,
     Reception,
     Body,
-    On_the_highway_to_hell
+    On_the_highway_to_hell,
+    Maximillian_Room
 }
 
 public enum LifeState
