@@ -35,6 +35,9 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 +[<i>Examine the suspect.</i>]
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
 
++[It was you! You killed the Admiral!]
+->Accuse
+
 +[<i>Leave</i>]
 ->DONE
 
@@ -282,7 +285,16 @@ Oh, heavens- forgive me, Lady Hold... ->Start
 I- don't think that would be appropriate, sir.->Start
 
 
+===Accuse===
+M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing?
+
++{letter_of_dismissal}[The Admiral fired you! You killed him to keep your job!]
+->DONE
 
 
+
+
++[Forget I said that.]
+->DONE
 
 

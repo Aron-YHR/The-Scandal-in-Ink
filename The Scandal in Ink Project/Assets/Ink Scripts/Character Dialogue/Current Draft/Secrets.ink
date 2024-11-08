@@ -27,6 +27,7 @@ VAR stables_love_letter = false
 VAR love_letter_2 = false
 VAR ankle_letter = false
 VAR theodosias_pants = false
+VAR letter_of_dismissal = false
 
 //STATEMENTS
 

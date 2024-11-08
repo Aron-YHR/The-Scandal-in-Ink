@@ -643,7 +643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &610298626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -919,7 +919,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: '
+
+
+
+
+
+
+    WE LUV U DADY
+
+
+    PLEES SEND FUD'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -946,8 +956,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1055,10 +1065,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dearest Husband,\nThe children miss you. I miss you. \n\n\n\nWe can hold
-    out for now, but please, my love, if you have coin to hand, please send it soon.
-    Without proper sustenance, we will not last long.\n\nYour loving wife,\nMargaret                
-    xxx\n\n"
+  m_text: "My Dear Husband,\n\nThe children miss you dearly. I read them your most
+    recent article last night, to bring you closer to them. It soothed their souls,
+    and proved to be a wonderful sleep aid.\nIn other news, we have run out of food,
+    money, and firewood. We can hold out for now, but please, my love, if you have
+    coin to hand, please send it soon. Without proper sustenance, we will not last
+    long. \nYour loving wife,\nMargaret                        xxx\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3af277fdced63954db29b167a6d47393, type: 2}
   m_sharedMaterial: {fileID: 4040709528633953657, guid: 3af277fdced63954db29b167a6d47393, type: 2}
@@ -1194,10 +1206,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Dear Husband,\n\nWe have run out of food. The coffers are empty. The firewood
+    burns low. We need your help.\n\nIt has been so long since you have been home.
+    I know well how deeply you care for your writing career, but we cannot subsist
+    upon your newspaper articles. \n\nPlease, send whatever you can. The children
+    miss you. I miss you. Please- come home to us soon.\n\nYour adoring Wife,\nMargaret\t\t\txxx"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3af277fdced63954db29b167a6d47393, type: 2}
+  m_sharedMaterial: {fileID: 4040709528633953657, guid: 3af277fdced63954db29b167a6d47393, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1221,8 +1237,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
