@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 0d20687c494ce7f4f866949589e56990
+guid: 60d9b039fd3c1624894bad4eaa664215
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -926465799690235479
-    second: journalgridlines_1_0
+      213: 2435490762786921745
+    second: ledgerboxtop1 (1)_0
   - first:
-      213: 4223048746229568223
-    second: journalgridlines_1_1
+      213: 1225500812004379816
+    second: ledgerboxtop1 (1)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -168,7 +168,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: journalgridlines_1_0
+      name: ledgerboxtop1 (1)_0
       rect:
         serializedVersion: 2
         x: 796
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a15ae883488423f0800000000000000
-      internalID: -926465799690235479
+      spriteID: 11dd8a9e1f99cc120800000000000000
+      internalID: 2435490762786921745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: journalgridlines_1_1
+      name: ledgerboxtop1 (1)_1
       rect:
         serializedVersion: 2
         x: 0
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd21c24c5784b9a30800000000000000
-      internalID: 4223048746229568223
+      spriteID: 8ac497bde7ad10110800000000000000
+      internalID: 1225500812004379816
       vertices: []
       indices: 
       edges: []
