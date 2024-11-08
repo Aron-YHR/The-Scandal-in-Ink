@@ -9,12 +9,12 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: Salutations to you, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} #speaker: Avery Hold
+{TURNS_SINCE(-> INTRO) == 0: Salutations to you, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} #speaker: Avery Hold #portrait:childneutral
 
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
 'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to discover the end of our dear paterfamilias!
 Roused from slumber was I by a most discomfiting cacophony emanating from my progenitor's sanctum. Two voices, both brimming with vexation and trepidation, one clashing 'gainst t'other as Achilles did strike at Hector's shield! 
-Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole.
+Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole.  #speaker: Avery Hold #portrait:childnegative
 ~ unlockStatement("Avery_Hold",1)
 And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 
@@ -52,8 +52,10 @@ For what reason?
 
 ===Night_Of_Murder===
 
-*[So, you went to inspect an argument in your father's study, but he was dead by the time you got there. Is that right?]
-Correct, a most apt abridgement. ->Night_Of_Murder
+*[So, you heard an argument in your father's study?]
+Correct.
+**[But he was already dead by the time you entered?]
+Correct again. A most apt- and tragic- abridgement. ->Night_Of_Murder
 
 +[What was the argument about?]
 Alas, so impassioned had this fatal tête-à-tête become that it had devolved into a deadly conflagration before I could the study.
@@ -191,10 +193,10 @@ You leave it for the time being.
 
 ===Accuse===
 
-+{avery_book_confession}[Your father took your book, and you killed him for it! You're going to the gallows, kid!]
++{avery_book_confession}[Your father took your book, and you killed him for it!]
 ->Iliad_Confiscated.Crying
 
-+[I don't know why I think that, but I'll find proof! And then you'll hand, kid!]
++[I have no proof, but I'll find some! And then you'll hang, kid!]
 If this be a jape, 'tis a jape made in remrkably poor taste, sir. ->Start
 
 +[Never mind. Forget I said anything.]

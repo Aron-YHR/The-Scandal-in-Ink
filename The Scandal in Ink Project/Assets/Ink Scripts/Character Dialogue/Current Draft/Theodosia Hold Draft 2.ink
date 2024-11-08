@@ -10,7 +10,7 @@ VAR argument = false
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: Should you intend to take my portraiture for your publication, I must insist you use take it from my left side. It is most uncouth for a lady of status to expose her right cheek to the great unwashed.} #speaker: Theodosia Hold
+{TURNS_SINCE(-> INTRO) == 0: Should you intend to take my portraiture for your publication, I must insist you use take it from my left side. It is most uncouth for a lady of status to expose her right cheek to the great unwashed.} #speaker: Theodosia Hold #portrait:theladyneutral
 
 
 

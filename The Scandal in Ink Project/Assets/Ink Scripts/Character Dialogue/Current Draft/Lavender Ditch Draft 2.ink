@@ -11,7 +11,7 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: What?}  #speaker: Ms. Ditch
+{TURNS_SINCE(-> INTRO) == 0: What?}  #speaker: Lavender Ditch #portrait:stablehandnegative
 
 
 

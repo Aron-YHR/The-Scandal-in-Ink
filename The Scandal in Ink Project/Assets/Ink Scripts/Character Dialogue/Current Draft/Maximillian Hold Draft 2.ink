@@ -9,7 +9,7 @@ INCLUDE Secrets.ink
 -> Start
 
 === Start ===
-{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend!} 
+{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend!} #speaker: Maximillian Hold #portrait:fopneutral
 
 +[Where were you the night of the murder?]
 ~ unlockStatement("Maximillian_Hold",1)
@@ -245,7 +245,7 @@ You must disregard everything she told you, sir. It is utter poppycock!
 ===Bartering===
 I- I- I-!
 ...
-Well, aren't you a clever little commoner.
+Well, aren't you a clever little commoner. #speaker: Maximillian Hold #portrait:fopnegative
 You've performed a very <i>thorough</i> investigation, haven't you?
 I admit, this must seem terribly suspicious from your perspective. But I can assure you, there is a perfectly logical explanation for all these unfortunate findings of yours.
 You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her murderous clutches!
