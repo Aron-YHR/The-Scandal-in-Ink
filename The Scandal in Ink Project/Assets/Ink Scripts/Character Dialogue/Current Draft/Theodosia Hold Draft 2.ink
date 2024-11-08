@@ -208,12 +208,6 @@ Unless the sufferer is impoverished. Neuroticism amongst the poor is a clear sig
 
 
 
-
-
-
-
-
-
 ===Affair===
 
 +{lavender_confession}[I spoke to Lavender. She told everything.]
@@ -316,7 +310,11 @@ Very well. One sincerely hopes you make the well-bred decision.
 
 
 
-
+===Accuse===
+Murder my husand? 
+I know it has become quite fashionble in France to murder one's husband, but it is <i>hardly</i> the done thing here, sir. 
+What could have possibly brought you to such a conclusion?
+->DONE
 
 
 
