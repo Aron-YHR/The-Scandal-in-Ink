@@ -10,7 +10,7 @@ VAR argument = false
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: Should you intend to take my portraiture for your publication, I must insist you use take it from my left side. It is most uncouth for a lady of status to expose her right cheek to the great unwashed.} #speaker: Theodosia Hold
+{TURNS_SINCE(-> INTRO) == 0: Should you intend to take my portraiture for your publication, I must insist you use take it from my left side. It is most uncouth for a lady of status to expose her right cheek to the great unwashed.} #speaker: Theodosia Hold #portrait:theladyneutral
 
 
 
@@ -163,12 +163,15 @@ Barring the Irish. He loathed the Irish.
 ===Examination===
 
 +[Examine her hands.]
-<i> Her gloves are a pristine white. You notice that they are monogrammed. They bear the initials "M.H".</i>
+<i> Her gloves are a pristine white. However, you notice they are monogrammed. "M.H."
+~unlockItem("pink_lipstick")
+<i>Why is Theodosia wearing Maximillian's gloves...?</i>
 ->Examination
 
-+[Examine her face]
-<i> Her face is well painted, but not garishly so. Her lipstick is a dull rouge.</i>
--> Examination
++[Examine her purse.]
+<i>You notice some unusual items in Theodosia's purse.
+<i>You think you might be able to look inside it without her noticing...
+-> Pickpocket
 
 +[Examine her clothing]
 <i> Her attire is undeniably stylish. She's the best dressed widow you've ever seen. </i>
@@ -177,6 +180,14 @@ Barring the Irish. He loathed the Irish.
 +[Return to the conversation]
 ->Start
 
+=Pickpocket
++[<i>Pickpocket Theodosia.</i>]
+~Transition("Garden","Theodosia Purse")
+->DONE
+
++[<i>Leave it for now.</i>]
+<i>You leave it for the moment.
+->Examination
 
 ===Divorce===
 

@@ -8,7 +8,7 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Ms. Tendwell
+  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Dorothy Tendwell #portrait:maidpositive
 
 +[Where were you the night of the murder?]
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.

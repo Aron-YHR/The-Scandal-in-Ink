@@ -3,7 +3,7 @@ VAR found_swapped_gloves = false
 VAR test_true = true
 VAR test_false = false
 VAR Chair = false
-VAR affair_revealed = true
+VAR affair_revealed = false
 VAR divorce_letter = false
 
 

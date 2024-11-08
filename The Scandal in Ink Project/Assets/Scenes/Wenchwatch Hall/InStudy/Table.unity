@@ -307,9 +307,7 @@ MonoBehaviour:
     itemIcon: {fileID: 0}
     isEvidence: 1
     value: 0
-    itemInfo: An unsent letter written by Admiral Hold filing for divorce from his
-      wife, Theodosia. The letter is dated the day before his death. It claims that
-      Theodosia has commited adultery.
+    itemInfo: 
   isHide: 0
   isClicked: 0
 --- !u!212 &147744918

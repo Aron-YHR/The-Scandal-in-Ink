@@ -168,12 +168,12 @@ TextureImporter:
       name: childneutral_0
       rect:
         serializedVersion: 2
-        x: 107
+        x: 96
         y: 0
         width: 385
         height: 624
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 967936bed7237dd47aa13577eba5e11a
     internalID: 0
     vertices: []
     indices: 

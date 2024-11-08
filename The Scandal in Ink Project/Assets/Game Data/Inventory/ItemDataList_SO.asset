@@ -151,3 +151,28 @@ MonoBehaviour:
       Dorothy has until the end of the week to make alternative living arrangements,
       at which point she will be removed from Wenchwatch Hall. The letter cites poor
       performance as the reason for dismissal.
+  - itemName: 20
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: 'A rather stale jam scone found in Avery Hold''s back pocket.
+
+      It
+      appears to be covered in horse hair'
+  - itemName: 24
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A light pink shade of lipstick found in Theodosia's purse.
+  - itemName: 25
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A strange pink mark on Maximillian's neck. It appears to be a lipstick
+      smudge...
+  - itemName: 22
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 6
+    itemInfo: A pile of coins found in Dorothy's pocket. There must be at least a
+      week's wages here...

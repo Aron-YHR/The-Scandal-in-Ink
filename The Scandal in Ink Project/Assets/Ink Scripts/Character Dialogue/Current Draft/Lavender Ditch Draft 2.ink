@@ -11,7 +11,7 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: What?}  #speaker: Ms. Ditch
+{TURNS_SINCE(-> INTRO) == 0: What?}  #speaker: Lavender Ditch #portrait:stablehandnegative
 
 
 
@@ -40,7 +40,7 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 
 
 *{pickpocket_lavender}[<i>Pickpocket Lavender.</i>]
-~Transition("Stables","LadyPocket")
+~Transition("Stables","Lavender Pocket")
 ->DONE
 
 +[<i> Examine the suspect more closely. </i>]
