@@ -7,6 +7,14 @@ using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
+    [Header("Font Setting")]
+    public TMP_FontAsset font1;
+    public TMP_FontAsset font2;
+    public Toggle fontToggle;
+    public TextMeshProUGUI fontShowcase;
+    public GameObject dialogue;
+    
+
     public FamilyMember_SO familyMembers;
 
     public GameObject showcasePanel;
@@ -93,6 +101,41 @@ public class UIManager : Singleton<UIManager>
     {
         ItemDetails itemDetails = currentItem.GetComponent<Item>().itemDetails;
         InventoryManager.Instance.AddItem(itemDetails);
+    }
+
+    public void ChangeFontShowcase()
+    {
+        if(fontToggle.isOn)
+        {
+            fontShowcase.font = font2;
+        }
+        else
+        {
+            fontShowcase.font = font1;
+        }
+    }
+
+    public void ApplyFontToUI()
+    {
+        if (fontToggle.isOn)
+            ChangeFontForDialogue(font2);
+        else
+            ChangeFontForDialogue(font1);
+    }
+
+    public void ChangeFontForDialogue(TMP_FontAsset font)
+    {
+        for (int i = 0; i < DialogueManager.GetInstance().choices.Length; i++)
+        {
+            DialogueManager.GetInstance().choices[i].SetActive(true);
+        }
+
+
+        TextMeshProUGUI[] list = dialogue.GetComponentsInChildren<TextMeshProUGUI>();
+        for(int i = 0; i < list.Length; i++)
+        {
+            list[i].font = font;
+        }
     }
 
 
