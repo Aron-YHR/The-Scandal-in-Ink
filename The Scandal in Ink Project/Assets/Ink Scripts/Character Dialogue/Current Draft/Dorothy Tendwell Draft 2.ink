@@ -234,12 +234,26 @@ Thank you, sir. Truly. Thank you.
 -> Examination
 
 +[Examine her clothing.]
-<i> Her clothes are practical, modest, and well-kept. </i> 
--> Examination
+->Pickpocket
 
 
 +[Return to the conversation]
 <i>Your focus returns to the conversation at hand.</i> -> Start
+
+
+=Pickpocket
+<i> Her clothes are practical, modest, and well-kept. However, you notice something unusual sticking out of her back pocket.</i> 
+<i> You think you might be able to grab it without her noticing...</i> 
+
++[<i>Pickpocket Dorothy.</i>]
+~Transition("Reception","Dorothy Pocket")
+->DONE
+
++[<i>Leave it for now.</i>]
+<i>You decide to leave it for the moment.
+->Examination
+
+
 
 ===Door_Key===
 
