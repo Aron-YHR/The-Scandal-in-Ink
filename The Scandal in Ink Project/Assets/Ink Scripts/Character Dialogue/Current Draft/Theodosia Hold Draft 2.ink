@@ -119,7 +119,7 @@ Oh, matters of a marital nature. Such was the banality of our conversation that 
 ->Night_Of_Murder
 
 +[Why should I confer with your maid?]
-Ms. Tendwell was present as I was leaving Charles'  study. One must admit, she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European.
+Ms. Tendwell was present as I was leaving Charles' study. One must admit, she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European.
 ->Night_Of_Murder
 
 +[How did you discover the body?]
@@ -127,7 +127,7 @@ Ms. Tendwell interrupted my private weeping to inform me that Charles had been s
 ->Night_Of_Murder
 
 +[Did you hear anything that night?]
-I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as I have heard on several nights past. I generally disapprove of serving girls creating noise. However, Ms. Tendwell's performance is quite satisfactory, so I have elected to overlook this indiscretion.
+I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as I have heard on several nights past. I generally disapprove of serving girls creating noise. However, I find Ms. Tendwell's performance is quite satisfactory, so I have elected to overlook this indiscretion.
 ->Night_Of_Murder
 
 
