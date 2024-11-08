@@ -6,11 +6,13 @@ public class TransitionManager : Singleton<TransitionManager>
 {
     public string startScene;
 
+    public Canvas fadeCanvas;
     public CanvasGroup fadeCanvasGroup;
 
     public float fadeDuration;
 
     private bool isFading;
+    public Animator cutsceneAnimator;
 
     /*private void Start()
     {
@@ -28,7 +30,9 @@ public class TransitionManager : Singleton<TransitionManager>
     }
     private void OnStartNewGameEvent()
     {
+        fadeCanvas.sortingOrder = 11;
         StartCoroutine(TransitionToScene("Menu", startScene));
+        cutsceneAnimator.Play("Newspaper");
     }
 
     public void Transition(string from, string to)
@@ -83,7 +87,9 @@ public class TransitionManager : Singleton<TransitionManager>
 
         yield return Fade(0);
 
-        if(!DialogueManager.GetInstance().dialogueIsPlaying)
+        fadeCanvas.sortingOrder = 2;
+
+        if (!DialogueManager.GetInstance().dialogueIsPlaying)
         CameraFollowMouse.Instance.ActivateMove();
     }
 
