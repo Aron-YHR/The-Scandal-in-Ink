@@ -59,5 +59,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pockets/Maximillian Pocket.unity
     guid: 3db61796eb1170d47b994abe03632b3f
+  - enabled: 1
+    path: Assets/Scenes/Pockets/Lavender Pocket.unity
+    guid: 16b4fd7131542e2419b5ab7d9775ff91
+  - enabled: 1
+    path: Assets/Scenes/Pockets/Theodosia Purse.unity
+    guid: e6001386976bdee4ba7d527f495b15fe
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

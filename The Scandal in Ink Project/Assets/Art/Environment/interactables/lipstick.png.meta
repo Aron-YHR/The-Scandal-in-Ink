@@ -172,11 +172,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 20
-        y: 215
-        width: 202
-        height: 210
+        y: 75
+        width: 458
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,31 +188,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: lipstick_1
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 79
-        width: 303
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfd4357f26c7dbde0800000000000000
-      internalID: -1315758751624245765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b2627afefa57f3b4f9da4a2e9eaddaa4
     internalID: 0
     vertices: []
     indices: 

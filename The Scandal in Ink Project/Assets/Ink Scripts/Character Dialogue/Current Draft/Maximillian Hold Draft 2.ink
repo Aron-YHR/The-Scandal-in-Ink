@@ -349,7 +349,7 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 
 +[<i>Examine his face.</i>]
 His face is excessively powdered and painted.  His wig is made of the finest human hair. It is blindingly white.
-~unlockItem("dark_red_kissmark")
+~unlockItem("pink_lipstick_smudge")
 However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
 ->Examination
 

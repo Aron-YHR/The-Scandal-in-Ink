@@ -180,10 +180,11 @@ Indeed. ->Start
 =Pickpocket
 
 +[<i>Pickpocket Avery.</i>]
-~Transition("Stables","LadyPocket")
+~Transition("Reception","Avery Pocket")
 ->DONE
 
 +[<i>Leave it for now.</i>]
+You leave it for the time being.
 ->Examination
 
 
