@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ledgerboxtop_0: 622976507446599755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
