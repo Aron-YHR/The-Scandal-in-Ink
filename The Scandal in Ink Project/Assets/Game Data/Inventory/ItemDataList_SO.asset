@@ -39,7 +39,7 @@ MonoBehaviour:
     isEvidence: 1
     value: 0
     itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
-      the maid.
+      the maid, Dorothy Tendwell.
   - itemName: 10
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -56,7 +56,7 @@ MonoBehaviour:
     isEvidence: 1
     value: 0
     itemInfo: A pair of gloves found in Maximillian's room. Once white, now stained
-      red by blood. They are monogrammed with Theodosia's initials.
+      red with blood. They are monogrammed with Theodosia Hold's initials.
   - itemName: 13
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -74,16 +74,26 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 100
-    itemInfo: A love letter between Lavender and Dorothy. Testing to see if this
-      works!
+    itemInfo: 'A love letter between two unnamed persons, found in Lavender Ditch''s
+      back pocket. It reads as follows:
+
+      "My love, I have done as you asked.
+      I have left you a special letter somewhere secret. Like our love, its fiery
+      passion is caged by day, but burns brightly at night."'
   - itemName: 8
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: An unnamed
+    itemInfo: 'A love letter between two unnamed persons, found in Theodosia Hold''s
+      purse. It reads as follows:
+
+      "My love, these past few nights have been
+      cold without you by my side. Would you leave me some small token to remind
+      me of you? Leave it in our secret spot. Like our love, its fiery passion is
+      caged by day, but burns brightly at night."'
   - itemName: 16
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
+    isEvidence: 0
     value: 0
     itemInfo: A door key.
   - itemName: 17
@@ -117,4 +127,27 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: Avery's book!
+    itemInfo: 'A copy of The Iliad. The inside of the front cover reads: "Property
+      of Avery Hold"'
+  - itemName: 28
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A pair of frilly women's underwear found in Maximillian's room. At
+      least, you assume they're a woman's...
+  - itemName: 19
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: 'The burnt remains of a divorce petition penned by Admiral Hold. Most
+      of the letter is burnt beyond legibility, but one word has survived the fire:
+      "Adultery."'
+  - itemName: 29
+    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    isEvidence: 1
+    value: 0
+    itemInfo: A letter of dismissal  written by Admiral Charles Hold addressed to
+      Dorothy Tendwell, found in Dorothy's back pocket. The letter stipulates that
+      Dorothy has until the end of the week to make alternative living arrangements,
+      at which point she will be removed from Wenchwatch Hall. The letter cites poor
+      performance as the reason for dismissal.

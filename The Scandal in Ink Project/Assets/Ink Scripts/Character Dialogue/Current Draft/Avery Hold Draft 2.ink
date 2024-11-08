@@ -23,7 +23,7 @@ And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 
 
 +[Tell me about your family life.]
-Pray tell, what exactly intrigues you so? -> Relationship
+Pray tell, what precisely intrigues you so? -> Relationship
 
 
 *{confiscated_book or iliad_mentioned}[Did your father confiscate your copy of the Iliad.]
@@ -56,7 +56,7 @@ For what reason?
 Correct, a most apt abridgement. ->Night_Of_Murder
 
 +[What was the argument about?]
-Alas, so impassioned had this fatal tête-à-tête become that it devolved into a deadly conflagration before I could reach the study.
+Alas, so impassioned had this fatal tête-à-tête become that it had devolved into a deadly conflagration before I could the study.
 Thus the subject matter eluded me. Confound these juvenile feet! Would that I were blessed with the nimble stride of Hermes! ->Night_Of_Murder
 
 +[Who was at the scene of the crime?]
@@ -76,14 +76,13 @@ Only the familial emblem brazenly torn from the admiralty's coatee. I can only c
 But to dispatch my noble Father... Would a petty thief truly debauch their mortal souls for mere coin? ->Night_Of_Murder
 
 +[Let's talk about something else.]
-As you say, sir.->Start 
+As Heracles did heed Eurystheus' deeds, so shall I comply.->Start 
 
 ===Relationship===
 
 +[Were you and your father close?]
 Icarus was I to my father's Daedalus. Great knowledge did he impart to me. I loved him dearly. 
 Alas, a subversion of the tragic tale! 'Tis now my Icarus destined to behold Daedalus' terrible fall!
-{dorothy_present: TEST}
 ->Relationship
 
 +[Did you have a happy family life before this?]
@@ -106,10 +105,10 @@ Of course. I shall acquiesce to your every whim.->Start
 Oft is it that this damnable jejune tongue of mine does confound the guests of Wenchwatch Hall. //If it would please you, Ms. Tendwell can act as a dragoman of sorts, if you wish? A translator?
 
 +[What the hell does that even mean?!]
-I- will do my best to communicate succinctly, sir. -> Start
+I can only apologise, sir - I will do my best to communicate succinctly. -> Start
 
 +[Why you no speak good English, kid?!]
-I do not know, sir! Truly, it is a terrible aggrievement for me as much as you. I can only proffer my apologies.   -> Start
+I do not know, sir! Truly, it is a terrible aggrievement for me as much as you. Confound my lack of oratorical ability!-> Start
 
 ===Iliad_Confiscated
 
@@ -155,7 +154,7 @@ Ahem.
 -> You_Fucked_Up
 
 =You_Fucked_Up
-Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not appreciate further suggestions to the contrary. #speaker Dorothy Tendwell
+Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker Dorothy Tendwell
 +[Yes ma'am. Sorry ma'am. Sorry Avery.]
 'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker Avery Hold
 ++[Let's talk about something else.]
@@ -171,11 +170,21 @@ Indeed. ->Start
 
 +[Examine his clothing.]
 <i> He has been dressed in appropriate mourning attire. However, you notice that Avery appears to be carrying something in his back pocket.</i>
-<i> You think you might be able to grab it, if you'r careful...</i> -> Examination
+<i> You think you might be able to grab it, if you're careful...</i> ->Pickpocket
 
 
 +[Return to the conversation]
 <i> You return to your conversation with the unusually verbose child.</i> -> Start
+
+
+=Pickpocket
+
++[<i>Pickpocket Avery.</i>]
+~Transition("Stables","LadyPocket")
+->DONE
+
++[<i>Leave it for now.</i>]
+->Examination
 
 
 

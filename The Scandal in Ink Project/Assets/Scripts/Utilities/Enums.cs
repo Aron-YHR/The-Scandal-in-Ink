@@ -8,7 +8,7 @@ public enum ItemName
     brooch,
     divorce_petition,
    stables_love_letter,
-    love_letter_2,
+    purse_love_letter,
     Theodosia_Note,
     testme,
     Bloody_Trail,
@@ -28,7 +28,8 @@ public enum ItemName
     dark_red_kissmark,
     jam_scone_tray,
     maximillians_gloves,
-    theodosias_pants
+    theodosias_pants,
+    letter_of_dismissal
    
 }
 
