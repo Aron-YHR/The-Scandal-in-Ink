@@ -9,7 +9,7 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: Salutations to you, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} #speaker: Avery Hold #portrait:childneutral
+{TURNS_SINCE(-> INTRO) == 0: Salutations, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} #speaker: Avery Hold #portrait:childneutral
 
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
 'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to discover the end of our dear paterfamilias!  #speaker: Avery Hold #portrait:childnegative

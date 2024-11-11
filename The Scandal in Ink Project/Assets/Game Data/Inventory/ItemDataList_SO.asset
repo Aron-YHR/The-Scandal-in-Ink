@@ -91,11 +91,11 @@ MonoBehaviour:
       cold without you by my side. Would you leave me some small token to remind
       me of you? Leave it in our secret spot. Like our love, its fiery passion is
       caged by day, but burns brightly at night."'
-  - itemName: 16
+  - itemName: 30
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 0
+    isEvidence: 1
     value: 0
-    itemInfo: A door key.
+    itemInfo: A key to Max's room.
   - itemName: 17
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1

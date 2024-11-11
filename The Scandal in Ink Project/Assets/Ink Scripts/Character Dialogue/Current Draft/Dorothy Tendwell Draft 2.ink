@@ -23,7 +23,7 @@ By which I mean that the Admiral was- Oh, even the mention of it- it's too horri
 Suspicious, sir? I'm not sure I understand.
 ->Suspicious
 
-+{checked_door and not door_key}[Can I have the key to Maximillian's room?]
++{checked_door and not door_key and not maximillian_door_key}[Can I have the key to Maximillian's room?]
 ->Door_Key
 
 +[What did you think of Admiral Hold?]
@@ -191,6 +191,7 @@ Thank you, sir. I can't possibly thank you enough. ->Start
 +{checked_door and not door_key}[I'll keep this quiet- if you give me the key to Maximillian's room.]
 The key to- well- I suppose, given the present situation- just this once- I can permit you access to Maximillian's private quarters. I shall fetch it for you.
 ~door_key = true
+~unlockItem("maximillian_door_key")
 Now I beg you to forget you ever saw those letters. I promise I shall never so recklessly sketch an ankle again! ->Start
 
 +[This is too juicy to pass up! It's going on the front page!]

@@ -29,7 +29,8 @@ public enum ItemName
     jam_scone_tray,
     maximillians_gloves,
     theodosias_pants,
-    letter_of_dismissal
+    letter_of_dismissal,
+    maximillian_door_key
    
 }
 
