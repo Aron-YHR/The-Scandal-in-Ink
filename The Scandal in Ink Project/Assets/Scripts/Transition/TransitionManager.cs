@@ -14,6 +14,8 @@ public class TransitionManager : Singleton<TransitionManager>
     private bool isFading;
     public Animator cutsceneAnimator;
 
+    public AudioDefinition audioDefinition;
+
     /*private void Start()
     {
         StartCoroutine(TransitionToScene(string.Empty, startScene));
@@ -31,25 +33,25 @@ public class TransitionManager : Singleton<TransitionManager>
     private void OnStartNewGameEvent()
     {
         fadeCanvas.sortingOrder = 11;
-        StartCoroutine(TransitionToScene("Menu", startScene));
+        StartCoroutine(TransitionToScene("Menu", startScene,0));
         cutsceneAnimator.Play("Newspaper");
     }
 
     public void Transition(string from, string to)
     {
         if(!isFading) //may cause bug
-        StartCoroutine(TransitionToScene(from, to));
+        StartCoroutine(TransitionToScene(from, to, audioDefinition.audioClip.length));
     }
 
-    public void CutsceneTransition(string from, string to)
+    public void CutsceneTransition(string from, string to,float length)
     {
         if(!isFading)
         {
-            StartCoroutine(CutsceneTransitionToScene(from, to));
+            StartCoroutine(CutsceneTransitionToScene(from, to,length));
         }
     }
 
-    private IEnumerator TransitionToScene(string from,string to)
+    private IEnumerator TransitionToScene(string from,string to, float length)
     {
         if (to == "AfterGame")
         {
@@ -93,6 +95,7 @@ public class TransitionManager : Singleton<TransitionManager>
 
         EventHandler.CallAfterSceneLoadedEvent();
 
+        yield return new WaitForSeconds(length); // keep sreen black
         yield return Fade(0);
 
         fadeCanvas.sortingOrder = 2;
@@ -101,12 +104,12 @@ public class TransitionManager : Singleton<TransitionManager>
         CameraFollowMouse.Instance.ActivateMove();
     }
 
-    private IEnumerator CutsceneTransitionToScene(string from, string to)
+    private IEnumerator CutsceneTransitionToScene(string from, string to,float length)
     {
 
         CameraFollowMouse.Instance.DesactivateMove();
 
-        yield return Fade(1);
+        yield return FadeForCutscene(1);
 
         if (from != string.Empty)
         {
@@ -133,7 +136,9 @@ public class TransitionManager : Singleton<TransitionManager>
 
         EventHandler.CallAfterSceneLoadedEvent();
 
-        yield return Fade(0);
+        yield return new WaitForSeconds(length); // keep sreen black
+
+        yield return FadeForCutscene(0);
 
         fadeCanvas.sortingOrder = 2;
 
@@ -164,4 +169,24 @@ public class TransitionManager : Singleton<TransitionManager>
 
         isFading = false;
     }
+
+    private IEnumerator FadeForCutscene(float targetAlpha)
+    {
+        isFading = true;
+
+        fadeCanvasGroup.blocksRaycasts = true;
+
+        float speed = Mathf.Abs(fadeCanvasGroup.alpha - targetAlpha) / fadeDuration;
+
+        while (!Mathf.Approximately(fadeCanvasGroup.alpha, targetAlpha))
+        {
+            fadeCanvasGroup.alpha = Mathf.MoveTowards(fadeCanvasGroup.alpha, targetAlpha, speed * Time.deltaTime);
+            yield return null;
+        }
+
+        fadeCanvasGroup.blocksRaycasts = false;
+
+        isFading = false;
+    }
+
 }

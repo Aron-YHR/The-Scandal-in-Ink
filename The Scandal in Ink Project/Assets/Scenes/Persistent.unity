@@ -3690,6 +3690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: abf391c54e053a44198cb547bb6efe84, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &408960160
 GameObject:
@@ -4787,6 +4788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: cb1b3bb595e141c4c912438a2d4ed5fa, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &492319148
 GameObject:
@@ -4798,6 +4800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492319149}
   - component: {fileID: 492319150}
+  - component: {fileID: 492319151}
   m_Layer: 0
   m_Name: TransitionManager
   m_TagString: Untagged
@@ -4837,6 +4840,22 @@ MonoBehaviour:
   fadeCanvasGroup: {fileID: 1196971732}
   fadeDuration: 1
   cutsceneAnimator: {fileID: 1294546401}
+  audioDefinition: {fileID: 492319151}
+--- !u!114 &492319151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492319148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: b03cbc87635a3bb4688cb67ba8dbf7fc, type: 3}
+  transitionAudioClips: []
+  playOnEnable: 0
 --- !u!1 &506457808
 GameObject:
   m_ObjectHideFlags: 0
@@ -7482,6 +7501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: abf391c54e053a44198cb547bb6efe84, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &739983985
 GameObject:
@@ -7947,6 +7967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 395e0393a423cc74aac66ba1b2bf3f73, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &772003966
 GameObject:
@@ -9966,6 +9987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 36fa54b88c79cae45988cd79b58cb141, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &972446129
 GameObject:
@@ -12302,6 +12324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 91ef14c2c6618b94a809d8747d5a1cc0, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &1147362450
 GameObject:
@@ -12925,6 +12948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 8cd0a8b15007baa4d887bbe2a6fd39e4, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &1230643981
 GameObject:
@@ -13299,6 +13323,7 @@ GameObject:
   - component: {fileID: 1262085684}
   - component: {fileID: 1262085682}
   - component: {fileID: 1262085683}
+  - component: {fileID: 1262085685}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -13529,10 +13554,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGMSource: {fileID: 1262085682}
   FXSource: {fileID: 1262085683}
+  transitionSource: {fileID: 1262085685}
   audioMixer: {fileID: 24100000, guid: 4a3216c1d85742a4c892c14573a12c21, type: 2}
   masterVolumeSlider: {fileID: 1351302239}
   bgmVolumeSlider: {fileID: 1097010736}
   fxVolumeSlider: {fileID: 1159063255}
+--- !u!82 &1262085685
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262085680}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -38005297712203820, guid: 4a3216c1d85742a4c892c14573a12c21, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1264071488
 GameObject:
   m_ObjectHideFlags: 0
@@ -15216,6 +15339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 37866e56bcb787b4a957bbb37a51ae42, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &1406892822
 GameObject:
@@ -16152,6 +16276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 7cc1efc8ef3a9204c9e2f1062a7d9c60, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &1475929570
 GameObject:
@@ -17177,6 +17302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 22ac863043993954e857e19c681b16a0, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &1543433842
 GameObject:
@@ -17497,6 +17623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 8bba868e02d99a448b637c8d7d023d54, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
 --- !u!1 &1553913177
 GameObject:
