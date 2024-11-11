@@ -57,7 +57,7 @@ Well- you see, sir-
 Heavens, I'm not quite sure how to explain-
 You see- the Admiral- he's-
 Perhaps it's best you just see for yourself...
-~Transition("Intro Reception","Table")
+~Transition("Intro Reception","Intro Table")
 ->Body
 
 
@@ -89,7 +89,7 @@ Well, he's slightly-
 <i>Deceased!</i>
 
 
-Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker: Ms. Tendwell #layout:right #portrait:fopneutral
+Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker: Ms. Tendwell #layout:right #portrait:maidneutral
 
 Oh, dear brother! To be struck down so tragically! #speaker: Maximillian_Hold #layout:left  #portrait:fopneutral
 So ignobly!
@@ -97,7 +97,7 @@ Surrounded by such <i>horrendous</i> furnishings!
 <i>Ah!</i> I do not know how my heart can bear such an onslaught of travesties!
 Oh- Dorothy dearest, who is this drably dressed fellow?
 
-This here is a journalist, sir. He says he's from the Weekly Wag. #speaker: Ms. Tendwell #layout:right #portrait:maidneutral
+This here is a journalist, sir. He says he's from the Weekly Wag. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
 The Weekly Wag, you say? #speaker: Maximillian_Hold #layout:left #portrait:fopshock
 Ah! So the press have finally caught wind of my daring new fashion statement: <i>Gloveless</i> hands! #speaker: Maximillian_Hold #layout:left #portrait:foppositive
@@ -124,7 +124,7 @@ Sir Maximillian, it seems that the Admiral requested to speak to the gentleman h
 Apparently he had a story he felt important to share with the Weekly Wag- and the wider world. 
 
 
-A journalist, you say? #speaker: Theodosia_Hold #layout:left
+A journalist, you say? #speaker: Theodosia_Hold #layout:left #portrait: 
 How enterprising of Charles to summon a newspaperman to Wenchwatch Hall in anticipation of his own murder.
 Such was the nature of my late husband- always a most forward-thinking fellow.
 
