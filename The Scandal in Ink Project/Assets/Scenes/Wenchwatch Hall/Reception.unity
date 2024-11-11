@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 074a939a2fa37d0449654a1c5f5545f9, type: 3}
-  playOnEnable: 0
+  playOnEnable: 1
 --- !u!4 &913118748
 Transform:
   m_ObjectHideFlags: 0
