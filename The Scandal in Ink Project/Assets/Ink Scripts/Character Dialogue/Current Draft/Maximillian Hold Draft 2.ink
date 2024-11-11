@@ -367,7 +367,6 @@ His hands are ungloved and unadorned.
 ->Start
 
 =Pickpocket
-~pickpocket_lavender = true
 <i>Maximillian is excessively overdressed. You imagine that this is considered highly fashionable.
 <i>However, you notice an unusual lump in Max's back pocket. You think you might be able to grab it without him noticing...
 
