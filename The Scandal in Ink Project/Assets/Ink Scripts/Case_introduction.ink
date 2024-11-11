@@ -10,7 +10,7 @@ VAR question_tracker = 0
 
 ~TransitionToMainGame("BeforeGame","Intro Reception")
 ~unlockNPC("Admiral_Charles_Hold")
-Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Dorothy Tendwell #portrait: maidneutral
+Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Dorothy Tendwell #portrait:maidneutral
 
 
 
@@ -19,7 +19,7 @@ Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Dorothy
 === Start ===
 
 +[I'm here to see Admiral Charles Hold.]
-Oh- I see. Was the Admiral- expecting you, sir? #speaker: Dorothy Tendwell #portrait: maidshock
+Oh- I see. Was the Admiral- expecting you, sir? #speaker: Dorothy Tendwell #portrait:maidshock
 It's just- I wasn't aware of your visit.
 ++[The Admiral asked me to speak with him. I received this letter from him last night.]
 I- I see. How peculiar.
@@ -27,8 +27,8 @@ I- I see. How peculiar.
 
 
 +[I'm with the Weekly Wag! And I'm here for the Admiral's big scoop!]
-Oh, you're with the Weekly Wag! How thrilling! The Lady of the House is such a fan of your paper! #speaker: Dorothy Tendwell #portrait: maidpositive
-But if you'll excuse me, sir- how have you already heard the news? #speaker: Dorothy Tendwell #portrait: maidneutral
+Oh, you're with the Weekly Wag! How thrilling! The Lady of the House is such a fan of your paper! #speaker: Dorothy Tendwell #portrait:maidpositive
+But if you'll excuse me, sir- how have you already heard the news? #speaker: Dorothy Tendwell #portrait:maidneutral
 ++[The Admiral asked me to speak with him. I received this letter from him last night.]
 I- I see. How peculiar. #speaker: Dorothy Tendwell #portrait: maidshock
 ->Dorothy
@@ -47,7 +47,7 @@ Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist yo
 
 
 ===Dorothy===
-Well, sir- I'm afraid you won't be able to speak with the Admiral today. #speaker: Dorothy Tendwell #portrait: maidnegative
+Well, sir- I'm afraid you won't be able to speak with the Admiral today. #speaker: Dorothy Tendwell #portrait:maidnegative
 Unfortunately, he is somewhat- Um- 
 He is <i>indisposed</i> at present.
 
@@ -83,24 +83,24 @@ Please, sir- follow me.
 As you can see sir, the Admiral is quite-
 Well, he's slightly-
 
-<i>Dead!</i> #speaker: ??? #layout:left #portrait: fopneutral
+<i>Dead!</i> #speaker: ??? #layout:left #portrait:fopneutral
 ~Transition("Intro Table","Intro Study")
 <i>Dispatched!</i> 
 <i>Deceased!</i>
 
 
-Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker: Ms. Tendwell #layout:right #portrait: fopneutral
+Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker: Ms. Tendwell #layout:right #portrait:fopneutral
 
-Oh, dear brother! To be struck down so tragically! #speaker: Maximillian_Hold #layout:left  #portrait: fopneutral
+Oh, dear brother! To be struck down so tragically! #speaker: Maximillian_Hold #layout:left  #portrait:fopneutral
 So ignobly!
 Surrounded by such <i>horrendous</i> furnishings!
 <i>Ah!</i> I do not know how my heart can bear such an onslaught of travesties!
 Oh- Dorothy dearest, who is this drably dressed fellow?
 
-This here is a journalist, sir. He says he's from the Weekly Wag. #speaker: Ms. Tendwell #layout:right #portrait: maidneutral
+This here is a journalist, sir. He says he's from the Weekly Wag. #speaker: Ms. Tendwell #layout:right #portrait:maidneutral
 
-The Weekly Wag, you say? #speaker: Maximillian_Hold #layout:left #portrait: fopshock
-Ah! So the press have finally caught wind of my daring new fashion statement: <i>Gloveless</i> hands! #speaker: Maximillian_Hold #layout:left #portrait: foppositive
+The Weekly Wag, you say? #speaker: Maximillian_Hold #layout:left #portrait:fopshock
+Ah! So the press have finally caught wind of my daring new fashion statement: <i>Gloveless</i> hands! #speaker: Maximillian_Hold #layout:left #portrait:foppositive
 I know what you're thinking! To expose one's hands to the elements, to the streets, to common folk! 'Tis a controversy in the making! 
 But I assure you, six months from now, every man about town shall be following suit!
 I am not typically one for interviews, sir, being a terribly shy and private individual-
