@@ -2,7 +2,7 @@
 
 INCLUDE Secrets.ink
 
-VAR argument = false
+
 
 ->INTRO
 ===INTRO===
@@ -14,48 +14,43 @@ VAR argument = false
 
 
 
-
 +[Where were you night of the murder?]
 
 I had retired to my chambers rather early to indulge in a most ladlylike fit of weeping.
-You may confer with my maid to confirm this.
-->Night_Of_Murder
+You may confer with my maid to confirm this.->Night_Of_Murder
 
 
 
 +[Have you noticed anything suspicious?]
-Such as?
-->Suspicions
+Such as?->Suspicions
 
 
 
 +[How was your relationship with your husband?]
-A most invasive question to ask a freshly made widow, though I shall allow it. I find the outrageous gall of you newspaper men quite charming.
--> Relationship
+A most invasive question to ask a freshly made widow, though I shall allow it. I find the outrageous gall of you newspaper men quite charming. -> Relationship
 
 
 
 *{affair_revealed} [I know about your affair with Maximillian.]
-Affair? With Maximillian? How perplexing and baseless an accusation. And most thrilling. Do go on.
-->Affair
+Affair? With Maximillian? How perplexing and baseless an accusation. And most thrilling. Do go on. ->Affair
 
 *{divorce_petition}[Did you know your husband was planning to divorce you?]
 Oh yes, I intuited as much. A well-bred woman has an instinct for her husband's flights of fancy.
-I am quite sure he would have abandoned the idea entirely, had he not perished.
-->Divorce
+I am quite sure he would have abandoned the idea entirely, had he not perished. ->Divorce
 
 *{lavender_confession and affair_revealed}[How did you find out about Lavender & Dorothy's relationship?]
 Well it was rather obvious. The foolish girls were stuffing their ridiculous love letters into every free orifice in the manor.
 They are unaware I am sure of how unfashionable literate women are at present. 
 Charles insisted on dismissing them for "immoral conduct" as he called it.
 However, I objected. I found the notion of a dalliance between two servant girls highly scandalous- and terribly entertaining.
-And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them?
-->Start
+And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them? ->Start
 
+
++[It was you! You killed your husband!]
+->Accuse
 
 +[<i> Examine the suspect. </i>]
-<i>You examine Theodosia more closely.</i>
-->Examination
+<i>You examine Theodosia more closely.</i> ->Examination
 
 
 
@@ -110,30 +105,27 @@ Indeed. ->Relationship
 
 +[Why were you crying?]
 I was engaged in vigorous conversation with my husband Charles. This was before he died, you see.
-I do believe the conversation overwhelmed my feminine sensibilities and drove me to tears. A foolish decision on my part to engage in such activity. It is most harmful to a lady's health to engage in any activity which can be considered <i>vigorous</i>.
 ~argument = true
+I do believe the conversation overwhelmed my feminine sensibilities and drove me to tears. A foolish decision on my part to engage in such activity. It is most harmful to a lady's health to engage in any activity which can be considered <i>vigorous</i>.
+
 ->Night_Of_Murder
 
 +{argument}[What were you and Charles arguing about?]
-Oh, matters of a marital nature. Such was the banality of our conversation that I was driven to tears. Entirely too dull for publication, I assure you.
-->Night_Of_Murder
+Oh, matters of a marital nature. Such was the banality of our conversation that I was driven to tears. Entirely too dull for publication, I assure you. ->Night_Of_Murder
 
 +[Why should I confer with your maid?]
-Ms. Tendwell was present as I was leaving Charles' study. One must admit, she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European.
-->Night_Of_Murder
+Ms. Tendwell was present as I was leaving Charles' study. One must admit, she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European. ->Night_Of_Murder
 
 +[How did you discover the body?]
 Ms. Tendwell interrupted my private weeping to inform me that Charles had been slain. It is terribly inappropriate to interrupt one's private weeping. However, given the occassion, I believe Ms. Tendwell acted appropriately.
 ->Night_Of_Murder
 
 +[Did you hear anything that night?]
-I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as I have heard on several nights past. I generally disapprove of serving girls creating noise. However, I find Ms. Tendwell's performance is quite satisfactory, so I have elected to overlook this indiscretion.
-->Night_Of_Murder
+I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as I have heard on several nights past. I generally disapprove of serving girls creating noise. However, I find Ms. Tendwell's performance is quite satisfactory, so I have elected to overlook this indiscretion. ->Night_Of_Murder
 
 
 +[Let's talk about something else.]
-Excessive talking is a terrible vulgarity, but for the sake of your paper, I shall indulge just this once.
-->Start 
+Excessive talking is a terrible vulgarity, but for the sake of your paper, I shall indulge just this once. ->Start 
 
   
 
@@ -164,7 +156,7 @@ Barring the Irish. He loathed the Irish.
 
 +[Examine her hands.]
 <i> Her gloves are a pristine white. However, you notice they are monogrammed. "M.H."
-~unlockItem("pink_lipstick")
+~unlockItem("maximillians_gloves")
 <i>Why is Theodosia wearing Maximillian's gloves...?</i>
 ->Examination
 
@@ -173,8 +165,14 @@ Barring the Irish. He loathed the Irish.
 <i>You think you might be able to look inside it without her noticing...
 -> Pickpocket
 
-+[Examine her clothing]
-<i> Her attire is undeniably stylish. She's the best dressed widow you've ever seen. </i>
++[Examine her face.]
+<i> Her makeup is exceptionally fashionable. </i>
+<i> Her lipstick shade is a very light pink. </i>
+~pink_lipstick = true
+{ - pink_lipstick_smudge: Odd. You think you've seen that lipstick elsewhere...}
+{ - pink_lipstick_smudge and burnt_letter: 
+~affair_revealed = true
+}
 -> Examination
 
 +[Return to the conversation]
@@ -201,14 +199,12 @@ He would have come to this realisation himself. One is quite sure.
 ->Start
 
 
-+{not affair_revealed}[He accuses you of adultery in the letter. Were you unfaithful to Charles]
-Of course not. That is not to say that Charles was acting unreasonably, however. It is most appropriate for men of Charles' stature to indulge in extreme paranoia. Such neuroticism is a clear sign of an active, educated mind.
-Unless the sufferer is impoverished. Neuroticism amongst the poor is a clear sign of insanity.
-->Start
++{burnt_letter and not affair_revealed}[He accuses you of adultery in the letter. Were you unfaithful to Charles?]
+Of course not. That is not to say that Charles was acting unreasonably. It is most appropriate for men of Charles' stature to indulge in extreme paranoia. Such neuroticism is a clear sign of an active, educated mind.
+Unless the sufferer is impoverished. Neuroticism amongst the poor is a clear sign of insanity. ->Start
 
-
-
-
++{not affair_revealed}[Why did he want to divorce you?]
+Heavens, who is to say? Likely it was merely a flight of fancy on the part of my late husband. He would have come to his senses and reneged upon the whole foolish idea, I am quite sure.  ->Start
 
 
 
@@ -216,107 +212,113 @@ Unless the sufferer is impoverished. Neuroticism amongst the poor is a clear sig
 
 ===Affair===
 
-+{lavender_confession}[I spoke to Lavender. She told everything.]
++{lavender_confession}[I spoke to Lavender. I know you're blackmailing her. She told everything.]
 Ah, I see. So the stable girl has betrayed me. 
-I should have let Charles dismiss her when he first discovered her <i>sapphic</i> inclination.
-I objected, of course. I found the entire revelation terribly scandalous- not to mention entertaining. And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them?
-Alas, it is a lesson learned. One can simply not trust a woman who elects to work with horses.
+Alas, it is a lesson learned. One simply cannot trust a woman who elects to work with horses.
 ->Affair_Cont
 
-+{dark_red_kiss_mark and dark_red_lipstick}[Your lipstick matches the mark on Maximillian's neck.]
-Ah. I see. Quite the deduction.
++{pink_lipstick and pink_lipstick_smudge}[Your lipstick matches the lipstick smudge on Maximillian's neck.]
+Ah. I see. Quite the <i>clever</i> deduction, sir.
 ->Affair_Cont
 
 
-
-+[You're wearing his gloves!]
++{theodosias_gloves and maximillians_gloves}[You're wearing his gloves!]
 ~mannish_hands_gag = true
 ...One always feared this day would come. My greatest shame, brought forth into the cold light of day.
 You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands.
-<i>Oh!</i> To even say it aloud- I feel faint! I am ruined. ->Hands_Gag
+<i>Oh!</i> To even say it aloud- I feel faint! I am ruined. I imagine this will be front page on that paper of yours. ->Hands_Gag
 
 
 =Hands_Gag
 
 +[I don't care about your hands! Tell me about the affair!]
-Ah, yes
+Well- if you insist. Personally I feel this would be of <i>far</i> greater interest to your readers.
 ->Affair_Cont
 
-+[Also you're sleeping with your brother-in-law.]
-Very well. The bargain is struck.
++[I'll probably write about your affair with your brother-in-law.]
+I- suppose such a banal matter would be of interest to more <i>common</i> folk.
 ->Affair_Cont
 
 
 =Affair_Cont
+But I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
 ~theodosia_confession = true
-~ unlockStatement("Theodosia_Hold",1)
-Now, regarding my connection to Maximillian. I'm afraid you have entirely misunderstood our relation.
- You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
- Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer one did firmly accept. 
- And seeing as our eventual marriage was quite assured, Maximillian then suggested we rehearse our conjugal duties, so to speak. Several times.
- Maximillian is a most foreward-looking man, you see. Much like his brother in that regard.
- So you see, one could hardly call a dalliance such as ours an affair.
+~unlockStatement("Theodosia_Hold",1)
+You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
+Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer one did firmly accept. 
+And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. Several times.
+Maximillian is a most foreward-looking man, you see. Much like his brother in that regard.
+One could hardly call such a dalliance an <i>affair</i>. It is more akin to- a form of insurance! 
+So you see, the truth of the matter is far more mundane than it might seem at first.
+Not even of passing interest to your readership, I can quite assure you.
  
  +[Sounds entirely reasonable.]
 But of course. I am a most reasonable woman.
-++[I need to think about what all this means.] 
-->Affair_End
+++[I'm sure you won't mind me publishing such a dull story.] 
+Wait- <i>wait</i>! 
+Ahem.
+A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
+That is to say, the revelation of this information could prove rather- runious for me.
+So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
  +[I have the same arrangement with my brother-in-law.]
 How curious. And terribly fashionable, I may add.
 ++[I need to think about what all this means.] 
-->Affair_End
+Wait- <i>wait</i>! 
+Ahem.
+A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
+That is to say, the revelation of this information could prove rather- runious for me.
+So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
 +[Have you no shame? You had an affair with your husband's brother!]
-One would hardly call such a liaison an affair. Charles had a litany of his own lovers and companions, as is the case with most men of his rank.
-It is entirely appropriate for a lady of my rank to source a discrete companion of her own.
-Charles understood this, one is quite sure. Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider than matters of the flesh.
+Well Charles had his own litany of lovers! As is the case with most men of his rank!
+If it is acceptable for him to seek comfort elsewhere, is it not entirely appropriate for a lady of my rank to source a discrete companion of her own?
+Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider than matters of the flesh!
+Charles merely overreacted! I am quite sure, had he not perished, we would have reconciled. Of this I am <i>certain</i>!
 ++[I need to think about what all this means.]
-->Affair_End
+Wait- <i>wait</i>! 
+Ahem.
+A moment of your time before you go, sir. While not quite as scandalous as, say, a particularly manlike set of hands, one must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
+That is to say, the revelation of this information could prove rather- runious for me.
+So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
 
 
 
 
 
 =Affair_End
-A moment of your time before you go, sir. While not quite as scandalous as, say, a particularly manlike set of hands, one must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
-That is to say, the revelation of this information could pose- difficulties for me.
-Therefore I would appreciate it if you would keep this matter out of your paper.
 
-+[I will, but it's gonna you.]
+
+*[I will, but it's gonna cost you.]
 Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?!
 A woman of proper breeding possesses no assets. Her home, wealth, and children are entiely the property of her husband.
-I see now that you simply do not understand how civilised society operates. 
-Publish the details of my personal life if you must. But I insist that my portraiture emphasises my rounded chin. It is an indicator of exceptionally thorough breeding.
-->Start
+So you see sir, I have <i>nothing</i> to my name. And should you reveal my actions to the public...
+Well, I would have less than nothing. ->Affair_End
 
 +{lavender_confession}[Fine. But in return, Dorothy and Lavender get to keep their jobs.]
 Hmm. I do not care for the sapphically inclined stablehand, but Ms. Tendwell has been performed her duties as a maid quite admirably.
 Very well. Should you refrain from publishing the details of my dalliance with Maximillian, I shall allow Ms.Tendwell and the horse girl to remain at Wenchwatch Hall.
-{mannish_hands_gag} I would also request you refrain from mentioning anything relating to my- ahem- mannish hands. Such a revelation would be truly catastrophic to one's reputation.
-Yes, one does feel that this is a fair arrangement.
-->Start
-
-
+Yes, one does feel that this is a fair arrangement. ->Start
 
 
 +[Don't worry, I'll keep this quiet.]
-A most sensible decision. Inter-familial dalliances have become so throughly dull of late. I am quite sure your readership would have little interest in mine.
-->Start
+A most sensible decision. Inter-familial dalliances have become so throughly dull of late. I am quite sure your readership would have little interest in mine. ->Start
 
 
 +[Sorry, this is going on the front page!]
-Very well. But I must insist that my portraiture emphasises my rounded chin. It is an indicator of exceptionally thorough breeding.
-->Start
+Very well. But I must insist that my portraiture emphasises my rounded chin. It is an indicator of exceptionally thorough breeding.->Start
 
 
 +[I'll need to think about it.]
-Very well. One sincerely hopes you make the well-bred decision.
-->Start
+Very well. One sincerely hopes you make the well-bred decision.->Start
 
 
 
-
+===Accuse===
+Murder my husand? 
+I know it has become quite fashionble in France to murder one's husband, but it is <i>hardly</i> the done thing here, sir. 
+What could have possibly brought you to such a conclusion?
+->DONE
 
 
 

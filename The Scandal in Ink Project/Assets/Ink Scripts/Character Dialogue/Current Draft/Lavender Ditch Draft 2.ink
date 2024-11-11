@@ -48,6 +48,10 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 ->Examination
 
 
++[It was <i>you</i>! You killed the Admiral!]
+What's going on in that <i>f$%!k@g</i> head of yours to make you think I would do that?
+->Accuse
+
 +[Leave]
 ->DONE
 
@@ -262,8 +266,9 @@ She doesn't deserve to have her name dragged through the muck. ->Start
 
 
 
-
-
+===Accuse===
+Fill me in!
+->DONE
 
 
 

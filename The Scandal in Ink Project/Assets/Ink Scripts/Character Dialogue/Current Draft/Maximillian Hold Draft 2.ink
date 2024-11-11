@@ -349,6 +349,7 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 
 +[<i>Examine his face.</i>]
 His face is excessively powdered and painted.  His wig is made of the finest human hair. It is blindingly white.
+~pink_lipstick_smudge = true
 ~unlockItem("pink_lipstick_smudge")
 However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
 ->Examination
@@ -366,7 +367,6 @@ His hands are ungloved and unadorned.
 ->Start
 
 =Pickpocket
-~pickpocket_lavender = true
 <i>Maximillian is excessively overdressed. You imagine that this is considered highly fashionable.
 <i>However, you notice an unusual lump in Max's back pocket. You think you might be able to grab it without him noticing...
 
