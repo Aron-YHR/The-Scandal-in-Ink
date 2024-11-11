@@ -46,7 +46,13 @@ public static class EventHandler
         PlayBGMAudioEvent?.Invoke(audioClip);
     }
 
-    public static event Action<string,float> ChangeVolumeEvent;
+    public static event Action<AudioClip> PlayTransitionAudioEvent;
+    public static void CallPlayTransitionAudioEvent(AudioClip audioClip)
+    {
+        PlayTransitionAudioEvent?.Invoke(audioClip);
+    }
+
+    /*public static event Action<string,float> ChangeVolumeEvent;
 
     public static void CallPlayChangeVolumeEvent(string name,float amount)
     {
@@ -58,5 +64,5 @@ public static class EventHandler
     public static void CallPlayChangeVolumeEvent()
     {
         SetSliderVolumeEvent?.Invoke();
-    }
+    }*/
 }
