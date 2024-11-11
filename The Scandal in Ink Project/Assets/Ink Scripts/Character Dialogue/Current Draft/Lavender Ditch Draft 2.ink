@@ -26,8 +26,8 @@ Can you get through that thick newsmonger skull of yours, hah?
 -> Start
 
 
-*{ankle_letter}[I found some of your letters...]
-Oh <i>shite</i>.
+*{ankle_letter}[I found this letter for you from Dorothy...]
+Oh <i>s%@$e</i>!
 Where did you find those?
 It- it's not what it looks like. I'm only friends with Dorothy, that's all! We're close friends!
 ->Letters_Discovered
@@ -49,7 +49,7 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 
 
 +[It was <i>you</i>! You killed the Admiral!]
-What's going on in that <i>f$%!k@g</i> head of yours to make you think I would do that?
+What's going on in that <i>f$%!k@g</i> head of yours to make you think I would a thing like that?
 ->Accuse
 
 +[Leave]
@@ -69,8 +69,7 @@ What's going on in that <i>f$%!k@g</i> head of yours to make you think I would d
 ->Murder_Weapon
 
 =Murder_Weapon
-
-Oh shite.
+Oh <i>s%@$!
 ~unlockStatement("Lavender_Ditch",1) 
 I- I didn't know that was there. Honest.
 I was in my chambers last night when the Admiral got done in, cross my heart.
@@ -84,18 +83,17 @@ More than I can say for some in this house... ->Alibis
 ...Nothing. Forget I said anything. ->Alibis
 
 *[Do you have an alibi for last night?]
-...I- no I don't, no. ->Alibis
+...I- I don't, no. ->Alibis
 
 *[I believe you, but I know you're not telling me something.]
 I- listen, just forget I said anything, alright? ->Start
 
-*[You're lying. I think you killed the Admiral, then planned to escape with the family brooch!]
-...
-...Believe what you want. I'm no killer, and some thick-headed newsmonger saying otherwise won't change that.
-Now if you're done accusing me of being a killer, you can bugger off. ->Start 
+*[This isn't looking good for you, Lavender.]
+Do I look like a f@£%!&g $£%@!*$& to you? I know what it bloody well looks like, but I didn't do naught!
+->Start 
 
 *[I need to think about what this means.]
-... ->Start
+...Right. ->Start
 
 
 
@@ -111,15 +109,15 @@ We've been doing our best to keep it quiet.
 And I've seen how they treat men who fancy each other's company- I'd not like to find out what they'd do to us... ->Letters_Discovered
 
 
-*[Is this what you were trying to hide?]
+*[Is this what you've been hiding?]
 I- it's complicated.
-I promised the Lady of the house I wouldn't say...
+I promised I wouldn't say anything...
 ->Lavender_Tells_All
 
 
 *[Is this why you've been so reluctant to speak to me?]
 I- it's complicated.
-I promised the Lady of the house I wouldn't say...
+I promised I wouldn't say anything...
 ->Lavender_Tells_All
 
 
@@ -131,7 +129,7 @@ I promised the Lady of the house I wouldn't say...
 
 
 *[Out with it! Otherwise your lesbian liason ends up on Page 3!]
-...You really are a gossip monger, aren't you?
+...You're nothing but a bloody gossip monger, you.
 ->Affair_Revealed
 
 
@@ -154,7 +152,7 @@ I promised the Lady of the house I wouldn't say...
 
 =Affair_Revealed
 
-Alright, fine.
+Fine.
 Well- the other day- the Lady Hold and Sir Max were out for their weekly horse ride. Now ususally, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.
 Only, when I got to the stables, I found the Lady and Max- I found them in an awkward-
 ~lavender_confession = true
@@ -187,7 +185,7 @@ Exactly that.
 
 =Affair_Revealed_P3
 *[Why can't anyone in this house talk normally?!]
-They were shagging!
+They were f%@£*@g shagging!
 **[<i>Gasp!</i>]
 ->The_Admiral_Informed
 
@@ -199,12 +197,13 @@ Exactly that.
 
 =The_Admiral_Informed
 Anyway, they must've seen me, because they leapt up and started dressing.
-But I was already gone to tell the Admiral. He was furious. I've never seen a man that mad in all my life.
-Then the Lady Hold this morning, when you arrived, she pulled me aside.
-See, she said she knew about me and Dot. Said she'd have us both dismissed if I didn't keep mum about what I saw.
-She can do what she likes to me, but...
-I can't let that happen to Dot. She needs the pay. And she loves caring for the little lad...
-Please, don't tell the Lady I've let slip. It'll ruin everything... ->The_Admiral_Informed_P2
+They were in such a panic, I think they were mixing up their clothes in their big rush to dress.
+I went to tell the Admiral what I saw. He was furious. I've never seen a man that mad in all my life.
+Then the Lady Hold this morning, before you arrived, she pulled me aside. She seemed to know you were coming...
+See, she said she knew about me and Dot. Said she'd have us both dismissed if I didn't keep hush about what I saw.
+Now that bloody tart can do what she likes to me, but...
+I can't let that happen to Dot. She needs the money. And she loves caring for the little lad...
+Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informed_P2
 
 
 
@@ -212,25 +211,28 @@ Please, don't tell the Lady I've let slip. It'll ruin everything... ->The_Admira
 =The_Admiral_Informed_P2
 
 *[Can you prove any of this?]
-Ask Dot. She'll vouch for where I was last night. Just- please don't let on you know about us, or about the letters.
-I don't want her to know 'bout any of this. ->The_Admiral_Informed_P2
+I can't prove they were shagging, no. But I do have an alibi for last night.
+See, I wasn't alone... I was in Dot's rooom. In her bed. In... 
+Let's just say I was stuck in an awkward position.
+ ->The_Admiral_Informed_P2
 
 
 
 *[Do you think that Theodosia could be the killer?]
 Anything's possible, but...
-I don't think so. I could hear her crying her eyes out all bloody night. ->The_Admiral_Informed_P2
+No, I don't think so, she doesn't seem the type. 
+Besides, I could hear her crying her eyes out all bloody night. ->The_Admiral_Informed_P2
 
 
 *[This is clearly all lies. Lesbians aren't real!]
-...Are you sure you're a journalist? ->The_Admiral_Informed_P2
+...I'm going to pretend I didn't hear that. ->The_Admiral_Informed_P2
 
 
 *[I need to think about what this all means.]
 Do what you have to. I'll only ask you to please keep this to yourself. I know that's not in your nature, being a newsmonger and all.
-I've seen what they do to the doxies when they catch hem. And the women of the town they drag out of the bordellos.
+I've seen what they do to the doxies when they catch 'em. And to the women of they drag out of the bordellos.
 I don't know what they'd do to us, to Dot, but I'd not like to find out.
-She doesn't deserve to have her name dragged through the muck. ->Start
+She doesn't deserve that sort of treatment... ->Start
 
 
 
@@ -270,6 +272,8 @@ She doesn't deserve to have her name dragged through the muck. ->Start
 Fill me in!
 ->DONE
 
-
+/*...
+...Believe what you want. I'm no killer, and some thick-headed newsmonger saying otherwise won't change that.
+Now if you're done accusing me of being a killer, you can bugger off. */
 
 

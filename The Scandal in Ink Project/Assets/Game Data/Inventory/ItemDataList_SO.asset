@@ -73,7 +73,7 @@ MonoBehaviour:
   - itemName: 7
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
-    value: 100
+    value: 0
     itemInfo: 'A love letter between two unnamed persons, found in Lavender Ditch''s
       back pocket. It reads as follows:
 

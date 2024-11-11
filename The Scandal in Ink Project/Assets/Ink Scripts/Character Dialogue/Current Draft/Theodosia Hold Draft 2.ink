@@ -46,8 +46,10 @@ However, I objected. I found the notion of a dalliance between two servant girls
 And really, if the lower orders cannot provide us with entertainment, what on earth is the use of them? ->Start
 
 
-+[It was you! You killed your husband!]
-->Accuse
++[It was you! You killed the Admiral!]
+Murder my husand? 
+I know it has become quite fashionble in France to murder one's husband, but it is <i>hardly</i> the done thing here, sir. 
+What could have possibly brought you to such a conclusion?->Accuse
 
 +[<i> Examine the suspect. </i>]
 <i>You examine Theodosia more closely.</i> ->Examination
@@ -241,7 +243,9 @@ I- suppose such a banal matter would be of interest to more <i>common</i> folk.
 
 
 =Affair_Cont
-But I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
+But you see- 
+Heavens, how might one explain-
+I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
 ~theodosia_confession = true
 ~unlockStatement("Theodosia_Hold",1)
 You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
@@ -254,8 +258,7 @@ Not even of passing interest to your readership, I can quite assure you.
  
  +[Sounds entirely reasonable.]
 But of course. I am a most reasonable woman.
-++[I'm sure you won't mind me publishing such a dull story.] 
-Wait- <i>wait</i>! 
+**[I'm sure you won't mind me publishing such a dull story.] Wait! <i>wait</i>! 
 Ahem.
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.
@@ -263,20 +266,20 @@ So I would ask you, sir. Would you consider- keeping this information out of the
  
  +[I have the same arrangement with my brother-in-law.]
 How curious. And terribly fashionable, I may add.
-++[I need to think about what all this means.] 
-Wait- <i>wait</i>! 
+**[I need to think about what all this means.] 
+No, wait. <i>Wait</i>! 
 Ahem.
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
 +[Have you no shame? You had an affair with your husband's brother!]
-Well Charles had his own litany of lovers! As is the case with most men of his rank!
-If it is acceptable for him to seek comfort elsewhere, is it not entirely appropriate for a lady of my rank to source a discrete companion of her own?
+Well- Charles had his own litany of lovers! He spent more time at <i>bordellos</i> than he did with his own son!
+If it is acceptable for him to seek comfort elsewhere, is it not entirely appropriate for a lady of my rank to source a discrete companion of her own as well?
 Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider than matters of the flesh!
 Charles merely overreacted! I am quite sure, had he not perished, we would have reconciled. Of this I am <i>certain</i>!
-++[I need to think about what all this means.]
-Wait- <i>wait</i>! 
+**[I need to think about what all this means.]
+No, wait. <i>Wait</i>! 
 Ahem.
 A moment of your time before you go, sir. While not quite as scandalous as, say, a particularly manlike set of hands, one must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.
@@ -293,7 +296,7 @@ So I would ask you, sir. Would you consider- keeping this information out of the
 Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?!
 A woman of proper breeding possesses no assets. Her home, wealth, and children are entiely the property of her husband.
 So you see sir, I have <i>nothing</i> to my name. And should you reveal my actions to the public...
-Well, I would have less than nothing. ->Affair_End
+Well, I would have less than nothing... ->Affair_End
 
 +{lavender_confession}[Fine. But in return, Dorothy and Lavender get to keep their jobs.]
 Hmm. I do not care for the sapphically inclined stablehand, but Ms. Tendwell has been performed her duties as a maid quite admirably.
@@ -306,7 +309,7 @@ A most sensible decision. Inter-familial dalliances have become so throughly dul
 
 
 +[Sorry, this is going on the front page!]
-Very well. But I must insist that my portraiture emphasises my rounded chin. It is an indicator of exceptionally thorough breeding.->Start
+Very well. Ruin me if you must. But if I am to be ruined, I insist that my portraiture emphasises my rounded chin. It is an indicator of exceptionally thorough breeding.->Start
 
 
 +[I'll need to think about it.]
@@ -315,11 +318,31 @@ Very well. One sincerely hopes you make the well-bred decision.->Start
 
 
 ===Accuse===
-Murder my husand? 
-I know it has become quite fashionble in France to murder one's husband, but it is <i>hardly</i> the done thing here, sir. 
-What could have possibly brought you to such a conclusion?
-->DONE
 
+
+*{theodosia_confession}[You killed your husband to keep your affair quiet!]
+I- I would never have done such a thing! Affairs are quite commonplace in cultured society- to kill over such a triviality is simply preposterous!
+->Accuse
+
+
++{theodosias_gloves}[I found your gloves are covered in blood!]
+Good sir, I have been wearing these same gloves since yesterday evening. 
+Something of a fashion faux pas, I am aware. However, considering the recent death of my husband, one must surely be allowed some leniency.
+Ask my maid if you do not believe me. She will confirm the veracity of my statement.
+->Accuse
+
++{brooch}[You planted the brooch in the stables to frame Lavender!]
+Simply <i>preposterous</i>! I would never deign to touch such an ugly piece of jewelry as that brooch!
+You may accuse me of mariticide, sir, but do not <i>dare</i> imply I so much as <i>touched</i> such a hideous piece of regalia!
+->Accuse
+
+
++[Forget I said anything.]
+Already forgotten. I must admit to having found the accusation more thrilling than insulting.
+->Start
+
++[I'll find more proof! And then everyone will know what you did!]
+You newspapermen, so <i>insistent</i>! Why, if you weren't so desperately poor, I'd almost find your ambition attractive.->Start
 
 
 
