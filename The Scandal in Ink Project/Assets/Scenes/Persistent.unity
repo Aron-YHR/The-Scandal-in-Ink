@@ -4800,7 +4800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 492319149}
   - component: {fileID: 492319150}
-  - component: {fileID: 492319151}
   m_Layer: 0
   m_Name: TransitionManager
   m_TagString: Untagged
@@ -4840,22 +4839,6 @@ MonoBehaviour:
   fadeCanvasGroup: {fileID: 1196971732}
   fadeDuration: 1
   cutsceneAnimator: {fileID: 1294546401}
-  audioDefinition: {fileID: 492319151}
---- !u!114 &492319151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492319148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: b03cbc87635a3bb4688cb67ba8dbf7fc, type: 3}
-  transitionAudioClips: []
-  playOnEnable: 0
 --- !u!1 &506457808
 GameObject:
   m_ObjectHideFlags: 0
