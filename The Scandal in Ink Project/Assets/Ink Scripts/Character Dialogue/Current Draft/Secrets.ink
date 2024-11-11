@@ -52,6 +52,7 @@ VAR Max_proof1 = false
 VAR Max_proof2 = false
 VAR Max_proof3 = false
 VAR pink_lipstick_smudge = false
+VAR maximillian_door_key = false
 
 
 
