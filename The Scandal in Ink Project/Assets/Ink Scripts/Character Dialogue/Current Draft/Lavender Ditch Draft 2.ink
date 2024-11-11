@@ -105,8 +105,8 @@ Do I look like a f@£%!&g $£%@!*$& to you? I know what it bloody well looks lik
 Alright. It's true. Me and Dorothy, we're- together.
 Just- please keep that to yourself.
 I know that's not in your nature, being a newspaper man and all. It's just-
-We've been doing our best to keep it quiet.
-And I've seen how they treat men who fancy each other's company- I'd not like to find out what they'd do to us... ->Letters_Discovered
+We've been doing our best to keep it quiet, given it's a bit of an- unusual setup.
+I've seen how they treat men who fancy each other's company- I'd not like to find out what they'd do to us... ->Letters_Discovered
 
 
 *[Is this what you've been hiding?]

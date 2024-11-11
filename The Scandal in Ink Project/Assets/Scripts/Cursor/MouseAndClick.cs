@@ -78,6 +78,14 @@ public class MouseAndClick : Singleton<MouseAndClick>
                     item?.ItemClicked();
                 else item.isClicked = true ;
                 break;
+            case "Letters":
+                var letters = clickObject.GetComponent<Letters>();
+                if (letters.isClicked == false)
+                {
+                    letters.isClicked = true;
+                    letters.OpenLetters();
+                }
+                break;
         }
     }
 

@@ -13,6 +13,8 @@ public class BeforeGameManager : MonoBehaviour
     public DialogueTrigger dialogueTrigger;
     public Canvas canvas;
 
+    public GameObject letters_2;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,14 +29,18 @@ public class BeforeGameManager : MonoBehaviour
 
     public void SwitchLetters()
     {
-        index++;
+       
         switch(index)
         {
-            //case 0: beforeGameAnimatorController.Play("FistLetter"); break;
+            case 0: beforeGameAnimatorController.Play("FirstLetter"); break;
             case 1: beforeGameAnimatorController.Play("SecondLetter"); break;
             case 2: beforeGameAnimatorController.Play("ThirdLetter"); break;
-            case 3: beforeGameAnimatorController.Play("ExitLetter"); dialogueTrigger.StartDialogue(); canvas.sortingOrder = -1; break;
+            case 3: beforeGameAnimatorController.Play("ExitLetter"); TransitionManager.Instance.CutsceneTransition("BeforeGame","Family"); canvas.sortingOrder = -1; break;
+            case 4: canvas.sortingOrder = 1; beforeGameAnimatorController.Play("FourthLetter"); break;
+            case 5: beforeGameAnimatorController.Play("FifthLetter"); break;
+            case 6: beforeGameAnimatorController.Play("ExitLetter_2"); dialogueTrigger.StartDialogue(); canvas.sortingOrder = -1; break;
         }
+        index++;
     }
 
 }

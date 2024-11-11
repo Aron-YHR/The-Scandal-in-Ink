@@ -34,7 +34,7 @@ public class BillsScript : ScriptableObject
 
     public void SetDefault()
     {
-        Savings = 0;
+        Savings = 24;
         Salary = 0;
         Misc_income = 0;
     }
