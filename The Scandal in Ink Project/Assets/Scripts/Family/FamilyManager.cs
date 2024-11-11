@@ -189,8 +189,11 @@ public class FamilyManager : Singleton<FamilyManager>
             if (level == 0)
             {
                 level++;
-                TransitionManager.Instance.CutsceneTransition("Family", "BeforeGame");
-                FindFirstObjectByType<BeforeGameManager>().letters_2.SetActive(true);
+                
+                BeforeGameManager beforeGameManager = FindFirstObjectByType<BeforeGameManager>();
+                beforeGameManager.letters_2.SetActive(true);
+                beforeGameManager.audiosForCutscene.PlayTransitionAudioEvent(0);
+                TransitionManager.Instance.CutsceneTransition("Family", "BeforeGame", beforeGameManager.audiosForCutscene.transitionAudioClips[0].length);
             }
             else if (level == 1)
             {

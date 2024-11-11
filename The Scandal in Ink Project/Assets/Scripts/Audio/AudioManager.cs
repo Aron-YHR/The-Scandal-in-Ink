@@ -8,6 +8,7 @@ public class AudioManager : Singleton<AudioManager>
 {
     public AudioSource BGMSource;
     public AudioSource FXSource;
+    public AudioSource transitionSource;
 
     public AudioMixer audioMixer;
 
@@ -15,19 +16,13 @@ public class AudioManager : Singleton<AudioManager>
     public Slider bgmVolumeSlider;
     public Slider fxVolumeSlider;
 
-    protected override void Awake()
-    {
-        base.Awake();
-        //OnSetSliderEvent();
-
-    }
-
     private void OnEnable()
     {
         OnSetSliderEvent();
 
         EventHandler.PlayFXAudioEvent += OnFXEvent;
         EventHandler.PlayBGMAudioEvent += OnBGMEvent;
+        EventHandler.PlayTransitionAudioEvent += OnTransitionAudioEvent;
         //EventHandler.SetSliderVolumeEvent += OnSetSliderEvent;
 
         masterVolumeSlider.onValueChanged.AddListener(OnMainVolumeChangeEvent);
@@ -39,6 +34,7 @@ public class AudioManager : Singleton<AudioManager>
     {
         EventHandler.PlayFXAudioEvent -= OnFXEvent;
         EventHandler.PlayBGMAudioEvent -= OnBGMEvent;
+        EventHandler.PlayTransitionAudioEvent -= OnTransitionAudioEvent;
         //EventHandler.SetSliderVolumeEvent -= OnSetSliderEvent;
         //EventHandler.ChangeVolumeEvent -= OnVolumeChangeEvent;
         masterVolumeSlider.onValueChanged.RemoveListener(OnMainVolumeChangeEvent);
@@ -56,6 +52,12 @@ public class AudioManager : Singleton<AudioManager>
     {
         BGMSource.clip = audioClip;
         BGMSource.Play();
+    }
+
+    public void OnTransitionAudioEvent(AudioClip audioClip)
+    {
+        transitionSource.clip = audioClip;
+        transitionSource.Play();
     }
 
     public void OnMainVolumeChangeEvent(float amount)
