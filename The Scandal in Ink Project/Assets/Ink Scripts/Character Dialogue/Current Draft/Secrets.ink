@@ -28,6 +28,7 @@ VAR love_letter_2 = false
 VAR ankle_letter = false
 VAR theodosias_pants = false
 VAR letter_of_dismissal = false
+VAR burnt_letter = false
 
 //STATEMENTS
 
@@ -50,15 +51,16 @@ VAR door_key = false
 VAR Max_proof1 = false
 VAR Max_proof2 = false
 VAR Max_proof3 = false
-VAR dark_red_kiss_mark = false
+VAR pink_lipstick_smudge = false
 
 
 
 //Theodosia
 VAR mannish_hands_gag = false
 VAR theodosia_confession = false
-VAR dark_red_lipstick = false
+VAR pink_lipstick = false
 VAR maximillians_gloves = false
+VAR argument = false
 
 //Dorothy
 VAR iliad_confiscated = false
