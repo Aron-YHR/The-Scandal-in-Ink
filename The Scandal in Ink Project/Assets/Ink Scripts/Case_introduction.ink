@@ -1,14 +1,14 @@
 EXTERNAL Transition(from,to)
 EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
-
+EXTERNAL TransitionToMainGame(from,to)
 
 
 VAR question_tracker = 0
 
 
 
-~Transition("BeforeGame","Reception")
+~TransitionToMainGame("BeforeGame","Reception")
 ~unlockNPC("Admiral_Charles_Hold")
 Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Ms. Tendwell
 

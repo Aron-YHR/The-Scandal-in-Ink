@@ -14,7 +14,7 @@ public class TransitionManager : Singleton<TransitionManager>
     private bool isFading;
     public Animator cutsceneAnimator;
 
-    public AudioDefinition audioDefinition;
+    //public AudioDefinition audioDefinition;
 
     /*private void Start()
     {
@@ -33,14 +33,14 @@ public class TransitionManager : Singleton<TransitionManager>
     private void OnStartNewGameEvent()
     {
         fadeCanvas.sortingOrder = 11;
-        StartCoroutine(TransitionToScene("Menu", startScene,0));
+        StartCoroutine(TransitionToScene("Menu", startScene));
         cutsceneAnimator.Play("Newspaper");
     }
 
     public void Transition(string from, string to)
     {
         if(!isFading) //may cause bug
-        StartCoroutine(TransitionToScene(from, to, audioDefinition.audioClip.length));
+        StartCoroutine(TransitionToScene(from, to));
     }
 
     public void CutsceneTransition(string from, string to,float length)
@@ -51,7 +51,7 @@ public class TransitionManager : Singleton<TransitionManager>
         }
     }
 
-    private IEnumerator TransitionToScene(string from,string to, float length)
+    private IEnumerator TransitionToScene(string from,string to)
     {
         if (to == "AfterGame")
         {
@@ -95,7 +95,7 @@ public class TransitionManager : Singleton<TransitionManager>
 
         EventHandler.CallAfterSceneLoadedEvent();
 
-        yield return new WaitForSeconds(length); // keep sreen black
+        //yield return new WaitForSeconds(length); // keep sreen black
         yield return Fade(0);
 
         fadeCanvas.sortingOrder = 2;
@@ -115,11 +115,11 @@ public class TransitionManager : Singleton<TransitionManager>
         {
             EventHandler.CallBeforeSceneUnloadEvent();
 
-            if(from == "Family")
+            if(from != "BeforeGame" || to != "Family")
             yield return SceneManager.UnloadSceneAsync(from);
         }
 
-        if(from == "BeforeGame")
+        if( from != "Family" || to != "BeforeGame")
         yield return SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
 
         // set new scene to be active
