@@ -28,11 +28,16 @@ public class InkExternalFunctions
         {
             TransitionManager.Instance.Transition(from, to);
         });
+        story.BindExternalFunction("TransitionToMainGame", (string from, string to) =>
+        {
+            TransitionManager.Instance.CutsceneTransition(from, to, 8);
+        });
     }
 
     public void UnbindTransition(Story story)
     {
         story.UnbindExternalFunction("Transition");
+        story.UnbindExternalFunction("TransitionToMainGame");
     }
 
     public void UnlockItemInTheScene(string name)
