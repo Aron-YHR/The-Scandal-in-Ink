@@ -352,6 +352,10 @@ His face is excessively powdered and painted.  His wig is made of the finest hum
 ~pink_lipstick_smudge = true
 ~unlockItem("pink_lipstick_smudge")
 However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
+{ - pink_lipstick: Odd. You think you've seen that lipstick elsewhere...}
+{ - pink_lipstick and burnt_letter: 
+~affair_revealed = true
+}
 ->Examination
 
 +[<i>Examine his clothing.</i>]
