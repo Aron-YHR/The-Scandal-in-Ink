@@ -30,7 +30,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Choices UI")]
     // any number of choices
-    [SerializeField] private GameObject[] choices;
+    [SerializeField] public GameObject[] choices;
     private TextMeshProUGUI[] choicesText;
 
 

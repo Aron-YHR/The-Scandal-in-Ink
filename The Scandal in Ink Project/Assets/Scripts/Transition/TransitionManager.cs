@@ -6,11 +6,13 @@ public class TransitionManager : Singleton<TransitionManager>
 {
     public string startScene;
 
+    public Canvas fadeCanvas;
     public CanvasGroup fadeCanvasGroup;
 
     public float fadeDuration;
 
     private bool isFading;
+    public Animator cutsceneAnimator;
 
     /*private void Start()
     {
@@ -28,13 +30,23 @@ public class TransitionManager : Singleton<TransitionManager>
     }
     private void OnStartNewGameEvent()
     {
+        fadeCanvas.sortingOrder = 11;
         StartCoroutine(TransitionToScene("Menu", startScene));
+        cutsceneAnimator.Play("Newspaper");
     }
 
     public void Transition(string from, string to)
     {
         if(!isFading) //may cause bug
         StartCoroutine(TransitionToScene(from, to));
+    }
+
+    public void CutsceneTransition(string from, string to)
+    {
+        if(!isFading)
+        {
+            StartCoroutine(CutsceneTransitionToScene(from, to));
+        }
     }
 
     private IEnumerator TransitionToScene(string from,string to)
@@ -83,8 +95,50 @@ public class TransitionManager : Singleton<TransitionManager>
 
         yield return Fade(0);
 
-        if(!DialogueManager.GetInstance().dialogueIsPlaying)
+        fadeCanvas.sortingOrder = 2;
+
+        if (!DialogueManager.GetInstance().dialogueIsPlaying)
         CameraFollowMouse.Instance.ActivateMove();
+    }
+
+    private IEnumerator CutsceneTransitionToScene(string from, string to)
+    {
+
+        CameraFollowMouse.Instance.DesactivateMove();
+
+        yield return Fade(1);
+
+        if (from != string.Empty)
+        {
+            EventHandler.CallBeforeSceneUnloadEvent();
+
+            if(from == "Family")
+            yield return SceneManager.UnloadSceneAsync(from);
+        }
+
+        if(from == "BeforeGame")
+        yield return SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
+
+        // set new scene to be active
+        Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
+
+        SceneManager.SetActiveScene(newScene);
+
+        
+
+        // find background in a new scene
+        if (to != "Menu" && to != "Family" && to != "BeforeGame")
+            CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
+        CameraFollowMouse.Instance.transform.position = Vector3.zero;
+
+        EventHandler.CallAfterSceneLoadedEvent();
+
+        yield return Fade(0);
+
+        fadeCanvas.sortingOrder = 2;
+
+        if (!DialogueManager.GetInstance().dialogueIsPlaying)
+            CameraFollowMouse.Instance.ActivateMove();
     }
 
     /// <summary>

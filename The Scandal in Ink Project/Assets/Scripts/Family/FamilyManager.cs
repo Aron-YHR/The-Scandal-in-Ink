@@ -35,18 +35,12 @@ public class FamilyManager : Singleton<FamilyManager>
 
     private int[] impactForEachMember;
 
-    private void Start()
-    {
-        /*wellbelingList = new List<int>();
-        for (int i = 0; i < wellbelingList.Count; i++)
-        {
-            wellbelingList[i] = familyMember_SO.familyMembersList[i].wellbeing;
-        }*/
-        
-    }
+    private int level;
 
     private void OnEnable()
     {
+        level = 0;
+
         impactForEachMember = new int[3] {0,0,0 };
 
         submitButton.SetActive(true);
@@ -192,7 +186,16 @@ public class FamilyManager : Singleton<FamilyManager>
 
             submitButton.SetActive(false);
 
-            StartCoroutine(EndScreen());
+            if (level == 0)
+            {
+                level++;
+                TransitionManager.Instance.CutsceneTransition("Family", "BeforeGame");
+                FindFirstObjectByType<BeforeGameManager>().letters_2.SetActive(true);
+            }
+            else if (level == 1)
+            {
+                StartCoroutine(EndScreen());
+            }
 
             //TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
         }

@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    
+
     public void QuitGame()
     {
         Application.Quit();
@@ -25,6 +27,7 @@ public class Menu : MonoBehaviour
 
     public void StartNewGame()
     {
+        //cutsceneAnimator.Play("Newspaper");
         EventHandler.CallStartNewGameEvent();
     }
 }
