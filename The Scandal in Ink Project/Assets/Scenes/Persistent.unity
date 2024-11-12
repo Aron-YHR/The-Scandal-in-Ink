@@ -12220,9 +12220,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: GoBackToMenu
+      - m_Target: {fileID: 340647924}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GoToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18258,16 +18258,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deductionData: {fileID: 11400000, guid: 0b734ed4d78fcd24b8179c634a8ad35c, type: 2}
   combinationData: {fileID: 0}
-  nameDropdown: {fileID: 474038813}
-  locationDropdown: {fileID: 254494185}
-  motiveDropdown: {fileID: 70413242}
-  escapeDropdown: {fileID: 1347376508}
-  weaponsDropdown: {fileID: 1856116958}
   caseImgList:
   - {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
   - {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
   - {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
   caseImage: {fileID: 1927251199}
+  nameDropdown: {fileID: 474038813}
+  locationDropdown: {fileID: 254494185}
+  motiveDropdown: {fileID: 70413242}
+  escapeDropdown: {fileID: 1347376508}
+  weaponsDropdown: {fileID: 1856116958}
+  sideNameDropdown_1: {fileID: 0}
+  sideNameDropdown_2: {fileID: 0}
+  affairDropdown: {fileID: 0}
+  sideCaseToggle: {fileID: 0}
 --- !u!1 &1644741260
 GameObject:
   m_ObjectHideFlags: 0

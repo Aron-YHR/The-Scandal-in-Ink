@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stand in Kid Photo_0: 5784697823994862385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

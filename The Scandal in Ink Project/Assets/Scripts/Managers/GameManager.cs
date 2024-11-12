@@ -10,4 +10,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
     }
+
+    public void GoToMainMenu()
+    {
+        var currentScene = SceneManager.GetActiveScene().name;
+        TransitionManager.Instance.Transition(currentScene, "Menu");
+    }
 }
