@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,16 +11,23 @@ public class DeductionPanel : MonoBehaviour
 {
     public DeductionDataList_SO deductionData;
     public CombinationList_SO combinationData;
+    public List<Sprite> caseImgList;
+    public Image caseImage;
 
+    [Header("Main Case")]
     public TMP_Dropdown nameDropdown;
     public TMP_Dropdown locationDropdown;
     public TMP_Dropdown motiveDropdown;
     public TMP_Dropdown escapeDropdown;
     public TMP_Dropdown weaponsDropdown;
 
-    public List<Sprite> caseImgList;
+    [Header("Side Case")]
+    public TMP_Dropdown sideNameDropdown_1;
+    public TMP_Dropdown sideNameDropdown_2;
+    public TMP_Dropdown affairDropdown;
+    public Toggle sideCaseToggle;
 
-    public Image caseImage;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +37,10 @@ public class DeductionPanel : MonoBehaviour
         motiveDropdown.AddOptions(deductionData.GetMotiveList());
         escapeDropdown.AddOptions(deductionData.GetWayOfEscapeList());
         weaponsDropdown.AddOptions(deductionData.GetWeaponsList());
-   
+
+        sideNameDropdown_1.AddOptions(deductionData.GetNameList());
+        sideNameDropdown_2.AddOptions(deductionData.GetNameList());
+        affairDropdown.AddOptions(deductionData.GetAffairList());
     }
 
     public void ChangeImage()
@@ -65,6 +74,22 @@ public class DeductionPanel : MonoBehaviour
             {
                 totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
                 InventoryManager.Instance.journal.deductionChoices = 0;
+            }
+        }
+
+        if (sideCaseToggle.isOn)
+        {
+            for (int i = 0; i < combinationData.sideCaseCombinationsList.Count; i++)
+            {
+                if (sideNameDropdown_1.value == combinationData.sideCaseCombinationsList[i].nameIndex_1 - 1 && sideNameDropdown_2.value == combinationData.sideCaseCombinationsList[i].nameIndex_2-1 && affairDropdown.value == combinationData.sideCaseCombinationsList[i].affairIndex -1)
+                //(deductionData.nameAndImageList[nameDropdown.value].isTheRightAnswer)
+                {
+                    totalIncome += deductionData.nameList[sideNameDropdown_1.value].amount
+                        + deductionData.nameList[sideNameDropdown_2.value].amount
+                        + deductionData.affairList[affairDropdown.value].amount;
+
+                    //InventoryManager.Instance.journal.deductionChoices = combinationData.combinationsList[i].resultIndex;
+                }
             }
         }
 

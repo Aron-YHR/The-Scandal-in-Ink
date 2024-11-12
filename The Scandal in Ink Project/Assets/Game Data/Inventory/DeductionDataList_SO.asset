@@ -90,3 +90,11 @@ MonoBehaviour:
   - name: Horse
     image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
     amount: 0
+  nameList:
+  - text: Rian
+    amount: 10
+  - text: Aron
+    amount: 10
+  affairList:
+  - text: Test
+    amount: 10

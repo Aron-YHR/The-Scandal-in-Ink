@@ -5,17 +5,20 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DeductionDataList_SO", menuName = "Inventory/DeductionDataList_SO")]
 
 public class DeductionDataList_SO : ScriptableObject
-{ 
+{
+    [Header("Main Case")]
     //public List<string> npcNameList = new List<string>();
     public List<SentenceAndAmountPair> locationList = new List<SentenceAndAmountPair>();
     public List<SentenceAndAmountPair> motiveList = new List<SentenceAndAmountPair>();
     public List<SentenceAndAmountPair> wayOfEscapeList = new List<SentenceAndAmountPair>();
     public List<SentenceAndAmountPair> weaponsList = new List<SentenceAndAmountPair>();
-
-
     //public Dictionary<string,Sprite> caseImageDic = new Dictionary<string,Sprite>();
     public List<NameAndImagePair> nameAndImageList = new List<NameAndImagePair>();
-    
+
+    [Header("Side Case")]
+    public List<SentenceAndAmountPair> nameList = new List<SentenceAndAmountPair>();
+    public List<SentenceAndAmountPair> affairList = new List<SentenceAndAmountPair>();
+
     public List<string> GetNPCNameList()
     {
         List<string> list = new List<string>();
@@ -61,6 +64,24 @@ public class DeductionDataList_SO : ScriptableObject
         for (int i = 0; i < weaponsList.Count; i++)
         {
             list.Add(weaponsList[i].text);
+        }
+        return list;
+    }
+    public List<string> GetNameList()
+    {
+        List<string> list = new List<string>();
+        for (int i = 0; i < nameList.Count; i++)
+        {
+            list.Add(nameList[i].text);
+        }
+        return list;
+    }
+    public List<string> GetAffairList()
+    {
+        List<string> list = new List<string>();
+        for (int i = 0; i < affairList.Count; i++)
+        {
+            list.Add(affairList[i].text);
         }
         return list;
     }
