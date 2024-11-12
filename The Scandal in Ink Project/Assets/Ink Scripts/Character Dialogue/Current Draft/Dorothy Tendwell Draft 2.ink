@@ -290,7 +290,7 @@ I- don't think that would be appropriate, sir.->Start
 M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing?
 
 +{letter_of_dismissal}[The Admiral fired you! You killed him to keep your job!]
-->DONE
+But- I- 
 
 
 
