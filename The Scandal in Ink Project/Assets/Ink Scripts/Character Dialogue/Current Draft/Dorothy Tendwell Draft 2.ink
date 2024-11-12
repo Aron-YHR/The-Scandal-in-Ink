@@ -36,7 +36,7 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
 
 +[It was you! You killed the Admiral!]
-->Accuse
+M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 
 +[<i>Leave</i>]
 ->DONE
@@ -197,7 +197,7 @@ Now I beg you to forget you ever saw those letters. I promise I shall never so r
 +[This is too juicy to pass up! It's going on the front page!]
 Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action! ->Start
 
-+{not dorothy_coins}[Okay. But it's gonna cost you.]
++[Okay. But it's gonna cost you a pretty penny...]
 Cost, sir? I'm not sure I understand. ->Extortion
 
 
@@ -216,7 +216,10 @@ I see. Thank you, sir. ->Start
 Oh. I see. I don't mean to anger you, sir, but I have precious little to give. One week's wages is all I have in savings.
 
 +[Pay up or let the world know. Your choice.]
-I see. Very well, sir. Here. Now please. Let us both forget this conversation ever happened. ->Start
+I see. Very well, sir. 
+~extort_Dorothy = true
+~unlockItem("dorothy_coins")
+Here. Now please. Let us both forget this conversation ever happened. ->Start
 +[I'm sorry, but I need the money. I have a family. My kids need to eat.]
 I see. Very well, sir. Here. That is everything I have.
 ~extort_Dorothy = true
@@ -287,16 +290,25 @@ I- don't think that would be appropriate, sir.->Start
 
 
 ===Accuse===
-M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing?
+
 
 +{letter_of_dismissal}[The Admiral fired you! You killed him to keep your job!]
-But- I- I would never!
-->DONE
+But- I- I would never! 
+Yes, I took the letter, but I would never do such a horrid thing!
+Please, sir, you must believe me! ->Accuse
 
++{brooch}[You stabbed the Admiral with his brooch then stashed it in the stables!]
+But- sir! Oh heavens, I may faint-
+I couldn't possibly have done that! I was first to be by Avery's side, I would hardly-!
+You don't truly believe I murdered the Admiral, do you...? ->Accuse
+
++[I don't have any more evidence, but I'll prove you killed him!]
+Heavens, I must truly have been slacking on my duties if I could possibly be suspected of- offing poor Admiral Hold!
+Perhaps he was right about me.... ->Start  
 
 
 
 +[Forget I said that.]
-->DONE
+Well, if you say so, sir.->Start
 
 
