@@ -326,8 +326,7 @@ Very well. One sincerely hopes you make the well-bred decision.->Start
 
 
 *{theodosia_confession}[You killed your husband to keep your affair quiet!]
-I- I would never have done such a thing! Affairs are quite commonplace in cultured society- to kill over such a triviality is simply preposterous!
-->Accuse
+I- I would never have done such a thing! Affairs are quite commonplace in cultured society- to kill over such a triviality is simply preposterous! ->Accuse
 
 
 +{theodosias_gloves}[I found your gloves are covered in blood!]
