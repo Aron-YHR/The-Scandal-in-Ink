@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
-  inkJson: {fileID: 4900000, guid: 5d8b497651da21d4cb1191b93a42bf03, type: 3}
+  inkJson: {fileID: 4900000, guid: 5c5b9e06589e7a84cb968fdd7c470415, type: 3}
   image: {fileID: 0}
 --- !u!4 &2087293852
 Transform:
