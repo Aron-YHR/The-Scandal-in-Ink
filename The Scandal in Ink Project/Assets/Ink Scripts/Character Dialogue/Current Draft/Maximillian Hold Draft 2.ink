@@ -9,7 +9,7 @@ INCLUDE Secrets.ink
 -> Start
 
 === Start ===
-{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend!} #speaker: Maximillian Hold #layout:right #portrait:fopneutral
+{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right #portrait:fopneutral
 
 +[Where were you the night of the murder?]
 ~ unlockStatement("Maximillian_Hold",1)
