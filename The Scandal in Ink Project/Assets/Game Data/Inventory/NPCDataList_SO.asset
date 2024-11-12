@@ -20,13 +20,13 @@ MonoBehaviour:
     npcInfo: Lady of the house & widow of the victim, Admiral Charles Hold. Mother
       to Avery Hold.
     npcStatements:
-    - statementLine: Theodosia confessed to having an affair with Maximillian Hold.
+    - statementLine: Blank. Fill.
       isUnlocked: 0
     - statementLine: 2. I was so shocked just like on the highway to hell...
       isUnlocked: 0
     - statementLine: 3. You know nothing, Mr. Journalist...
       isUnlocked: 0
-    - statementLine: 4.
+    - statementLine: Theodosia confessed to having an affair with Maximillian Hold.
       isUnlocked: 0
     - statementLine: 5.
       isUnlocked: 0

@@ -9,7 +9,7 @@ INCLUDE Secrets.ink
 -> Start
 
 === Start ===
-{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend!} #speaker: Maximillian Hold #portrait:fopneutral
+{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right #portrait:fopneutral
 
 +[Where were you the night of the murder?]
 ~ unlockStatement("Maximillian_Hold",1)
@@ -165,7 +165,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 - else: ->Why
 }
 
-*{brooch}[You stabbed Charles with the family brooch!]
+*{brooch}[You were fighting with Charles last night and stabbed him with his own brooch!]
 ~Max_proof2 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
@@ -173,7 +173,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 }
 
 
-*{bloody_clothes}[I found the bloody clothes in your room!]
+*{theodosias_gloves}[I found bloody gloves in your room!]
 ~Max_proof3 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
@@ -186,13 +186,11 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 
 
 +[Forget I said anything.]
-'Tis already forgotten, good sir! I tend to ignore the ramblings of common folk
-->Start
+'Tis already forgotten, good sir! I tend to ignore the ramblings of common folk anyway. ->Start
 
 +[I'll find more proof! And then everyone will know what you did!]
 While I find your- <i>passion</i>- for your work most endearing, sir, might I suggest you direct it towards someone more worthy of its focus?
-Have you performed a thorough inspection of the stables, for instance?
-->Start
+Have you performed a thorough inspection of the stables, for instance? ->Start
 
 
 
@@ -217,23 +215,21 @@ Alas, that is all it is- a fantasy! If the brooch was found in the stables, I th
 
 =Who
 Aha! I was not aware that you were <i>rifling</i> through my private quarters! That is considered <i>quite</i> inappropriate in civilised society. I assume members of the lower order are unaware of that particular faux pas. You must simply have nothing worth stealing, aha!
-As for my clothes, it is easily explainable. You see, I merely cut myself shaving this morning. Hence the bloodied garments!
+As for the gloves, it is easily explainable. You see, I merely cut myself shaving this morning. Hence the bloodied gloves!
 
 +[I don't see any shaving cuts.]
 ->Who_Continued
 
-+[You can't be serious!]
-->Who_Continued
 
 =Who_Continued
-I never did tell you <i>where</i> I was shaving, good sir! It is typiccally impolite to expose one's nether regions in public- though as you seem to have a <i>special</i> interest in my regions, I might be convinced to make an exception for you! Aha! Ahahaha!
+I never did tell you <i>where</i> I was shaving, good sir! It is typiccally impolite to expose one's nether regions in public- though as you seem to have a <i>special</i> interest in my regions, I might be convinced to make an exception for you! Aha! Ahahaha! 
 ->Accuse
 
 
 
 
 =Lavender
-Ah, to hell with that damnable peasant. An untrustworthy character, by my estimation. Why, I wouldn't be surprised if it were <i>she</i> that struck down my beloved brother!
+Ah, to hell with that damnable peasant. An untrustworthy character, by my estimation. Why, I wouldn't be surprised if it were <i>she</i> that struck down my beloved brother! #speaker: Maximillian Hold #layout:right #portrait:fopnegative
 ->Accuse
 
 =How_Follow_Up

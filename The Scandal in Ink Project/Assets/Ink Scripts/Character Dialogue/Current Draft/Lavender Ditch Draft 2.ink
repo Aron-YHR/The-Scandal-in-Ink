@@ -22,8 +22,7 @@ That's no concern of yours.
 
 *[Tell me about your relationship with the Admiral.]
 He paid me to tend the horses. I tend the horses. Nothing more than that.
-Can you get through that thick newsmonger skull of yours, hah?
--> Start
+Can you get through that thick newsmonger skull of yours, hah? -> Start
 
 
 *{ankle_letter}[I found this letter for you from Dorothy...]
@@ -49,7 +48,7 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 
 
 +[It was <i>you</i>! You killed the Admiral!]
-What's going on in that <i>f$%!k@g</i> head of yours to make you think I would a thing like that?
+And why would I do a thing like that?
 ->Accuse
 
 +[Leave]
@@ -89,7 +88,8 @@ More than I can say for some in this house... ->Alibis
 I- listen, just forget I said anything, alright? ->Start
 
 *[This isn't looking good for you, Lavender.]
-Do I look like a f@£%!&g $£%@!*$& to you? I know what it bloody well looks like, but I didn't do naught!
+You think I don't f@£%!&g $£%@!*$& know that?! 
+I know what it bloody well looks like, but I didn't do naught! I swear!
 ->Start 
 
 *[I need to think about what this means.]
@@ -269,11 +269,16 @@ She doesn't deserve that sort of treatment... ->Start
 
 
 ===Accuse===
-Fill me in!
-->DONE
+*{brooch}[You stabbed the Admiral with his brooch then hid it in the stables to sell on!]
+I know how it looks, alright, but I'm not a killer. And some thick-headed newsmonger saying otherwise won't change that.
+Now if you're done accusing me of being a killer, you can bugger off. ->Accuse
 
-/*...
-...Believe what you want. I'm no killer, and some thick-headed newsmonger saying otherwise won't change that.
-Now if you're done accusing me of being a killer, you can bugger off. */
++[I know there's more proof that you did it! I just have to find it.]
+Well then bugger off and find it, then! At least then I'll get a few moments peace from you! ->Start
+
++[Forget I said anything.]
+Fine. ->Start
+
+
 
 
