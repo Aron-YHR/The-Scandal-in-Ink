@@ -1,6 +1,7 @@
 using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventoryManager : Singleton<InventoryManager>
@@ -103,7 +104,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public static void UpdateItemDetailsPanel(ItemDetails itemDetails)
     {
         Instance.detailPanel.SetItemIcon(itemDetails.itemIcon);
-        Instance.detailPanel.SetItemName(itemDetails.itemName.ToString().Replace("_", " "));
+        Instance.detailPanel.SetItemName(itemDetails.itemName.ToString().Replace("_", " ").FirstCharacterToUpper());
         Instance.detailPanel.SetItemInfo(itemDetails.itemInfo);
     }
 
