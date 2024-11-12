@@ -103,7 +103,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public static void UpdateItemDetailsPanel(ItemDetails itemDetails)
     {
         Instance.detailPanel.SetItemIcon(itemDetails.itemIcon);
-        Instance.detailPanel.SetItemName(itemDetails.itemName.ToString());
+        Instance.detailPanel.SetItemName(itemDetails.itemName.ToString().Replace("_", " "));
         Instance.detailPanel.SetItemInfo(itemDetails.itemInfo);
     }
 
@@ -135,7 +135,7 @@ public class InventoryManager : Singleton<InventoryManager>
         NPCSlot newNPC = Instantiate(Instance.npcSlotPrefab, Instance.npcSlotGrid.transform);
         newNPC.npcDetails = npc;
         newNPC.slotImage.sprite = npc.npcIcon;
-        newNPC.slotText.text = npc.npcName.ToString();
+        newNPC.slotText.text = npc.npcName.ToString().Replace("_", " ");
     }
 
     public void RefreshNPC()
@@ -155,7 +155,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public static void UpdateNPCDetailsPanel(NPCDetails npcDetails)
     {
         Instance.npcDetailPanel.SetNPCIcon(npcDetails.npcPortrait);
-        Instance.npcDetailPanel.SetNPCName(npcDetails.npcName.ToString());
+        Instance.npcDetailPanel.SetNPCName(npcDetails.npcName.ToString().Replace("_", " "));
         Instance.npcDetailPanel.SetNPCLocation(npcDetails.location);
         Instance.npcDetailPanel.SetNPCInfo(npcDetails.npcInfo);
         Instance.npcDetailPanel.SetNPCStatements(npcDetails.npcStatements);

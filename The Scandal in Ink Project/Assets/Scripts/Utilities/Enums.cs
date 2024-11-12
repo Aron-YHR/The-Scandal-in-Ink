@@ -45,7 +45,7 @@ public enum NPCName
     Dorothy_Tendwell
 }
 
-public enum Location
+/*public enum Location
 {
     none,
     Study,
@@ -54,7 +54,7 @@ public enum Location
     Body,
     On_the_highway_to_hell,
     Maximillian_Room
-}
+}*/
 
 public enum LifeState
 {
