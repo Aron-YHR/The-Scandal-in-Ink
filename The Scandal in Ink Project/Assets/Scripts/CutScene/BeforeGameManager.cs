@@ -10,7 +10,7 @@ public class BeforeGameManager : MonoBehaviour
 
     public int index;
     public Animator beforeGameAnimatorController;
-    public DialogueTrigger dialogueTrigger;
+    //public DialogueTrigger dialogueTrigger;
     public Canvas canvas;
 
     public GameObject letters_2;
@@ -25,7 +25,7 @@ public class BeforeGameManager : MonoBehaviour
         {
             lettersList[i].text = cutsceneDataList_SO.list[0].lettersList[i];
         }
-        dialogueTrigger.SetInkText(cutsceneDataList_SO.list[0].inkJsonForCutscene);
+        //dialogueTrigger.SetInkText(cutsceneDataList_SO.list[0].inkJsonForCutscene);
     }
 
     public void SwitchLetters()
@@ -48,7 +48,9 @@ public class BeforeGameManager : MonoBehaviour
             case 5: beforeGameAnimatorController.Play("FifthLetter"); break;
             case 6: beforeGameAnimatorController.Play("ExitLetter_2");
                 audiosForCutscene.PlayTransitionAudioEvent(1);
-                dialogueTrigger.StartDialogue(); canvas.sortingOrder = -1;
+                TransitionManager.Instance.CutsceneTransition("BeforeGame", "Intro Reception", audiosForCutscene.transitionAudioClips[1].length);
+                //dialogueTrigger.StartDialogue(); 
+                canvas.sortingOrder = -1;
                 break;
         }
         index++;
