@@ -133,8 +133,10 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: A pair of frilly women's underwear found in Maximillian's room. At
-      least, you assume they're a woman's...
+    itemInfo: 'A pair of frilly women''s underwear found in Maximillian''s room,
+      monogrammed with the initials "T.H." You assume they are Theodosia''s...
+
+'
   - itemName: 19
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1

@@ -231,6 +231,11 @@ You are correct sir. My hands are... unseemly large- manlike, one might say. Eve
 <i>Oh!</i> To even say it aloud- I feel faint! I am ruined. I imagine this will be front page on that paper of yours. ->Hands_Gag
 
 
++{theodosias_pants}[I found your underwear in Max's room!]
+Ah. Yes. That is rather incriminating.
+->Affair_Cont
+
+
 =Hands_Gag
 
 +[I don't care about your hands! Tell me about the affair!]
