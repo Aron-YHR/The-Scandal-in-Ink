@@ -3,95 +3,17 @@ EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
 EXTERNAL TransitionToMainGame(from,to)
 
-
 VAR question_tracker = 0
 
-
-
-//~TransitionToMainGame("BeforeGame","Intro Reception")
-~unlockNPC("Admiral_Charles_Hold")
-Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Dorothy Tendwell #portrait:maidneutral
-
-
-
-->Start
-
-=== Start ===
-
-+[I'm here to see Admiral Charles Hold.]
-Oh- I see. Was the Admiral- expecting you, sir? #speaker: Dorothy Tendwell #portrait:maidshock
-It's just- I wasn't aware of your visit.
-++[The Admiral asked me to speak with him. I received this letter from him last night.]
-I- I see. How peculiar.
-->Dorothy
-
-
-+[I'm with the Weekly Wag! And I'm here for the Admiral's big scoop!]
-Oh, you're with the Weekly Wag! How thrilling! The Lady of the House is such a fan of your paper! #speaker: Dorothy Tendwell #portrait:maidpositive
-But if you'll excuse me, sir- how have you already heard the news? #speaker: Dorothy Tendwell #portrait:maidneutral
-++[The Admiral asked me to speak with him. I received this letter from him last night.]
-I- I see. How peculiar. #speaker: Dorothy Tendwell #portrait: maidshock
-->Dorothy
-
-*[And who might you be?]
-Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist you?
-->Start
-
-+[Skip. Testing Only.]
-~Transition("Intro Reception","Table")
-->DONE
-
-
-
-
-
-
-===Dorothy===
-Well, sir- I'm afraid you won't be able to speak with the Admiral today. #speaker: Dorothy Tendwell #portrait:maidnegative
-Unfortunately, he is somewhat- Um- 
-He is <i>indisposed</i> at present.
-
-
-+[Indisposed? What do you mean?]
-Well- you see, sir-
-Heavens, I'm not quite sure how to explain-
-You see- the Admiral- he's-
-Perhaps it's best you just see for yourself...
-~Transition("Intro Reception","Intro Table")
 ->Body
-
-
-
-+[Lady, I'm not leaving here without a story!]
-...I see.
-Well, seeing as you are so <i>insistent</i> I suppose it's best you see for yourself.
-If you'd follow me.
-~Transition("Intro Reception","Intro Table")
-->Body
-
-
-+[I really must insist on seeing him. I won't get paid without a story.]
-Well- if that is the case- perhaps it's best you see for yourself.
-Please, sir- follow me.
-~Transition("Intro Reception","Intro Table")
-->Body
-
-
 
 
 ===Body===
-As you can see sir, the Admiral is quite-
-Well, he's slightly-
-
-<i>Dead!</i> #speaker: ??? #layout:left #portrait:fopneutral
-~Transition("Intro Table","Intro Study")
-<i>Dispatched!</i> 
-<i>Deceased!</i>
 
 
-Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker: Ms. Tendwell #layout:right #portrait:maidneutral
+This is Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-Oh, dear brother! To be struck down so tragically! #speaker: Maximillian Hold #layout:left  #portrait:fopneutral
+Oh, dear brother! To be struck down so tragically! #speaker:Maximillian Hold #layout:left  #portrait:fopneutral
 So ignobly!
 Surrounded by such <i>horrendous</i> furnishings!
 <i>Ah!</i> I do not know how my heart can bear such an onslaught of travesties!
@@ -99,8 +21,8 @@ Oh- Dorothy dearest, who is this drably dressed fellow?
 
 This here is a journalist, sir. He says he's from the Weekly Wag. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-The Weekly Wag, you say? #speaker: Maximillian_Hold #layout:left #portrait:fopshock
-Ah! So the press have finally caught wind of my daring new fashion statement: <i>Gloveless</i> hands! #speaker: Maximillian_Hold #layout:left #portrait:foppositive
+The Weekly Wag, you say? #speaker: Maximillian Hold #layout:left #portrait:fopshock
+Ah! So the press have finally caught wind of my daring new fashion statement: <i>Gloveless</i> hands! #speaker: Maximillian Hold #layout:left #portrait:foppositive
 I know what you're thinking! To expose one's hands to the elements, to the streets, to common folk! 'Tis a controversy in the making! 
 But I assure you, six months from now, every man about town shall be <i>gloveless</i>!
 I am not typically one for interviews, sir, being a terribly shy and private individual-
@@ -124,7 +46,7 @@ Sir Maximillian, it seems that the Admiral requested to speak to the gentleman h
 Apparently he had a story he felt important to share with the Weekly Wag- and the wider world. 
 
 
-A journalist, you say? #speaker: Theodosia_Hold #layout:left #portrait:theladyneutral
+A journalist, you say? #speaker: Theodosia Hold #layout:left #portrait:theladyneutral
 How enterprising of Charles to summon a newspaperman to Wenchwatch Hall in anticipation of his own murder.
 Such was the nature of my late husband- always a most forward-thinking fellow.
 
