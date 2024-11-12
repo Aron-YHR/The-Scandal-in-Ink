@@ -12,6 +12,7 @@ public class FamilyManager : Singleton<FamilyManager>
     public BillsScript billsScript;
     public FamilyMember_SO familyMember_SO;
     public LetterStatements_SO letterStatements;
+    public CutsceneDataList_SO cutsceneDataList;
 
     //public List<int> wellbelingList;
     public List<FamilyHP> familyHPList;
@@ -39,6 +40,7 @@ public class FamilyManager : Singleton<FamilyManager>
 
     private void OnEnable()
     {
+        Instance.cutsceneDataList.list[0].lettersList[3] = null;
         level = 0;
 
         impactForEachMember = new int[3] {0,0,0 };
@@ -180,8 +182,11 @@ public class FamilyManager : Singleton<FamilyManager>
             // change each family member state
             for (int i = 0; i < familyHPList.Count; i++)
             {
-                if(!familyHPList[i].familyMember.isDead)
-                familyHPList[i].ChangeWellbeing(impactForEachMember[i]);
+                if (!familyHPList[i].familyMember.isDead)
+                {
+                    familyHPList[i].ChangeWellbeing(impactForEachMember[i]);
+                    Instance.cutsceneDataList.list[0].lettersList[3] += familyHPList[i].familyMember.name + Instance.letterStatements.statementsList[(int)familyHPList[i].familyMember.state] + "\n";
+                }
             }
 
             submitButton.SetActive(false);
