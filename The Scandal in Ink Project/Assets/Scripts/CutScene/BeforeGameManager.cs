@@ -44,7 +44,7 @@ public class BeforeGameManager : MonoBehaviour
                 TransitionManager.Instance.CutsceneTransition("BeforeGame","Family",0);
                 canvas.sortingOrder = -1;
                 break;
-            case 4: canvas.sortingOrder = 1; beforeGameAnimatorController.Play("FourthLetter"); break;
+            case 4: canvas.sortingOrder = 1; lettersList[3].text = cutsceneDataList_SO.list[0].lettersList[3]; beforeGameAnimatorController.Play("FourthLetter"); break;
             case 5: beforeGameAnimatorController.Play("FifthLetter"); break;
             case 6: beforeGameAnimatorController.Play("ExitLetter_2");
                 audiosForCutscene.PlayTransitionAudioEvent(1);

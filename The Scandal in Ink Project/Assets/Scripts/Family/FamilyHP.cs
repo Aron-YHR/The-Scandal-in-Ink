@@ -13,7 +13,7 @@ public class FamilyHP : MonoBehaviour
 
     public FamilyMember familyMember;
     public Image memberImage;
-    public TextMeshProUGUI letterStatement;
+    //public TextMeshProUGUI letterStatement;
 
     [SerializeField]private int wellbeingChange;
 
@@ -57,7 +57,7 @@ public class FamilyHP : MonoBehaviour
     public void UpdateMemberUI()
     {
         memberImage.sprite = familyMember.familyMemberImages[(int)familyMember.state];
-        letterStatement.text = familyMember.name + FamilyManager.Instance.letterStatements.statementsList[(int)familyMember.state];
+        
     }
   
 }

@@ -13759,7 +13759,7 @@ MonoBehaviour:
   npcSlotPrefab: {fileID: -7183598524358366152, guid: a8d5a65ba0550974bbfc8630d7dcf601, type: 3}
   npcDetailPanel: {fileID: 1899766087}
   journalHighlight: {fileID: 1619356499}
-  journalPanel: {fileID: 0}
+  journalPanel: {fileID: 1667807368}
 --- !u!1 &1064968019
 GameObject:
   m_ObjectHideFlags: 0
@@ -21577,7 +21577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deductionData: {fileID: 11400000, guid: 0b734ed4d78fcd24b8179c634a8ad35c, type: 2}
-  combinationData: {fileID: 0}
+  combinationData: {fileID: 11400000, guid: 2a5b6a7a27fc0dd46b4ac7045be442dd, type: 2}
   caseImgList:
   - {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
   - {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
