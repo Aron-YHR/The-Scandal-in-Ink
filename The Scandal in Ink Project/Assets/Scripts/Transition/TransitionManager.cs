@@ -11,7 +11,7 @@ public class TransitionManager : Singleton<TransitionManager>
 
     public float fadeDuration;
 
-    private bool isFading;
+    public bool isFading;
     public Animator cutsceneAnimator;
 
     //public DialogueTrigger dialogueTrigger;
