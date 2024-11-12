@@ -91,7 +91,7 @@ Well, he's slightly-
 
 Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker: Ms. Tendwell #layout:right #portrait:maidneutral
 
-Oh, dear brother! To be struck down so tragically! #speaker: Maximillian_Hold #layout:left  #portrait:fopneutral
+Oh, dear brother! To be struck down so tragically! #speaker: Maximillian Hold #layout:left  #portrait:fopneutral
 So ignobly!
 Surrounded by such <i>horrendous</i> furnishings!
 <i>Ah!</i> I do not know how my heart can bear such an onslaught of travesties!
@@ -102,7 +102,7 @@ This here is a journalist, sir. He says he's from the Weekly Wag. #speaker:Dorot
 The Weekly Wag, you say? #speaker: Maximillian_Hold #layout:left #portrait:fopshock
 Ah! So the press have finally caught wind of my daring new fashion statement: <i>Gloveless</i> hands! #speaker: Maximillian_Hold #layout:left #portrait:foppositive
 I know what you're thinking! To expose one's hands to the elements, to the streets, to common folk! 'Tis a controversy in the making! 
-But I assure you, six months from now, every man about town shall be following suit!
+But I assure you, six months from now, every man about town shall be <i>gloveless</i>!
 I am not typically one for interviews, sir, being a terribly shy and private individual-
 But for you, mon petit ami, I shall make an exception!
 
@@ -134,7 +134,7 @@ Lady Hold! You should be resting! #speaker:Dorothy Tendwell #layout:right #portr
 Dorothy, I assure you, I am most well rested. One of the few benefits of widowhood is a night's sleep free of <i>affectionate</i> advances from one's husband. #speaker: Theodosia_Hold #layout:left #portrait:theladynegative
 
 Yes, Lady Hold, of course. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
-This is Lady Theodosia Hold. Wife of the late Admiral. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
+Introducing Lady Theodosia Hold, sir. Wife of the late Admiral. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
 A pleasure to meet you, sir. I am an avid fan of your publication. Dorothy oft reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia_Hold #layout:left #portrait:theladypositive
 The exposé last month regarding Lady Sullivan's indecent table manners was <i>particularly</i> delectable.
@@ -205,20 +205,19 @@ I found Avery standing over the Admiral just before sunrise- hardly three hours 
 ->Questioning
 
 
-*{question_tracker == 3}[I'll solve this murder! I'll make sure the perpetrator is brought to justice!]
+*{question_tracker == 3}[I'll solve this murder! I'll put the perpetrator on the front page!]
 
 
-A front page article, you say?  #speaker: Maximillian Hold #layout:right
-How scandalous! #speaker: Theodosia_Hold #layout:left
-How thrilling! #speaker: Maximillian Hold #layout:right
-I am quite sure there is nothing on this Earth Charles would want more than to be prominently featured in a paper of note. Dead or no. #speaker: Theodosia_Hold #layout:left
+A front page article, you say?  #speaker: Maximillian_Hold #layout:left  #portrait:fopshock
+How scandalous! #speaker:Theodosia_Hold #layout:left #portrait:theladypositive
+How thrilling! #speaker: Maximillian_Hold #layout:left  #portrait:fopshock
+I am quite sure there is nothing on this Earth Charles would want more than to be prominently featured in a paper of note. Dead or no. #speaker:Theodosia_Hold #layout:left #portrait:theladypositive
 
 ->Outro
 
 =Outro
 If you are quite set on helping us, sir, I shall make sure everyone remains at Wenchwatch Hall as you carry out your investigation.  #speaker: Ms. Tendwell #layout:right
-I would recommend you carry out a thorough investigation of the Admiral's- ahem- body-
-It might help you with your investigation.
+I shall show you to the Admiral's body once more and help you ascertain what has occurred.
 
 +[<i>Begin your investigation.</i>]
 ~Transition("Intro Study","Table")

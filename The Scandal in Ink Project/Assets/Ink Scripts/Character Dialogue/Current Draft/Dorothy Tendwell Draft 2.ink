@@ -8,7 +8,7 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Dorothy Tendwell #portrait:maidpositive
+  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidpositive
 
 +[Where were you the night of the murder?]
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
@@ -197,7 +197,7 @@ Now I beg you to forget you ever saw those letters. I promise I shall never so r
 +[This is too juicy to pass up! It's going on the front page!]
 Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action! ->Start
 
-+[Okay. But it's gonna cost you.]
++{not dorothy_coins}[Okay. But it's gonna cost you.]
 Cost, sir? I'm not sure I understand. ->Extortion
 
 
@@ -290,6 +290,7 @@ I- don't think that would be appropriate, sir.->Start
 M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing?
 
 +{letter_of_dismissal}[The Admiral fired you! You killed him to keep your job!]
+But- I- I would never!
 ->DONE
 
 

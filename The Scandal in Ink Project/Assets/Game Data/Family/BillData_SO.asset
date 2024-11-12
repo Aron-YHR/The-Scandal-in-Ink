@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47b0dfe872fa64a4d893786726f0fd33, type: 3}
   m_Name: BillData_SO
   m_EditorClassIdentifier: 
-  Savings: 24
+  Savings: 18
   Salary: 0
   Misc_income: 0
   Mines: 3

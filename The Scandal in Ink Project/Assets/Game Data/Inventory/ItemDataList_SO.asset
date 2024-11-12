@@ -74,12 +74,12 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: 'A love letter between two unnamed persons, found in Lavender Ditch''s
-      back pocket. It reads as follows:
+    itemInfo: 'A love letter between two unnamed persons, found in the stables. It
+      reads as follows:
 
-      "My love, I have done as you asked.
-      I have left you a special letter somewhere secret. Like our love, its fiery
-      passion is caged by day, but burns brightly at night."'
+      "My love, I have done as you asked. I have left you
+      a special letter somewhere secret. Like our love, its fiery passion is caged
+      by day, but burns bright at night."'
   - itemName: 8
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
       "My love, these past few nights have been
       cold without you by my side. Would you leave me some small token to remind
       me of you? Leave it in our secret spot. Like our love, its fiery passion is
-      caged by day, but burns brightly at night."'
+      caged by day, but burns bright at night."'
   - itemName: 30
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -133,8 +133,10 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
     value: 0
-    itemInfo: A pair of frilly women's underwear found in Maximillian's room. At
-      least, you assume they're a woman's...
+    itemInfo: 'A pair of frilly women''s underwear found in Maximillian''s room,
+      monogrammed with the initials "T.H." You assume they are Theodosia''s...
+
+'
   - itemName: 19
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     isEvidence: 1
@@ -175,4 +177,4 @@ MonoBehaviour:
     isEvidence: 1
     value: 6
     itemInfo: A pile of coins found in Dorothy's pocket. There must be at least a
-      week's wages here...
+      week's wages here! Enough to pay for, say a week' worth of expenses...
