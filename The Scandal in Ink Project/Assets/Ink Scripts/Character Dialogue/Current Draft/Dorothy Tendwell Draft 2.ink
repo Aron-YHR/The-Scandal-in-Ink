@@ -197,7 +197,7 @@ Now I beg you to forget you ever saw those letters. I promise I shall never so r
 +[This is too juicy to pass up! It's going on the front page!]
 Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action! ->Start
 
-+[Okay. But it's gonna cost you.]
++{not dorothy_coins}[Okay. But it's gonna cost you.]
 Cost, sir? I'm not sure I understand. ->Extortion
 
 
@@ -290,7 +290,8 @@ I- don't think that would be appropriate, sir.->Start
 M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing?
 
 +{letter_of_dismissal}[The Admiral fired you! You killed him to keep your job!]
-But- I- 
+But- I- I would never!
+->DONE
 
 
 
