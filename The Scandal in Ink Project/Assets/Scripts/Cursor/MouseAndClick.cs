@@ -33,7 +33,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
             hand.position = Input.mousePosition;
         }
 
-        if (canClick && Input.GetMouseButtonDown(0))
+        if (canClick && Input.GetMouseButtonDown(0) && !TransitionManager.Instance.isFading)
         {
             // identify the situations of mouse interaction
             if (hand.gameObject.activeInHierarchy)

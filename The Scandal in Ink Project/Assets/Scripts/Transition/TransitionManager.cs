@@ -11,8 +11,10 @@ public class TransitionManager : Singleton<TransitionManager>
 
     public float fadeDuration;
 
-    private bool isFading;
+    public bool isFading;
     public Animator cutsceneAnimator;
+
+    //public DialogueTrigger dialogueTrigger;
 
     //public AudioDefinition audioDefinition;
 
@@ -47,6 +49,7 @@ public class TransitionManager : Singleton<TransitionManager>
     {
         if(!isFading)
         {
+            //this.dialogueTrigger = dialogueTrigger;
             StartCoroutine(CutsceneTransitionToScene(from, to,length));
         }
     }
@@ -139,6 +142,12 @@ public class TransitionManager : Singleton<TransitionManager>
         yield return new WaitForSeconds(length); // keep sreen black
 
         yield return FadeForCutscene(0);
+
+        //Debug.Log(dialogueTrigger.gameObject.name);
+        /*if (dialogueTrigger != null)
+        {
+            dialogueTrigger.StartDialogue();
+        }*/
 
         fadeCanvas.sortingOrder = 2;
 

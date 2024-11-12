@@ -119,77 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &89095470
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 89095471}
-  - component: {fileID: 89095472}
-  - component: {fileID: 89095473}
-  m_Layer: 5
-  m_Name: DialogueBeforeGame
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &89095471
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89095470}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287717296}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &89095472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89095470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03ce348bb045148428e80171fc1f204d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Highlight: {fileID: 0}
-  inkJson: {fileID: 4900000, guid: 5d8b497651da21d4cb1191b93a42bf03, type: 3}
-  image: {fileID: 0}
---- !u!114 &89095473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89095470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a84841e125c433a43a3feaa91bbbf7b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcDetails:
-    npcName: 3
-    npcIcon: {fileID: 0}
-    npcPortrait: {fileID: 0}
-    location: 
-    npcInfo: 
-    npcStatements: []
 --- !u!1 &284021018
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +254,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1912532933}
-  - {fileID: 89095471}
   m_Father: {fileID: 284021022}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -392,7 +320,6 @@ MonoBehaviour:
   - {fileID: 1303793795}
   index: 0
   beforeGameAnimatorController: {fileID: 287717300}
-  dialogueTrigger: {fileID: 89095472}
   canvas: {fileID: 284021021}
   letters_2: {fileID: 777860213}
   audiosForCutscene: {fileID: 588228413}
