@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 074a939a2fa37d0449654a1c5f5545f9, type: 3}
+  audioClip: {fileID: 8300000, guid: 08173091617566e4bb4e4a26ea840846, type: 3}
   transitionAudioClips: []
   playOnEnable: 1
 --- !u!4 &913118748
