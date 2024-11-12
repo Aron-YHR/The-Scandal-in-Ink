@@ -336,8 +336,10 @@ Something of a fashion faux pas, I am aware. However, considering the recent dea
 Ask my maid if you do not believe me. She will confirm the veracity of my statement.
 ->Accuse
 
-+{brooch}[You planted the brooch in the stables to frame Lavender!]
-Simply <i>preposterous</i>! I would never deign to touch such an ugly piece of jewelry as that brooch!
++{brooch}[You were fighting with Charles last night and stabbed him with his own brooch!]
+Sir, that is simply <i>preposterous</i>.
+I can assure you, my husband remained quite intact throughout our discussion yesterday evening.
+Besides, I thought that brooch of his to be quite hideous.
 You may accuse me of mariticide, sir, but do not <i>dare</i> imply I so much as <i>touched</i> such a hideous piece of regalia!
 ->Accuse
 
@@ -347,7 +349,7 @@ Already forgotten. I must admit to having found the accusation more thrilling th
 ->Start
 
 +[I'll find more proof! And then everyone will know what you did!]
-You newspapermen, so <i>insistent</i>! Why, if you weren't so desperately poor, I'd almost find your ambition attractive.->Start
+You newspapermen, so <i>insistent</i>! Why, if you weren't so desperately poor, I'd almost find this ambition attractive.->Start
 
 
 
