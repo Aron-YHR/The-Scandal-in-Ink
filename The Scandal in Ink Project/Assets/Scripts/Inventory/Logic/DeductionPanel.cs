@@ -38,9 +38,9 @@ public class DeductionPanel : MonoBehaviour
         escapeDropdown.AddOptions(deductionData.GetWayOfEscapeList());
         weaponsDropdown.AddOptions(deductionData.GetWeaponsList());
 
-        sideNameDropdown_1.AddOptions(deductionData.GetNameList());
+        /*sideNameDropdown_1.AddOptions(deductionData.GetNameList());
         sideNameDropdown_2.AddOptions(deductionData.GetNameList());
-        affairDropdown.AddOptions(deductionData.GetAffairList());
+        affairDropdown.AddOptions(deductionData.GetAffairList());*/
     }
 
     public void ChangeImage()
@@ -77,7 +77,7 @@ public class DeductionPanel : MonoBehaviour
             }
         }
 
-        if (sideCaseToggle.isOn)
+        /*if (sideCaseToggle.isOn)
         {
             for (int i = 0; i < combinationData.sideCaseCombinationsList.Count; i++)
             {
@@ -91,7 +91,7 @@ public class DeductionPanel : MonoBehaviour
                     //InventoryManager.Instance.journal.deductionChoices = combinationData.combinationsList[i].resultIndex;
                 }
             }
-        }
+        }*/
 
 
         //InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
