@@ -87,7 +87,7 @@ public class UIManager : Singleton<UIManager>
 
         itemShowcaseImg.sprite = itemDetails.itemIcon;
         infoText.text = itemDetails.itemInfo;
-        itemNameText.text = itemDetails.itemName.ToString();
+        itemNameText.text = itemDetails.itemName.ToString().Replace("_", " ").FirstCharacterToUpper();
     }
 
     public void SetItemBack()
