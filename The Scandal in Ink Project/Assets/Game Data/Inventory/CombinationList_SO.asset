@@ -19,3 +19,8 @@ MonoBehaviour:
   - killerIndex: 3
     motiveIndex: 3
     resultIndex: 2
+  sideCaseCombinationsList:
+  - nameIndex_1: 1
+    nameIndex_2: 2
+    affairIndex: 1
+    resultIndex: 0
