@@ -17,7 +17,11 @@ MonoBehaviour:
     newsTitle: DANGEROUS DANDY
     newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
     lettersList:
-    - 
+    - 'Sir,
+
+
+      Thank you for your article. I cannot lie, while I was surprised
+      at your conclusion, '
     - 
     - 
   - index: 0
@@ -28,5 +32,11 @@ MonoBehaviour:
     - 
   sideCaseResultsList:
   - index: 1
-    newsTitle: Scandal! Aron feels so lonely!
-    letter: I don't give a fxxk
+    newsTitle: AND THEY WERE ROOMMATES
+    letter: 
+  - index: 2
+    newsTitle: TWO BROTHERS ONE LOVER
+    letter: 
+  - index: 0
+    newsTitle: SLOW NEWS DAY
+    letter: 
