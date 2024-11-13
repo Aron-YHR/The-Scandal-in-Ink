@@ -17,12 +17,22 @@ MonoBehaviour:
     newsTitle: DANGEROUS DANDY
     newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
     lettersList:
-    - 'Sir,
-
-
-      Thank you for your article. I cannot lie, while I was surprised
-      at your conclusion, '
-    - 
+    - "To the loathsome, wretched writer of The Weekly Wag, \r\n\r\nYou cad! \r\n\r\nYou
+      pauper! \r\n\r\nYou insolent wretch! \r\n\r\nFirst, you show up at my home-
+      unannounced! - to harass and badger my family! \r\n\r\nThen, you accuse me-
+      whilst I am in the throes of grief- of murdering my beloved brother! \r\n\r\nAnd
+      WORST OF ALL \u2013 you condemn me to a life of manacles and striped jumpsuits!
+      \r\n\r\nRudeness I can forgive, even incarceration- but stripes?!? You have
+      ruined me, sir! And I shall have my revenge! \r\n\r\nMy bunkmate- a most endearing
+      fellow who goes by the name \u201CGinger Beer\u201D- has helped me craft my
+      first shiv from a particularly stale piece of bread. You can be assured that
+      upon my inevitable release from this cell, I will seek you out with the express
+      intention of giving you a thorough poking! \r\n\r\nMy idiotic warden tells
+      me that I am only permitted to send one letter a month. Well, let me tell you
+      this, SIR- you can expect another letter from me one month hence, detailing
+      the many other ways in which I will make you suffer! \r\n\r\nYour Mortal Enemy,
+      \r\n\r\nMaximillian Hold "
+    - Fantastic article kid! Couldn't have written it better myself!
     - 
   - index: 0
     newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
