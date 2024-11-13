@@ -14,7 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultsList:
   - index: 1
-    newsTitle: Scandal! Mr Rian want to be a level designer!
+    newsTitle: DANGEROUS DANDY
+    newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
+    lettersList:
+    - 
+    - 
+    - 
+  - index: 0
+    newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
     newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
     lettersList:
     - 
