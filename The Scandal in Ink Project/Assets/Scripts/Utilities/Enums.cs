@@ -65,3 +65,15 @@ public enum LifeState
     Healthy,
     None
 }
+
+public enum MusicType
+{
+    none,
+    BookClose,
+    BookOpen,
+    BookFlip,
+    Letter,
+    NoteTaking,
+    Stamp,
+    PlayerMove
+}

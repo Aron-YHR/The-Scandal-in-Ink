@@ -64,7 +64,12 @@ public class TransitionManager : Singleton<TransitionManager>
 
         CameraFollowMouse.Instance.DesactivateMove();
 
+        
+
         yield return Fade(1);
+
+        if(to != "BeforeGame")
+        AudioManager.Instance.OnTransitionAudioEvent(null);
 
         if (from != string.Empty)
         {

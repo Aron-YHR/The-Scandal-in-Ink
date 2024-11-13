@@ -7,45 +7,73 @@ using UnityEngine.UI;
 public class AudioManager : Singleton<AudioManager>
 {
     public AudioSource BGMSource;
-    public AudioSource FXSource;
+    public AudioSource SESource;
     public AudioSource transitionSource;
 
     public AudioMixer audioMixer;
 
     public Slider masterVolumeSlider;
     public Slider bgmVolumeSlider;
-    public Slider fxVolumeSlider;
+    public Slider seVolumeSlider;
+
+    [Header("Music Clips Lists")]
+    public List<AudioClip> audioClipsForBookClose = new List<AudioClip>();
+    public List<AudioClip> audioClipsForBookOpen = new List<AudioClip>();
+    public List<AudioClip> audioClipsForBookFlip = new List<AudioClip>();
+    public List<AudioClip> audioClipsForLetter = new List<AudioClip>();
+    public List<AudioClip> audioClipsForNoteTaking = new List<AudioClip>();
+    public List<AudioClip> audioClipsForStamp = new List<AudioClip>();
+    public List<AudioClip> audioClipsForPlayerMove = new List<AudioClip>();
+    
 
     private void OnEnable()
     {
         OnSetSliderEvent();
 
-        EventHandler.PlayFXAudioEvent += OnFXEvent;
+        EventHandler.PlaySEAudioEvent += OnSEEvent;
         EventHandler.PlayBGMAudioEvent += OnBGMEvent;
         EventHandler.PlayTransitionAudioEvent += OnTransitionAudioEvent;
+        EventHandler.PlaySEAudioEvent_Random += OnSEEvent_Random;
         //EventHandler.SetSliderVolumeEvent += OnSetSliderEvent;
 
         masterVolumeSlider.onValueChanged.AddListener(OnMainVolumeChangeEvent);
         bgmVolumeSlider.onValueChanged.AddListener(OnBGMVolumeChangeEvent);
-        fxVolumeSlider.onValueChanged.AddListener(OnFXVolumeChangeEvent);
+        seVolumeSlider.onValueChanged.AddListener(OnSEVolumeChangeEvent);
     }
 
     private void OnDisable()
     {
-        EventHandler.PlayFXAudioEvent -= OnFXEvent;
+        EventHandler.PlaySEAudioEvent -= OnSEEvent;
         EventHandler.PlayBGMAudioEvent -= OnBGMEvent;
         EventHandler.PlayTransitionAudioEvent -= OnTransitionAudioEvent;
+        EventHandler.PlaySEAudioEvent_Random -= OnSEEvent_Random;
+
         //EventHandler.SetSliderVolumeEvent -= OnSetSliderEvent;
         //EventHandler.ChangeVolumeEvent -= OnVolumeChangeEvent;
         masterVolumeSlider.onValueChanged.RemoveListener(OnMainVolumeChangeEvent);
         bgmVolumeSlider.onValueChanged.RemoveListener(OnBGMVolumeChangeEvent);
-        fxVolumeSlider.onValueChanged.RemoveListener(OnFXVolumeChangeEvent);
+        seVolumeSlider.onValueChanged.RemoveListener(OnSEVolumeChangeEvent);
     }
 
-    public void OnFXEvent(AudioClip audioClip)
+    public void OnSEEvent(AudioClip audioClip)
     {
-        FXSource.clip = audioClip;
-        FXSource.Play();
+        SESource.clip = audioClip;
+        SESource.Play();
+    }
+
+    public void OnSEEvent_Random(MusicType musicType)
+    {
+        switch (musicType)
+        {
+            case MusicType.BookClose: SESource.clip = audioClipsForBookClose[Random.Range(0, audioClipsForBookClose.Count)]; break;
+            case MusicType.BookOpen: SESource.clip = audioClipsForBookOpen[Random.Range(0, audioClipsForBookOpen.Count)]; break;
+            case MusicType.BookFlip: SESource.clip = audioClipsForBookFlip[Random.Range(0, audioClipsForBookFlip.Count)]; break;
+            case MusicType.Letter: SESource.clip = audioClipsForLetter[Random.Range(0, audioClipsForLetter.Count)]; break;
+            case MusicType.NoteTaking: SESource.clip = audioClipsForNoteTaking[Random.Range(0, audioClipsForNoteTaking.Count)]; break;
+            case MusicType.Stamp: SESource.clip = audioClipsForStamp[Random.Range(0, audioClipsForStamp.Count)]; break;
+            //case MusicType.PlayerMove: SESource.clip = audioClipsForPlayerMove[Random.Range(0, audioClipsForPlayerMove.Count)]; break;
+        }
+        SESource.Play();
     }
 
     public void OnBGMEvent(AudioClip audioClip)
@@ -56,8 +84,16 @@ public class AudioManager : Singleton<AudioManager>
 
     public void OnTransitionAudioEvent(AudioClip audioClip)
     {
-        transitionSource.clip = audioClip;
-        transitionSource.Play();
+        if (audioClip == null)
+        {
+            transitionSource.clip = audioClipsForPlayerMove[Random.Range(0, audioClipsForPlayerMove.Count)];
+            transitionSource.Play();
+        }
+        else
+        {
+            transitionSource.clip = audioClip;
+            transitionSource.Play();
+        }
     }
 
     public void OnMainVolumeChangeEvent(float amount)
@@ -72,9 +108,9 @@ public class AudioManager : Singleton<AudioManager>
         //EventHandler.CallPlayChangeVolumeEvent(amount);
     }
 
-    public void OnFXVolumeChangeEvent(float amount)
+    public void OnSEVolumeChangeEvent(float amount)
     {
-        audioMixer.SetFloat("FXVolume", amount * 100 - 80);
+        audioMixer.SetFloat("SEVolume", amount * 100 - 80);
         //EventHandler.CallPlayChangeVolumeEvent(amount);
     }
 
@@ -87,8 +123,8 @@ public class AudioManager : Singleton<AudioManager>
         audioMixer.GetFloat("BGMVolume", out amount);
         
         bgmVolumeSlider.value = (amount + 80) /100; //Debug.Log(masterVolumeSlider.value);
-        audioMixer.GetFloat("FXVolume", out amount);
+        audioMixer.GetFloat("SEVolume", out amount);
         //Debug.Log(amount);
-        fxVolumeSlider.value = (amount + 80) /100; //Debug.Log(masterVolumeSlider.value);
+        seVolumeSlider.value = (amount + 80) /100; //Debug.Log(masterVolumeSlider.value);
     }
 }

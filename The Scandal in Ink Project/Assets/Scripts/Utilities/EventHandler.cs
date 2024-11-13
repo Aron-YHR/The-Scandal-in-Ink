@@ -32,11 +32,18 @@ public static class EventHandler
         StartNewGameEvent?.Invoke();
     }
 
-    public static event Action<AudioClip> PlayFXAudioEvent;
+    public static event Action<AudioClip> PlaySEAudioEvent;
 
-    public static void CallPlayFXAudioEvent(AudioClip audioClip)
+    public static void CallPlaySEAudioEvent(AudioClip audioClip)
     {
-        PlayFXAudioEvent?.Invoke(audioClip);
+        PlaySEAudioEvent?.Invoke(audioClip);
+    }
+
+    public static event Action<MusicType> PlaySEAudioEvent_Random;
+
+    public static void CallPlaySEAudioEvent_Random(MusicType musicType)
+    {
+        PlaySEAudioEvent_Random?.Invoke(musicType);
     }
 
     public static event Action<AudioClip> PlayBGMAudioEvent;
