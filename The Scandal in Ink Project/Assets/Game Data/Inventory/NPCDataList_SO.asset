@@ -125,33 +125,21 @@ MonoBehaviour:
     npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     location: Study
-    npcInfo: The victim!
+    npcInfo: Head of the Hold family. Murdered in the early hours of the morning
+      for reasons unknown...
     npcStatements:
-    - statementLine: The Admiral was stabbed multiple times in the chest with something
-        particularly sharp.
+    - statementLine: 1. The Admiral was stabbed multiple times in the chest with
+        something particularly sharp.
       isUnlocked: 0
-    - statementLine: Something was forcibly torn off the Admiral's coat.
+    - statementLine: 2. Something was forcibly torn off the Admiral's coat.
       isUnlocked: 0
-    - statementLine: The Admiral's brooch is missing.
+    - statementLine: 3. The Admiral's brooch is missing.
       isUnlocked: 1
-    - statementLine: 4.
+    - statementLine: 4. The Admiral believed his wife was unfaithful.
       isUnlocked: 0
     - statementLine: 5.
       isUnlocked: 0
     - statementLine: 6.
       isUnlocked: 0
     - statementLine: 7.
-      isUnlocked: 0
-  - npcName: 0
-    npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
-    npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
-    location: Study
-    npcInfo: The victim!
-    npcStatements:
-    - statementLine: The Admiral was stabbed multiple times in the chest with something
-        particularly sharp.
-      isUnlocked: 0
-    - statementLine: Something was forcefully torn from the Admiral's coat.
-      isUnlocked: 0
-    - statementLine: Something was forcefully torn from the Admiral's coat.
       isUnlocked: 0

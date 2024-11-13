@@ -36,6 +36,11 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 +[<i>Examine the suspect.</i>]
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
 
+
+*{letter_of_dismissal}[I found your letter of dismissal.]
+But I- where did you find that?
+->Dismissal
+
 +[It was you! You killed the Admiral!]
 M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 
@@ -297,7 +302,7 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-+{letter_of_dismissal}[The Admiral fired you! You killed him to keep your job!]
++{letter_of_dismissal}[The Admiral fired you! You killed him for revenge!]
 But- I- I would never! 
 Yes, I took the letter, but I would never do such a horrid thing!
 Please, sir, you must believe me! ->Accuse
@@ -316,4 +321,23 @@ Perhaps he was right about me.... ->Start
 +[Forget I said that.]
 Well, if you say so, sir.->Start
 
+
+
+===Dismissal===
+
+*[The Admiral fired you? Why are you still here?]
+->DONE
+
+
+
+
+
+
+*{dorothy_denial}[You <i>did</i> knew he wanted to fire you! You lied to me!]
+->DONE
+
+
+
+*[You killed the Admiral because he fired you! I always suspected as much!]
+->DONE
 
