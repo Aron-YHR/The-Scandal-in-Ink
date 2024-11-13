@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: LetterStatements_SO
   m_EditorClassIdentifier: 
   statementsList:
-  - ' is dead now :)'
-  - ' is sickly now...'
-  - ' is not so well...'
-  - ' is doing well now.'
-  - ' is healthy now!'
+  - ' is dead. Please send money for a coffin.'
+  - ' is deathly ill. Please- send aid as soon as you can'
+  - ' is rather unwell.'
+  - ' is faring well, thanks be to God.'
+  - ' is thriving.'

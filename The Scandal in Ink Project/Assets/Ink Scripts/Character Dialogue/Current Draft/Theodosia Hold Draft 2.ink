@@ -29,7 +29,10 @@ Such as?->Suspicions
 +[How was your relationship with your husband?]
 A most invasive question to ask a freshly made widow, though I shall allow it. I find the outrageous gall of you newspaper men quite charming. -> Relationship
 
-
+*{maximillians_gloves}[Why are you wearing Maximillian's gloves?]
+Good sir, I was quite unaware I was doing so.
+~unlockStatement("Theodosia_Hold", 7)
+I have been wearing these same gloves all of tday and yesterday, by my recollection.
 
 *{affair_revealed} [I know about your affair with Maximillian.]
 Affair? With Maximillian? How perplexing and baseless an accusation. And most thrilling. Do go on. ->Affair
@@ -107,6 +110,7 @@ Indeed. ->Relationship
 
 +[Why were you crying?]
 I was engaged in vigorous conversation with my husband Charles. This was before he died, you see.
+~ unlockStatement("Theodosia_Hold", 1)
 ~argument = true
 I do believe the conversation overwhelmed my feminine sensibilities and drove me to tears. A foolish decision on my part to engage in such activity. It is most harmful to a lady's health to engage in any activity which can be considered <i>vigorous</i>.
 
@@ -119,12 +123,14 @@ Oh, matters of a marital nature. Such was the banality of our conversation that 
 Ms. Tendwell was present as I was leaving Charles' study. One must admit, she performed her duties most admirably. She escorted me to my chambers and went to her own quarters upon my request. Crying in front of one's staff should be avoided at all cost. It is terribly European. ->Night_Of_Murder
 
 +[How did you discover the body?]
-Ms. Tendwell interrupted my private weeping to inform me that Charles had been slain. It is terribly inappropriate to interrupt one's private weeping. However, given the occassion, I believe Ms. Tendwell acted appropriately.
+Ms. Tendwell interrupted my private weeping to inform me that Charles had been slain. 
+~unlockStatement("Theodosia_Hold", 2)
+It is terribly inappropriate to interrupt one's private weeping. However, given the occassion, I believe Ms. Tendwell acted appropriately.
 ->Night_Of_Murder
 
 +[Did you hear anything that night?]
 I do believe I heard some unusual sounds emanating from Ms. Tendwell's room, as I have heard on several nights past. I generally disapprove of serving girls creating noise. However, I find Ms. Tendwell's performance is quite satisfactory, so I have elected to overlook this indiscretion. ->Night_Of_Murder
-
+~unlockStatement("Theodosia_Hold", 3)
 
 +[Let's talk about something else.]
 Excessive talking is a terrible vulgarity, but for the sake of your paper, I shall indulge just this once. ->Start 
@@ -137,8 +143,9 @@ Excessive talking is a terrible vulgarity, but for the sake of your paper, I sha
 
 +[Has anyone in the house been acting strange?]
 I have always found one Ms. Lavender Ditch to be a most unusual character. Her manner is most sullen, and one cannot help but question the morals of a woman who elects to spend her days mucking about in a stables.
+~unlockStatement("Theodosia_Hold", 6)
 I requested Charles release her from her duties several times. Alas, men of Charles' calibre are often dodddering when expedition is required and far too quick to finish when strenuous labour would be of benefit.
-That was rather clever. One does hope you will make note of these pithy observations of mine in your publication.
+That was rather clever, don't you think? One does hope you will make note of these pithy observations of mine in your publication.
 ->Suspicions
 
 +[Did you notice anything unusual about the body?]
@@ -215,7 +222,8 @@ Heavens, who is to say? Likely it was merely a flight of fancy on the part of my
 ===Affair===
 
 +{lavender_confession}[I spoke to Lavender. I know you're blackmailing her. She told everything.]
-Ah, I see. So the stable girl has betrayed me. 
+Ah, I see. So the stable girl has betrayed me and revealed all.
+~unlockStatement("Theodosia_Hold",5)
 Alas, it is a lesson learned. One simply cannot trust a woman who elects to work with horses.
 ->Affair_Cont
 
@@ -252,7 +260,7 @@ But you see-
 Heavens, how might one explain-
 I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
 ~theodosia_confession = true
-~unlockStatement("Theodosia_Hold",1)
+~unlockStatement("Theodosia_Hold",4)
 You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
 Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer one did firmly accept. 
 And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. Several times.
@@ -326,10 +334,11 @@ Very well. One sincerely hopes you make the well-bred decision.->Start
 
 
 *{theodosia_confession}[You killed your husband to keep your affair quiet!]
-I- I would never have done such a thing! Affairs are quite commonplace in cultured society- to kill over such a triviality is simply preposterous! ->Accuse
+I- I would never have done such a thing! Affairs are quite commonplace in cultured society- to kill over such a triviality is simply preposterous! 
+Furthermore, I was convalescing in my room the entire night, as Dorothy I am quite sure Dorothy will confirm!->Accuse
 
 
-+{theodosias_gloves}[I found your gloves are covered in blood!]
++{theodosias_gloves}[I found your gloves covered in the Admiral's blood!]
 Good sir, I have been wearing these same gloves since yesterday evening. 
 Something of a fashion faux pas, I am aware. However, considering the recent death of my husband, one must surely be allowed some leniency.
 Ask my maid if you do not believe me. She will confirm the veracity of my statement.
