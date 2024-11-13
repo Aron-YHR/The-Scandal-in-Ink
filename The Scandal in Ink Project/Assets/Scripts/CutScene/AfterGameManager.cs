@@ -14,6 +14,7 @@ public class AfterGameManager : MonoBehaviour
 
     public TextMeshProUGUI newsTile;
     public Image newsImg;
+    public TextMeshProUGUI newsTileForSideCase;
 
     public List<TextMeshProUGUI> lettersList = new List<TextMeshProUGUI>();
     //public List<TextMeshProUGUI> choicesList = new List<TextMeshProUGUI>();
@@ -37,15 +38,21 @@ public class AfterGameManager : MonoBehaviour
 
         
 
-        Result result = resultList_SO.resultsList.Find(i => i.index == InventoryManager.Instance.journal.deductionChoices);
-        
+        Result result = resultList_SO.resultsList.Find(i => i.index == InventoryManager.Instance.journal.mainCaseChoices);
+        SideCaseResult sideCaseResult = resultList_SO.sideCaseResultsList.Find(i => i.index == InventoryManager.Instance.journal.sideCaseChoices);
         newsTile.text = result.newsTitle;
         newsImg.sprite = result.newsImg;
+
+        newsTileForSideCase.text = sideCaseResult.newsTitle;
 
         for (int i = 0; i < result.lettersList.Count; i++)
         {
             lettersList[i].text = result.lettersList[i];
         }
+
+
+        lettersList[2].text = sideCaseResult.letter;
+
 
         //choicesList[0].text = deductionData.GetNPCNameList()[InventoryManager.Instance.journal.deductionChoices[0]];
         //choicesList[1].text = deductionData.GetLocationList()[InventoryManager.Instance.journal.deductionChoices[1]];

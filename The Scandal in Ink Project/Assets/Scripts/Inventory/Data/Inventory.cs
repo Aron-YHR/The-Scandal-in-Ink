@@ -11,7 +11,8 @@ public class Inventory : ScriptableObject
     // NPC iteracted
     public List<NPCDetails> npcList = new List<NPCDetails>();
     // choices player make
-    public int deductionChoices;
+    public int mainCaseChoices;
+    public int sideCaseChoices;
     //public List<string> familyChoices = new List<string>();
 
 }

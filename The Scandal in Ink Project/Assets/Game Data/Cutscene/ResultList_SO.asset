@@ -26,4 +26,7 @@ MonoBehaviour:
     lettersList:
     - 
     - 
-    - 
+  sideCaseResultsList:
+  - index: 1
+    newsTitle: Scandal! Aron feels so lonely!
+    letter: I don't give a fxxk

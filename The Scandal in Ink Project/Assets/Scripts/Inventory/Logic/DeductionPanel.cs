@@ -68,12 +68,12 @@ public class DeductionPanel : MonoBehaviour
                 + deductionData.wayOfEscapeList[escapeDropdown.value].amount
                 + deductionData.weaponsList[weaponsDropdown.value].amount;
 
-                InventoryManager.Instance.journal.deductionChoices = combinationData.combinationsList[i].resultIndex;
+                InventoryManager.Instance.journal.mainCaseChoices = combinationData.combinationsList[i].resultIndex;
             }
             else if(nameDropdown.value == combinationData.combinationsList[i].killerIndex-1)
             {
                 totalIncome += deductionData.nameAndImageList[nameDropdown.value].amount;
-                InventoryManager.Instance.journal.deductionChoices = 0;
+                InventoryManager.Instance.journal.mainCaseChoices = 0;
             }
         }
 
@@ -88,7 +88,11 @@ public class DeductionPanel : MonoBehaviour
                         + deductionData.nameList[sideNameDropdown_2.value].amount
                         + deductionData.affairList[affairDropdown.value].amount;
 
-                    //InventoryManager.Instance.journal.deductionChoices = combinationData.combinationsList[i].resultIndex;
+                    InventoryManager.Instance.journal.sideCaseChoices = combinationData.sideCaseCombinationsList[i].resultIndex;
+                }
+                else
+                {
+                    InventoryManager.Instance.journal.sideCaseChoices = 0;
                 }
             }
         }
