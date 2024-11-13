@@ -44,7 +44,8 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         journal.itemList.Clear();
         journal.npcList.Clear();
-        journal.deductionChoices = 0;
+        journal.mainCaseChoices = 0;
+        journal.sideCaseChoices = 0;
         //journal.familyChoices.Clear();
         billsScript.SetDefault();
         RefreshItem();

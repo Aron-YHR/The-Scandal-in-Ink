@@ -20,4 +20,7 @@ MonoBehaviour:
     - "Dear Mr Rian,\nI really enjoy your narrative...That makes me water...\nLove,
       \nTheodosia Hold"
     - 
-    - 
+  sideCaseResultsList:
+  - index: 1
+    newsTitle: Scandal! Aron feels so lonely!
+    letter: I don't give a fxxk

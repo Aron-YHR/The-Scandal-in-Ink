@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BillData_SO
   m_EditorClassIdentifier: 
   gameLevel: 1
-  Savings: 48
-  Salary: 30
+  Savings: 24
+  Salary: 60
   Misc_income: 0
   Mines: 3
   Mills: 3
