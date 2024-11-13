@@ -27,7 +27,7 @@ public class FamilyManager : Singleton<FamilyManager>
     [SerializeField] private TextMeshProUGUI totalSavingsText;
     [SerializeField] private GameObject submitButton;
     [SerializeField] private GameObject warningPanel;
-    [SerializeField] private GameObject endScreen;
+    //[SerializeField] private GameObject endScreen;
 
     //[SerializeField] private List<TextMeshProUGUI> expenseValueTextList;
     private int cost;
@@ -36,12 +36,12 @@ public class FamilyManager : Singleton<FamilyManager>
 
     private int[] impactForEachMember;
 
-    private int level;
+    //private int level;
 
     private void OnEnable()
     {
         Instance.cutsceneDataList.list[0].lettersList[3] = null;
-        level = 0;
+        //level = 0;
 
         impactForEachMember = new int[3] {0,0,0 };
 
@@ -191,18 +191,27 @@ public class FamilyManager : Singleton<FamilyManager>
 
             submitButton.SetActive(false);
 
-            if (level == 0)
+            if (billsScript.gameLevel == 0)
             {
-                level++;
-                
+                billsScript.gameLevel++;
+
                 BeforeGameManager beforeGameManager = FindFirstObjectByType<BeforeGameManager>();
-                beforeGameManager.letters_2.SetActive(true);
-                beforeGameManager.audiosForCutscene.PlayTransitionAudioEvent(0);
+                if (beforeGameManager != null)
+                {
+                    beforeGameManager.letters_2.SetActive(true);
+                    beforeGameManager.audiosForCutscene.PlayTransitionAudioEvent(0);
+                }
                 TransitionManager.Instance.CutsceneTransition("Family", "BeforeGame", beforeGameManager.audiosForCutscene.transitionAudioClips[0].length);
             }
-            else if (level == 1)
+            else if (billsScript.gameLevel == 1)
             {
-                StartCoroutine(EndScreen());
+                AfterGameManager afterGameManager = FindFirstObjectByType<AfterGameManager>();
+                if (afterGameManager != null)
+                {
+                    afterGameManager.letters_2.SetActive(true);
+                    
+                }
+                TransitionManager.Instance.CutsceneTransition("Family", "AfterGame", 0);
             }
 
             //TransitionManager.Instance.Transition(SceneManager.GetActiveScene().name, "AfterGame");
@@ -216,16 +225,13 @@ public class FamilyManager : Singleton<FamilyManager>
         
     }
 
-    private IEnumerator EndScreen()
+    /*private IEnumerator EndScreen()
     {
         yield return new WaitForSeconds(3f);
         endScreen.SetActive(true);
-    }
+    }*/
 
-    public void BackToStart()
-    {
-        TransitionManager.Instance.Transition("Family", "Menu");
-    }
+    
 
 
 }

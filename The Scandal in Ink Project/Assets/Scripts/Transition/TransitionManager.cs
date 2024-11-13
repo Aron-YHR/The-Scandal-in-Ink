@@ -118,11 +118,11 @@ public class TransitionManager : Singleton<TransitionManager>
         {
             EventHandler.CallBeforeSceneUnloadEvent();
 
-            if(from != "BeforeGame" || to != "Family")
+            if((from != "BeforeGame" || to != "Family")&&(from != "AfterGame" || to != "Family"))
             yield return SceneManager.UnloadSceneAsync(from);
         }
 
-        if( from != "Family" || to != "BeforeGame")
+        if( (from != "Family" || to != "BeforeGame") && (from != "Family" || to != "AfterGame"))
         yield return SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
 
         // set new scene to be active

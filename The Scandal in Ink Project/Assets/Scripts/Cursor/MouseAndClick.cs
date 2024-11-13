@@ -25,6 +25,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
 
         if(DialogueManager.GetInstance().dialogueIsPlaying || UIManager.Instance.isUIOpened)
         {
+            Debug.Log("UI Open");
             return;
         }
 
