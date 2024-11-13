@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcDetailsList:
   - npcName: 5
-    npcIcon: {fileID: -7971006780844452549, guid: 8db028811e2620e479a3e4171ba5d4b7, type: 3}
-    npcPortrait: {fileID: -1923596855291015120, guid: e84264d80a109144fbe85092a1ff3300, type: 3}
+    npcIcon: {fileID: -1923596855291015120, guid: edc81763e8bae7243a95f9f8147754dc, type: 3}
+    npcPortrait: {fileID: -1923596855291015120, guid: edc81763e8bae7243a95f9f8147754dc, type: 3}
     location: Study
     npcInfo: Lady of the house & widow of the victim, Admiral Charles Hold. Mother
       to Avery Hold.
@@ -37,8 +37,8 @@ MonoBehaviour:
     - statementLine: 7. Says she was wearing Maximillian's gloves all day yesterday.
       isUnlocked: 0
   - npcName: 6
-    npcIcon: {fileID: 1854441317433310767, guid: 3db6ab2ca03711542a0c949a91aca2d4, type: 3}
-    npcPortrait: {fileID: 1854441317433310767, guid: 3db6ab2ca03711542a0c949a91aca2d4, type: 3}
+    npcIcon: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
+    npcPortrait: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
     location: Reception
     npcInfo: The maid of Wenchwatch Hall.
     npcStatements:
@@ -57,8 +57,8 @@ MonoBehaviour:
     - statementLine: 7. Does not think Avery had a hand in the Admiral's death.
       isUnlocked: 0
   - npcName: 4
-    npcIcon: {fileID: 7387482362178865813, guid: a1c34d8bca1dad64a910a9766dcf992a, type: 3}
-    npcPortrait: {fileID: 7387482362178865813, guid: a1c34d8bca1dad64a910a9766dcf992a, type: 3}
+    npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     location: Study
     npcInfo: The son of Admiral Hold and his wife, Theodosia Hold
     npcStatements:
@@ -81,8 +81,8 @@ MonoBehaviour:
         his book.
       isUnlocked: 1
   - npcName: 1
-    npcIcon: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
-    npcPortrait: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
+    npcIcon: {fileID: -7110462291215695874, guid: 0fe8bf97810c5394582a4c00799d1efd, type: 3}
+    npcPortrait: {fileID: -7110462291215695874, guid: 0fe8bf97810c5394582a4c00799d1efd, type: 3}
     location: Study
     npcInfo: The younger brother of Admiral Hold.
     npcStatements:
