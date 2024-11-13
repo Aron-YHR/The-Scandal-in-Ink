@@ -12,15 +12,14 @@ INCLUDE Secrets.ink
 {TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right #portrait:fopneutral
 
 +[Where were you the night of the murder?]
+I retired early to my chambers last night. The horseback ride earlier that day rather drained me.
 ~ unlockStatement("Maximillian_Hold",1)
-I retired early to my chambers last night. My revelation in relation to gloveless fashion rather drained me.
-<i>Curse</i> this ingemious mind of mine! Had I only known what would befall that night!
+<i>Curse</i> my athleticism! Had I only known what would befall poor Charles!
 
 ->Night_Of_Murder
 
 
 +[Have you noticed anything suspicious?]
-~ unlockStatement("Maximillian_Hold",3)
 Oh, you journalist types- such terrible tattlers! I am normally not one for idle gossip, but for you I shall make an exception!
 ->Suspicions
 
@@ -29,7 +28,7 @@ Oh, you journalist types- such terrible tattlers! I am normally not one for idle
 Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon!
 -> Relationship
 
-+[What the hell are you?!]
++[What the hell are you wearing?!]
 Curse that sharp journalist eye of yours, sir! Yes, I admit it! I am most scandalously underdressed.
 In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves!
 I tried to pass of my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
@@ -72,13 +71,13 @@ Whatever you wish, mon cheri!
 === Night_Of_Murder ===
 
 +[Did you hear anything unusual from your bedroom?]
-Alas, I retired to my chambers early last night and slept soundly through the whole dreadful affair.
+Alas, I slept soundly through the whole dreadful affair.
 Would that I had heard that devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword by the shaft, and given the devil a good thrusting!
 ->hear_response
 
 +[When did you discover the body?]
 Oh, such a frightful thought! I was roused from my sleep by a most terrible scream from the young master Avery. 
-I ran to the dear boy's aid with the utmost urgency, pausing only to dress and paint my face in the most slapdash manner. Alas, by the time I arrived, the dreadful deed had been done! 
+I ran to the dear boy's aid with the utmost urgency, pausing only to dress and paint my face in the most slapdash manner. Alas, by the time I arrived, the deed had been done! 
 ->Night_Of_Murder
 
 
@@ -103,6 +102,7 @@ I couldn't possibly know what you mean, my dear fellow! All my chums at the gent
 === Suspicions ===
 +[Did your brother have any enemies?]
 I do hate to slander the name of another, but given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch.
+~ unlockStatement("Maximillian_Hold",1)
 ->Ditch
 
 +[Did you notice anything unusual about the murder?]

@@ -10,6 +10,7 @@ public class AfterGameManager : MonoBehaviour
     //public CutsceneDataList_SO cutsceneDataList_SO;
     public DeductionDataList_SO deductionData;
     public ResultList_SO resultList_SO;
+    public CutsceneDataList_SO cutsceneDataList_SO;
 
     public TextMeshProUGUI newsTile;
     public Image newsImg;
@@ -23,6 +24,8 @@ public class AfterGameManager : MonoBehaviour
     public Animator afterGameAnimatorController;
     //public DialogueTrigger dialogueTrigger;
     public Canvas canvas;
+
+    public GameObject letters_2;
 
     // Start is called before the first frame update
     void Start()
@@ -58,18 +61,32 @@ public class AfterGameManager : MonoBehaviour
         switch (index)
         {
             //case 0: beforeGameAnimatorController.Play("FistLetter"); break;
-            case 1: afterGameAnimatorController.Play("FirstLetter"); break;
-            case 2: afterGameAnimatorController.Play("SecondLetter"); break;
-            case 3: afterGameAnimatorController.Play("ThirdLetter"); break;
-            case 4: afterGameAnimatorController.Play("ExitLetter");break;
+            case 1: afterGameAnimatorController.Play("Newspaper"); break;
+            case 2: afterGameAnimatorController.Play("FirstLetter"); break;
+            case 3: afterGameAnimatorController.Play("SecondLetter"); break;
+            case 4: 
+                afterGameAnimatorController.Play("ThirdLetter");
+                TransitionManager.Instance.CutsceneTransition("AfterGame", "Family",0);
+                canvas.sortingOrder = -1;
+                break;
             case 5:
-                var currentScene = SceneManager.GetActiveScene().name;
-                TransitionManager.Instance.Transition(currentScene, "Family");
+                canvas.sortingOrder = 1;
+                lettersList[3].text = cutsceneDataList_SO.list[0].lettersList[3];
+                afterGameAnimatorController.Play("FourthLetter");
+                break;
+            case 6:
+                afterGameAnimatorController.Play("EndScreen");
                 break;
         }
+        
     }
 
-    
+    public void BackToStart()
+    {
+        TransitionManager.Instance.Transition("AfterGame", "Menu");
+    }
+
+
 
 
 }

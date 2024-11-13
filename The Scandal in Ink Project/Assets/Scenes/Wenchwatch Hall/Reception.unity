@@ -307,6 +307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Confiscated Book
       objectReference: {fileID: 0}
+    - target: {fileID: 4641700521919036177, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: m_Radius
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -329,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -554,6 +558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 074a939a2fa37d0449654a1c5f5545f9, type: 3}
+  transitionAudioClips: []
   playOnEnable: 1
 --- !u!4 &913118748
 Transform:

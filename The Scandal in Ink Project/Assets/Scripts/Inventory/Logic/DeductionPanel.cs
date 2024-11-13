@@ -38,9 +38,9 @@ public class DeductionPanel : MonoBehaviour
         escapeDropdown.AddOptions(deductionData.GetWayOfEscapeList());
         weaponsDropdown.AddOptions(deductionData.GetWeaponsList());
 
-        /*sideNameDropdown_1.AddOptions(deductionData.GetNameList());
+        sideNameDropdown_1.AddOptions(deductionData.GetNameList());
         sideNameDropdown_2.AddOptions(deductionData.GetNameList());
-        affairDropdown.AddOptions(deductionData.GetAffairList());*/
+        affairDropdown.AddOptions(deductionData.GetAffairList());
     }
 
     public void ChangeImage()
@@ -77,11 +77,11 @@ public class DeductionPanel : MonoBehaviour
             }
         }
 
-        /*if (sideCaseToggle.isOn)
+        if (sideCaseToggle.isOn)
         {
             for (int i = 0; i < combinationData.sideCaseCombinationsList.Count; i++)
             {
-                if (sideNameDropdown_1.value == combinationData.sideCaseCombinationsList[i].nameIndex_1 - 1 && sideNameDropdown_2.value == combinationData.sideCaseCombinationsList[i].nameIndex_2-1 && affairDropdown.value == combinationData.sideCaseCombinationsList[i].affairIndex -1)
+                if (sideNameDropdown_1.value == combinationData.sideCaseCombinationsList[i].nameIndex_1 - 1 && sideNameDropdown_2.value == combinationData.sideCaseCombinationsList[i].nameIndex_2 - 1 && affairDropdown.value == combinationData.sideCaseCombinationsList[i].affairIndex - 1)
                 //(deductionData.nameAndImageList[nameDropdown.value].isTheRightAnswer)
                 {
                     totalIncome += deductionData.nameList[sideNameDropdown_1.value].amount
@@ -91,7 +91,7 @@ public class DeductionPanel : MonoBehaviour
                     //InventoryManager.Instance.journal.deductionChoices = combinationData.combinationsList[i].resultIndex;
                 }
             }
-        }*/
+        }
 
 
         //InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
