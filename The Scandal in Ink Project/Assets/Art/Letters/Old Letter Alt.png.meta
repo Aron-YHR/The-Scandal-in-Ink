@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Old Letter Alt_0: -3754071114976183633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
