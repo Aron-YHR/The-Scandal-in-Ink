@@ -5,6 +5,7 @@ using UnityEngine;
 public class Letters : MonoBehaviour
 {
     public BeforeGameManager beforeGameManager;
+    public AfterGameManager afterGameManager;
     public bool isClicked = false;
 
     private void OnEnable()
@@ -17,7 +18,15 @@ public class Letters : MonoBehaviour
         if (isClicked)
         {
             gameObject.SetActive(false);
-            beforeGameManager.SwitchLetters();
+
+            if (beforeGameManager != null)
+            {
+                beforeGameManager.SwitchLetters();
+            }
+            else if (afterGameManager != null)
+            {
+                afterGameManager.SwitchLetters();
+            }
         }
     }
 }

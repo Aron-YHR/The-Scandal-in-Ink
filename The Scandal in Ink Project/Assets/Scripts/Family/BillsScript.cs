@@ -6,6 +6,8 @@ public class BillsScript : ScriptableObject
     /*[HideInInspector]
       public bool enoughMoney;*/
 
+    public int gameLevel;
+
     //income
     public int Savings;
     public int Salary;
@@ -34,6 +36,7 @@ public class BillsScript : ScriptableObject
 
     public void SetDefault()
     {
+        gameLevel = 0;
         Savings = 24;
         Salary = 0;
         Misc_income = 0;
