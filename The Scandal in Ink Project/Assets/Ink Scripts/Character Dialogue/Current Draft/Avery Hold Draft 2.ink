@@ -14,8 +14,8 @@ INCLUDE Secrets.ink
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
 'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to discover the end of our dear paterfamilias!  #speaker: Avery Hold #portrait:childnegative
 Roused from slumber was I by a most discomfiting cacophony emanating from my progenitor's sanctum. Two voices, both brimming with vexation and trepidation, one clashing 'gainst t'other as Achilles did strike at Hector's shield! 
-Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole. 
 ~ unlockStatement("Avery_Hold",1)
+Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole. 
 And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 
 +[Kid, I can't understand a single word you're saying.]
@@ -26,7 +26,7 @@ And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 Pray tell, what precisely intrigues you so? -> Relationship
 
 
-*{confiscated_book or iliad_mentioned}[Did your father confiscate your copy of the Iliad.]
+*{iliad_mentioned}[Did your father confiscate your book?]
 Ah, yes. A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
 ~avery_book_confession = true
 ~ unlockStatement("Avery_Hold", 7)
@@ -74,7 +74,6 @@ Naught could I do but watch as the dastardly assailant did defenestrate themselv
 
 +[Did you notice anything unusual about the body?]
 Only the familial emblem brazenly torn from the admiralty's coatee. I can only conjecture that the brigand is some sort of larcenist, intent on trafficking our familial coat of arms.
-~unlockStatement("Admiral_Charles_Hold", 3)
 But to dispatch my noble Father... Would a petty thief truly debauch their mortal souls for mere coin? ->Night_Of_Murder
 
 +[Let's talk about something else.]

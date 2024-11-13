@@ -12,6 +12,7 @@ INCLUDE Secrets.ink
 
 +[Where were you the night of the murder?]
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
+~unlockStatement("Dorothy_Tendwell", 1)
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
 I'm afraid by the time I found him, poor Avery was standing over the Amdiral's-
 By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
@@ -50,10 +51,13 @@ M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 ===Night_Of_Murder===
 
 
-+[Did anything unusual happen yesterday?]
++[Did you notice anything unusual yesterday?]
 Well, I did notice... <i>something</i>.
 Yesterday evening, while I was dusting down the stairwell, I overheard the Admiral and Lady Hold in a rather- heated conversation. Lady Hold left the Admiral's office quite distraught.
-I escorted Lady Hold to her chambers and comforted her, after which I returned to my own quarters. And that is where I stayed until I heard the young master scream.
+I escorted Lady Hold to her chambers and comforted her. However, I noticed something rather...odd.
+Lady Hold was wearing Sir Maximillian's gloves.
+~unlockStatement("Dorothy_Tendwell", 3)
+I thought perhaps I had mixed up their delicates, but I wouldn't typically make such a heinous mistake...
 ~overheard_argument = true
 ->Night_Of_Murder
 
@@ -64,11 +68,11 @@ Lady Hold has often tells me she considers it is vulgar when servants make exces
 +[Avery was first at the scene. Could he have been involved in the Admiral's death?]
 <i>Sir!</i>
 Young Master Avery is a <i>child</i>! Hardly eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
+~ unlockStatement("Dorothy_Tendwell",7)
 Well, it's simply-
 Simply-
 <i>Baseless slander</i>!
-And if there is one thing I am sure of, it is that the noble profession of journalism would <i>never</i> engage in slander!
-->Night_Of_Murder
+And if there is one thing I am sure of, it is that the noble profession of journalism would <i>never</i> engage in slander! ->Night_Of_Murder
 
 +[Let's talk about something else.]
 Very well.
@@ -97,7 +101,7 @@ Of course, sir.
 I'm afraid so. Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
 But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law. 
 I could hardly believe a man with such a noble reputation could have such a- philanderer, to be quite frank!
-~ unlockStatement("Dorothy_Tendwell", 3)
+~ unlockStatement("Dorothy_Tendwell", 4)
 -> Relationship
 
 +[Wait, you mean the gay guy in the wig?!]
@@ -105,7 +109,7 @@ Sir Maximillian is a very happy and joyous gentleman, sir, I quite agree. I only
 Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
 But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law. 
 I could hardly believe a man with such a noble reputation could have such a- philanderer, to be quite frank!
-~ unlockStatement("Dorothy_Tendwell", 3)
+~ unlockStatement("Dorothy_Tendwell", 4)
 ->Relationship
 
 
@@ -142,6 +146,7 @@ Poor Lady Hold. She would never dare admit it, but she was terribly upset over h
 I-
 How could you possibly have- Oh heavens. Oh heavens!  Oh <i>heavens</i>!
 Sir, this is not what you think it is! I know the content of those letters is terribly debaucherous. But I can explain, sir, truly!
+~ unlockStatement("Dorothy_Tendwell", 6)
 Just- please sir, I beg you, don't tell Lady Hold. She's such a dignified lady. She would be so ashamed to discover her lady's maid drawing such- lewd images!
 
 

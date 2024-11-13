@@ -20,19 +20,21 @@ MonoBehaviour:
     npcInfo: Lady of the house & widow of the victim, Admiral Charles Hold. Mother
       to Avery Hold.
     npcStatements:
-    - statementLine: Blank. Fill.
+    - statementLine: 1. Says she was arguing with Charles the day before the murder.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: 2. Says Dorothy fetched her from her room at the time of the
+        murder.
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: 3. Says she heard unusual sounds coming from Dorothy's room
+        the night of the murder.
       isUnlocked: 0
-    - statementLine: Theodosia confessed to having an affair with Maximillian Hold.
+    - statementLine: 4. Has confessed to an affair with Maximillian Hold.
       isUnlocked: 0
-    - statementLine: 5.
+    - statementLine: 5. Has confessed to an blackmailing Lavender.
       isUnlocked: 0
-    - statementLine: 6.
+    - statementLine: 6. Says she is suspicious of Lavender Ditch, the stable hand.
       isUnlocked: 0
-    - statementLine: 7.
+    - statementLine: 7. Says she was wearing Maximillian's gloves all day yesterday.
       isUnlocked: 0
   - npcName: 6
     npcIcon: {fileID: 1854441317433310767, guid: 3db6ab2ca03711542a0c949a91aca2d4, type: 3}
@@ -40,20 +42,19 @@ MonoBehaviour:
     location: Reception
     npcInfo: The maid of Wenchwatch Hall.
     npcStatements:
-    - statementLine: 1. I saw him...
+    - statementLine: 1. Says she was alone in her room last night.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: 2. Has confessed that she was in bed with Lavender last night.
       isUnlocked: 0
-    - statementLine: Dorothy says that Maximillian is a womanizer, despite his camp
-        appearance and noble reputation.
+    - statementLine: Says Theodosia was wearing Maximillian's gloves yesterday.
       isUnlocked: 0
-    - statementLine: 4.
+    - statementLine: 4. Says Maximillian has made lustful advances towards her.
       isUnlocked: 0
-    - statementLine: 5.
+    - statementLine: 5. Has confessed to stealing her own letter of dismissal.
       isUnlocked: 0
-    - statementLine: 6.
+    - statementLine: 6. Has confessed to being in a relationship with Lavender.
       isUnlocked: 0
-    - statementLine: 7.
+    - statementLine: 7. Does not think Avery had a hand in the Admiral's death.
       isUnlocked: 0
   - npcName: 4
     npcIcon: {fileID: 7387482362178865813, guid: a1c34d8bca1dad64a910a9766dcf992a, type: 3}
@@ -61,34 +62,33 @@ MonoBehaviour:
     location: Study
     npcInfo: The son of Admiral Hold and his wife, Theodosia Hold
     npcStatements:
-    - statementLine: Avery says he heard an argument in the study just before the
-        Admiral's murder.
-      isUnlocked: 0
-    - statementLine: Avery says he witnessed the murderer escape through the study
-        window.
-      isUnlocked: 0
-    - statementLine: Avery says that Theodosia and Maximillian go horseback riding
-        on a weekly basis.
-      isUnlocked: 0
-    - statementLine: Avery says the Admiral and Maximillian often traded insults.
-      isUnlocked: 0
-    - statementLine: Avery was first to find the crime scene, followed by Dorothy,
-        then Theodosia, then Maximillian.
-      isUnlocked: 0
+    - statementLine: 1. Says he heard an argument in the study just before the Admiral's
+        murder.
+      isUnlocked: 1
+    - statementLine: 2. Says he witnessed the murderer escape through the study window.
+      isUnlocked: 1
+    - statementLine: 3. Says that Theodosia and Maximillian go horseback riding on
+        a weekly basis.
+      isUnlocked: 1
+    - statementLine: 4. Says the Admiral and Maximillian often traded insults.
+      isUnlocked: 1
+    - statementLine: Avery says he was first to find the crime scene, followed by
+        Dorothy, then Theodosia, then Maximillian.
+      isUnlocked: 1
     - statementLine: Lavender did not appear at the crime scene.
-      isUnlocked: 0
+      isUnlocked: 1
     - statementLine: Avery admitted that he was angry at his father for confiscating
         his book.
-      isUnlocked: 0
+      isUnlocked: 1
   - npcName: 1
     npcIcon: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
     npcPortrait: {fileID: -2395558774404461046, guid: 5c6bd5e69153fa94f989c17b2bf75e8d, type: 3}
     location: Study
     npcInfo: The younger brother of Admiral Hold.
     npcStatements:
-    - statementLine: 1. I saw him...
+    - statementLine: 1. Maximillian says he slept through the murder.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: 2. Says he does not trust Lavender Ditch.
       isUnlocked: 0
     - statementLine: 
       isUnlocked: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
     - statementLine: Something was forcibly torn off the Admiral's coat.
       isUnlocked: 0
     - statementLine: The Admiral's brooch is missing.
-      isUnlocked: 0
+      isUnlocked: 1
     - statementLine: 4.
       isUnlocked: 0
     - statementLine: 5.
