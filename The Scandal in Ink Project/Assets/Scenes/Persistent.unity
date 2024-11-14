@@ -4287,8 +4287,8 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: abf391c54e053a44198cb547bb6efe84, type: 3}
   transitionAudioClips: []
   playOnEnable: 0
-  isRandomPlay: 0
-  type: 0
+  isRandomPlay: 1
+  type: 5
 --- !u!1 &408960160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5523,8 +5523,8 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: cb1b3bb595e141c4c912438a2d4ed5fa, type: 3}
   transitionAudioClips: []
   playOnEnable: 0
-  isRandomPlay: 0
-  type: 0
+  isRandomPlay: 1
+  type: 3
 --- !u!1 &486636191
 GameObject:
   m_ObjectHideFlags: 0
@@ -16327,10 +16327,27 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 37866e56bcb787b4a957bbb37a51ae42, type: 3}
   - {fileID: 8300000, guid: 03f24ac9b477f3349a914e9dd543abb3, type: 3}
   - {fileID: 8300000, guid: aa851c7fcb7c8f34698f086af1775fa1, type: 3}
-  audioClipsForBookFlip: []
-  audioClipsForLetter: []
-  audioClipsForNoteTaking: []
-  audioClipsForStamp: []
+  audioClipsForBookFlip:
+  - {fileID: 8300000, guid: cb1b3bb595e141c4c912438a2d4ed5fa, type: 3}
+  - {fileID: 8300000, guid: 5f4f9a7d99e9d91429cd7301d7f726d3, type: 3}
+  - {fileID: 8300000, guid: d49e566aad4e5d84bb96c6bd2f4bb6d5, type: 3}
+  - {fileID: 8300000, guid: fc432441aea504b4ca6c0c55730659f9, type: 3}
+  - {fileID: 8300000, guid: 7cc1efc8ef3a9204c9e2f1062a7d9c60, type: 3}
+  audioClipsForLetter:
+  - {fileID: 8300000, guid: 61cec8d94d269154b9c7a93dc681e529, type: 3}
+  - {fileID: 8300000, guid: 806043885447cec438d8095e2c1f1327, type: 3}
+  - {fileID: 8300000, guid: 47a3f31894c9dc14c9ed75dc9499c082, type: 3}
+  - {fileID: 8300000, guid: 3009947f66885e64faa4744da3a4efac, type: 3}
+  - {fileID: 8300000, guid: 232102d7769b30047b842c31e133ce84, type: 3}
+  audioClipsForNoteTaking:
+  - {fileID: 8300000, guid: abf391c54e053a44198cb547bb6efe84, type: 3}
+  - {fileID: 8300000, guid: 36fa54b88c79cae45988cd79b58cb141, type: 3}
+  - {fileID: 8300000, guid: bdaa638478f92dc4f931f6828491054f, type: 3}
+  - {fileID: 8300000, guid: 667201d0f24f9aa499abdf2d78cb0cbb, type: 3}
+  audioClipsForStamp:
+  - {fileID: 8300000, guid: 22ac863043993954e857e19c681b16a0, type: 3}
+  - {fileID: 8300000, guid: 395e0393a423cc74aac66ba1b2bf3f73, type: 3}
+  - {fileID: 8300000, guid: 8cd0a8b15007baa4d887bbe2a6fd39e4, type: 3}
   audioClipsForPlayerMove:
   - {fileID: 8300000, guid: 69ec459ba739033449825df1fbbdc328, type: 3}
   - {fileID: 8300000, guid: 323a0ba8ae15c3f4293fb27d3b09ae7d, type: 3}
