@@ -95,8 +95,24 @@ MonoBehaviour:
     amount: 10
   - text: Maximillian Hold
     amount: 10
-  - text: Aron
+  - text: Aery Hold
+    amount: 10
+  - text: Dorothy Tendwell
+    amount: 10
+  - text: Admiral Charles Hold
+    amount: 10
+  - text: Theodosia Hold
+    amount: 10
+  - text: The Horse
     amount: 10
   affairList:
-  - text: Test
+  - text: trapped in a giant net.
+    amount: 10
+  - text: playing badminton.
+    amount: 10
+  - text: engaged in an extramarital affair
+    amount: 10
+  - text: in a gay relationship.
+    amount: 10
+  - text: plotting to blow up parliament
     amount: 10
