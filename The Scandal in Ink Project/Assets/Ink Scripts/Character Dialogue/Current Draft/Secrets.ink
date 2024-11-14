@@ -29,6 +29,7 @@ VAR ankle_letter = false
 VAR theodosias_pants = false
 VAR letter_of_dismissal = false
 VAR burnt_letter = false
+VAR theodosia_note = false
 
 //STATEMENTS
 
@@ -69,6 +70,7 @@ VAR overheard_argument = false
 VAR dorothy_confession = false
 VAR iliad_mentioned = false
 VAR dorothy_coins = false
+VAR dorothy_denial = false
 
 //Lavender
 VAR lavender_confession = false
