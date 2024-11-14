@@ -1,7 +1,5 @@
-using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class Item : MonoBehaviour
@@ -9,6 +7,8 @@ public class Item : MonoBehaviour
     public ItemDetails itemDetails;
     //public AnimationClip clip;
     public bool isHide;
+    public bool notInJournal;
+
     public bool isClicked;
 
     private Vector3 previousPos;
@@ -16,6 +16,7 @@ public class Item : MonoBehaviour
     private void Start()
     {
         itemDetails = InventoryManager.Instance.itemData.GetItemDetails(itemDetails.itemName);
+        if(isHide)
         previousPos = transform.position;
     }
 
@@ -42,12 +43,13 @@ public class Item : MonoBehaviour
 
 
         // add it into journal and remove it in environment
-        if(itemDetails.value == 0)
+        if(itemDetails.value == 0 || notInJournal)
         InventoryManager.Instance.AddItem(itemDetails);
 
         if(itemDetails.isEvidence)
         DialogueManager.GetInstance().SetVariableState(itemDetails.itemName.ToString(), itemDetails.isEvidence);
 
+        if(notInJournal)
         this.gameObject.SetActive(false);
     }
 
