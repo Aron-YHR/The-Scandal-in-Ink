@@ -150,7 +150,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 ->Start
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
-Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, especially when it concerns my nether-regions.
+Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, particularly for my more- delicate- areas. I'm sure you as a gentleman can understand that.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
 ->Start
 
@@ -202,6 +202,8 @@ Moi? In a dalliance with my beloved sister-in-law?! An outrageous accusation!
 +{lavender_confession}[Lavender told me what she saw in the stables. She told the Admiral what she saw.]
 ->Lavender
 
++{theodosias_pants}[Theodosia's underwear was in your room!]
+
 
 
 =How
@@ -240,9 +242,11 @@ I'm quite sure you misunderstood me sir. You see, I fear you heard me say someth
 
 =Theodosia
 She is hysterical! Poor Theodosia is newly widowed and not in her right mind, and all this talk of wills and letters and newspapers has addled her delicate mind. Reading is a most harmful activity for a woman, you know!
-You must disregard everything she told you, sir. It is utter poppycock! 
-->Accuse
+You must disregard everything she told you, sir. It is utter poppycock!  ->Accuse
 
+=Underwear
+Can a man of culture and esteem wear his sister-in-law's undergarments without fear of reproach?!
+Truly sir, the idea that this is proof of some sinister affair is utter poppycock! ->Accuse
 
 
 ===Bartering===

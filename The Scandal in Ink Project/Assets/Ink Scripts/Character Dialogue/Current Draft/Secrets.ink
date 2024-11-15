@@ -68,7 +68,6 @@ VAR argument = false
 VAR iliad_confiscated = false
 VAR overheard_argument = false
 VAR dorothy_confession = false
-VAR iliad_mentioned = false
 VAR dorothy_coins = false
 VAR dorothy_denial = false
 
