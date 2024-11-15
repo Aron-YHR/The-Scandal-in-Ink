@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
-        UIManager.Instance.DesactiveIcons();
+        
     }
 
     public void GoToMainMenu()
