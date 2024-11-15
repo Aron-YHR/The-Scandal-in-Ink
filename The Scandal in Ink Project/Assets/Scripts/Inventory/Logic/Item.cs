@@ -5,24 +5,23 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemDetails itemDetails;
-    //public AnimationClip clip;
-    public bool isHide;
-    public bool notInJournal;
-
     public bool isClicked;
+    //public AnimationClip clip;
+    [Header("If it is hid in pocket")]
+    public bool isHid; //If it is in pocket
 
     private Vector3 previousPos;
 
     private void Start()
     {
         itemDetails = InventoryManager.Instance.itemData.GetItemDetails(itemDetails.itemName);
-        if(isHide)
+        if(isHid)
         previousPos = transform.position;
     }
 
     private void Update()
     {
-        if (isHide && isClicked)
+        if (isHid && isClicked)
         {
             Vector3 v = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.position = new Vector3(v.x, v.y,0);
@@ -41,15 +40,19 @@ public class Item : MonoBehaviour
         // show the item and its info
         UIManager.Instance.SetItemShowcase(gameObject,itemDetails);
 
+        if(itemDetails.value != 0)
+        {
+            InventoryManager.Instance.AddValue(itemDetails);
+        }
 
         // add it into journal and remove it in environment
-        if(itemDetails.value == 0 || notInJournal)
+        if(!itemDetails.notRecordedInJournal)
         InventoryManager.Instance.AddItem(itemDetails);
 
         if(itemDetails.isEvidence)
         DialogueManager.GetInstance().SetVariableState(itemDetails.itemName.ToString(), itemDetails.isEvidence);
 
-        if(notInJournal)
+        if(!itemDetails.notPickedUp)
         this.gameObject.SetActive(false);
     }
 

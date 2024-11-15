@@ -32,7 +32,8 @@ A most invasive question to ask a freshly made widow, though I shall allow it. I
 *{maximillians_gloves}[Why are you wearing Maximillian's gloves?]
 Good sir, I was quite unaware I was doing so.
 ~unlockStatement("Theodosia_Hold", 7)
-I have been wearing these same gloves all of tday and yesterday, by my recollection.
+I have been wearing these exact same gloves all of today and yesterday, by my recollection.
+->Start
 
 *{affair_revealed} [I know about your affair with Maximillian.]
 Affair? With Maximillian? How perplexing and baseless an accusation. And most thrilling. Do go on. ->Affair

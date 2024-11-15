@@ -52,6 +52,12 @@ public class InventoryManager : Singleton<InventoryManager>
         RefreshNPC();
     }
 
+    public void AddValue(ItemDetails itemDetails)
+    {
+        if (itemDetails.value != 0)
+            billsScript.Savings += itemDetails.value;
+    }
+
     public void AddItem(ItemDetails itemDetails) // to be optimized
     {
         //currentItem = itemDetails;
@@ -64,9 +70,6 @@ public class InventoryManager : Singleton<InventoryManager>
             //ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
             journal.itemList.Add(itemDetails);
-
-            if(itemDetails.value != 0)
-            billsScript.Savings += itemDetails.value;
 
             // renew the item's state in game
             EventHandler.CallIsClickedEvent(itemDetails); // if observation was not empty, this event won't work
