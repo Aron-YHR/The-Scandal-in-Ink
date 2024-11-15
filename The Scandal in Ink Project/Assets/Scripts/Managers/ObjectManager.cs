@@ -72,7 +72,7 @@ public class ObjectManager : Singleton<ObjectManager>
         // if item is clicked, set its state to false
         if (itemDetails != null)
         {
-            itemAvailableDict[itemDetails.itemName] = false;
+            itemAvailableDict[itemDetails.itemName] = itemDetails.notPickedUp;
             //Debug.Log(itemAvailableDict);
         }
     }

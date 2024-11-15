@@ -8,10 +8,14 @@ public class ItemDetails
     public ItemName itemName;
 
     public Sprite itemIcon;
+    public int value;
 
+    [Header("Change ink variable or not")]
     public bool isEvidence;
 
-    public int value;
+    [Header("Not recorded in Journal; Disappear")]
+    public bool notRecordedInJournal;
+    public bool notPickedUp;
 
     //public bool toBeUnlocked;
 
