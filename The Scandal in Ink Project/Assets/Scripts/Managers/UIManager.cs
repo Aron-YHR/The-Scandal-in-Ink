@@ -18,6 +18,10 @@ public class UIManager : Singleton<UIManager>
     public GameObject journalIcon;
     public GameObject menuIcon;
 
+    [Header("Setting Panel")]
+    public GameObject settingPanel;
+    public Canvas uiCanvas;
+
     public FamilyMember_SO familyMembers;
 
     public GameObject showcasePanel;
@@ -57,6 +61,16 @@ public class UIManager : Singleton<UIManager>
             familyMembers.familyMembersList[i].isDead = false;
             familyMembers.familyMembersList[i].state = LifeState.Unwell;
         }
+    }
+
+    public void LowSortOrder()
+    {
+        uiCanvas.sortingOrder = 0;
+    }
+
+    public void HighSortOrder()
+    {
+        uiCanvas.sortingOrder = 11;
     }
 
     public void ActiveIcons()
