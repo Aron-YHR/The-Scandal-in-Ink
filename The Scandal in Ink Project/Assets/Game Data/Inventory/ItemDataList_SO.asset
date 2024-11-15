@@ -15,13 +15,17 @@ MonoBehaviour:
   itemDetailsList:
   - itemName: 4
     itemIcon: {fileID: 21300000, guid: bbc6c86941f95fe44b04e95f280b2819, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: The candle is lighted...
   - itemName: 5
     itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'A large, ornate brooch bearing the crest of the Hold family, hidden
       in the saddle bag in the stables. The pin is exceptionally sharp and coated
       in blood.
@@ -29,51 +33,67 @@ MonoBehaviour:
       The brooch appears to be missing one of its jewels...'
   - itemName: 6
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A torn letter penned by Admiral Hold filing for divorce from his wife,
       Theodosia. The letter is dated the day before his death. The reason for the
       divorce is not listed. Or perhaps it was written on the other half of the page...?
   - itemName: 9
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
       the maid, Dorothy Tendwell.
   - itemName: 10
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: You picked it up!
   - itemName: 11
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 0
     value: 0
+    isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood then
       runs from the windowsill towards the stables...
   - itemName: 12
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A pair of gloves found in Maximillian's room. Once white, now stained
       red with blood. They are monogrammed with Theodosia Hold's initials.
   - itemName: 13
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A portrait of the Hold Family. A very large brooch is pinned to the
       Admiral's chest.
   - itemName: 14
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A delicate wooden trellis attached to the side of the house, sitting
       just above a window on the second floor. Several of its crossbars have been
       snapped in two, as though someone attempted to climb it...
   - itemName: 7
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'A love letter between two unnamed persons, found in the stables. It
       reads as follows:
 
@@ -82,8 +102,10 @@ MonoBehaviour:
       by day, but burns bright at night."'
   - itemName: 8
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'A love letter between two unnamed persons, found in Theodosia Hold''s
       purse. It reads as follows:
 
@@ -93,13 +115,17 @@ MonoBehaviour:
       caged by day, but burns bright at night."'
   - itemName: 30
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A key to Max's room.
   - itemName: 17
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: "A particularly risqu\xE9 love letter written by Dorothy Tendwell addressed
       to Lavender Ditch. It includes a particularly saucy sketch of Dorothy's ankle.\n\"Lavender,
       my love,\nI have included the drawing you requested. I  hope you will visit
@@ -107,47 +133,61 @@ MonoBehaviour:
       yours, Dorothy xoxo \""
   - itemName: 27
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A pair of gloves with Maximillian's monogrammed initials. Theodosia
       is wearing them, for some strange reason.
   - itemName: 18
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A bucket full of blood-tainted water. Perhaps the killer used this
       to wash the blood from their hands...?
   - itemName: 21
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A messy pile of hay covered in blood. You think the killer may have
       tried to wipe the blood from their hands here...
   - itemName: 23
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'A copy of The Iliad. The inside of the front cover reads: "Property
       of Avery Hold"'
   - itemName: 28
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'A pair of frilly women''s underwear found in Maximillian''s room,
       monogrammed with the initials "T.H." You assume they are Theodosia''s...
 
 '
   - itemName: 19
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'The burnt remains of a divorce petition penned by Admiral Hold. Most
       of the letter is burnt beyond legibility, but one word has survived the fire:
       "Adultery."'
   - itemName: 29
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A letter of dismissal  written by Admiral Charles Hold addressed to
       Dorothy Tendwell, found in Dorothy's back pocket. The letter stipulates that
       Dorothy has until the end of the week to make alternative living arrangements,
@@ -155,26 +195,34 @@ MonoBehaviour:
       performance as the reason for dismissal.
   - itemName: 20
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 'A rather stale jam scone found in Avery Hold''s back pocket.
 
       It
       appears to be covered in horse hair'
   - itemName: 24
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A light pink shade of lipstick found in Theodosia's purse.
   - itemName: 25
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A strange pink mark on Maximillian's neck. It appears to be a lipstick
       smudge...
   - itemName: 22
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
     value: 6
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: A pile of coins found in Dorothy's pocket. There must be at least a
       week's wages here! Enough to pay for, say a week' worth of expenses...
