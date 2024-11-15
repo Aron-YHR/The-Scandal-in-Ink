@@ -47,7 +47,7 @@ MonoBehaviour:
     itemInfo: You picked it up!
   - itemName: 11
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
-    isEvidence: 1
+    isEvidence: 0
     value: 0
     itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood then
       runs from the windowsill towards the stables...
