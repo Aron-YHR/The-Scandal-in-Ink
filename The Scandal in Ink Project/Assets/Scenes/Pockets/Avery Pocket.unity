@@ -597,11 +597,13 @@ MonoBehaviour:
   itemDetails:
     itemName: 20
     itemIcon: {fileID: 0}
-    isEvidence: 0
     value: 0
+    isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 
-  isHide: 1
   isClicked: 0
+  isHid: 0
 --- !u!1 &1251968467
 GameObject:
   m_ObjectHideFlags: 0
