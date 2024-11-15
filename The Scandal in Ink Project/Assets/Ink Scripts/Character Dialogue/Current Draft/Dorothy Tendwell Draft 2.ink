@@ -33,7 +33,8 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 *{ankle_letter and not extort_Dorothy}[Ms. Tendwell, I found this letter you wrote...] ->Lesbians_Revealed
 
 *{theodosia_note}[Were you aware the Admiral intended to fire you?]
-Um- No sir, I wasn't.
+Um- No sir, I wasn't. That is terribly surprising...
+->Start
 
 +[<i>Examine the suspect.</i>]
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
@@ -60,8 +61,10 @@ M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 
 +[Did you notice anything unusual yesterday?]
 Well, I did notice... <i>something</i>.
-Yesterday evening, while I was dusting down the stairwell, I overheard the Admiral and Lady Hold in a rather- heated conversation. Lady Hold left the Admiral's office quite distraught.
-I escorted Lady Hold to her chambers and comforted her. However, I noticed something rather...odd.
+Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables together.
+They often go riding together, but they seemed particularly... flustered on this occassion.
+Then later on that day, LadyTheodosia and the Admiral got into a terrible fight.
+As I was comforting her, I noticed something rather...odd.
 Lady Hold was wearing Sir Maximillian's gloves.
 ~unlockStatement("Dorothy_Tendwell", 3)
 I thought perhaps I had mixed up their delicates, but I wouldn't typically make such a heinous mistake...
@@ -130,7 +133,8 @@ As you wish, sir.
 
 +[Did anyone in the house hold a grudge against Charles?]
 Well, young master Avery was admittedly somewhat displeased that the Admiral confiscated his copy of the Iliad.
-But that is hardly reason to suspect a small child of- what occurred.
+~iliad_confiscated = true
+But that is hardly reason to suspect a small child of- well, <i>that</i>.
 Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very kindly...
 ->Suspicious
 

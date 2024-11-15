@@ -69,6 +69,8 @@ public class DeductionPanel : MonoBehaviour
                 + deductionData.weaponsList[weaponsDropdown.value].amount;
 
                 InventoryManager.Instance.journal.mainCaseChoices = combinationData.combinationsList[i].resultIndex;
+                
+                break;
             }
             else if(nameDropdown.value == combinationData.combinationsList[i].killerIndex-1)
             {
@@ -76,6 +78,8 @@ public class DeductionPanel : MonoBehaviour
                 InventoryManager.Instance.journal.mainCaseChoices = 0;
             }
         }
+
+        Debug.Log(InventoryManager.Instance.journal.mainCaseChoices);
 
         if (sideCaseToggle.isOn)
         {
@@ -89,15 +93,18 @@ public class DeductionPanel : MonoBehaviour
                         + deductionData.affairList[affairDropdown.value].amount;
 
                     InventoryManager.Instance.journal.sideCaseChoices = combinationData.sideCaseCombinationsList[i].resultIndex;
+                    
+                    break;
                 }
                 else
                 {
                     InventoryManager.Instance.journal.sideCaseChoices = 0;
                 }
             }
+            Debug.Log(InventoryManager.Instance.journal.sideCaseChoices);
         }
-
-
+        
+        
         //InventoryManager.Instance.journal.deductionChoices.Add(nameDropdown.value);
         //InventoryManager.Instance.journal.deductionChoices.Add(locationDropdown.value);
         //InventoryManager.Instance.journal.deductionChoices.Add(motiveDropdown.value);
