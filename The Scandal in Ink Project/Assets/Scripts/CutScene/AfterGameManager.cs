@@ -35,8 +35,9 @@ public class AfterGameManager : MonoBehaviour
         //List<AfterGameContent> list = cutsceneDataList_SO.aftergameContentlist.FindAll(
         //    i => i.relativeNumber == InventoryManager.Instance.journal.deductionChoices[0]
         //);
+        UIManager.Instance.DesactiveIcons();
 
-        
+
 
         Result result = resultList_SO.resultsList.Find(i => i.index == InventoryManager.Instance.journal.mainCaseChoices);
         SideCaseResult sideCaseResult = resultList_SO.sideCaseResultsList.Find(i => i.index == InventoryManager.Instance.journal.sideCaseChoices);

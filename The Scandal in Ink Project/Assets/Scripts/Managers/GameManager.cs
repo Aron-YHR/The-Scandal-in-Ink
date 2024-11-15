@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+        
     }
 
     public void GoToMainMenu()

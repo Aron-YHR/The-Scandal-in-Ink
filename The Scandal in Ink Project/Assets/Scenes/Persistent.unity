@@ -23352,6 +23352,8 @@ MonoBehaviour:
   fontToggle: {fileID: 2040968288}
   fontShowcase: {fileID: 1421029472}
   dialogue: {fileID: 101198922}
+  journalIcon: {fileID: 1392164481}
+  menuIcon: {fileID: 1536355439}
   familyMembers: {fileID: 11400000, guid: cf5bb710e5495fa46b349b3d12a47a32, type: 2}
   showcasePanel: {fileID: 916608102}
   putbackButton: {fileID: 1968361606}
