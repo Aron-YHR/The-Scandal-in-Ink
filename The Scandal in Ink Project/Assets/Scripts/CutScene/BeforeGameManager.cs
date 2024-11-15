@@ -51,6 +51,7 @@ public class BeforeGameManager : MonoBehaviour
                 TransitionManager.Instance.CutsceneTransition("BeforeGame", "Intro Reception", audiosForCutscene.transitionAudioClips[1].length);
                 //dialogueTrigger.StartDialogue(); 
                 canvas.sortingOrder = -1;
+                UIManager.Instance.ActiveIcons();
                 break;
         }
         index++;

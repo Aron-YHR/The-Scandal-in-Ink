@@ -13,7 +13,10 @@ public class UIManager : Singleton<UIManager>
     public Toggle fontToggle;
     public TextMeshProUGUI fontShowcase;
     public GameObject dialogue;
-    
+
+    [Header("Icons")]
+    public GameObject journalIcon;
+    public GameObject menuIcon;
 
     public FamilyMember_SO familyMembers;
 
@@ -33,6 +36,7 @@ public class UIManager : Singleton<UIManager>
     private void OnEnable()
     {
         EventHandler.StartNewGameEvent += OnStartNewGameEvent;
+        //DesactiveIcons();
     }
 
     private void OnDisable()
@@ -53,6 +57,18 @@ public class UIManager : Singleton<UIManager>
             familyMembers.familyMembersList[i].isDead = false;
             familyMembers.familyMembersList[i].state = LifeState.Unwell;
         }
+    }
+
+    public void ActiveIcons()
+    {
+        journalIcon.SetActive(true);
+        menuIcon.SetActive(true);
+    }
+
+    public void DesactiveIcons()
+    {
+        journalIcon.SetActive(false);
+        menuIcon.SetActive(false);
     }
 
     public void ActivateJournal()
