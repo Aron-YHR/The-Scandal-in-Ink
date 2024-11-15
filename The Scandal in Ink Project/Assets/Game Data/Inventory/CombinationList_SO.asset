@@ -17,10 +17,22 @@ MonoBehaviour:
     motiveIndex: 5
     resultIndex: 1
   - killerIndex: 3
-    motiveIndex: 3
+    motiveIndex: 6
     resultIndex: 2
   sideCaseCombinationsList:
   - nameIndex_1: 1
-    nameIndex_2: 2
-    affairIndex: 1
+    nameIndex_2: 4
+    affairIndex: 4
     resultIndex: 1
+  - nameIndex_1: 4
+    nameIndex_2: 1
+    affairIndex: 4
+    resultIndex: 1
+  - nameIndex_1: 2
+    nameIndex_2: 6
+    affairIndex: 3
+    resultIndex: 2
+  - nameIndex_1: 6
+    nameIndex_2: 2
+    affairIndex: 3
+    resultIndex: 2
