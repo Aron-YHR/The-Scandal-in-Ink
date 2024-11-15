@@ -32,28 +32,75 @@ MonoBehaviour:
       me one month hence, detailing the many other ways in which I will make you
       suffer!  \r\n\r\nYour Mortal Enemy, \n\r\nMaximillian Hold "
     - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\nIt is a hit! Ne\u2019er
-      have we had such a salacious story gracing our front page, and it is paying
-      dividends! I can safely say we can keep the paper in print for a week or so
-      more. Perhaps longer, should our next issue be equally as engaging. \r\n\r\nThat
-      is where you come in. Source me a new story sir, one equally- nay, even more
-      scandalous than the last! Have it on my desk by the end of next week. \r\n\r\nThe
+      have we had such a salacious story gracing our front page- a famous socialite
+      murders his brother in the dead of night- \u2018tis almost Shakespearean! \r\n\r\nAnd
+      let me assure you, good sir, your work is paying dividends! I can safely say
+      we can keep the paper in print for at least two months or so from the sales
+      of this paper alone. Perhaps longer, should our next issue be equally as engaging!
+      \r\n\r\nSource me a new story sir, one equally- nay, even more scandalous than
+      the last!  \r\n\r\nHave it on my desk by the end of next week. \r\n\r\nThe
       mood on the streets is bleak. Hunger and disease are rife. The poor houses
-      are overflowing. We cannot feed them. But we can at the very least, keep them
-      entertained! \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
-    - 
+      are overflowing. And it is our moral obligation to keep the people entertained
+      in these  \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
   - index: 0
     newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
     newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
     lettersList:
     - 
     - 
-  sideCaseResultsList:
-  - index: 1
-    newsTitle: AND THEY WERE ROOMMATES
-    letter: 
   - index: 2
-    newsTitle: TWO BROTHERS ONE LOVER
-    letter: 
+    newsTitle: THE STABLE HAND SLASHER
+    newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
+    lettersList:
+    - "To my dear friend at the Weekly Wag, \r\n\r\nI simply had to inform you- your
+      most recent article is the talk of the town! \u201CThe Stable Hand Slasher\u201D
+      - A slightly gauche title for my tastes, but a thrilling recount of the events
+      all the same! \r\n\r\nYou have my deepest thanks for uncovering that dastardly
+      Lavender\u2019s fiendish plot to strike down my poor brother. While Charles
+      may have perished, I am sure he rests easy knowing that justice has been carried
+      out, and that his beloved brother now cares for his family in his stead. \r\n\r\nIn
+      a most pleasing turn of events, I have also recently inherited a sizable portion
+      of my dear brother\u2019s estate. As a result, I have made a small donation
+      to that wonderful weekly publication of yours as thanks for your thorough investigative
+      work. \r\n\r\nShould you have need on me in the future, my feather-quilled
+      friend, merely call on me! Maximillian takes care of those who take care of
+      him! \r\n\r\nYour biggest fan, \r\n\r\nMaximillian Hold "
+    - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\nIt is a hit! Ne\u2019er
+      have we had such a salacious story gracing our front page- a famous socialite
+      murders his brother in the dead of night- \u2018tis almost Shakespearean! \r\n\r\nAnd
+      let me assure you, good sir, your work is paying dividends! I can safely say
+      we can keep the paper in print for at least two months or so from the sales
+      of this paper alone. Perhaps longer, should our next issue be equally as engaging!
+      \r\n\r\nSource me a new story sir, one equally- nay, even more scandalous than
+      the last!  \r\n\r\nHave it on my desk by the end of next week. \r\n\r\nThe
+      mood on the streets is bleak. Hunger and disease are rife. The poor houses
+      are overflowing. And it is our moral obligation to keep the people entertained
+      in these difficult times. \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
+  sideCaseResultsList:
   - index: 0
     newsTitle: SLOW NEWS DAY
-    letter: 
+    letter: "Sir, \r\n\r\nI would like to express my gratitude for your discretion
+      in your most recent edition of \u201CThe Weekly Wag.\"  \r\n\r\nYou uncovered
+      many sensitive details regarding my conduct in Wenchwatch Hall. I can only
+      thank you for keeping those details out of the papers.  \r\n\r\nI will not
+      forget the kindness you have shown me. Should you have any need of me in the
+      future, simply ask. I would be more than happy to be of service. \r\n\r\nYour
+      loyal friend, \r\n\r\nDorothy Tendwell "
+  - index: 1
+    newsTitle: AND THEY WERE ROOMMATES
+    letter: Dorothy Sad Letter
+  - index: 2
+    newsTitle: TWO BROTHERS ONE LOVER
+    letter: "Sir, \r\n\r\nI hope you took immense pleasure in sullying my good name,
+      for I can think of no other reason barring such a perverse sadism that you
+      would have written your most recent article, \u201CTwo Brothers, One Lover.\u201D
+      \r\n\r\nYour recent publication has framed me as a woman of loose morals. Worse
+      still, you have made me- it pains me to even write the word- unfashionable!
+      A social pariah! My social calendar has been thoroughly cleared. Invitations
+      have been rescinded! Once constant companions have now all but vanished! \r\n\r\nEven
+      Lady Pembroke- who I can assure you has all the grace and class of an Irishman
+      in a tavern brawl- has chosen to exclude me from her gala Tuesday week. One
+      cannot stress quite how truly low a blow this constitutes. \r\n\r\nOne can
+      only hope that The Great Unwashed hastily forget this scurrilous article of
+      yours. I, of course, shall never forget what you have done to me. \r\n\r\nYours,
+      \r\n\r\nThe Dowager Theodosia Hold "

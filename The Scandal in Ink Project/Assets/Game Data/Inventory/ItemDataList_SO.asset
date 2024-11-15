@@ -58,11 +58,11 @@ MonoBehaviour:
   - itemName: 11
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
-    isEvidence: 0
+    isEvidence: 1
     notRecordedInJournal: 0
-    notPickedUp: 0
-    itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood then
-      runs from the windowsill towards the stables...
+    notPickedUp: 1
+    itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood  runs
+      from the windowsill towards the stables...
   - itemName: 12
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
