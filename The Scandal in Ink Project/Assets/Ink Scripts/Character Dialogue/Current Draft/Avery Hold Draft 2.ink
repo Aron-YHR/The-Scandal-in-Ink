@@ -26,11 +26,15 @@ And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 Pray tell, what precisely intrigues you so? -> Relationship
 
 
-*{iliad_mentioned}[Did your father confiscate your book?]
+*{iliad_confiscated}[Did your father confiscate your book?]
 Ah, yes. A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
 ~avery_book_confession = true
 ~ unlockStatement("Avery_Hold", 7)
 Yet in light of recent events, it does seem such a petty squabble...
+
+
+
+
 
 ->Start
 
