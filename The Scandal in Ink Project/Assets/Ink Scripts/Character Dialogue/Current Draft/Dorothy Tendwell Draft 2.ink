@@ -32,6 +32,8 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 
 *{ankle_letter and not extort_Dorothy}[Ms. Tendwell, I found this letter you wrote...] ->Lesbians_Revealed
 
+*{theodosia_note}[Were you aware the Admiral intended to fire you?]
+Um- No sir, I wasn't.
 
 +[<i>Examine the suspect.</i>]
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
@@ -89,8 +91,9 @@ Very well.
 +[How long have you worked for the Hold family?]
 Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery. They have been remarkably kind to me.  I only hope to one day repay their kindness. ->Relationship
 
-+[Did the Admiral ever treat you poorly?]
-Oh no sir, Admiral Hold was very respectful, a perfect gentleman. If anything, I have treated the Admiral poorly.
++[Did you have any issues with the Admiral]
+Why no sir, Admiral Hold was- a <i>demanding employer</i>, but always respectful.
+If anything, I have treated the Admiral poorly.
 Why, only last week, I was four minutes late delivering his breakfast to him.
 That was- a dark day for me...
 I only wish that his younger brother took after the Admiral in that regard. He can at times be a bit-
@@ -302,7 +305,7 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-+{letter_of_dismissal}[The Admiral fired you! You killed him for revenge!]
++{letter_of_dismissal}[The Admiral fired you! You killed him for revenge, didn't you!]
 But- I- I would never! 
 Yes, I took the letter, but I would never do such a horrid thing!
 Please, sir, you must believe me! ->Accuse
