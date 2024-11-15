@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    
-
     public void QuitGame()
     {
         Application.Quit();
@@ -25,9 +23,17 @@ public class Menu : MonoBehaviour
         // save game data
     }
 
+    public void Settings()
+    {
+        UIManager.Instance.settingPanel.SetActive(true);
+        //GameObject.Find("BackToMainMenuButton").SetActive(false);
+        UIManager.Instance.HighSortOrder();
+    }
+
     public void StartNewGame()
     {
         //cutsceneAnimator.Play("Newspaper");
         EventHandler.CallStartNewGameEvent();
+        UIManager.Instance.DesactiveIcons();
     }
 }
