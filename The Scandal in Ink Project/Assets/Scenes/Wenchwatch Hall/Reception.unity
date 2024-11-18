@@ -216,12 +216,12 @@ GameObject:
   - component: {fileID: 42165974}
   - component: {fileID: 42165973}
   m_Layer: 0
-  m_Name: hallwaychild_0
+  m_Name: Avery Hold Shadow
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &42165973
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 1709764154}
   - component: {fileID: 1709764153}
   m_Layer: 0
-  m_Name: Teleport To Study
+  m_Name: Teleport To Max Door
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,6 +1304,10 @@ PrefabInstance:
     - target: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Name
       value: Avery Hold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
