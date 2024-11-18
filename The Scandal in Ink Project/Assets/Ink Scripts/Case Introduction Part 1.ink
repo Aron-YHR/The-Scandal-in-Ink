@@ -41,6 +41,10 @@ Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist yo
 ~Transition("Intro Reception","Table")
 ->DONE
 
++[Skip to tutorial.]
+~Transition("Intro Reception","Intro Journal")
+->DONE
+
 
 
 

@@ -46,8 +46,8 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: A note from Theodosia to Charles requesting he refrain from dismissing
-      the maid, Dorothy Tendwell.
+    itemInfo: A note from Dorothy Tendwell to Admiral Charles Hold requesting he
+      refrain from dismissing the maid, Dorothy Tendwell.
   - itemName: 10
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
