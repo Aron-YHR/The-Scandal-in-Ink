@@ -981,7 +981,7 @@ GameObject:
   - component: {fileID: 235489685}
   - component: {fileID: 235489684}
   m_Layer: 5
-  m_Name: HEADER text (1)
+  m_Name: date
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: wednesday may 10 1794
+  m_text: 10/13/1759
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b382acfd7137357429bca0ae2f9c72ea, type: 2}
   m_sharedMaterial: {fileID: -6489255208861463373, guid: b382acfd7137357429bca0ae2f9c72ea, type: 2}
@@ -1642,7 +1642,7 @@ GameObject:
   - component: {fileID: 463530539}
   - component: {fileID: 463530538}
   m_Layer: 5
-  m_Name: HEADER text (2)
+  m_Name: issue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2769,7 +2769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -15.541467, y: 31.749603}
+  m_AnchoredPosition: {x: -15.541443, y: 31.749603}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &929569249
