@@ -109,12 +109,12 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
 
     private Rect SetArea()
     {
-        float rectWith = envir.size.x / 2;
-        float rectHeight = envir.size.y / 2;
+        float rectWith = envir.size.x * 0.5f;
+        float rectHeight = envir.size.y * 0.5f;
 
         //Debug.Log(rectWith +" " +rectHeight);
 
-        return new Rect(0-rectWith/2, 0-rectHeight/2, rectWith, rectHeight);
+        return new Rect(0-rectWith * 0.5f, 0-rectHeight * 0.5f, rectWith, rectHeight);
     }
 
     public void ActivateMove()
