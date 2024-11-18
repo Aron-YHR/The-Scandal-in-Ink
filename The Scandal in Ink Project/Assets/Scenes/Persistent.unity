@@ -5543,7 +5543,7 @@ GameObject:
   - component: {fileID: 453982469}
   - component: {fileID: 453982468}
   m_Layer: 5
-  m_Name: HEADER text (1)
+  m_Name: date
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17364,7 +17364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1278754257
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26614,7 +26614,7 @@ GameObject:
   - component: {fileID: 1927348732}
   - component: {fileID: 1927348731}
   m_Layer: 5
-  m_Name: HEADER text (2)
+  m_Name: issue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28638,7 +28638,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2125872916}
   m_HandleRect: {fileID: 0}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
