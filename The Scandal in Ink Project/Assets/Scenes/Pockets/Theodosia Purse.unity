@@ -597,11 +597,13 @@ MonoBehaviour:
   itemDetails:
     itemName: 8
     itemIcon: {fileID: 0}
-    isEvidence: 0
     value: 0
+    isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 
-  isHide: 1
   isClicked: 0
+  isHid: 1
 --- !u!1 &1251968467
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,11 +725,13 @@ MonoBehaviour:
   itemDetails:
     itemName: 24
     itemIcon: {fileID: 0}
-    isEvidence: 0
     value: 0
+    isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 
-  isHide: 1
   isClicked: 0
+  isHid: 1
 --- !u!61 &2043312674
 BoxCollider2D:
   m_ObjectHideFlags: 0
