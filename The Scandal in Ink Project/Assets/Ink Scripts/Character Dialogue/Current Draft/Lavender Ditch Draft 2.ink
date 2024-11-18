@@ -26,7 +26,9 @@ Can you get through that thick newsmonger skull of yours, hah? -> Start
 
 
 *{ankle_letter}[I found this letter for you from Dorothy...]
-Oh <i>s%@$e</i>!
+#portrait:stablehandshock
+Oh <i>s%@$e</i>!  
+~ unlockStatement("Lavender_Ditch",2)
 Where did you find those?
 It- it's not what it looks like. I'm only friends with Dorothy, that's all! We're close friends!
 ->Letters_Discovered
@@ -38,9 +40,6 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 ->Brooch_Discovered
 
 
-*{pickpocket_lavender}[<i>Pickpocket Lavender.</i>]
-~Transition("Stables","Lavender Pocket")
-->DONE
 
 +[<i> Examine the suspect more closely. </i>]
 <i> You subtly inspect Lavender for clues.</i>
@@ -68,31 +67,37 @@ And why would I do a thing like that?
 ->Murder_Weapon
 
 =Murder_Weapon
-Oh <i>s%@$!
+Oh <i>s%@$! #portrait:stablehandshock
 ~unlockStatement("Lavender_Ditch",1) 
 I- I didn't know that was there. Honest.
 I was in my chambers last night when the Admiral got done in, cross my heart.
 I'm not a killer. And I don't go round swindling what isn't mine. I don't cause trouble.
+#portrait:stablehandnegative
 More than I can say for some in this house... ->Alibis
 
 
 
 =Alibis
 *[What do you mean by that?]
-...Nothing. Forget I said anything. ->Alibis
+ #portrait:stablehandneutral  
+...Nothing. Forget I said anything. ->Alibis 
 
 *[Do you have an alibi for last night?]
-...I- I don't, no. ->Alibis
+ #portrait:stablehandneutral  
+ {lavender_confession: I was with Dot last night. In her bedroom. She'll tell you as much, if you let on you know about the two of us.}
+{not lavender_confession:...I don't, no.} ->Alibis
 
 *[I believe you, but I know you're not telling me something.]
+ #portrait:stablehandneutral  
 I- listen, just forget I said anything, alright? ->Start
 
 *[This isn't looking good for you, Lavender.]
+ #portrait:stablehandnegative
 You think I don't f@£%!&g $£%@!*$& know that?! 
-I know what it bloody well looks like, but I didn't do naught! I swear!
-->Start 
+I know what it bloody well looks like, but I didn't do naught! I swear! ->Start 
 
 *[I need to think about what this means.]
+ #portrait:stablehandneutral
 ...Right. ->Start
 
 
@@ -101,39 +106,41 @@ I know what it bloody well looks like, but I didn't do naught! I swear!
 ===Letters_Discovered====
 
 *[I've already read them, Lavender. I know all about your relationship with Dorothy.]
-~ unlockStatement("Lavender_Ditch",3)
+#portrait:stablehandneutral
 Alright. It's true. Me and Dorothy, we're- together.
 Just- please keep that to yourself.
-I know that's not in your nature, being a newspaper man and all. It's just-
-We've been doing our best to keep it quiet, given it's a bit of an- unusual setup.
-I've seen how they treat men who fancy each other's company- I'd not like to find out what they'd do to us... ->Letters_Discovered
+I know that's not in your nature, you being a gossip monger and all. It's just-
+We've been doing our best to keep it quiet.
+I've seen what happens to the men who fancy each other's company.
+I'd not like to find out what'd happen to us... ->Letters_Discovered
 
 
 *[Is this what you've been hiding?]
 I- it's complicated.
-I promised I wouldn't say anything...
-->Lavender_Tells_All
+I promised I wouldn't say anything... ->Lavender_Tells_All
 
 
 *[Is this why you've been so reluctant to speak to me?]
 I- it's complicated.
-I promised I wouldn't say anything...
-->Lavender_Tells_All
-
+I promised I wouldn't say anything... ->Lavender_Tells_All
 
 
 =Lavender_Tells_All
 
 *[You can tell me. I'll keep it a secret.]
+ #portrait:stablehandneutral
 ->Affair_Revealed
 
 
 *[Out with it! Otherwise your lesbian liason ends up on Page 3!]
-...You're nothing but a bloody gossip monger, you.
+
+ #portrait:stablehandnegative
+...You're nothing but a bloody gossip monger.
 ->Affair_Revealed
 
 
 *[Just tell me already!]
+ #portrait:stablehandneutral
 ->Affair_Revealed
 
 
@@ -157,6 +164,7 @@ Well- the other day- the Lady Hold and Sir Max were out for their weekly horse r
 Only, when I got to the stables, I found the Lady and Max- I found them in an awkward-
 ~lavender_confession = true
 ~affair_revealed = true
+~ unlockStatement("Lavender_Ditch",3)
 They were- making baskets, if you catch my meaning.
 
 ->Affair_Revealed_P2
@@ -165,26 +173,26 @@ They were- making baskets, if you catch my meaning.
 
 =Affair_Revealed_P2
 *[I don't understand.]
-Making the beast with two backs!
-->Affair_Revealed_P3
+Making the beast with two backs! ->Affair_Revealed_P3
 
 *[What's so wrong about making baskets?]
-No!They were- y'know! Making the beast with two backs!
-->Affair_Revealed_P3
+No! They were- y'know! Making the beast with two backs! ->Affair_Revealed_P3
+
+*[They were what?]
+Making the beast with two backs! ->Affair_Revealed_P3
 
 *[Ooh, I love baskets!]
-No, you don't understand! They were- making the beast with two backs.
-->Affair_Revealed_P3
+No, you don't understand! They were- making the beast with two backs. ->Affair_Revealed_P3
 
 *[<i>Gasp!</i> You caught Maximillian sleeping with the Admiral's wife?]
-Exactly that.
-->The_Admiral_Informed
+Exactly that. ->The_Admiral_Informed
 
 
 
 
 =Affair_Revealed_P3
 *[Why can't anyone in this house talk normally?!]
+#portrait:stablehandnegative
 They were f%@£*@g shagging!
 **[<i>Gasp!</i>]
 ->The_Admiral_Informed
@@ -196,12 +204,14 @@ Exactly that.
 
 
 =The_Admiral_Informed
+#portrait:stablehandneutral
 Anyway, they must've seen me, because they leapt up and started dressing.
-They were in such a panic, I think they were mixing up their clothes in their big rush to dress.
-I went to tell the Admiral what I saw. He was furious. I've never seen a man that mad in all my life.
+They were in such a panic, I could've sworn they were putting on each other's clothes by accident.
+~ unlockStatement("Lavender_Ditch",4)
+I ran off to tell the Admiral what I saw. He was furious. I've never seen a man that mad in all my life.
 Then the Lady Hold this morning, before you arrived, she pulled me aside. She seemed to know you were coming...
 See, she said she knew about me and Dot. Said she'd have us both dismissed if I didn't keep hush about what I saw.
-Now that bloody tart can do what she likes to me, but...
+Now that uppity ol' $@&%!@ can do what she likes to me, but...
 I can't let that happen to Dot. She needs the money. And she loves caring for the little lad...
 Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informed_P2
 
@@ -211,28 +221,35 @@ Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informe
 =The_Admiral_Informed_P2
 
 *[Can you prove any of this?]
-I can't prove they were shagging, no. But I do have an alibi for last night.
-See, I wasn't alone... I was in Dot's rooom. In her bed. In... 
-Let's just say I was stuck in an awkward position.
- ->The_Admiral_Informed_P2
+#portrait:stablehandneutral
+I can't prove they were shagging, no. But...
+I wasn't actually on my own last night... I was in Dot's rooom. In her bed. With not a lot of... 
+~ unlockStatement("Lavender_Ditch",5)
+Let's just say I was in an awkward position.
+That's why I didn't follow after Dorothy when the little lad screamed.->The_Admiral_Informed_P2
 
 
 
 *[Do you think that Theodosia could be the killer?]
+#portrait:stablehandneutral
 Anything's possible, but...
-No, I don't think so, she doesn't seem the type. 
+I don't think so. Don't think she has it in her.
+~ unlockStatement("Lavender_Ditch",6)
 Besides, I could hear her crying her eyes out all bloody night. ->The_Admiral_Informed_P2
 
 
 *[This is clearly all lies. Lesbians aren't real!]
-...I'm going to pretend I didn't hear that. ->The_Admiral_Informed_P2
+#portrait:stablehandnegative
+... ->The_Admiral_Informed_P2
 
 
 *[I need to think about what this all means.]
+#portrait:stablehandneutral
 Do what you have to. I'll only ask you to please keep this to yourself. I know that's not in your nature, being a newsmonger and all.
-I've seen what they do to the doxies when they catch 'em. And to the women of they drag out of the bordellos.
-I don't know what they'd do to us, to Dot, but I'd not like to find out.
-She doesn't deserve that sort of treatment... ->Start
+But like I said, people can be cruel to the likes of us.
+And from what she tells me, Dot's family aren't...
+#portrait:stablehandnegative
+...They're not the sort who'd look kindly on us. ->Start
 
 
 
@@ -247,29 +264,20 @@ She doesn't deserve that sort of treatment... ->Start
 -> Examination
 
 +[<i>Examine her clothing.]
-~pickpocket_lavender = true
--> Pickpocket
+<i> Her clothing is unkempt and coated in muck and hay, as expected of a stabe hand.</i> 
+-> Examination
 
 +[Return to the conversation]
--> Start
+<i>You return your focus to the conversation at hand.</i> -> Start
 
-=Pickpocket
-~pickpocket_lavender = true
-<i> Her clothing is unkempt and coated in muck and hay, as expected of a stabe hand.</i> 
-<i>However, you notice something unusual. A letter is poking out of one of her skirt pockets.</i>
-<i>You think you could potentially grab it without her noticing...</i>
-
-+[<i>Pickpocket Lavender.</i>]
-~Transition("Stables","LadyPocket")
-->DONE
-
-+[<i>Leave the letter for now.</i>]
-->Examination
 
 
 
 ===Accuse===
-*{brooch}[You stabbed the Admiral with his brooch then hid it in the stables to sell on!]
+*{brooch}[I found the brooch hidden in the saddle of the horse you tend!]
+That doesn't make me a f%$*!@g killer, you ponce! ->Accuse
+
+*{brooch}[You stabbed the Admiral with his brooch then hid it in the stables to sell later!]
 I know how it looks, alright, but I'm not a killer. And some thick-headed newsmonger saying otherwise won't change that.
 Now if you're done accusing me of being a killer, you can bugger off. ->Accuse
 

@@ -106,18 +106,19 @@ MonoBehaviour:
     location: Study
     npcInfo: The stable hand of Wenchwatch Hall.
     npcStatements:
-    - statementLine: Lavender denies any knowledge of the Admiral's brooch hidden
-        in the horse's saddle.
+    - statementLine: 1. Denies any knowledge of the Admiral's brooch hidden in the
+        horse's saddle.
       isUnlocked: 0
-    - statementLine: 2. I was so shocked just like on the highway to hell...
+    - statementLine: 2. Has admitted to a relationship with the maid, Dorothy Tendwell.
       isUnlocked: 0
-    - statementLine: 3. You know nothing, Mr. Journalist...
+    - statementLine: 3. Says she discovered Theodosia and Maximillian making love
+        in the stables.
       isUnlocked: 0
-    - statementLine: 4.
+    - statementLine: 4. Says Theodosia and Max may have swapped clothing.
       isUnlocked: 0
-    - statementLine: 5.
+    - statementLine: 5. Says she was with Dorothy in her room the night of the murder.
       isUnlocked: 0
-    - statementLine: 6.
+    - statementLine: 6. Says she heard Theodosia crying throughout the night.
       isUnlocked: 0
     - statementLine: 7.
       isUnlocked: 0

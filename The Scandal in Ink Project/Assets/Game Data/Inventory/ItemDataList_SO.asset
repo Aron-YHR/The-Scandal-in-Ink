@@ -82,12 +82,12 @@ MonoBehaviour:
   - itemName: 14
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
-    isEvidence: 1
+    isEvidence: 0
     notRecordedInJournal: 0
-    notPickedUp: 0
+    notPickedUp: 1
     itemInfo: A delicate wooden trellis attached to the side of the house, sitting
       just above a window on the second floor. Several of its crossbars have been
-      snapped in two, as though someone attempted to climb it...
+      snapped in two, as though someone recently climbed up...
   - itemName: 7
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
       to Lavender Ditch. It includes a particularly saucy sketch of Dorothy's ankle.\n\"Lavender,
       my love,\nI have included the drawing you requested. I  hope you will visit
       me tonight again so you can see, touch- and taste- the real thing.\nForever
-      yours, Dorothy xoxo \""
+      yours, Dorothy \""
   - itemName: 27
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
@@ -143,16 +143,16 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
     isEvidence: 1
-    notRecordedInJournal: 0
-    notPickedUp: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
     itemInfo: A bucket full of blood-tainted water. Perhaps the killer used this
       to wash the blood from their hands...?
   - itemName: 21
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
     isEvidence: 1
-    notRecordedInJournal: 0
-    notPickedUp: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
     itemInfo: A messy pile of hay covered in blood. You think the killer may have
       tried to wipe the blood from their hands here...
   - itemName: 23
@@ -224,5 +224,5 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: A pile of coins found in Dorothy's pocket. There must be at least a
-      week's wages here! Enough to pay for, say a week' worth of expenses...
+    itemInfo: 'A pile of coins extorted from Dorothy. There must be at least a week''s
+      wages here! '

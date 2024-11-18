@@ -146,26 +146,28 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 Ah, that Theodosia, such a wonderful wit! 
 Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confusing those who are unknown to her. But I assure you, she spoke merely in jest!
 I know what you're thinking- a humorous woman, in this day and age? Quite unheard of! But that is dear Theodosia- always ahead of the trend!
-Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
-->Start
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
 Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, particularly for my more- delicate- areas. I'm sure you as a gentleman can understand that.
-Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
-->Start
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *[You lust after her! I can see it in your eyes!]
+<i>Curse</i> my womanizing ways! 'Tis true, I have oft admired dear Theodosia's beauty- but only from afar!
 How could a man <i>not</i> gaze fondly upon such a beauty as Theodosia?
-But is it not normal for a 
+But such an act is entirely normal for a red-blooded man in his prime!
 I'm sure you understand, sir. Unless you have slightly- <i>different</i> desires, hm?
+
 **[I'm the straighest man in this building!]
-Denial Egypt etc.
-->Start
+Whate'er you need to tell yourself, good sir!
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 
-**[You got me!]
-Gaybo!
-->Start
+
+**[I have a wife and children]
+Mmmmhm.
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
+
 
 ===Accuse===
 
