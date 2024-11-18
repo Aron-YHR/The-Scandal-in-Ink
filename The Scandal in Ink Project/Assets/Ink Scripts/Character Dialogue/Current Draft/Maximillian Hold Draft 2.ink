@@ -154,7 +154,18 @@ Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
 ->Start
 
+*[You lust after her! I can see it in your eyes!]
+How could a man <i>not</i> gaze fondly upon such a beauty as Theodosia?
+But is it not normal for a 
+I'm sure you understand, sir. Unless you have slightly- <i>different</i> desires, hm?
+**[I'm the straighest man in this building!]
+Denial Egypt etc.
+->Start
 
+
+**[You got me!]
+Gaybo!
+->Start
 
 ===Accuse===
 
@@ -165,7 +176,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 - else: ->Why
 }
 
-*{brooch}[You were fighting with Charles last night and stabbed him with his own brooch!]
+*{brooch}[It was you fighting with Charles last night! You stabbed him with his own brooch!]
 ~Max_proof2 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
@@ -205,6 +216,8 @@ Moi? In a dalliance with my beloved sister-in-law?! An outrageous accusation!
 +{theodosias_pants}[Theodosia's underwear was in your room!]
 ->Underwear
 
++[It's obvious! The raw, sexual energy between you two gives you away!]
+->Sexual_Energy
 
 =How
 I must commend you sir! A most <i>inventive</i> leap of logic. It is most true what they say of your paper, you tell the most fantastical stories!
@@ -247,6 +260,11 @@ You must disregard everything she told you, sir. It is utter poppycock!  ->Accus
 =Underwear
 Can a man of culture and esteem wear his sister-in-law's undergarments without fear of reproach?!
 Truly sir, the idea that this is proof of some sinister affair is utter poppycock! ->Accuse
+
+=Sexual_Energy
+<i>Damn</i> my hyper-masculine aura! Women simply cannot resist it. 'Tis a curse as much as a blessing!
+Still, my personal involvement with Theodosia in no way proves me my brother's killer!
+Such a notion is utter poppycock! ->Accuse
 
 
 ===Bartering===
