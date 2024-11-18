@@ -1,5 +1,5 @@
 INCLUDE secrets.ink
-<i>The door to Max's room. It is locked. #speaker:Locked Door #portrait:Default
+<i>The door to Max's room. It is locked. #speaker:Locked Door
 <i>Perhaps Maximillian will let you in. Or perhaps one of the servants will have a key...
 ~checked_door = true
 

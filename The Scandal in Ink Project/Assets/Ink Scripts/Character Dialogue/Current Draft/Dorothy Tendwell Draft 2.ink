@@ -95,7 +95,7 @@ Very well.
 Well sir, I came to Wenchwatch Hall seven years ago, shortly after the birth of young Master Avery. They have been remarkably kind to me.  I only hope to one day repay their kindness. ->Relationship
 
 +[Did you have any issues with the Admiral]
-Why no sir, Admiral Hold was- a <i>demanding employer</i>, but always respectful.
+Why no sir, Admiral Hold was- a <i>demanding employer</i>, but always very respectful.
 If anything, I have treated the Admiral poorly.
 Why, only last week, I was four minutes late delivering his breakfast to him.
 That was- a dark day for me...
