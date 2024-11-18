@@ -139,10 +139,10 @@ I am quite sure there is nothing on this Earth Charles would want more than to b
 
 =Outro
 If you are quite set on helping us, sir, I shall make sure everyone remains at Wenchwatch Hall as you carry out your investigation.  #speaker: Ms. Tendwell #layout:right
-Sir, I imagine you'll be performing a thorough investigation of the Admiral?
-If so, I would recommmend you take note of anything that may be of use to your investigation.
+I would recommmend you take note of anything that may be of use to you as you explore the manor and question its inhabitants.
 
-
+~Transition("Intro Study","Intro Journal")
+->DONE
 
 
 

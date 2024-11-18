@@ -35,10 +35,10 @@ Good sir, I was quite unaware I was doing so.
 I have been wearing these exact same gloves all of today and yesterday, by my recollection.
 ->Start
 
-*{affair_revealed} [I know about your affair with Maximillian.]
+*{affair_revealed or burnt_letter and theodosias_pants} [I know about your affair with Maximillian.]
 Affair? With Maximillian? How perplexing and baseless an accusation. And most thrilling. Do go on. ->Affair
 
-*{divorce_petition}[Did you know your husband was planning to divorce you?]
+*{divorce_petition or burnt_letter}[Did you know your husband was planning to divorce you?]
 Oh yes, I intuited as much. A well-bred woman has an instinct for her husband's flights of fancy.
 I am quite sure he would have abandoned the idea entirely, had he not perished. ->Divorce
 
@@ -225,7 +225,7 @@ Heavens, who is to say? Likely it was merely a flight of fancy on the part of my
 +{lavender_confession}[I spoke to Lavender. I know you're blackmailing her. She told everything.]
 Ah, I see. So the stable girl has betrayed me and revealed all.
 ~unlockStatement("Theodosia_Hold",5)
-Alas, it is a lesson learned. One simply cannot trust a woman who elects to work with horses.
+Alas, it is a lesson learned. One simply cannot trust a woman who works with horses.
 ->Affair_Cont
 
 +{pink_lipstick and pink_lipstick_smudge}[Your lipstick matches the lipstick smudge on Maximillian's neck.]
@@ -257,22 +257,26 @@ I- suppose such a banal matter would be of interest to more <i>common</i> folk.
 
 
 =Affair_Cont
+~affair_revealed = true
 But you see- 
 Heavens, how might one explain-
 I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
 ~theodosia_confession = true
 ~unlockStatement("Theodosia_Hold",4)
 You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
-Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer one did firmly accept. 
-And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. Several times.
+Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer I firmly accepted. 
 Maximillian is a most foreward-looking man, you see. Much like his brother in that regard.
-One could hardly call such a dalliance an <i>affair</i>. It is more akin to- a form of insurance! 
+And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. And we did. Several times.
+One could hardly call such a dalliance an <i>affair</i>. It is more akin to- a form of insurance! Yes, insurance!
 So you see, the truth of the matter is far more mundane than it might seem at first.
 Not even of passing interest to your readership, I can quite assure you.
  
  +[Sounds entirely reasonable.]
 But of course. I am a most reasonable woman.
-**[I'm sure you won't mind me publishing such a dull story.] Wait! <i>wait</i>! 
+**[I'm sure you won't mind me publishing such a dull story.]
+ #portrait:theladyshock
+Wait! <i>wait</i>! 
+ #portrait:theladyneutral
 Ahem.
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.
@@ -281,8 +285,7 @@ So I would ask you, sir. Would you consider- keeping this information out of the
  +[I have the same arrangement with my brother-in-law.]
 How curious. And terribly fashionable, I may add.
 **[I need to think about what all this means.] 
-No, wait. <i>Wait</i>! 
-Ahem.
+ #portrait:theladyneutral
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
@@ -293,6 +296,7 @@ If it is acceptable for him to seek comfort elsewhere, is it not entirely approp
 Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider than matters of the flesh!
 Charles merely overreacted! I am quite sure, had he not perished, we would have reconciled. Of this I am <i>certain</i>!
 **[I need to think about what all this means.]
+ #portrait:theladyshock
 No, wait. <i>Wait</i>! 
 Ahem.
 A moment of your time before you go, sir. While not quite as scandalous as, say, a particularly manlike set of hands, one must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.

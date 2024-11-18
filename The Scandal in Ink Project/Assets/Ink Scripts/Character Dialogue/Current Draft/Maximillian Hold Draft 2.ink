@@ -146,14 +146,27 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 Ah, that Theodosia, such a wonderful wit! 
 Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confusing those who are unknown to her. But I assure you, she spoke merely in jest!
 I know what you're thinking- a humorous woman, in this day and age? Quite unheard of! But that is dear Theodosia- always ahead of the trend!
-Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
-->Start
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
 Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, particularly for my more- delicate- areas. I'm sure you as a gentleman can understand that.
-Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
-->Start
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
+*[You lust after her! I can see it in your eyes!]
+<i>Curse</i> my womanizing ways! 'Tis true, I have oft admired dear Theodosia's beauty- but only from afar!
+How could a man <i>not</i> gaze fondly upon such a beauty as Theodosia?
+But such an act is entirely normal for a red-blooded man in his prime!
+I'm sure you understand, sir. Unless you have slightly- <i>different</i> desires, hm?
+
+**[I'm the straighest man in this building!]
+Whate'er you need to tell yourself, good sir!
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
+
+
+
+**[I have a wife and children]
+Mmmmhm.
+Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 
 ===Accuse===
@@ -165,7 +178,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 - else: ->Why
 }
 
-*{brooch}[You were fighting with Charles last night and stabbed him with his own brooch!]
+*{brooch}[It was you fighting with Charles last night! You stabbed him with his own brooch!]
 ~Max_proof2 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
@@ -205,6 +218,8 @@ Moi? In a dalliance with my beloved sister-in-law?! An outrageous accusation!
 +{theodosias_pants}[Theodosia's underwear was in your room!]
 ->Underwear
 
++[It's obvious! The raw, sexual energy between you two gives you away!]
+->Sexual_Energy
 
 =How
 I must commend you sir! A most <i>inventive</i> leap of logic. It is most true what they say of your paper, you tell the most fantastical stories!
@@ -247,6 +262,11 @@ You must disregard everything she told you, sir. It is utter poppycock!  ->Accus
 =Underwear
 Can a man of culture and esteem wear his sister-in-law's undergarments without fear of reproach?!
 Truly sir, the idea that this is proof of some sinister affair is utter poppycock! ->Accuse
+
+=Sexual_Energy
+<i>Damn</i> my hyper-masculine aura! Women simply cannot resist it. 'Tis a curse as much as a blessing!
+Still, my personal involvement with Theodosia in no way proves me my brother's killer!
+Such a notion is utter poppycock! ->Accuse
 
 
 ===Bartering===
