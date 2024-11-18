@@ -113,7 +113,7 @@ Indeed. ->Relationship
 I was engaged in vigorous conversation with my husband Charles. This was before he died, you see.
 ~ unlockStatement("Theodosia_Hold", 1)
 ~argument = true
-I do believe the conversation overwhelmed my feminine sensibilities and drove me to tears. A foolish decision on my part to engage in such activity. It is most harmful to a lady's health to engage in any activity which can be considered <i>vigorous</i>.
+I do believe the conversation overwhelmed my sensibilities and drove me to tears. A foolish decision on my part to engage in such activity. It is most harmful to a lady's health to engage in any activity which can be considered <i>vigorous</i>.
 
 ->Night_Of_Murder
 

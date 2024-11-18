@@ -35,6 +35,11 @@ I tried to pass of my gloveless attire as a matter of style, but there is no hid
 Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian, in front of a journalist no less! I can hardly tell which is worse.
 -> Start
 
+*{checked_door and not maximillian_door_key or door_key}[Can I have the key to your room?]
+Why- of course! I will give it to this instant- #portrait:fopshock
+#portrait:fopneutral
+Had I not- lost it! Yes! Aha! Foolish me, to misplace it so! I'm sure you shall find it lying about the manor somewhere. ->Start
+
 *{affair_revealed}[I know about your affair with Theodosia.]
 Moi? In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir!
 ->Affair_Revealed
