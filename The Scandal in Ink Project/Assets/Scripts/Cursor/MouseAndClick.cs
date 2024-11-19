@@ -11,7 +11,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
     public Vector3 mouseWorldPos => Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
 
 
-    private bool canClick;
+    [SerializeField]private bool canClick;
 
     // Update is called once per frame
     void Update()
