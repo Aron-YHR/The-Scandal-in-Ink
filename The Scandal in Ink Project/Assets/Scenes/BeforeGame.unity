@@ -1345,7 +1345,7 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: 60cee765db1286f4b83b916c1ab876ea, type: 3}
   transitionAudioClips:
   - {fileID: 0}
-  playOnEnable: 1
+  playOnEnable: 0
   isRandomPlay: 0
   type: 0
 --- !u!4 &634954205

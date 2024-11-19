@@ -32,11 +32,11 @@ public class FamilyHP : MonoBehaviour
 
     public void ChangeWellbeing(int impact)
     {
-        if(impact <=2)
+        if(impact <=0)
         {
             impact = -1;
         }
-        else if(impact >=4) 
+        else if(impact >=2) 
         {
             impact = 1;
         }
