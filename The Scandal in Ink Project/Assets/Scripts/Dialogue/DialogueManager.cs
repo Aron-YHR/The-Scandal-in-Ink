@@ -281,7 +281,7 @@ public class DialogueManager : MonoBehaviour
     private void HandleTags(List<string> currentTags)
     {
         List<string[]> tagsList = new List<string[]>();
-        string layoutTag = "right";
+        string layoutTag = "";
 
         // loop through each tag and handle it accordingly
         foreach (string tag in currentTags)
@@ -293,13 +293,13 @@ public class DialogueManager : MonoBehaviour
                 Debug.LogError("Tag could not be appropriately parsed:" +tag);
             }
 
-            string tagKey = splitTag[0].Trim();
-            string tagValue = splitTag[1].Trim();
+            splitTag[0] = splitTag[0].Trim();
+            splitTag[1] = splitTag[1].Trim();
             tagsList.Add(splitTag);
 
-            if (tagValue == "left")
+            if (splitTag[0] == "layout")
             {
-                layoutTag = tagValue;
+                layoutTag = splitTag[1];
             }
         }
 
