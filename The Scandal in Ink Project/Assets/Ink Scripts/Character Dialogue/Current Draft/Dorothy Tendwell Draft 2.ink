@@ -8,7 +8,7 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidpositive
+  {TURNS_SINCE(-> INTRO) == 0: How might I help, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidpositive
 
 +[Where were you the night of the murder?]
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
@@ -202,11 +202,14 @@ Would you consider keeping our- <i>special</i> connection- private?
 
 +[So, you and Lavender are an item?]
 Lavender and I...
-Yes. Lavender and I are together. I'm sure this must surprise you. I knw it's an- <i>unusual</i> arrangement.
+Yes. Lavender and I are together. I'm sure this must surprise you. I know it's an- <i>unusual</i> arrangement.
 Sir, I beg you- 
-People may not understand what Lavender and I <i>are</i>, and should Lady Hold find out- should our families find out-!
-I fear what the consequences might be for us...
-Would you consider keeping our- <i>special</i> connection- private?
+People may not understand what Lavender and I <i>are</i>-
+And should my family find me I-
+...
+My parents are not the kindest of people. I don't expect they would react well to my... present situation. And should they find out about Lavender...
+Well- I fear what the consequences might be for us...
+Would you consider keeping my relationship with Lavender <i>out</i> of your report?
 ->Lesbians_Cont
 
 
@@ -217,16 +220,17 @@ Would you consider keeping our- <i>special</i> connection- private?
 =Lesbians_Cont
 
 +[Don't worry. I'll keep this to myself.]
-Thank you, sir. I can't possibly thank you enough. ->Start
+Thank you, sir. You truly do not know how much this means to me. ->Start
 
-+{checked_door and not door_key}[I'll keep this quiet- if you give me the key to Maximillian's room.]
++{checked_door and not door_key or maximillian_door_key}[I'll keep this quiet- if you give me the key to Maximillian's room.]
 The key to- well- I suppose, given the present situation- just this once- I can permit you access to Maximillian's private quarters. I shall fetch it for you.
 ~door_key = true
 ~unlockItem("maximillian_door_key")
 Now I beg you to forget you ever saw those letters. I promise I shall never so recklessly sketch an ankle again! ->Start
 
 +[This is too juicy to pass up! It's going on the front page!]
-Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action! ->Start
+Please, sir. I beg you. If my father find out...!
+<i>Please</i>. Consider some other course of action.->Start
 
 +[Okay. But it's gonna cost you a pretty penny...]
 Cost, sir? I'm not sure I understand. ->Extortion
@@ -332,11 +336,11 @@ Please, sir, you must believe me! ->Accuse
 +{brooch}[You stabbed the Admiral with his brooch then stashed it in the stables!]
 #portrait:maidshock
 But- sir! Oh heavens, I may faint-
-I couldn't possibly have done that! I was first to be by Avery's side, I would hardly-!
+I couldn't possibly have done that! I was first to be by Avery's side!
 You don't truly believe I murdered the Admiral, do you...? ->Accuse
 
 +[I don't have any more evidence, but I'll prove you killed him!]
-#portrait:maidshock
+#portrait:maidneutral
 Heavens, I must truly have been slacking on my duties if I could possibly be suspected of- offing poor Admiral Hold!
 Perhaps he was right about me.... ->Start  
 

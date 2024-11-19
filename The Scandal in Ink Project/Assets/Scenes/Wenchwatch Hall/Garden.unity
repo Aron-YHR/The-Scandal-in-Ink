@@ -688,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9867044
+      value: 0.9999696
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.x
@@ -700,7 +700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.16252494
+      value: -0.007802696
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -712,7 +712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -18.707
+      value: -0.894
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -795,6 +795,8 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: 2139b55f97827ee41884ec8ce5cbc66c, type: 3}
   transitionAudioClips: []
   playOnEnable: 1
+  isRandomPlay: 0
+  type: 0
 --- !u!4 &1769705831
 Transform:
   m_ObjectHideFlags: 0
