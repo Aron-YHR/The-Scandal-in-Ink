@@ -23765,6 +23765,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1d42ca06d2171d449b12c8bbca9b215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wellbeing: 4
+  lifeState: 3
   font1: {fileID: 11400000, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
   font2: {fileID: 11400000, guid: 9a604716738750b479d0f8d590d5bde6, type: 2}
   fontToggle: {fileID: 2040968288}

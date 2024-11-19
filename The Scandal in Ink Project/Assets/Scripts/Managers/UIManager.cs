@@ -7,6 +7,10 @@ using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
+    [Header("Family Default settings")]
+    public int wellbeing;
+    public LifeState lifeState;
+
     [Header("Font Setting")]
     public TMP_FontAsset font1;
     public TMP_FontAsset font2;
@@ -57,9 +61,9 @@ public class UIManager : Singleton<UIManager>
     {
         for (int i = 0; i<familyMembers.familyMembersList.Count; i++)
         {
-            familyMembers.familyMembersList[i].wellbeing = 4;
+            familyMembers.familyMembersList[i].wellbeing = wellbeing;
             familyMembers.familyMembersList[i].isDead = false;
-            familyMembers.familyMembersList[i].state = LifeState.Fine;
+            familyMembers.familyMembersList[i].state = lifeState;
         }
     }
 

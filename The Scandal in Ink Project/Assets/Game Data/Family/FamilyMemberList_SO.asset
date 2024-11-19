@@ -24,7 +24,7 @@ MonoBehaviour:
     - {fileID: 8635954471924279282, guid: a0e8bd7e45477e94bbae42aff5553e0a, type: 3}
     - {fileID: 1780724167031731095, guid: 2cdd812ba96f7b34f982d54a11286632, type: 3}
   - name: OLIVER
-    wellbeing: 3
+    wellbeing: 4
     isDead: 0
     state: 2
     familyMemberImages:
