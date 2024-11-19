@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dialoguebox_gradient_0: 7930237874841509926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
