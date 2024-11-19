@@ -32,7 +32,7 @@ MonoBehaviour:
 
       The brooch appears to be missing one of its jewels...'
   - itemName: 6
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -4684013747395606549, guid: 91f80a72b34367d43a15aab2d8af1bd7, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
       of the letter is burnt beyond legibility, but one word has survived the fire:
       "Adultery."'
   - itemName: 29
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 5833068987551211288, guid: 4a00ca046dcfbb7439f7a8f5049fa89e, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
       It
       appears to be covered in horse hair'
   - itemName: 24
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -6432330495511635143, guid: 4fd0b167ee321bc4fa7d7a727caff577, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -224,5 +224,13 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: 'A pile of coins extorted from Dorothy. There must be at least a week''s
-      wages here! '
+    itemInfo: A pile of coins taken from Dorothy. There must be at least a week's
+      wages here...
+  - itemName: 20
+    itemIcon: {fileID: 1593745568866057959, guid: 1bdc8a13e7bf2bc448966f8122fb8c67, type: 3}
+    value: 6
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
+    itemInfo: An old jam scone found in Avery's pocket. It appears to be covered
+      in horse hair.

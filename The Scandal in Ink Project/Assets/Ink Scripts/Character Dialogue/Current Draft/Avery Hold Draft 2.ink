@@ -21,6 +21,10 @@ And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 +[Kid, I can't understand a single word you're saying.]
 ->Call_Dorothy
 
++{jam_scone}[Avery, why is there a jam scone in your pocket?]
+Working.
+->DONE
+
 
 +[Tell me about your family life.]
 Pray tell, what precisely intrigues you so? -> Relationship

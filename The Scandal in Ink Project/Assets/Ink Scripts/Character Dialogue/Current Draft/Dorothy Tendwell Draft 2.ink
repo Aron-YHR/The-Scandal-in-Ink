@@ -65,13 +65,13 @@ M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 
 +[Did you notice anything unusual yesterday?]
 Well, I did notice... <i>something</i>.
-Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables together.
-They often go riding together, but they seemed particularly... flustered on this occassion.
-Then later on that day, LadyTheodosia and the Admiral got into a terrible fight.
+Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables.
+They often go riding together in the evenings, but they seemed particularly... flustered on this occasion.
+Then, later on that day, LadyTheodosia and the Admiral got into a terrible fight.
 As I was comforting her, I noticed something rather...odd.
 Lady Hold was wearing Sir Maximillian's gloves.
 ~unlockStatement("Dorothy_Tendwell", 3)
-I thought perhaps I had mixed up their delicates, but I wouldn't typically make such a heinous mistake...
+I thought perhaps I had mixed up their delicates, but I wouldn't typically make such a mistake...
 ~overheard_argument = true
 ->Night_Of_Murder
 
@@ -80,7 +80,9 @@ Lady Hold has often tells me she considers it is vulgar when servants make exces
 ->Night_Of_Murder
 
 +[Avery was first at the scene. Could he have been involved in the Admiral's death?]
+#portrait:maidshock
 <i>Sir!</i>
+#portrait:maidnegative
 Young Master Avery is a <i>child</i>! Hardly eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
 ~ unlockStatement("Dorothy_Tendwell",7)
 Well, it's simply-
@@ -89,8 +91,7 @@ Simply-
 And if there is one thing I am sure of, it is that the noble profession of journalism would <i>never</i> engage in slander! ->Night_Of_Murder
 
 +[Let's talk about something else.]
-Very well.
-->Start 
+Very well. ->Start 
 
 //No re-writes urgently needed
 ===Relationship===
@@ -140,16 +141,15 @@ As you wish, sir.
 +[Did anyone in the house hold a grudge against Charles?]
 Well, young master Avery was admittedly somewhat displeased that the Admiral confiscated his copy of the Iliad.
 ~iliad_confiscated = true
-But that is hardly reason to suspect a small child of- well, <i>that</i>.
-Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very noble...
+But that is hardly reason to suspect a small child of- well- <i>murder</i>!
+Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very likeable...
 ->Suspicious
 
 
 +[Did you notice anything unusual about the body?]
 Well, I did notice that the Admiral's brooch was missing.
-He was very fond of the family crest. I hardly ever saw him without it.
 ~unlockStatement("Admiral_Charles_Hold", 3)
-->Suspicious
+He was very fond of the family crest. I hardly ever saw him without it.->Suspicious
 
 *[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
 Lady Hold would <i>never</i> involve herself in such a horrid affair! Besides, she confined herself to her room after her argument with the Admiral.
@@ -157,15 +157,16 @@ Poor Lady Hold. She would never dare admit it, but that fight left her terribly 
 
 **[We?]
 {dorothy_confession:Um... Lavender and I were together last night, sir. As you know.}
-{not dorothy_confession: Uh- the royal we, sir! Silly me! I'm prone to flights of fancy now and then!}
+{not dorothy_confession: Uh- the royal we, sir! Silly me! Lady Hold is always chastising me for speaking above my station!} #portrait:maidshock
 ->Suspicious
 
 **[Let's move on.]
-As you say.
--> Suspicious
+#portrait:maidneutral
+As you say. -> Suspicious
 
 +[Let's talk about something else.]
-->Start
+#portrait:maidneutral
+Of course. ->Start
 
 
 ===Lesbians_Revealed===
@@ -232,7 +233,7 @@ Now I beg you to forget you ever saw those letters. I promise I shall never so r
 Please, sir. I beg you. If my father find out...!
 <i>Please</i>. Consider some other course of action.->Start
 
-+[Okay. But it's gonna cost you a pretty penny...]
++{not dorothy_coins}[Okay. But it's gonna cost you a pretty penny...]
 Cost, sir? I'm not sure I understand. ->Extortion
 
 
