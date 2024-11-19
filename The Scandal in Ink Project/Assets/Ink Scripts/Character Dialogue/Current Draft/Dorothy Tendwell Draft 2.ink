@@ -8,9 +8,10 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-  {TURNS_SINCE(-> INTRO) == 0: Yes, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidpositive
+  {TURNS_SINCE(-> INTRO) == 0: How might I help, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidneutral
 
 +[Where were you the night of the murder?]
+#portrait:maidnegative
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
 ~unlockStatement("Dorothy_Tendwell", 1)
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
@@ -36,7 +37,6 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 #portrait:maidshock
 Um- No sir, I- I wasn't. Do you- know he reason why?
 **[Something about a late breakfast.]
-#portrait:maidnegative
 ...I knew that shameful incident would come back to haunt me one day.
 No, sir, I was not aware of the Admiral's intentions. ->Start
 
@@ -65,13 +65,13 @@ M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 
 +[Did you notice anything unusual yesterday?]
 Well, I did notice... <i>something</i>.
-Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables together.
-They often go riding together, but they seemed particularly... flustered on this occassion.
-Then later on that day, LadyTheodosia and the Admiral got into a terrible fight.
+Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables.
+They often go riding together in the evenings, but they seemed particularly... flustered on this occasion.
+Then, later on that day, LadyTheodosia and the Admiral got into a terrible fight.
 As I was comforting her, I noticed something rather...odd.
 Lady Hold was wearing Sir Maximillian's gloves.
 ~unlockStatement("Dorothy_Tendwell", 3)
-I thought perhaps I had mixed up their delicates, but I wouldn't typically make such a heinous mistake...
+I thought perhaps I had mixed up their delicates, but I wouldn't typically make such a mistake...
 ~overheard_argument = true
 ->Night_Of_Murder
 
@@ -80,6 +80,7 @@ Lady Hold has often tells me she considers it is vulgar when servants make exces
 ->Night_Of_Murder
 
 +[Avery was first at the scene. Could he have been involved in the Admiral's death?]
+#portrait:maidshock
 <i>Sir!</i>
 Young Master Avery is a <i>child</i>! Hardly eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
 ~ unlockStatement("Dorothy_Tendwell",7)
@@ -89,8 +90,7 @@ Simply-
 And if there is one thing I am sure of, it is that the noble profession of journalism would <i>never</i> engage in slander! ->Night_Of_Murder
 
 +[Let's talk about something else.]
-Very well.
-->Start 
+Very well. ->Start 
 
 //No re-writes urgently needed
 ===Relationship===
@@ -140,32 +140,38 @@ As you wish, sir.
 +[Did anyone in the house hold a grudge against Charles?]
 Well, young master Avery was admittedly somewhat displeased that the Admiral confiscated his copy of the Iliad.
 ~iliad_confiscated = true
-But that is hardly reason to suspect a small child of- well, <i>that</i>.
-Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very noble...
+But that is hardly reason to suspect a small child of- well- <i>murder</i>!
+Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very likeable...
 ->Suspicious
 
 
 +[Did you notice anything unusual about the body?]
 Well, I did notice that the Admiral's brooch was missing.
-He was very fond of the family crest. I hardly ever saw him without it.
 ~unlockStatement("Admiral_Charles_Hold", 3)
-->Suspicious
+He was very fond of the family crest. I hardly ever saw him without it.->Suspicious
 
 *[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
+#portrait:maidshock
 Lady Hold would <i>never</i> involve herself in such a horrid affair! Besides, she confined herself to her room after her argument with the Admiral.
+#portrait:maidnegative
 Poor Lady Hold. She would never dare admit it, but that fight left her terribly shaken. We could hear her crying throughout the night.
 
-**[We?]
-{dorothy_confession:Um... Lavender and I were together last night, sir. As you know.}
-{not dorothy_confession: Uh- the royal we, sir! Silly me! I'm prone to flights of fancy now and then!}
-->Suspicious
+**[We? Was someone with you last night?]
 
+{ dorothy_confession:
+	Um... Lavender and I were together last night, sir. As you know. #portrait:maidneutral
+- else:
+	Uh- the royal we, sir! Silly me! Lady Hold is always chastising me for speaking above my station! #portrait:maidshock
+}
+#portrait:maidneutral
+Any other questions, sir? ->Suspicious
 **[Let's move on.]
-As you say.
--> Suspicious
+#portrait:maidneutral
+As you say. -> Suspicious
 
 +[Let's talk about something else.]
-->Start
+#portrait:maidneutral
+Of course. ->Start
 
 
 ===Lesbians_Revealed===
@@ -202,11 +208,14 @@ Would you consider keeping our- <i>special</i> connection- private?
 
 +[So, you and Lavender are an item?]
 Lavender and I...
-Yes. Lavender and I are together. I'm sure this must surprise you. I knw it's an- <i>unusual</i> arrangement.
+Yes. Lavender and I are together. I'm sure this must surprise you. I know it's an- <i>unusual</i> arrangement.
 Sir, I beg you- 
-People may not understand what Lavender and I <i>are</i>, and should Lady Hold find out- should our families find out-!
-I fear what the consequences might be for us...
-Would you consider keeping our- <i>special</i> connection- private?
+People may not understand what Lavender and I <i>are</i>-
+And should my family find me I-
+...
+My parents are not the kindest of people. I don't expect they would react well to my... present situation. And should they find out about Lavender...
+Well- I fear what the consequences might be for us...
+Would you consider keeping my relationship with Lavender <i>out</i> of your report?
 ->Lesbians_Cont
 
 
@@ -217,18 +226,19 @@ Would you consider keeping our- <i>special</i> connection- private?
 =Lesbians_Cont
 
 +[Don't worry. I'll keep this to myself.]
-Thank you, sir. I can't possibly thank you enough. ->Start
+Thank you, sir. You truly do not know how much this means to me. ->Start
 
-+{checked_door and not door_key}[I'll keep this quiet- if you give me the key to Maximillian's room.]
++{checked_door and not door_key or maximillian_door_key}[I'll keep this quiet- if you give me the key to Maximillian's room.]
 The key to- well- I suppose, given the present situation- just this once- I can permit you access to Maximillian's private quarters. I shall fetch it for you.
 ~door_key = true
 ~unlockItem("maximillian_door_key")
 Now I beg you to forget you ever saw those letters. I promise I shall never so recklessly sketch an ankle again! ->Start
 
 +[This is too juicy to pass up! It's going on the front page!]
-Please, sir. I beg you. I know I've made mistakes, I know I may deserve it. But please. <i>Please.</i> Consider come other course of action! ->Start
+Please, sir. I beg you. If my father find out...!
+<i>Please</i>. Consider some other course of action.->Start
 
-+[Okay. But it's gonna cost you a pretty penny...]
++{not dorothy_coins}[Okay. But it's gonna cost you a pretty penny...]
 Cost, sir? I'm not sure I understand. ->Extortion
 
 
@@ -332,11 +342,11 @@ Please, sir, you must believe me! ->Accuse
 +{brooch}[You stabbed the Admiral with his brooch then stashed it in the stables!]
 #portrait:maidshock
 But- sir! Oh heavens, I may faint-
-I couldn't possibly have done that! I was first to be by Avery's side, I would hardly-!
+I couldn't possibly have done that! I was first to be by Avery's side!
 You don't truly believe I murdered the Admiral, do you...? ->Accuse
 
 +[I don't have any more evidence, but I'll prove you killed him!]
-#portrait:maidshock
+#portrait:maidneutral
 Heavens, I must truly have been slacking on my duties if I could possibly be suspected of- offing poor Admiral Hold!
 Perhaps he was right about me.... ->Start  
 
