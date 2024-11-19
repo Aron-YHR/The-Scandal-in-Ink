@@ -789,6 +789,14 @@ PrefabInstance:
       propertyPath: isHid
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3727998547543468360, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: itemDetails.itemName
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727998547543468360, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: itemDetails.isEvidence
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Name
       value: Coins
