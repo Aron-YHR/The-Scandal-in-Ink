@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47b0dfe872fa64a4d893786726f0fd33, type: 3}
   m_Name: BillData_SO
   m_EditorClassIdentifier: 
-  gameLevel: 1
-  Savings: 78
-  Salary: 60
+  gameLevel: 0
+  Savings: 18
+  Salary: 0
   Misc_income: 0
-  Mines: 3
-  Mills: 3
+  Mines: 6
+  Mills: 6
   Rent: 6
-  Food: 3
-  Heat: 3
-  Medicine: 18
-  Schooling: 12
+  Food: 4
+  Heat: 4
+  Medicine: 10
+  Schooling: 10
   minesImpact: -2
   millsImpact: -2
   foodImpact: -1

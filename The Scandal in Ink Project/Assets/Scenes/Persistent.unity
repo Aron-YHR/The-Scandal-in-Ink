@@ -1278,7 +1278,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00009561411}
-  m_SizeDelta: {x: 0, y: 712.21}
+  m_SizeDelta: {x: 0, y: 1301.16}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &112899670
 MonoBehaviour:
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 120, y: 120}
-  m_Spacing: {x: 30, y: 30}
+  m_Spacing: {x: 100, y: 90}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &115719045
@@ -18526,7 +18526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1354023348
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22399,8 +22399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 56.779, y: 14.268}
-  m_SizeDelta: {x: 595.466, y: 683.677}
+  m_AnchoredPosition: {x: 56.779, y: -15.356}
+  m_SizeDelta: {x: 609.387, y: 669.287}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1644741262
 MonoBehaviour:
@@ -28316,7 +28316,7 @@ MonoBehaviour:
     m_Top: 10
     m_Bottom: 10
   m_ChildAlignment: 0
-  m_Spacing: 10
+  m_Spacing: 50
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -29065,8 +29065,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2143240580}
   m_HandleRect: {fileID: 0}
   m_Direction: 2
-  m_Value: 1.0000021
-  m_Size: 0.9599373
+  m_Value: 1
+  m_Size: 0.5143771
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

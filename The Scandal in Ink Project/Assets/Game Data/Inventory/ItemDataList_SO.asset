@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDetailsList:
   - itemName: 4
-    itemIcon: {fileID: 21300000, guid: bbc6c86941f95fe44b04e95f280b2819, type: 3}
+    itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: The candle is lighted...
+    itemInfo: The candle is still flickering...
   - itemName: 5
-    itemIcon: {fileID: 21300000, guid: 0eb5a74e5d2b0154a8681a89c3b262cb, type: 3}
+    itemIcon: {fileID: -131774863214608409, guid: fcccfd00065fe5f43b49d0bffda5c309, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -32,7 +32,7 @@ MonoBehaviour:
 
       The brooch appears to be missing one of its jewels...'
   - itemName: 6
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -4684013747395606549, guid: 91f80a72b34367d43a15aab2d8af1bd7, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -41,7 +41,7 @@ MonoBehaviour:
       Theodosia. The letter is dated the day before his death. The reason for the
       divorce is not listed. Or perhaps it was written on the other half of the page...?
   - itemName: 9
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 5640078138975803200, guid: 4f0ec1cdf1ed3a84f8cc15a96e506739, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
     itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood  runs
       from the windowsill towards the stables...
   - itemName: 12
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -3960259407536092533, guid: 8f29b4ad88eeea9459e904174a30762a, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -80,7 +80,7 @@ MonoBehaviour:
     itemInfo: A portrait of the Hold Family. A very large brooch is pinned to the
       Admiral's chest.
   - itemName: 14
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -8781457552448529170, guid: 1c0e7b1f3773a464198fdc79c1f83032, type: 3}
     value: 0
     isEvidence: 0
     notRecordedInJournal: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
       just above a window on the second floor. Several of its crossbars have been
       snapped in two, as though someone recently climbed up...
   - itemName: 7
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -3228228211830984768, guid: 58e425a0c7030b14dac387ea2d08d0b2, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
       a special letter somewhere secret. Like our love, its fiery passion is caged
       by day, but burns bright at night."'
   - itemName: 8
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 5640078138975803200, guid: 4f0ec1cdf1ed3a84f8cc15a96e506739, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -114,14 +114,14 @@ MonoBehaviour:
       me of you? Leave it in our secret spot. Like our love, its fiery passion is
       caged by day, but burns bright at night."'
   - itemName: 30
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 1095141833252711340, guid: b8d26be3f21e87145814c8080ad4b939, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
     itemInfo: A key to Max's room.
   - itemName: 17
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -3685960203100951634, guid: d28b9d73e9fa95c4192e85808d3e3414, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
     itemInfo: A messy pile of hay covered in blood. You think the killer may have
       tried to wipe the blood from their hands here...
   - itemName: 23
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -4870426323989635024, guid: 8a36fc6c83cfb774d8e4662e3d353346, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
     itemInfo: 'A copy of The Iliad. The inside of the front cover reads: "Property
       of Avery Hold"'
   - itemName: 28
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -2201274645948157514, guid: b8f3f32b533cf5e4eaeb3a5818714e33, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
 
 '
   - itemName: 19
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 2991606661771570988, guid: 181cfcf08d36e184e8bd98467fa1d0a2, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
       at which point she will be removed from Wenchwatch Hall. The letter cites poor
       performance as the reason for dismissal.
   - itemName: 20
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 1593745568866057959, guid: 1bdc8a13e7bf2bc448966f8122fb8c67, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -204,14 +204,14 @@ MonoBehaviour:
       It
       appears to be covered in horse hair'
   - itemName: 24
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -6432330495511635143, guid: 4fd0b167ee321bc4fa7d7a727caff577, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
     itemInfo: A light pink shade of lipstick found in Theodosia's purse.
   - itemName: 25
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -6432330495511635143, guid: 4fd0b167ee321bc4fa7d7a727caff577, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
     itemInfo: A strange pink mark on Maximillian's neck. It appears to be a lipstick
       smudge...
   - itemName: 22
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 8003260396191338441, guid: 97e8321f1761ad34abbc0fcba434030b, type: 3}
     value: 6
     isEvidence: 1
     notRecordedInJournal: 0

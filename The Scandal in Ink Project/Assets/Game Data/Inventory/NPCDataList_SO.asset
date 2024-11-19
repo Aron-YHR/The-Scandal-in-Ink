@@ -101,8 +101,8 @@ MonoBehaviour:
     - statementLine: 7.
       isUnlocked: 0
   - npcName: 2
-    npcIcon: {fileID: 4523360286148163110, guid: eeeffc9f31c5e254ab5165c5d29004f6, type: 3}
-    npcPortrait: {fileID: 4523360286148163110, guid: eeeffc9f31c5e254ab5165c5d29004f6, type: 3}
+    npcIcon: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
+    npcPortrait: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
     location: Study
     npcInfo: The stable hand of Wenchwatch Hall.
     npcStatements:

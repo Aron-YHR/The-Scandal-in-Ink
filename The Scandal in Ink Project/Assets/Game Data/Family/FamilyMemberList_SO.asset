@@ -16,7 +16,7 @@ MonoBehaviour:
   - name: MARY
     wellbeing: 3
     isDead: 0
-    state: 3
+    state: 0
     familyMemberImages:
     - {fileID: -7277809227901697669, guid: d1ca3d4e506b5d04385bf5e7ab9e9ac8, type: 3}
     - {fileID: -986308017346884315, guid: 56735693f7d449542bd8413e9cc8db84, type: 3}
@@ -26,7 +26,7 @@ MonoBehaviour:
   - name: OLIVER
     wellbeing: 3
     isDead: 0
-    state: 3
+    state: 1
     familyMemberImages:
     - {fileID: -5122665220568138937, guid: 8b532ce8a67d5a743a7582b3947127cb, type: 3}
     - {fileID: -9172551177008838433, guid: 5d8e514c98966e74fa2734f72f0457c7, type: 3}
@@ -36,7 +36,7 @@ MonoBehaviour:
   - name: MARGARET
     wellbeing: 3
     isDead: 0
-    state: 3
+    state: 4
     familyMemberImages:
     - {fileID: -683011352893483147, guid: 5e8429a0753672643b5ef7f04325fbf3, type: 3}
     - {fileID: -4424947819278837998, guid: 86d46ce4977aed242a95e29f9175ca26, type: 3}
