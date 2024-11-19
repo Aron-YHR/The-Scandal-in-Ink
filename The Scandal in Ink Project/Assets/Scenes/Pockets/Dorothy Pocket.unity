@@ -466,7 +466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1096677721
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -597,11 +597,13 @@ MonoBehaviour:
   itemDetails:
     itemName: 29
     itemIcon: {fileID: 0}
-    isEvidence: 0
     value: 0
+    isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 
-  isHide: 1
   isClicked: 0
+  isHid: 0
 --- !u!1 &1251968467
 GameObject:
   m_ObjectHideFlags: 0

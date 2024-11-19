@@ -159,8 +159,10 @@ Ahem.
 -> You_Fucked_Up
 
 =You_Fucked_Up
+#speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
 Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker Dorothy Tendwell
 +[Yes ma'am. Sorry ma'am. Sorry Avery.]
+#speaker: Avery Hold #layout:right #portrait:childneutral
 'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker Avery Hold
 ++[Let's talk about something else.]
 Indeed. ->Start
