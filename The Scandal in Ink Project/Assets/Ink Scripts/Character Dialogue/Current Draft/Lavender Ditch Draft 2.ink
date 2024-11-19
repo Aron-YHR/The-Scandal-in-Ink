@@ -16,7 +16,7 @@ INCLUDE Secrets.ink
 
 
 *[Where were you the night of the murder?]
-That's no concern of yours.
+That's none of your business.
 ->Start
 
 
@@ -50,7 +50,7 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 And why would I do a thing like that?
 ->Accuse
 
-+[Leave]
++[<i>Leave.</i>]
 ->DONE
 
 
