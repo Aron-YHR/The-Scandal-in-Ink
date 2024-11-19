@@ -89,7 +89,7 @@ Only the familial emblem brazenly torn from the admiralty's coatee. I can only c
 But to dispatch my noble Father... Would a petty thief truly debauch their mortal souls for mere coin? ->Night_Of_Murder
 
 +[Let's talk about something else.]
-As Heracles did heed Eurystheus' deeds, so shall I comply.->Start 
+As Heracles did heed Eurystheus' commands, so too shall I comply.->Start 
 
 ===Relationship===
 
