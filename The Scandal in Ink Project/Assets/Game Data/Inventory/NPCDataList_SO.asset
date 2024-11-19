@@ -34,7 +34,8 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 6. Says she is suspicious of Lavender Ditch, the stable hand.
       isUnlocked: 0
-    - statementLine: 7. Says she was wearing Maximillian's gloves all day yesterday.
+    - statementLine: 7. Says she believes she was wearing Maximillian's gloves since
+        yesterday.
       isUnlocked: 0
   - npcName: 6
     npcIcon: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
@@ -46,7 +47,7 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 2. Has confessed that she was in bed with Lavender last night.
       isUnlocked: 0
-    - statementLine: Says Theodosia was wearing Maximillian's gloves yesterday.
+    - statementLine: 3. Says Theodosia was wearing Maximillian's gloves yesterday.
       isUnlocked: 0
     - statementLine: 4. Says Maximillian has made lustful advances towards her.
       isUnlocked: 0
@@ -90,15 +91,15 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 2. Says he does not trust Lavender Ditch.
       isUnlocked: 0
-    - statementLine: 
+    - statementLine: 3. Says he has lost his room key.
       isUnlocked: 0
-    - statementLine: 4.
+    - statementLine: 4. Says he slept through his brother's murder.
       isUnlocked: 0
     - statementLine: 5.
       isUnlocked: 0
-    - statementLine: Maximillian denies having an affair with Theodosia.
+    - statementLine: 6.  denies having an affair with Theodosia.
       isUnlocked: 0
-    - statementLine: 7.
+    - statementLine: 
       isUnlocked: 0
   - npcName: 2
     npcIcon: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}

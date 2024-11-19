@@ -28,6 +28,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Animator vicePortraitAnimator;
     private Animator layoutAnimator;
 
+    
+
     [Header("Choices UI")]
     // any number of choices
     [SerializeField] public GameObject[] choices;
@@ -112,7 +114,6 @@ public class DialogueManager : MonoBehaviour
         {
             ContinueStory();
         }*/
-
         
     }
 

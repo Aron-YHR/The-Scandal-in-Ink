@@ -15,12 +15,11 @@ INCLUDE Secrets.ink
 
 
 
-*[Where were you the night of the murder?]
-That's none of your business.
-->Start
+*{not lavender_confession}[Where were you the night of the murder?]
+That's none of your &$%"!@*! business! ->Start
 
 
-*[Tell me about your relationship with the Admiral.]
+*{not lavender_confession}[Tell me about your relationship with the Admiral.]
 He paid me to tend the horses. I tend the horses. Nothing more than that.
 Can you get through that thick newsmonger skull of yours, hah? -> Start
 
@@ -47,8 +46,7 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 
 
 +[It was <i>you</i>! You killed the Admiral!]
-And why would I do a thing like that?
-->Accuse
+And why would I do a thing like that? ->Accuse
 
 +[<i>Leave.</i>]
 ->DONE
@@ -111,8 +109,8 @@ Alright. It's true. Me and Dorothy, we're- together.
 Just- please keep that to yourself.
 I know that's not in your nature, you being a gossip monger and all. It's just-
 We've been doing our best to keep it quiet.
-I've seen what happens to the men who fancy each other's company.
-I'd not like to find out what'd happen to us... ->Letters_Discovered
+I've seen how people round here treat men who fancy each other's company.
+I'd not like to find out how they'd treat us... ->Letters_Discovered
 
 
 *[Is this what you've been hiding?]
@@ -140,7 +138,7 @@ I promised I wouldn't say anything... ->Lavender_Tells_All
 
 
 *[Just tell me already!]
- #portrait:stablehandneutral
+ #portrait:stablehandnegative
 ->Affair_Revealed
 
 
@@ -159,8 +157,10 @@ I promised I wouldn't say anything... ->Lavender_Tells_All
 
 =Affair_Revealed
 
-Fine.
-Well- the other day- the Lady Hold and Sir Max were out for their weekly horse ride. Now ususally, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.
+Alright.
+ #portrait:stablehandneutral
+The other day- the Lady Hold and Sir Max were out for their weekly horse ride. 
+Now ususally, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.  #portrait:stablehandneutral
 Only, when I got to the stables, I found the Lady and Max- I found them in an awkward-
 ~lavender_confession = true
 ~affair_revealed = true
@@ -210,9 +210,10 @@ They were in such a panic, I could've sworn they were putting on each other's cl
 ~ unlockStatement("Lavender_Ditch",4)
 I ran off to tell the Admiral what I saw. He was furious. I've never seen a man that mad in all my life.
 Then the Lady Hold this morning, before you arrived, she pulled me aside. She seemed to know you were coming...
-See, she said she knew about me and Dot. Said she'd have us both dismissed if I didn't keep hush about what I saw.
+See, she said she knew about me and Dot. Said she'd slander us in the papers and have us both dismissed if I didn't keep hush about what I saw.
+#portrait:stablehandnegative
 Now that uppity ol' $@&%!@ can do what she likes to me, but...
-I can't let that happen to Dot. She needs the money. And she loves caring for the little lad...
+I can't let that happen to Dot. She needs the money. And she loves caring for the little lad... #portrait:stablehandneutral
 Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informed_P2
 
 
@@ -225,7 +226,7 @@ Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informe
 I can't prove they were shagging, no. But...
 I wasn't actually on my own last night... I was in Dot's rooom. In her bed. With not a lot of... 
 ~ unlockStatement("Lavender_Ditch",5)
-Let's just say I was in an awkward position.
+Let's just say I was stuck in an awkward position.
 That's why I didn't follow after Dorothy when the little lad screamed.->The_Admiral_Informed_P2
 
 
@@ -238,7 +239,7 @@ I don't think so. Don't think she has it in her.
 Besides, I could hear her crying her eyes out all bloody night. ->The_Admiral_Informed_P2
 
 
-*[This is clearly all lies. Lesbians aren't real!]
+*[This is clearly all lies. Lesbians aren't even real!]
 #portrait:stablehandnegative
 ... ->The_Admiral_Informed_P2
 
@@ -260,7 +261,7 @@ And from what she tells me, Dot's family aren't...
 ->Examination
 
 +[<i>Examine her face.]
-<i> While her face is generally clean, a large amount of hay has become caught up in her hair. She seems agitated.  
+<i> While her face is generally clean, a large amount of hay has become caught up in her hair.</i>
 -> Examination
 
 +[<i>Examine her clothing.]
