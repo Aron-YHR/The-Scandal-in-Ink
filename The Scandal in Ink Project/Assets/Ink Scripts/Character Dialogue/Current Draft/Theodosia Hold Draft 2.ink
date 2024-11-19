@@ -127,7 +127,7 @@ Indeed. ->Relationship
 
 +[Why were you crying?]
 #portrait:theladyneutral
-I was engaged in vigorous discussion with my husband Charles yesterday evening. This was before he died, you see. It left me quite overwhelmed.
+I was engaged in a dispute with my husband Charles yesterday evening. A rather vigorous dispute. This was before he was dead, you see.
 ~ unlockStatement("Theodosia_Hold", 1)
 ~argument = true
 A foolish decision on my part to engage in such a discussion. It is most harmful to a lady's health to engage in any activity which can be considered <i>vigorous</i>.
