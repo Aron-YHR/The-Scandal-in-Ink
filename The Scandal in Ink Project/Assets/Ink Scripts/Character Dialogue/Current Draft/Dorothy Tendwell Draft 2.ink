@@ -8,9 +8,10 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-  {TURNS_SINCE(-> INTRO) == 0: How might I help, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidpositive
+  {TURNS_SINCE(-> INTRO) == 0: How might I help, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidneutral
 
 +[Where were you the night of the murder?]
+#portrait:maidnegative
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
 ~unlockStatement("Dorothy_Tendwell", 1)
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
@@ -36,7 +37,6 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 #portrait:maidshock
 Um- No sir, I- I wasn't. Do you- know he reason why?
 **[Something about a late breakfast.]
-#portrait:maidnegative
 ...I knew that shameful incident would come back to haunt me one day.
 No, sir, I was not aware of the Admiral's intentions. ->Start
 
@@ -82,7 +82,6 @@ Lady Hold has often tells me she considers it is vulgar when servants make exces
 +[Avery was first at the scene. Could he have been involved in the Admiral's death?]
 #portrait:maidshock
 <i>Sir!</i>
-#portrait:maidnegative
 Young Master Avery is a <i>child</i>! Hardly eight years of age! To imply that he could have had a hand in good Admiral Hold's- in his-
 ~ unlockStatement("Dorothy_Tendwell",7)
 Well, it's simply-
@@ -152,14 +151,20 @@ Well, I did notice that the Admiral's brooch was missing.
 He was very fond of the family crest. I hardly ever saw him without it.->Suspicious
 
 *[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
+#portrait:maidshock
 Lady Hold would <i>never</i> involve herself in such a horrid affair! Besides, she confined herself to her room after her argument with the Admiral.
+#portrait:maidnegative
 Poor Lady Hold. She would never dare admit it, but that fight left her terribly shaken. We could hear her crying throughout the night.
 
-**[We?]
-{dorothy_confession:Um... Lavender and I were together last night, sir. As you know.}
-{not dorothy_confession: Uh- the royal we, sir! Silly me! Lady Hold is always chastising me for speaking above my station!} #portrait:maidshock
-->Suspicious
+**[We? Was someone with you last night?]
 
+{ dorothy_confession:
+	Um... Lavender and I were together last night, sir. As you know. #portrait:maidneutral
+- else:
+	Uh- the royal we, sir! Silly me! Lady Hold is always chastising me for speaking above my station! #portrait:maidshock
+}
+#portrait:maidneutral
+Any other questions, sir? ->Suspicious
 **[Let's move on.]
 #portrait:maidneutral
 As you say. -> Suspicious

@@ -199,10 +199,8 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: 'A rather stale jam scone found in Avery Hold''s back pocket.
-
-      It
-      appears to be covered in horse hair'
+    itemInfo: A rather stale jam scone found in Avery Hold's back pocket. It appears
+      to be covered in horse hair.
   - itemName: 24
     itemIcon: {fileID: -6432330495511635143, guid: 4fd0b167ee321bc4fa7d7a727caff577, type: 3}
     value: 0
@@ -226,11 +224,3 @@ MonoBehaviour:
     notPickedUp: 0
     itemInfo: A pile of coins taken from Dorothy. There must be at least a week's
       wages here...
-  - itemName: 20
-    itemIcon: {fileID: 1593745568866057959, guid: 1bdc8a13e7bf2bc448966f8122fb8c67, type: 3}
-    value: 6
-    isEvidence: 1
-    notRecordedInJournal: 0
-    notPickedUp: 0
-    itemInfo: An old jam scone found in Avery's pocket. It appears to be covered
-      in horse hair.
