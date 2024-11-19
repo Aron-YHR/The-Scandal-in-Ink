@@ -6,142 +6,128 @@ INCLUDE Secrets.ink
 ->INTRO
 
 ===INTRO===
+#portrait:fopneutral
 -> Start
 
 === Start ===
-{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right #portrait:fopneutral
+{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right 
 
 +[Where were you the night of the murder?]
 I retired early to my chambers last night. The horseback ride earlier that day rather drained me.
 ~ unlockStatement("Maximillian_Hold",1)
-<i>Curse</i> my athleticism! Had I only known what would befall poor Charles!
-
-->Night_Of_Murder
+<i>Curse</i> my athleticism! Had I only known what would befall poor Charles! ->Night_Of_Murder
 
 
 +[Have you noticed anything suspicious?]
-Oh, you journalist types- such terrible tattlers! I am normally not one for idle gossip, but for you I shall make an exception!
-->Suspicions
+#portrait:foppositive
+Oh, you journalist types- such terrible tattlers! I am normally not one for idle gossip, but for you I shall make an exception! ->Suspicions
 
 
 +[How was your relationship with your brother?]
-Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon!
--> Relationship
+Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon! -> Relationship
 
-+[What the hell are you wearing?!]
-Curse that sharp journalist eye of yours, sir! Yes, I admit it! I am most scandalously underdressed.
+*[What the hell are you wearing?!]
+Curse that sharp journalistic eye of yours, sir! Yes, I admit it! I am most scandalously underdressed.
 In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves!
 I tried to pass of my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
-Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian, in front of a journalist no less! I can hardly tell which is worse.
--> Start
+Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian and a fraud, in front of a journalist no less! I can hardly tell which is worse. -> Start
 
 *{checked_door and not maximillian_door_key or door_key}[Can I have the key to your room?]
-Why- of course! I will give it to this instant- #portrait:fopshock
+Why- of course! I would give it to this very instant- #portrait:fopshock
+~unlockStatement("Maximillian_Hold", 3)
 #portrait:fopneutral
 Had I not- lost it! Yes! Aha! Foolish me, to misplace it so! I'm sure you shall find it lying about the manor somewhere. ->Start
 
 *{affair_revealed}[I know about your affair with Theodosia.]
-Moi? In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir!
-->Affair_Revealed
+Moi? In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir! ->Affair_Revealed
 
 +[It was you! You killed the Admiral!]
-Moi, sir? Kill my dear brother? What could possibly have brought you to such an outrageous conclusion? Where is the proof of me committing such a horrendous act?
-->Accuse
+Moi, sir? Kill my dear brother? What could possibly have brought you to such an outrageous conclusion? Where is the proof of me committing such a horrendous act? ->Accuse
 
 +[<i> Examine the suspect more closely. </i>]
-<i> You subtly inspect Maximillian for clues.</i>
-->Examination
+<i> You subtly inspect Maximillian for clues.</i> ->Examination
 
-
-+[Leave.]
++[<i>Leave.</i>]
 -> END
 
 === Relationship ===
 
 +[Chuck?]
 My pet name for him. The great Admiral Chuck Hold!
-He despised my pet names. I can't possibly imagine why. His Naval comrades thought them most endearing.
--> Relationship
-
+He despised my pet names. I can't possibly imagine why. His Naval comrades thought them most endearing. -> Relationship
 
 +[So, you two were close?]
-Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you!
-->Relationship
+Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you! ->Relationship
 
 +[Let's move on.]
-Whatever you wish, mon cheri!
-->Start
+Whatever you wish, mon cheri! ->Start
 
 
 === Night_Of_Murder ===
 
 +[Did you hear anything unusual from your bedroom?]
 Alas, I slept soundly through the whole dreadful affair.
-Would that I had heard that devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword by the shaft, and given the devil a good thrusting!
-->hear_response
+~unlockStatement("Maximillian_Hold", 4)
+Would that I had heard that devil strike my dear brother, I can assure you I would have leapt forward in naught but my undergarments, grabbed my sword by the shaft, and given the devil a good thrusting!->hear_response
 
 +[When did you discover the body?]
 Oh, such a frightful thought! I was roused from my sleep by a most terrible scream from the young master Avery. 
-I ran to the dear boy's aid with the utmost urgency, pausing only to dress and paint my face in the most slapdash manner. Alas, by the time I arrived, the deed had been done! 
-->Night_Of_Murder
-
+I ran to the dear boy's aid with the utmost urgency, pausing only to dress and paint my face in the most slapdash manner. Alas, by the time I arrived, the deed had been done! ->Night_Of_Murder
 
 +[Let's talk about something else.]
 But of course. ->Start
 
 
-
 =hear_response
 +[I'm sure you would have.]
-Why of course! There is nothing more thoroughly manly than taking hold of a shaft and engaging in some energetic swordplay!
-->Night_Of_Murder
+Why of course! There is nothing more thoroughly manly than taking hold of a shaft and engaging in some energetic swordplay! ->Night_Of_Murder
 
 +[You need to work on your phrasing.]
-I couldn't possibly know what you mean, my dear fellow! All my chums at the gentleman's club insist that I have a most playful and dextrous tongue!
-->Night_Of_Murder
+I couldn't possibly know what you mean, my dear fellow! All my chums at the gentleman's club insist that I have a most playful and dextrous tongue! ->Night_Of_Murder
 
-+[Let's move to another topic. Quickly]
-->Night_Of_Murder
++[Let's move to another topic. Quickly.]
+If you insist, mon chéri! ->Night_Of_Murder
 
 
 === Suspicions ===
 +[Did your brother have any enemies?]
-I do hate to slander the name of another, but given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch.
-~ unlockStatement("Maximillian_Hold",1)
-->Ditch
+#portrait:fopneutral
+I do <i>hate</i> to resort to slander, but given the circumstances, I must admit I have had some concerns regarding the stable hand, Ms. Ditch. ->Ditch
 
 +[Did you notice anything unusual about the murder?]
+#portrait:fopneutral
 Ah, I can hardly bear to gaze upon my darling Chuck's form. Ah! To perish in such an unflattering position, and in such garishly red attire! I warned my dear brother many times that red merely accentuated his ruddy complexion. 
 He did not take kindly to my suggestions. Alas, Admiral Hold charted his own course in matters of style. 
 ->Suspicions
 
 
 +[Let's talk about something else.]
-Of course, mon cheri!
--> Start
+#portrait:fopneutral
+Of course, mon chéri! -> Start
 
 
 =Ditch
 
 +[Did the Admiral have any issues with Ms. Ditch?]
 My dearest departed brother did find her difficult. He spoke often of the dire conditions of the stables and characterised Ms. Hand as slovenly and sullen.
-And to speak personally for but a frief moment, she simply <i>has</i> to do something about her hair. I fear birds may soon start roosting within its tangles.
+~ unlockStatement("Maximillian_Hold",1)
+And to speak personally for but a brief moment, she simply <i>has</i> to do something about her hair. I fear birds may soon start roosting within its tangles.
 -> Ditch
     
 +[Do you think Ms. Ditch could have killed the Admiral?]
-I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty. A most alarming thing to do.
--> Ditch
+I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty.
+~ unlockStatement("Maximillian_Hold",1)
+A most alarming thing to do.-> Ditch
 
 +[Did you notice anything else suspicious?]
-Such as?
--> Suspicions
+Such as, my good man? -> Suspicions
 
 
 === Affair_Revealed ===
 *{lavender_confession}[Lavender told me she saw you in the stables with Theodosia.]
 ~ unlockStatement("Maximillian_Hold",6)
 Ah, you've been speaking to the stable hand, have you? 
-I daresay she is not the most <i>reliable</i> source, sir. I do hate to gossip, but I fear the dear girl spends more time at the bottom of a brandy bottle than she does in reality, so to speak!
+I daresay she is not the most <i>reliable</i> source, sir. I do hate to gossip, but I fear the dear girl spends more time at the bottom of a brandy bottle than she does in reality!
 By which I mean she's a terrible drunk.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!
 ->Start
@@ -154,10 +140,12 @@ I know what you're thinking- a humorous woman, in this day and age? Quite unhear
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
-Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, particularly for my more- delicate- areas. I'm sure you as a gentleman can understand that.
+~ unlockStatement("Maximillian_Hold",6)
+Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. I'm sure you as a gentleman can understand that.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *[You lust after her! I can see it in your eyes!]
+~ unlockStatement("Maximillian_Hold",6)
 <i>Curse</i> my womanizing ways! 'Tis true, I have oft admired dear Theodosia's beauty- but only from afar!
 How could a man <i>not</i> gaze fondly upon such a beauty as Theodosia?
 But such an act is entirely normal for a red-blooded man in his prime!
@@ -279,9 +267,10 @@ I- I- I-!
 ...
 Well, aren't you a clever little commoner. #speaker: Maximillian Hold #portrait:fopnegative
 You've performed a very <i>thorough</i> investigation, haven't you?
-I admit, this must seem terribly suspicious from your perspective. But I can assure you, there is a perfectly logical explanation for all these unfortunate findings of yours.
-You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her murderous clutches!
-Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culprit! I'm sure you and that <i>prestigious</i> paper of yours will come to that same conclusion, given the right... input. 
+I admit, this must seem terribly suspicious from your perspective. But I can assure you, there is a perfectly logical explanation for all these unfortunate findings of yours. #speaker: Maximillian Hold #portrait:foppositive
+You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her thieving, murderous clutches!
+Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culprit! She killed my dear brother so that she could steal our precious family heirloom! 
+I'm sure your investigation will come to that same conclusion, given the right... input, yes?
 
 +[What are you getting at?]
 ->Bargaining_Cont
@@ -290,18 +279,15 @@ Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culpri
 ->Bargaining_Cont
 
 +[Are you trying to bribe me?!]
-Oh heavens, sir! Bribery? Moi? Never!
+Oh heavens! Bribery? Moi? Never!
 ->Bargaining_Cont
 
 
 
 
 
-
-
-
 =Bargaining_Cont
-I am merely waxing lyrical! How <i>tricky</i> a thing the truth is to pin down, wouldn't you agree? Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
+I am merely waxing lyrical, sir! How <i>tricky</i> a thing the truth is to pin down, wouldn't you agree? Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
 Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative? Particularly for a family man such as yourrself...
 
 
@@ -323,7 +309,7 @@ Yes yes, fascinating. Focus back on me, please.
 
 =Bargaining_Final
 I shall let you know a secret. Given my dear brother's untimely passing, I think it my obligation to protect the family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
-I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.That is assuming the <i>true</i> killer of my brother is found. And of course, assuming our family name remains unstained by rumours. Rumours of affairs and infidelity, for example.
+I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.That is assuming the <i>true</i> killer of my brother is found. 
 Does that sound amiable to you, sir?
 
 
