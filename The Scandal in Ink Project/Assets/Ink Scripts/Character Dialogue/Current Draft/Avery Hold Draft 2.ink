@@ -2,6 +2,7 @@ INCLUDE Secrets.ink
 
 ->INTRO
 ===INTRO===
+#speaker:Avery Hold #layout:right #portrait:childneutral
 -> Start
 
 
@@ -9,7 +10,7 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: Salutations, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} #speaker: Avery Hold #portrait:childneutral
+{TURNS_SINCE(-> INTRO) == 0: Salutations, good sir, on this most melancholy of morns! You are the purveyor of the printed word that hast descended upon my most humble abode, I presume?} 
 
 +[Ms. Tendwell said you were first to discover the body. Is that true?]
 'Tis true! As Theseus did witness his dear father Aegeus' perilous precipitation from the Acropolis, so too was I first to discover the end of our dear paterfamilias!  #speaker: Avery Hold #portrait:childnegative
@@ -18,32 +19,35 @@ Roused from slumber was I by a most discomfiting cacophony emanating from my pro
 Compelled was I by divine providence to hasten to my father's side. Alas, I was too late. I came upon my father's bloodied form, his body and spirit cleft in twain, ne'er to be made whole. 
 And thus was my juvenescence brought to a tragic close. ->Night_Of_Murder
 
-+[Kid, I can't understand a single word you're saying.]
+
+//CHANGE THIS TO A PLUS IF YOU IMPLEMENT DOROTHY CHATTING WITH YOU!
+*[Kid, I can't understand a single word you're saying.]
 ->Call_Dorothy
 
-+{jam_scone}[Avery, why is there a jam scone in your pocket?]
-Working.
-->DONE
-
+*{jam_scone}[Avery, why was there a jam scone in your pocket?]
+Ah, yes. The jam scone. A confection I once coveted highly. Too highly...
+You see, in truth, 'twas my father's scone, which I purloined in a moment of avarice.
+For my misdeed, my father did hand down a most severe punishment. The confiscation of my most treasured possession...
+My copy of Alexander Pope's seminal translation of <i>The Iliad</i>.
+~ unlockStatement("Avery_Hold", 7)
+~avery_book_confession = true
+#portrait:childnegative
+A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
+Yet in light of recent events, it doth seem such a petty squabble... ->Start
 
 +[Tell me about your family life.]
 Pray tell, what precisely intrigues you so? -> Relationship
 
 
-*{iliad_confiscated}[Did your father confiscate your book?]
+*{iliad_confiscated and not avery_book_confession}[Did your father confiscate your book?]
 Ah, yes. A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
 ~avery_book_confession = true
 ~ unlockStatement("Avery_Hold", 7)
-Yet in light of recent events, it does seem such a petty squabble...
-
-
-
-
-
+Yet in light of recent events, it seems such a petty squabble...
 ->Start
 
-+[It was you! You killed the Admiral!]
-Am I to understand, sir that, you intend to level an accusation of patricide against me?
++{not avery_cried}[It was you! You killed the Admiral!]
+Am I to understand, sir that, you intend to level an accusation of patricide against me? #portrait:childshock
 For what reason?
 ->Accuse
 
@@ -140,10 +144,11 @@ TBC
 
 
 =Crying
-...
-Waaaaaaaah! Waaaaaaaaaaah! Dorothy! Mommy!
-He said he's gonna hang meeeeee! 
-WAAAAAAAAH!
+... #portrait:childshock
+~avery_cried = true
+Waaaaaaaah! Waaaaaaaaaaah! Dorothy! Mommy! #portrait:childnegative
+He's scaring meeeeee! 
+<i>WAAAAAAAAH!</i>
 
 +[Oh shit.]
 WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
@@ -159,16 +164,14 @@ WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
 -> You_Fucked_Up
 
 +[<i>Run away.</i>]
-Ahem.
+A moment of your time, if you please. #speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
 -> You_Fucked_Up
 
 =You_Fucked_Up
-#speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
-Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker Dorothy Tendwell
-+[Yes ma'am. Sorry ma'am. Sorry Avery.]
-#speaker: Avery Hold #layout:right #portrait:childneutral
-'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker Avery Hold
-++[Let's talk about something else.]
+Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
+*[Yes ma'am. Sorry ma'am. Sorry Avery.]
+'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker: Avery Hold #layout:right #portrait:childneutral
+**[Let's talk about something else.]
 Indeed. ->Start
 
 ===Examination===
