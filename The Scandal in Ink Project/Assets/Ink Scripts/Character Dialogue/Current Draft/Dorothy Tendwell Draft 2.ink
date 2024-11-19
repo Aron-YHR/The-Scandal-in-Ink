@@ -33,16 +33,20 @@ Admiral Hold was an excellent employer. He provided me with clean lodgings, a wa
 *{ankle_letter and not extort_Dorothy}[Ms. Tendwell, I found this letter you wrote...] ->Lesbians_Revealed
 
 *{theodosia_note}[Were you aware the Admiral intended to fire you?]
-Um- No sir, I wasn't. That is terribly surprising...
-->Start
+#portrait:maidshock
+Um- No sir, I- I wasn't. Do you- know he reason why?
+**[Something about a late breakfast.]
+#portrait:maidnegative
+...I knew that shameful incident would come back to haunt me one day.
+No, sir, I was not aware of the Admiral's intentions. ->Start
 
 +[<i>Examine the suspect.</i>]
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
 
 
-*{letter_of_dismissal}[I found your letter of dismissal.]
+/*{letter_of_dismissal}[I found this letter of dismissal.]
 But I- where did you find that?
-->Dismissal
+->Dismissal*/
 
 +[It was you! You killed the Admiral!]
 M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
@@ -109,7 +113,8 @@ Of course, sir.
 
 =Lustful
 +[Has Maximillian made inappropriate advances towards you?]
-I'm afraid so. Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
+I'm afraid so. He seems to be rather- <i>fond</i>- of the company of women.
+Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
 But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law. 
 I could hardly believe a man with such a noble reputation could have such a- philanderer, to be quite frank!
 ~ unlockStatement("Dorothy_Tendwell", 4)
@@ -117,6 +122,7 @@ I could hardly believe a man with such a noble reputation could have such a- phi
 
 +[Wait, you mean the gay guy in the wig?!]
 Sir Maximillian is a very happy and joyous gentleman, sir, I quite agree. I only wish his behaviour was more gentlemanly. 
+He seems to be rather- <i>fond</i>- of the company of women.
 Only last week, he- he placed his <i>hand</i> upon my <i>shoulder</i>! I nearly fainted from the shock.
 But please do keep that to yourself, sir. I know Lady Hold would be terrible disappointed to discover I was involved in such an obscenity with her brother-in-law. 
 I could hardly believe a man with such a noble reputation could have such a- philanderer, to be quite frank!
@@ -135,7 +141,7 @@ As you wish, sir.
 Well, young master Avery was admittedly somewhat displeased that the Admiral confiscated his copy of the Iliad.
 ~iliad_confiscated = true
 But that is hardly reason to suspect a small child of- well, <i>that</i>.
-Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very kindly...
+Barring that, I can't think of a single reason for anyone to dislike Charles. He was- very noble...
 ->Suspicious
 
 
@@ -145,9 +151,17 @@ He was very fond of the family crest. I hardly ever saw him without it.
 ~unlockStatement("Admiral_Charles_Hold", 3)
 ->Suspicious
 
-+[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
-Lady Hold would <i>never</i> involve herself in such a horrid affair! Besides, she confined herself to her room for most of the night.
-Poor Lady Hold. She would never dare admit it, but she was terribly upset over her argument with Charles. I could hear her weeping from my quarters.
+*[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
+Lady Hold would <i>never</i> involve herself in such a horrid affair! Besides, she confined herself to her room after her argument with the Admiral.
+Poor Lady Hold. She would never dare admit it, but that fight left her terribly shaken. We could hear her crying throughout the night.
+
+**[We?]
+{dorothy_confession:Um... Lavender and I were together last night, sir. As you know.}
+{not dorothy_confession: Uh- the royal we, sir! Silly me! I'm prone to flights of fancy now and then!}
+->Suspicious
+
+**[Let's move on.]
+As you say.
 -> Suspicious
 
 +[Let's talk about something else.]
@@ -309,30 +323,36 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-+{letter_of_dismissal}[The Admiral fired you! You killed him for revenge, didn't you!]
++{theodosia_note}[You knew the Amiral was going to fire you, so you killed him out of revenge!]
+#portrait:maidshock
 But- I- I would never! 
-Yes, I took the letter, but I would never do such a horrid thing!
+I didn't even know he intended to fire me!
 Please, sir, you must believe me! ->Accuse
 
 +{brooch}[You stabbed the Admiral with his brooch then stashed it in the stables!]
+#portrait:maidshock
 But- sir! Oh heavens, I may faint-
 I couldn't possibly have done that! I was first to be by Avery's side, I would hardly-!
 You don't truly believe I murdered the Admiral, do you...? ->Accuse
 
 +[I don't have any more evidence, but I'll prove you killed him!]
+#portrait:maidshock
 Heavens, I must truly have been slacking on my duties if I could possibly be suspected of- offing poor Admiral Hold!
 Perhaps he was right about me.... ->Start  
 
 
 
 +[Forget I said that.]
-Well, if you say so, sir.->Start
+#portrait:maidsnegative
+I shall do my best to do so, sir.->Start
 
 
-
+/*
 ===Dismissal===
 
-*[The Admiral fired you? Why are you still here?]
+*[The Admiral fired Lavender? Why do you have this?]
+I- I can explain!
+You see, sir- it's true. 
 ->DONE
 
 
@@ -347,4 +367,4 @@ Well, if you say so, sir.->Start
 
 *[You killed the Admiral because he fired you! I always suspected as much!]
 ->DONE
-
+*/
