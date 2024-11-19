@@ -46,21 +46,21 @@ Sir Maximillian, it seems that the Admiral requested to speak to the gentleman h
 Apparently he had a story he felt important to share with the Weekly Wag- and the wider world. 
 
 
-A journalist, you say? #speaker: Theodosia Hold #layout:left #portrait:theladyneutral
+A journalist, you say? #speaker:??? #layout:left #portrait:theladyneutral
 How enterprising of Charles to summon a newspaperman to Wenchwatch Hall in anticipation of his own murder.
 Such was the nature of my late husband- always a most forward-thinking fellow.
 
 
 Lady Hold! You should be resting! #speaker:Dorothy Tendwell #layout:right #portrait:maidshock
 
-Dorothy, I assure you, I am most well rested. One of the few benefits of widowhood is a night's sleep free of <i>affectionate</i> advances from one's husband. #speaker: Theodosia_Hold #layout:left #portrait:theladynegative
+Dorothy, I assure you, I am most well rested. One of the few benefits of widowhood is a night's sleep free of <i>affectionate</i> advances from one's husband. #speaker: Theodosia Hold #layout:left #portrait:theladynegative
 
 Yes, Lady Hold, of course. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
 Introducing Lady Theodosia Hold, sir. Wife of the late Admiral. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-A pleasure to meet you, sir. I am an avid fan of your publication. Dorothy oft reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia_Hold #layout:left #portrait:theladypositive
+A pleasure to meet you, sir. I am an avid fan of your publication. Oft does Dorothy reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia_Hold #layout:left #portrait:theladypositive
 The exposé last month regarding Lady Sullivan's indecent table manners was <i>particularly</i> delectable.
-Most wonderful that you're here. One imagines you'll be taking my portraiture for your next issue, yes?
+Most wonderful that you are here. One imagines you'll be taking my portraiture for your next issue, yes?
 
 
 +[What exactly happened here?]
@@ -100,10 +100,10 @@ Unfotunately, the killer escaped before Avery could catch sight of them.
 There were five of us in total in Wenchwatch Hall last night, not including the Admiral.
 There was Sir Maximillian, who you have met-
 
-<i>(Maximillian blows you a kiss.)</i> #speaker: Maximillian_Hold #layout:left  #portrait:foppositive
+<i>Maximillian blows you a kiss.</i> #speaker: Maximillian Hold #layout:left  #portrait:foppositive
 Lady Theodosia Hold, who you have also met- #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-<i>(Theodosia stares at you, statuesque, as if preparing for her portrait.)</i> #speaker:Theodosia_Hold #layout:left #portrait:theladyneutral
+<i>Theodosia stares at you, statuesque. It's slightly unnerving.</i> #speaker:Theodosia Hold #layout:left #portrait:theladyneutral
 And myself. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 Not currently present is Avery Hold, the son of Lady Theodosia and the Admiral, and the stable hand, one Ms. Lavender Ditch.
 

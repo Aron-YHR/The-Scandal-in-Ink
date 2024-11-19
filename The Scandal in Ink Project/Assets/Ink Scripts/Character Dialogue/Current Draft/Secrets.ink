@@ -79,6 +79,8 @@ VAR lavender_confession = false
 //Avery
 VAR avery_book_confession = false
 VAR confiscated_book  = false
+VAR jam_scone = false
+VAR avery_cried = false
 
 
 //MISC
