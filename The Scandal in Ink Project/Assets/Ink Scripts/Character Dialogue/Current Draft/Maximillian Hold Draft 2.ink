@@ -60,7 +60,7 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you! ->Relationship
 
 +[Let's move on.]
-Whatever you wish, mon cheri! ->Start
+Whatever you wish, mon chéri! ->Start
 
 
 === Night_Of_Murder ===
@@ -179,7 +179,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 }
 
 
-*{theodosias_gloves}[I found bloody gloves in your room!]
+*{theodosias_gloves}[I found the bloody gloves in your room!]
 ~Max_proof3 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
