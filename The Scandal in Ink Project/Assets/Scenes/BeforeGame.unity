@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 495355958}
   - component: {fileID: 495355957}
   m_Layer: 0
-  m_Name: Teleport to Intro
+  m_Name: DEBUG Teleport to Intro
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2273,7 +2273,7 @@ GameObject:
   - component: {fileID: 1409614343}
   - component: {fileID: 1409614342}
   m_Layer: 0
-  m_Name: Teleport to Reception
+  m_Name: DEBUG Teleport to Reception
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
