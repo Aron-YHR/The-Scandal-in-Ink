@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI[] choicesText;
 
 
-    private Story currentStory;
+    public Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
 
