@@ -1,0 +1,2129 @@
+fileFormatVersion: 2
+guid: 1f629a3a4e8f094448c658251fa64fc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -172529228431476746
+    second: Magnifying Glass_0
+  - first:
+      213: -6151850230292456651
+    second: Magnifying Glass_1
+  - first:
+      213: 2747754330736013855
+    second: Magnifying Glass_2
+  - first:
+      213: 3136739605668538626
+    second: Magnifying Glass_3
+  - first:
+      213: -8873936290469753759
+    second: Magnifying Glass_4
+  - first:
+      213: 5402723470178358022
+    second: Magnifying Glass_5
+  - first:
+      213: -1681299275340755294
+    second: Magnifying Glass_6
+  - first:
+      213: -2200475452613203579
+    second: Magnifying Glass_7
+  - first:
+      213: 8208583195249259481
+    second: Magnifying Glass_8
+  - first:
+      213: -4785734797586551308
+    second: Magnifying Glass_9
+  - first:
+      213: 8601366995109709266
+    second: Magnifying Glass_10
+  - first:
+      213: -8603984923166749182
+    second: Magnifying Glass_11
+  - first:
+      213: -5809575461490908193
+    second: Magnifying Glass_12
+  - first:
+      213: -969335504001741101
+    second: Magnifying Glass_13
+  - first:
+      213: 3041350288733065836
+    second: Magnifying Glass_14
+  - first:
+      213: 1371126350638620841
+    second: Magnifying Glass_15
+  - first:
+      213: 4949435717034703546
+    second: Magnifying Glass_16
+  - first:
+      213: -8427428210136745598
+    second: Magnifying Glass_17
+  - first:
+      213: 2000297715902007461
+    second: Magnifying Glass_18
+  - first:
+      213: -2497148268081426035
+    second: Magnifying Glass_19
+  - first:
+      213: 6944367226267470645
+    second: Magnifying Glass_20
+  - first:
+      213: 506291928050531080
+    second: Magnifying Glass_21
+  - first:
+      213: -3147993317498556350
+    second: Magnifying Glass_22
+  - first:
+      213: -2370483306531173508
+    second: Magnifying Glass_23
+  - first:
+      213: -8706622087795304593
+    second: Magnifying Glass_24
+  - first:
+      213: -3064331542444762308
+    second: Magnifying Glass_25
+  - first:
+      213: 7535288135979343747
+    second: Magnifying Glass_26
+  - first:
+      213: 2960448767297618136
+    second: Magnifying Glass_27
+  - first:
+      213: -3117773883778254652
+    second: Magnifying Glass_28
+  - first:
+      213: 5354790502148017804
+    second: Magnifying Glass_29
+  - first:
+      213: -7015440882294455555
+    second: Magnifying Glass_30
+  - first:
+      213: 7443375277682296972
+    second: Magnifying Glass_31
+  - first:
+      213: 2019986641378242150
+    second: Magnifying Glass_32
+  - first:
+      213: 7781530050976252932
+    second: Magnifying Glass_33
+  - first:
+      213: -1435355155709253125
+    second: Magnifying Glass_34
+  - first:
+      213: 841948418183984035
+    second: Magnifying Glass_35
+  - first:
+      213: -3408260967008600117
+    second: Magnifying Glass_36
+  - first:
+      213: 8410320902011701265
+    second: Magnifying Glass_37
+  - first:
+      213: -4340273989868489202
+    second: Magnifying Glass_38
+  - first:
+      213: -7547674053007492466
+    second: Magnifying Glass_39
+  - first:
+      213: -6819504437218032477
+    second: Magnifying Glass_40
+  - first:
+      213: 3038833732224141399
+    second: Magnifying Glass_41
+  - first:
+      213: 4599027847553877331
+    second: Magnifying Glass_42
+  - first:
+      213: -5742742720193720122
+    second: Magnifying Glass_43
+  - first:
+      213: 8142406880745919808
+    second: Magnifying Glass_44
+  - first:
+      213: 7199717510926484079
+    second: Magnifying Glass_45
+  - first:
+      213: 5703773900386494793
+    second: Magnifying Glass_46
+  - first:
+      213: -3204503847295791342
+    second: Magnifying Glass_47
+  - first:
+      213: 3053250409133531669
+    second: Magnifying Glass_48
+  - first:
+      213: 2571260259661585755
+    second: Magnifying Glass_49
+  - first:
+      213: 6788810437804546272
+    second: Magnifying Glass_50
+  - first:
+      213: 6254104526248013760
+    second: Magnifying Glass_51
+  - first:
+      213: -1148816562566469731
+    second: Magnifying Glass_52
+  - first:
+      213: 3494230900216591439
+    second: Magnifying Glass_53
+  - first:
+      213: -2985198572170050133
+    second: Magnifying Glass_54
+  - first:
+      213: 6579257051393481287
+    second: Magnifying Glass_55
+  - first:
+      213: -973883093424590506
+    second: Magnifying Glass_56
+  - first:
+      213: -7623371094500771313
+    second: Magnifying Glass_57
+  - first:
+      213: 112862830141504646
+    second: Magnifying Glass_58
+  - first:
+      213: 1616886468376344234
+    second: Magnifying Glass_59
+  - first:
+      213: 1315611957217131950
+    second: Magnifying Glass_60
+  - first:
+      213: 8237539261791667980
+    second: Magnifying Glass_61
+  - first:
+      213: 7709132423456005618
+    second: Magnifying Glass_62
+  - first:
+      213: -3853460709133587673
+    second: Magnifying Glass_63
+  - first:
+      213: 3267630814787299586
+    second: Magnifying Glass_64
+  - first:
+      213: -1475770990321173665
+    second: Magnifying Glass_65
+  - first:
+      213: 1192188072714973277
+    second: Magnifying Glass_66
+  - first:
+      213: -8298894372826826434
+    second: Magnifying Glass_67
+  - first:
+      213: 279061270379646361
+    second: Magnifying Glass_68
+  - first:
+      213: -4865321863524974371
+    second: Magnifying Glass_69
+  - first:
+      213: 7784576859477425186
+    second: Magnifying Glass_70
+  - first:
+      213: -7893966909020371266
+    second: Magnifying Glass_71
+  - first:
+      213: 3419180242664989173
+    second: Magnifying Glass_72
+  - first:
+      213: 4772104937848165376
+    second: Magnifying Glass_73
+  - first:
+      213: 896490295923182021
+    second: Magnifying Glass_74
+  - first:
+      213: -6173101823478257833
+    second: Magnifying Glass_75
+  - first:
+      213: -974204320472798602
+    second: Magnifying Glass_76
+  - first:
+      213: -7417037781752249990
+    second: Magnifying Glass_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Magnifying Glass_0
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 76
+        width: 2530
+        height: 1805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f738f1b49d0b9df0800000000000000
+      internalID: -172529228431476746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_1
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1867
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b53083fcc30aaa0800000000000000
+      internalID: -6151850230292456651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1392
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12bf8d610cf12620800000000000000
+      internalID: 2747754330736013855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1386
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209a5cc5d00f78b20800000000000000
+      internalID: 3136739605668538626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1340
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c4a1fb5f179d480800000000000000
+      internalID: -8873936290469753759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1329
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60395ab0f545afa40800000000000000
+      internalID: 5402723470178358022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1318
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae413c8733daa8e0800000000000000
+      internalID: -1681299275340755294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1327
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589e5060c375671e0800000000000000
+      internalID: -2200475452613203579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1315
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b216dceebae170800000000000000
+      internalID: 8208583195249259481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1314
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fda0a8be87a59db0800000000000000
+      internalID: -4785734797586551308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1320
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d58846c5b13e5770800000000000000
+      internalID: 8601366995109709266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1303
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e44d95c41889880800000000000000
+      internalID: -8603984923166749182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd32202f5ed306fa0800000000000000
+      internalID: -5809575461490908193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1310
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de4dcfae7a3c82f0800000000000000
+      internalID: -969335504001741101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_14
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1298
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62577d49fb053a20800000000000000
+      internalID: 3041350288733065836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1303
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a02effb628370310800000000000000
+      internalID: 1371126350638620841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abafb78bf8defa440800000000000000
+      internalID: 4949435717034703546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1294
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28971bc71b2cb0b80800000000000000
+      internalID: -8427428210136745598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1276
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a84d51bc2c72cb10800000000000000
+      internalID: 2000297715902007461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_19
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1283
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81568171e8585dd0800000000000000
+      internalID: -2497148268081426035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1275
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b898f03395f5060800000000000000
+      internalID: 6944367226267470645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1264
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b791c73d5b60700800000000000000
+      internalID: 506291928050531080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1247
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240f13ba1c41054d0800000000000000
+      internalID: -3147993317498556350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b4738fdf95a1fd0800000000000000
+      internalID: -2370483306531173508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67146f375ddb2780800000000000000
+      internalID: -8706622087795304593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1242
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b1e8a92be4975d0800000000000000
+      internalID: -3064331542444762308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1243
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f9341d2a8b29860800000000000000
+      internalID: 7535288135979343747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_27
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1214
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0848ef770a51920800000000000000
+      internalID: 2960448767297618136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_28
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1228
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8386fdb217bb4d0800000000000000
+      internalID: -3117773883778254652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1225
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e0b2f3799005a40800000000000000
+      internalID: 5354790502148017804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_30
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1203
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2061cdfa524ae90800000000000000
+      internalID: -7015440882294455555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1205
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c888d2cd06e2c4760800000000000000
+      internalID: 7443375277682296972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_32
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1183
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e6262e52f680c10800000000000000
+      internalID: 2019986641378242150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_33
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40487716a5c8dfb60800000000000000
+      internalID: 7781530050976252932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_34
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1196
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9ac693718941ce0800000000000000
+      internalID: -1435355155709253125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_35
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1182
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3fe0120a33fab00800000000000000
+      internalID: 841948418183984035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1177
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf7f9f45bc63b0d0800000000000000
+      internalID: -3408260967008600117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1165
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1184373fc4677b470800000000000000
+      internalID: 8410320902011701265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06750e4dcf34c3c0800000000000000
+      internalID: -4340273989868489202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_39
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1151
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a3e062076414790800000000000000
+      internalID: -7547674053007492466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_40
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 275
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a44b6b78d04c51a0800000000000000
+      internalID: -6819504437218032477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_41
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 282
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758c1b4dd2b1c2a20800000000000000
+      internalID: 3038833732224141399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_42
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 265
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355049de57703df30800000000000000
+      internalID: 4599027847553877331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_43
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 274
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0946e1cedad40b0800000000000000
+      internalID: -5742742720193720122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_44
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 259
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0459e8feae3aff070800000000000000
+      internalID: 8142406880745919808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_45
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 246
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62cee13ee88ae360800000000000000
+      internalID: 7199717510926484079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_46
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 233
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9496eab7420e72f40800000000000000
+      internalID: 5703773900386494793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_47
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 230
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fcf84aab05783d0800000000000000
+      internalID: -3204503847295791342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_48
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51268bef1135f5a20800000000000000
+      internalID: 3053250409133531669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_49
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 217
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d15324593fea320800000000000000
+      internalID: 2571260259661585755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_50
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 133
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8ddc0ef13b63e50800000000000000
+      internalID: 6788810437804546272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_51
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 135
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfec235eea0bc650800000000000000
+      internalID: 6254104526248013760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_52
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 129
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97e32c4c659e00f0800000000000000
+      internalID: -1148816562566469731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_53
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 130
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f447a929d700e7030800000000000000
+      internalID: 3494230900216591439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_54
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba50dc107b17296d0800000000000000
+      internalID: -2985198572170050133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_55
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 130
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ada4a0e673e4b50800000000000000
+      internalID: 6579257051393481287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_56
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 127
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6513ba38c721c72f0800000000000000
+      internalID: -973883093424590506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_57
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0afc414168543690800000000000000
+      internalID: -7623371094500771313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_58
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 128
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cfde26528f09100800000000000000
+      internalID: 112862830141504646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_59
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa635b52da5507610800000000000000
+      internalID: 1616886468376344234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_60
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadfe2cca1ef14210800000000000000
+      internalID: 1315611957217131950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_61
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c070d62705e915270800000000000000
+      internalID: 8237539261791667980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_62
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 121
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd9a8a28175cfa60800000000000000
+      internalID: 7709132423456005618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_63
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 121
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bea2cc6e1c58ac0800000000000000
+      internalID: -3853460709133587673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_64
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 126
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2096484d9e4f85d20800000000000000
+      internalID: 3267630814787299586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_65
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 118
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b74107a12058be0800000000000000
+      internalID: -1475770990321173665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_66
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 117
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5032a35cb08b8010800000000000000
+      internalID: 1192188072714973277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_67
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e393b2f898764dc80800000000000000
+      internalID: -8298894372826826434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_68
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 118
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d4c833fbc6fd300800000000000000
+      internalID: 279061270379646361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_69
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 118
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd007aeea87ea7cb0800000000000000
+      internalID: -4865321863524974371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_70
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 117
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cb0e3c86f580c60800000000000000
+      internalID: 7784576859477425186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_71
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 120
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb607279beef27290800000000000000
+      internalID: -7893966909020371266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_72
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1a41ba05e537f20800000000000000
+      internalID: 3419180242664989173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_73
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004d353482ce93240800000000000000
+      internalID: 4772104937848165376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_74
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 100
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c90611ac29f07c00800000000000000
+      internalID: 896490295923182021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_75
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 99
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7572349199cb45aa0800000000000000
+      internalID: -6173101823478257833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_76
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 93
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a6193055eea72f0800000000000000
+      internalID: -974204320472798602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnifying Glass_77
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 80
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7181054f63611990800000000000000
+      internalID: -7417037781752249990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Magnifying Glass_0: -172529228431476746
+      Magnifying Glass_1: -6151850230292456651
+      Magnifying Glass_10: 8601366995109709266
+      Magnifying Glass_11: -8603984923166749182
+      Magnifying Glass_12: -5809575461490908193
+      Magnifying Glass_13: -969335504001741101
+      Magnifying Glass_14: 3041350288733065836
+      Magnifying Glass_15: 1371126350638620841
+      Magnifying Glass_16: 4949435717034703546
+      Magnifying Glass_17: -8427428210136745598
+      Magnifying Glass_18: 2000297715902007461
+      Magnifying Glass_19: -2497148268081426035
+      Magnifying Glass_2: 2747754330736013855
+      Magnifying Glass_20: 6944367226267470645
+      Magnifying Glass_21: 506291928050531080
+      Magnifying Glass_22: -3147993317498556350
+      Magnifying Glass_23: -2370483306531173508
+      Magnifying Glass_24: -8706622087795304593
+      Magnifying Glass_25: -3064331542444762308
+      Magnifying Glass_26: 7535288135979343747
+      Magnifying Glass_27: 2960448767297618136
+      Magnifying Glass_28: -3117773883778254652
+      Magnifying Glass_29: 5354790502148017804
+      Magnifying Glass_3: 3136739605668538626
+      Magnifying Glass_30: -7015440882294455555
+      Magnifying Glass_31: 7443375277682296972
+      Magnifying Glass_32: 2019986641378242150
+      Magnifying Glass_33: 7781530050976252932
+      Magnifying Glass_34: -1435355155709253125
+      Magnifying Glass_35: 841948418183984035
+      Magnifying Glass_36: -3408260967008600117
+      Magnifying Glass_37: 8410320902011701265
+      Magnifying Glass_38: -4340273989868489202
+      Magnifying Glass_39: -7547674053007492466
+      Magnifying Glass_4: -8873936290469753759
+      Magnifying Glass_40: -6819504437218032477
+      Magnifying Glass_41: 3038833732224141399
+      Magnifying Glass_42: 4599027847553877331
+      Magnifying Glass_43: -5742742720193720122
+      Magnifying Glass_44: 8142406880745919808
+      Magnifying Glass_45: 7199717510926484079
+      Magnifying Glass_46: 5703773900386494793
+      Magnifying Glass_47: -3204503847295791342
+      Magnifying Glass_48: 3053250409133531669
+      Magnifying Glass_49: 2571260259661585755
+      Magnifying Glass_5: 5402723470178358022
+      Magnifying Glass_50: 6788810437804546272
+      Magnifying Glass_51: 6254104526248013760
+      Magnifying Glass_52: -1148816562566469731
+      Magnifying Glass_53: 3494230900216591439
+      Magnifying Glass_54: -2985198572170050133
+      Magnifying Glass_55: 6579257051393481287
+      Magnifying Glass_56: -973883093424590506
+      Magnifying Glass_57: -7623371094500771313
+      Magnifying Glass_58: 112862830141504646
+      Magnifying Glass_59: 1616886468376344234
+      Magnifying Glass_6: -1681299275340755294
+      Magnifying Glass_60: 1315611957217131950
+      Magnifying Glass_61: 8237539261791667980
+      Magnifying Glass_62: 7709132423456005618
+      Magnifying Glass_63: -3853460709133587673
+      Magnifying Glass_64: 3267630814787299586
+      Magnifying Glass_65: -1475770990321173665
+      Magnifying Glass_66: 1192188072714973277
+      Magnifying Glass_67: -8298894372826826434
+      Magnifying Glass_68: 279061270379646361
+      Magnifying Glass_69: -4865321863524974371
+      Magnifying Glass_7: -2200475452613203579
+      Magnifying Glass_70: 7784576859477425186
+      Magnifying Glass_71: -7893966909020371266
+      Magnifying Glass_72: 3419180242664989173
+      Magnifying Glass_73: 4772104937848165376
+      Magnifying Glass_74: 896490295923182021
+      Magnifying Glass_75: -6173101823478257833
+      Magnifying Glass_76: -974204320472798602
+      Magnifying Glass_77: -7417037781752249990
+      Magnifying Glass_8: 8208583195249259481
+      Magnifying Glass_9: -4785734797586551308
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
