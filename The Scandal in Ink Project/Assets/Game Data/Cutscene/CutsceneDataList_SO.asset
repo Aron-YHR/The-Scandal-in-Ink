@@ -15,15 +15,14 @@ MonoBehaviour:
   list:
   - inkJsonForCutscene: {fileID: 4900000, guid: 5d8b497651da21d4cb1191b93a42bf03, type: 3}
     lettersList:
-    - "Dearest Husband,\r\n\r\nI hope your life as a London journalist treats you
-      well. The children and I miss you more and more with each passing day.\r\n\r\nI
-      bear some bad news. The family coffers have run dry, as has the larder. I fear
-      that we shall soon perish. I could send the children to the factories- they
-      are of course above 10 now and of working age. But still, I fear what could
-      become of them in such dangerous places. Worse yet, I fear Oliver has taken
-      ill.\r\n\r\nDearest, if you have coins to spare, please send us what you can.
-      We shall hold out for now, but without food, heat, or medicine- I know not
-      how long we can survive.\r\nYour loving Wife,\r\nMargaret\t\txoxo"
+    - "Dearest Husband,\r\n\r\nI hope your writing career fares well. The children
+      and I miss you more and more with each passing day.\r\n\r\nThere is news. The
+      family coffers have almost run dry, as has the larder. I fear that we shall
+      soon perish. I could send the children to the factories- they are of course
+      above 10 now and of working age. But still, I fear what could become of them
+      in such dangerous places.\r\n\r\nDearest, if you have coins to spare, please
+      send us what you can. We shall hold out for now, but without food, heat, or
+      medicine- I know not how long we can survive.\r\nYour loving Wife,\r\nMargaret\t\txoxo"
     - '     '
     - 'Sir,
 

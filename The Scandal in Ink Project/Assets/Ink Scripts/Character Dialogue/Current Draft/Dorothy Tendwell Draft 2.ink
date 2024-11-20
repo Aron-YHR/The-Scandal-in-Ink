@@ -51,9 +51,10 @@ But I- where did you find that?
 ->Dismissal*/
 
 +[It was you! You killed the Admiral!]
+#portrait:maidshock
 M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 
-+[<i>Leave</i>]
++[<i>Leave.</i>]
 ->DONE
 
 
@@ -358,7 +359,7 @@ But- sir! Oh heavens, I may faint-
 I couldn't possibly have done that! I was first to be by Avery's side!
 You don't truly believe I murdered the Admiral, do you...? ->Accuse
 
-+[I don't have any more evidence, but I'll prove you killed him!]
++[I'll find more evidence and prove you killed him!]
 #portrait:maidsnegative
 Heavens, sir! I- I can only assure you I would never do such a horrid thing! ->Start  
 
