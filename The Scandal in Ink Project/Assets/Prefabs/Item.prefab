@@ -103,10 +103,13 @@ MonoBehaviour:
   itemDetails:
     itemName: 0
     itemIcon: {fileID: 0}
+    value: 0
     isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 
-  isHide: 0
   isClicked: 0
+  isHid: 0
 --- !u!58 &4641700521919036177
 CircleCollider2D:
   m_ObjectHideFlags: 0
