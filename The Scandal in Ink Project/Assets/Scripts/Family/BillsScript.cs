@@ -37,7 +37,7 @@ public class BillsScript : ScriptableObject
     public void SetDefault()
     {
         gameLevel = 0;
-        Savings = 24;
+        Savings = 10;
         Salary = 0;
         Misc_income = 0;
     }

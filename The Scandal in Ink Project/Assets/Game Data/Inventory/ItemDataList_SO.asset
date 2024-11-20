@@ -76,7 +76,7 @@ MonoBehaviour:
     itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
     value: 0
     isEvidence: 1
-    notRecordedInJournal: 0
+    notRecordedInJournal: 1
     notPickedUp: 1
     itemInfo: A portrait of the Hold Family. A very large brooch is pinned to the
       Admiral's chest. Strange, you don't remember seeing this on his body...
@@ -84,7 +84,7 @@ MonoBehaviour:
     itemIcon: {fileID: -8781457552448529170, guid: 1c0e7b1f3773a464198fdc79c1f83032, type: 3}
     value: 0
     isEvidence: 0
-    notRecordedInJournal: 0
+    notRecordedInJournal: 1
     notPickedUp: 1
     itemInfo: A delicate wooden trellis attached to the side of the house, sitting
       just above a window on the second floor. Several of its crossbars have been
