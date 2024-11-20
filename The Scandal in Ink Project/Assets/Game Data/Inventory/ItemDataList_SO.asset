@@ -30,7 +30,8 @@ MonoBehaviour:
       in the saddle bag in the stables. The pin is exceptionally sharp and coated
       in blood.
 
-      The brooch appears to be missing one of its jewels...'
+      The needle of the brooch matches the Admiral''s stab wounds
+      perfectly...'
   - itemName: 6
     itemIcon: {fileID: -4684013747395606549, guid: 91f80a72b34367d43a15aab2d8af1bd7, type: 3}
     value: 0
