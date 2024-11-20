@@ -12,6 +12,18 @@ public class Item : MonoBehaviour
 
     private Vector3 previousPos;
 
+    [Header("Highlight")]
+    [SerializeField] private GameObject Highlight;
+
+    private bool mouseInRange;
+
+    private void Awake()
+    {
+        mouseInRange = false;
+        if (Highlight != null)
+            Highlight.SetActive(false);
+    }
+
     private void Start()
     {
         itemDetails = InventoryManager.Instance.itemData.GetItemDetails(itemDetails.itemName);
@@ -21,6 +33,18 @@ public class Item : MonoBehaviour
 
     private void Update()
     {
+        if (mouseInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            //Debug.Log(mouseInRange);
+            if (Highlight != null)
+                Highlight.SetActive(true);
+        }
+        else
+        {
+            if (Highlight != null)
+                Highlight.SetActive(false);
+        }
+
         if (isHid && isClicked)
         {
             Vector3 v = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -59,5 +83,15 @@ public class Item : MonoBehaviour
     public void SetOriginalPos()
     {
         transform.position = previousPos;
+    }
+
+    private void OnMouseEnter()
+    {
+        mouseInRange = true;
+    }
+
+    private void OnMouseExit()
+    {
+        mouseInRange = false;
     }
 }
