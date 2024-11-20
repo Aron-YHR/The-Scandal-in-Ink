@@ -27,9 +27,9 @@ Oh, you journalist types- such terrible tattlers! I am normally not one for idle
 Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon! -> Relationship
 
 *[What the hell are you wearing?!]
-Curse that sharp journalistic eye of yours, sir! Yes, I admit it! I am most scandalously underdressed.
-In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves!
-I tried to pass of my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
+Curse that sharp journalistic eye of yours, sir! Yes, I admit it! I am most scandalously underdressed. #portrait:fopshock
+In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves! #portrait:fopneutral
+I tried to pass off my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
 Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian and a fraud, in front of a journalist no less! I can hardly tell which is worse. -> Start
 
 *{checked_door and not maximillian_door_key or door_key}[Can I have the key to your room?]
@@ -275,11 +275,11 @@ I'm sure your investigation will come to that same conclusion, given the right..
 +[What are you getting at?]
 ->Bargaining_Cont
 
-+[Enough wordplay, Maximillian!]
++[Enough wordplay! What are you after?]
 ->Bargaining_Cont
 
 +[Are you trying to bribe me?!]
-Oh heavens! Bribery? Moi? Never!
+Oh heavens! Bribery? Moi? <i>Never</i>!
 ->Bargaining_Cont
 
 
