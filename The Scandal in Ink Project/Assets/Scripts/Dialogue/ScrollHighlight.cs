@@ -52,5 +52,10 @@ public class ScrollHighlight : MonoBehaviour
                 bottomHighlight.SetActive(true);
             }
         }
+        else
+        {
+            topHighlight.SetActive(false);
+            bottomHighlight.SetActive(false);
+        }
     }
 }
