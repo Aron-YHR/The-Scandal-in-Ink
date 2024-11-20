@@ -148,7 +148,7 @@ MonoBehaviour:
     itemInfo: A bucket full of blood-tainted water. Perhaps the killer used this
       to wash the blood from their hands...?
   - itemName: 21
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 0}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 1
@@ -209,7 +209,7 @@ MonoBehaviour:
     notPickedUp: 0
     itemInfo: A light pink shade of lipstick found in Theodosia's purse.
   - itemName: 25
-    itemIcon: {fileID: -6432330495511635143, guid: 4fd0b167ee321bc4fa7d7a727caff577, type: 3}
+    itemIcon: {fileID: 1516691674049795919, guid: a741c3b9e297fbc418360578bbef61a4, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0

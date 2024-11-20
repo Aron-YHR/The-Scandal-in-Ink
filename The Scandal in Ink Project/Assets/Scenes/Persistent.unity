@@ -12142,7 +12142,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 914425648}
   m_HandleRect: {fileID: 0}
   m_Direction: 2
-  m_Value: 0.99999964
+  m_Value: 0.99999976
   m_Size: 0.195709
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -12203,7 +12203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &916608103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24980,8 +24980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -487.03442, y: -289.32855}
-  m_SizeDelta: {x: 479.09, y: 479.09}
+  m_AnchoredPosition: {x: -514.59033, y: -344.4403}
+  m_SizeDelta: {x: 423.9782, y: 423.9782}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1833765797
 MonoBehaviour:
@@ -24996,7 +24996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.94117653, g: 0.90196085, b: 0.8431373, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
