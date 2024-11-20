@@ -25,6 +25,15 @@ public class ScrollHighlight : MonoBehaviour
 
     public void ShowScrollViewHighlight()
     {
+        //Debug.Log(DialogueManager.GetInstance().currentStory.currentChoices.Count);
+
+        if (DialogueManager.GetInstance().currentStory.currentChoices.Count == 0)
+        {
+            topHighlight.SetActive(false);
+            bottomHighlight.SetActive(false);
+            return ;
+        }
+
         if (DialogueManager.GetInstance().canContinueToNextLine)
         {
             if (scrollRect.verticalNormalizedPosition >= 0.95f) // scrolled near start
@@ -36,12 +45,17 @@ public class ScrollHighlight : MonoBehaviour
             {
                 topHighlight.SetActive(true);
                 bottomHighlight.SetActive(false);
-            }
+            } 
             else
             {
                 topHighlight.SetActive(true);
                 bottomHighlight.SetActive(true);
             }
+        }
+        else
+        {
+            topHighlight.SetActive(false);
+            bottomHighlight.SetActive(false);
         }
     }
 }
