@@ -215,8 +215,8 @@ Moi? In a dalliance with my beloved sister-in-law?! An outrageous accusation!
 ->Sexual_Energy
 
 =How
-I must commend you sir! A most <i>inventive</i> leap of logic. It is most true what they say of your paper, you tell the most fantastical stories!
-Alas, that is all it is- a fantasy! If the brooch was found in the stables, I think we can both come to the conclusion of who the <i>true</i> culprit is, no?
+I must commend you sir! A most <i>inventive</i> leap of logic. It is most true what they say of your paper, you tell the most fantastical stories! #portrait:foppositive
+Alas, that is all it is- a fantasy! If the brooch was found in the stables, I think we can both come to the conclusion of who the <i>true</i> culprit is, no? #portrait:fopnegative
 
 +[How did you know the brooch was found in the stables?]
 ->How_Follow_Up
@@ -320,7 +320,9 @@ Does that sound amiable to you, sir?
 +[Keep your bribe. I'm going to publish the truth about what happened here.]
 ->Refuse_Bribe
 
-+[I'm going to tell the world about your terrible fashion sense. And all the murder and illicit affair stuff too!]
++[I'm going to tell the world about your terrible fashion sense. And about all the murder and sex too!]
+My dress sense is <i>unparalleled</i>! You would be fortunate to be as well-dressed as me, you- you goon, you!
+<i>Bah!</i>
 ->Refuse_Bribe
 
 +[Um... Could you explain that again?]
@@ -352,8 +354,10 @@ Have we a deal?
 
 
 =Refuse_Bribe
-Fine. Cling to your inane theory. I doubt the handful of fools who read that rag of yours will believe it.
-But think on this, sir; your pride will not sustain you, or your wretched family. When you return to whatever squalid little hut you call home and find your loved ones wasted away to nothing, I want you to remember that you had the chance to give them a better- no, a <i>resplendant</i> life. And you threw it away. Will it have been worth it, sir?
+Fine. Cling to your inane theory. I doubt the handful of fools who read that rag of yours will believe it. #portrait:fopnegative
+But think on this, sir.
+When you return to whatever squalid little hut you call home and find your loved ones wasted away to nothing, I want you to remember that you had the chance to give them a better- no, a <i>resplendent</i> life. And you threw it away. And for what?
+Will it have been worth it, sir?
 ->DONE
 
 
@@ -366,10 +370,10 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 ===Examination===
 
 +[<i>Examine his face.</i>]
-His face is excessively powdered and painted.  His wig is made of the finest human hair. It is blindingly white.
+<i>His face is excessively powdered and painted.  His wig is clearly made of the finest human hair.</i>
 ~pink_lipstick_smudge = true
 ~unlockItem("pink_lipstick_smudge")
-However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.
+<i>However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.</i>
 { - pink_lipstick: Odd. You think you've seen that lipstick elsewhere...}
 { - pink_lipstick and burnt_letter: 
 ~affair_revealed = true
@@ -380,13 +384,11 @@ However, you notice a small imperfection. There is a dull rouge smudge on his ne
 ->Pickpocket
 
 +[<i>Examine his hands.</i>]
-His hands are ungloved and unadorned.
-->Examination
+His hands are ungloved and unadorned.->Examination
 
 
 +[<i>Return to the conversation.</i>]
-<i>You return to your conversation.</i>
-->Start
+<i>You return to your conversation with Maximillian.</i> ->Start
 
 =Pickpocket
 <i>Maximillian is excessively overdressed. You imagine that this is considered highly fashionable.
@@ -397,7 +399,7 @@ His hands are ungloved and unadorned.
 ->DONE
 
 +[<i>Leave it for now.</i>]
-->Examination
+<i>You leave his pocket unpicked... for the moment. ->Examination
 
 
 
