@@ -14,6 +14,7 @@ public class Item : MonoBehaviour
 
     [Header("Highlight")]
     [SerializeField] private GameObject Highlight;
+    [SerializeField] private Animator animator;
 
     private bool mouseInRange;
 
@@ -37,12 +38,19 @@ public class Item : MonoBehaviour
         {
             //Debug.Log(mouseInRange);
             if (Highlight != null)
+            {
                 Highlight.SetActive(true);
+                animator.Play("ItemAndNPCHighlight");
+            }
         }
         else
         {
             if (Highlight != null)
+            {
+                //animator.Play("Default");
                 Highlight.SetActive(false);
+                
+            }
         }
 
         if (isHid && isClicked)

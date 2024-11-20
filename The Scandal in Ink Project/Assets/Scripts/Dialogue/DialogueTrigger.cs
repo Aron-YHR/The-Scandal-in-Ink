@@ -7,6 +7,7 @@ public class DialogueTrigger : MonoBehaviour
 {
     [Header("Highlight")]
     [SerializeField] private GameObject Highlight;
+    [SerializeField] private Animator animator;
 
     [Header("Ink Json")]
     [SerializeField] private TextAsset inkJson;
@@ -30,7 +31,10 @@ public class DialogueTrigger : MonoBehaviour
         {
             //Debug.Log(mouseInRange);
             if (Highlight != null)
+            {
                 Highlight.SetActive(true);
+                animator.Play("ItemAndNPCHighlight");
+            }
             /*if (isClicked)
             {
                 //Debug.Log(inkJson.text);
