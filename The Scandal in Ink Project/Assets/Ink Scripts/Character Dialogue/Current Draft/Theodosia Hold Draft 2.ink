@@ -38,7 +38,7 @@ Good sir, I was quite unaware I was doing so.
 I have been wearing these exact same gloves all of today and yesterday, by my recollection.
 ->Start
 
-*{affair_revealed or burnt_letter and theodosias_pants} [I know about your affair with Maximillian.]
+*{affair_revealed or theodosias_pants} [I know about your affair with Maximillian.]
 #speaker: Theodosia Hold #portrait:theladyshock
 Affair? With Maximillian? How perplexing and baseless an accusation. 
 #speaker: Theodosia Hold #portrait:theladypositive
@@ -48,7 +48,7 @@ And most thrilling. Do go on. ->Affair
 Oh yes, I intuited as much. A well-bred woman has an instinct for her husband's flights of fancy. #speaker: Theodosia Hold #portrait:theladyneutral
 I am quite sure he would have abandoned the idea entirely, had he not perished. ->Divorce
 
-*{lavender_confession and affair_revealed}[How did you find out about Lavender & Dorothy's relationship?]
+*{ankle_letter and affair_revealed and theodosia_confession}[How did you find out about Lavender & Dorothy's relationship?]
 #speaker: Theodosia Hold #portrait:theladynegative
 Well it was rather obvious. The foolish girls were stuffing their ridiculous love letters into every free orifice in the manor.
 They are unaware I am sure of how unfashionable literate women are at present. 

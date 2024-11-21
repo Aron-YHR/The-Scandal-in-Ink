@@ -10,9 +10,16 @@ INCLUDE Secrets.ink
 
 
 === Start ===
+{ TURNS_SINCE(-> INTRO) == 0:
+    {
+ - lavender_confession == true:You need something? #speaker: Lavender Ditch #portrait:stablehandneutral
 
-{TURNS_SINCE(-> INTRO) == 0: What?}  #speaker: Lavender Ditch #portrait:stablehandnegative
+- else:The <i>f&!@k do you want</i>?! #speaker: Lavender Ditch #portrait:stablehandnegative
+    }
+}
 
+*{not lavender_confession}[A pleasure to meet you too.]
+... ->Start
 
 
 *{not lavender_confession}[Where were you the night of the murder?]
