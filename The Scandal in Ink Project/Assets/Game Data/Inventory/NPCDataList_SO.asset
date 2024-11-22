@@ -121,7 +121,7 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 6. Says she heard Theodosia crying throughout the night.
       isUnlocked: 0
-    - statementLine: 7.
+    - statementLine: 7. Says Theodosia has been blackmailing her.
       isUnlocked: 0
   - npcName: 3
     npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}

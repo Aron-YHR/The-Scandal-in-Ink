@@ -277,12 +277,11 @@ Here. Now please. Let us both forget this conversation ever happened. ->Start
 I see. Very well, sir. Here. That is everything I have. #portrait:maidnegative
 ~extort_Dorothy = true
 ~unlockItem("dorothy_coins")
-Now please. Let us both forget this conversation ever happened.
-->Start
+Now please. Let us both forget this conversation ever happened. ->Start
 
 +[Never mind. Forget I said anything.]
-Thank you, sir. Truly. Thank you. #portrait:maidpositive
-->Start
+#portrait:maidpositive
+Thank you, sir. Truly. Thank you.  ->Start
 
 
 ===Examination===
