@@ -45,7 +45,7 @@ MonoBehaviour:
   wayOfEscapeList:
   - text: Escaped via horse & carriage
     amount: 0
-  - text: 
+  - text: Turned into a bat and flew away
     amount: 0
   - text: Hid behind the curtain
     amount: 0
@@ -72,25 +72,25 @@ MonoBehaviour:
     amount: 0
   nameAndImageList:
   - name: Maximillian Hold
-    image: {fileID: -34408611671061909, guid: 4a5b4462c72ca764b82ed2aec2f2441d, type: 3}
+    image: {fileID: -7110462291215695874, guid: 0fe8bf97810c5394582a4c00799d1efd, type: 3}
     amount: 20
   - name: Admiral Charles Hold
-    image: {fileID: -2330411381418894809, guid: 394b4b5b09440464b8101e49fe18413d, type: 3}
+    image: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     amount: 0
   - name: Lavender Ditch
-    image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    image: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
     amount: 10
   - name: Theodosia Hold
-    image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    image: {fileID: -7971006780844452549, guid: 8db028811e2620e479a3e4171ba5d4b7, type: 3}
     amount: 0
   - name: Avery Hold
-    image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    image: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     amount: 0
   - name: Dorothy Tendwell
-    image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    image: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
     amount: 0
   - name: Horse
-    image: {fileID: -418543271403840211, guid: a900b57d0f64bc1449602b9040498e9d, type: 3}
+    image: {fileID: 1867977283544996391, guid: bbd9cf611e781ea4f97a762785fc6ddb, type: 3}
     amount: 0
   nameList:
   - text: Lavender Ditch
