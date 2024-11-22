@@ -433,6 +433,7 @@ MonoBehaviour:
   viceDisplayNameText: {fileID: 1543433843}
   portraitAnimator: {fileID: 2065597596}
   vicePortraitAnimator: {fileID: 2055891479}
+  visitedColor: {r: 1, g: 0, b: 0, a: 1}
   choices:
   - {fileID: 1761076879}
   - {fileID: 1017218221}
@@ -3499,7 +3500,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 38.934998, y: 297}
+  m_AnchoredPosition: {x: 38.93506, y: 297}
   m_SizeDelta: {x: 620, y: 68.1953}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &343505658
