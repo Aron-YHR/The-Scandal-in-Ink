@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statementsList:
   - ' is dead. Please send money for a coffin.'
-  - ' is deathly ill. Please- send aid as soon as you can'
+  - ' is deathly ill. Send aid.'
   - ' is rather unwell.'
-  - ' is faring well, thanks be to God.'
+  - ' is faring well, thank God.'
   - ' is thriving.'
