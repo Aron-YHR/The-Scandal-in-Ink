@@ -48,16 +48,16 @@ MonoBehaviour:
     lettersList:
     - 
     - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\n\u2018Tis a disaster!
-      An unmitigated DISASTER! \r\n\r\nThe quality of your most recent article makes
-      me question whether you truly are literate, sir. Inconsistent evidence, missing
-      details. It is unpublishable! We would be sued for libel for every single word
-      written! Did you even visit the manor? Question the suspects? I doubt you spent
-      the best part of five minutes there! \r\n\r\nI am docking your pay, sir. We
-      have hardly sold a single paper this week as a result of your incompetence,
-      and that money is better put towards keeping our printing press running. \r\n\r\nGo
-      and source me a new story, sir. This is your last chance. Our last chance.
-      \r\n\r\nHave it on my desk by the end of next week. \r\n\r\nThe Weekly Wag
-      \r\n\r\nEditor-in-Chief "
+      An unmitigated DISASTER! \r\n\r\nThe quality of your reporting makes me question
+      whether you truly are literate. \r\n\r\n Conflicting evidence. missing details.
+      It is unpublishable! We would be sued for libel for every single word written!
+      Did you even visit the manor? Question the suspects? I doubt you spent the
+      best part of five minutes there! \r\n\r\nI am docking your pay, sir. We have
+      hardly sold a single paper this week as a result of your incompetence, and
+      that money is better put towards keeping our printing press running. \r\n\r\nGo
+      and source me a new story, sir. This is your last chance, and quite possible
+      our paper\u2019s last chance. \r\n\r\nHave it on my desk by the end of next
+      week. \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
   - index: 2
     newsTitle: KILLER STABLE HAND HANGS
     newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
