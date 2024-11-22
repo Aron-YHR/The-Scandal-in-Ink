@@ -130,15 +130,15 @@ I found Avery standing over the Admiral just before sunrise- hardly three hours 
 *{question_tracker == 3}[I'll solve this murder! I'll put the perpetrator on the front page!]
 
 
-A front page article, you say?  #speaker: Maximillian_Hold #layout:left  #portrait:fopshock
-How scandalous! #speaker:Theodosia_Hold #layout:left #portrait:theladypositive
-How thrilling! #speaker: Maximillian_Hold #layout:left  #portrait:fopshock
-I am quite sure there is nothing on this Earth Charles would want more than to be prominently featured in a paper of note. Dead or no. #speaker:Theodosia_Hold #layout:left #portrait:theladypositive
+A front page article, you say?  #speaker: Maximillian Hold #layout:left  #portrait:fopshock
+How scandalous! #speaker:Theodosia Hold #layout:left #portrait:theladypositive
+How thrilling! #speaker: Maximillian Hold #layout:left  #portrait:fopshock
+I am quite sure there is nothing on this Earth Charles would want more than to be prominently featured in a paper of note. Dead or no. #speaker:Theodosia Hold #layout:left #portrait:theladypositive
 
 ->Outro
 
 =Outro
-If you are quite set on helping us, sir, I shall make sure everyone remains at Wenchwatch Hall as you carry out your investigation.  #speaker: Ms. Tendwell #layout:right
+If you are quite set on helping us, sir, I shall make sure everyone remains at Wenchwatch Hall as you carry out your investigation.  #speaker:Dorothy Tendwell #layout:right
 I would recommmend you take note of anything that may be of use to you as you explore the manor and question its inhabitants.
 
 ~Transition("Intro Study","Intro Journal")

@@ -53,6 +53,7 @@ You accusing me of stealing? I know I've no fancy airs or graces like some in th
 
 
 +[It was <i>you</i>! You killed the Admiral!]
+ #portrait:stablehandnegative
 And why would I do a thing like that? ->Accuse
 
 +[<i>Leave.</i>]
@@ -133,19 +134,15 @@ I promised I wouldn't say anything... ->Lavender_Tells_All
 =Lavender_Tells_All
 
 *[You can tell me. I'll keep it a secret.]
- #portrait:stablehandneutral
 ->Affair_Revealed
 
 
 *[Out with it! Otherwise your lesbian liason ends up on Page 3!]
-
- #portrait:stablehandnegative
-...You're nothing but a bloody gossip monger.
+...You're nothing but a bloody gossip monger.  #portrait:stablehandnegative
 ->Affair_Revealed
 
 
 *[Just tell me already!]
- #portrait:stablehandnegative
 ->Affair_Revealed
 
 
