@@ -214,6 +214,7 @@ They were in such a panic, I could've sworn they were putting on each other's cl
 ~ unlockStatement("Lavender_Ditch",4)
 I ran off to tell the Admiral what I saw. He was furious. I've never seen a man that mad in all my life.
 Then the Lady Hold this morning, before you arrived, she pulled me aside. She seemed to know you were coming...
+~ unlockStatement("Lavender_Ditch",7)
 See, she said she knew about me and Dot. Said she'd slander us in the papers and have us both dismissed if I didn't keep hush about what I saw.
 #portrait:stablehandnegative
 Now that uppity ol' $@&%!@ can do what she likes to me, but...
