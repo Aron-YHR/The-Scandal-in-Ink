@@ -26,7 +26,7 @@ Oh, you journalist types- such terrible tattlers! I am normally not one for idle
 +[How was your relationship with your brother?]
 Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon! -> Relationship
 
-*[What the hell are you wearing?!]
+//*[What the hell are you wearing?!]
 Curse that sharp journalistic eye of yours, sir! Yes, I admit it! I am most scandalously underdressed. #portrait:fopshock
 In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves! #portrait:fopneutral
 I tried to pass off my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
