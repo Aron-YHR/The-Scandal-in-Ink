@@ -33,7 +33,7 @@ public class Menu : MonoBehaviour
     public void StartNewGame()
     {
         //cutsceneAnimator.Play("Newspaper");
-        EventHandler.CallStartNewGameEvent();
+        EventHandler.CallStartNewGameEvent(); 
         UIManager.Instance.DesactiveIcons();
     }
 }
