@@ -13,6 +13,28 @@ MonoBehaviour:
   m_Name: Observation
   m_EditorClassIdentifier: 
   itemList: []
-  npcList: []
-  deductionChoices: 
-  familyChoices: []
+  npcList:
+  - npcName: 2
+    npcIcon: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
+    npcPortrait: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
+    location: Study
+    npcInfo: The stable hand of Wenchwatch Hall.
+    npcStatements:
+    - statementLine: 1. Denies any knowledge of the Admiral's brooch hidden in the
+        horse's saddle.
+      isUnlocked: 0
+    - statementLine: 2. Has admitted to a relationship with the maid, Dorothy Tendwell.
+      isUnlocked: 0
+    - statementLine: 3. Says she discovered Theodosia and Maximillian making love
+        in the stables.
+      isUnlocked: 0
+    - statementLine: 4. Says Theodosia and Max may have swapped clothing.
+      isUnlocked: 0
+    - statementLine: 5. Says she was with Dorothy in her room the night of the murder.
+      isUnlocked: 0
+    - statementLine: 6. Says she heard Theodosia crying throughout the night.
+      isUnlocked: 0
+    - statementLine: 7. Says Theodosia blackmailed her into silence.
+      isUnlocked: 0
+  mainCaseChoices: 0
+  sideCaseChoices: 0
