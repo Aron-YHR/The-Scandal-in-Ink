@@ -363,6 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
+  animator: {fileID: 0}
   inkJson: {fileID: 4900000, guid: 259e93fe88de86b4a9395effa45263f0, type: 3}
   image: {fileID: 0}
 --- !u!1 &568315519
@@ -604,6 +605,8 @@ MonoBehaviour:
     itemInfo: 
   isClicked: 0
   isHid: 1
+  Highlight: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1 &1251968467
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +668,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 4738142881657293438, guid: 138ac273b93d2d8479dca2a747190b8a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.45882353, g: 0.62352943, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -752,7 +755,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 5109791440770194852, guid: 320d6c10e06167443b0a09855f95fa01, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4575472, g: 0.62423044, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
