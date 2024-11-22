@@ -41,7 +41,7 @@ MonoBehaviour:
       in these  \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
   - index: 0
     newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
-    newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
+    newsImg: {fileID: 1867977283544996391, guid: bbd9cf611e781ea4f97a762785fc6ddb, type: 3}
     lettersList:
     - 
     - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\n\u2018Tis a disaster!
@@ -56,8 +56,8 @@ MonoBehaviour:
       our paper\u2019s last chance. \r\n\r\nHave it on my desk by the end of next
       week. \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
   - index: 2
-    newsTitle: KILLER STABLE HAND HANGS
-    newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
+    newsTitle: KILLER STABLE HAND HANGS!
+    newsImg: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
     lettersList:
     - "To my dear friend at the Weekly Wag, \r\n\r\nI simply had to inform you- your
       most recent article is the talk of the town! \u201CThe Stable Hand Slasher\u201D

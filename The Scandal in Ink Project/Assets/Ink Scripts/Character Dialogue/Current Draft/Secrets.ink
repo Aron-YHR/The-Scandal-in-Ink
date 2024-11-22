@@ -85,6 +85,7 @@ VAR avery_cried = false
 
 //MISC
 VAR checked_door = false
+VAR door_unlocked = false
 
 
 
