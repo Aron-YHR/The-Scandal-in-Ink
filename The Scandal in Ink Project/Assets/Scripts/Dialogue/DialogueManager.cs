@@ -4,9 +4,6 @@ using TMPro;
 using UnityEngine;
 using Ink.Runtime;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
-using Unity.VisualScripting;
-using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -28,11 +25,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Animator vicePortraitAnimator;
     private Animator layoutAnimator;
 
-    
+
 
     [Header("Choices UI")]
     // any number of choices
-    [SerializeField] public GameObject[] choices;
+    public Color visitedColor;
+    public GameObject[] choices;
     private TextMeshProUGUI[] choicesText;
 
 
@@ -202,6 +200,7 @@ public class DialogueManager : MonoBehaviour
             // otherwise, handle the normal case for continuing the story
             else
             {
+                
                 // handle tags
                 HandleTags(currentStory.currentTags);
                 
@@ -352,6 +351,15 @@ public class DialogueManager : MonoBehaviour
         {
             choices[index].gameObject.SetActive(true);
             choicesText[index].text = choice.text;
+
+            //Debug.Log(currentStory.currentChoices[index]);
+
+            // if the choice has been visited, change the its color to indicate it for player
+            /*int choiceVisitCount = currentStory.state.VisitCountAtPathString(currentStory.currentChoices[index].pathStringOnChoice);
+            if (choiceVisitCount > 0)
+            {
+                choicesText[index].color = visitedColor;
+            }*/
             index++;
         }
 
@@ -376,6 +384,7 @@ public class DialogueManager : MonoBehaviour
         if (canContinueToNextLine)
         {
             currentStory.ChooseChoiceIndex(choiceIndex);
+            
             //Debug.Log(currentStory.currentText);
             ContinueStory();
         }
