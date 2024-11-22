@@ -159,17 +159,13 @@ public class UIManager : Singleton<UIManager>
 
     public void ChangeFontForDialogue(TMP_FontAsset font)
     {
+        //List<TextMeshProUGUI> list = new List<TextMeshProUGUI>();
+        DialogueManager.GetInstance().dialogueText.GetComponent<TextMeshProUGUI>().font = font;
+
         for (int i = 0; i < DialogueManager.GetInstance().choices.Length; i++)
         {
-            DialogueManager.GetInstance().choices[i].SetActive(true);
-        }
-
-
-        TextMeshProUGUI[] list = dialogue.GetComponentsInChildren<TextMeshProUGUI>();
-        for(int i = 0; i < list.Length; i++)
-        {
-            list[i].font = font;
-        }
+            DialogueManager.GetInstance().choices[i].GetComponentInChildren<TextMeshProUGUI>().font = font;
+        }    
     }
 
 

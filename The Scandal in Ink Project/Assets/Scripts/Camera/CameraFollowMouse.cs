@@ -1,10 +1,4 @@
 using Cinemachine;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Mathematics;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 public class CameraFollowMouse : Singleton<CameraFollowMouse>
@@ -35,8 +29,9 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
     // Update is called once per frame
     void Update()
     {
+       
         //Debug.Log(envir.sprite.texture.height);
-        if (canMove)
+        if (canMove && !DialogueManager.GetInstance().dialogueIsPlaying && !TransitionManager.Instance.isFading)
         {
             inputDir = new Vector3(0, 0, 0);
             if (Input.mousePosition.x < edgeScrollSize && Input.mousePosition.x > 0) inputDir.x = -1f;

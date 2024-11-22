@@ -37,6 +37,7 @@ public class TransitionManager : Singleton<TransitionManager>
         fadeCanvas.sortingOrder = 11;
         StartCoroutine(TransitionToScene("Menu", startScene));
         cutsceneAnimator.Play("Newspaper");
+
     }
 
     public void Transition(string from, string to)

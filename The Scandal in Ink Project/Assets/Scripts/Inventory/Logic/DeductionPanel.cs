@@ -48,8 +48,9 @@ public class DeductionPanel : MonoBehaviour
         caseImage.sprite = deductionData.nameAndImageList[nameDropdown.value].image;
     }
 
-    public void GoToFamily()
+    public void GoToAfterGame()
     {
+        UIManager.Instance.ActivateJournal();
         var currentScene = SceneManager.GetActiveScene().name;
         TransitionManager.Instance.Transition(currentScene, "AfterGame");  
     }
