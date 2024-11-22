@@ -43,14 +43,14 @@ MonoBehaviour:
   - text: To steal the family brooch.
     amount: 10
   wayOfEscapeList:
-  - text: Jumped out the window
-    amount: 0
   - text: Escaped via horse & carriage
     amount: 0
   - text: 
     amount: 0
   - text: Hid behind the curtain
     amount: 0
+  - text: Jumped out the window
+    amount: 3
   - text: Hid in plain sight
     amount: 0
   - text: Crawled underneath the floorboards
@@ -64,8 +64,8 @@ MonoBehaviour:
     amount: 0
   - text: Garden shears
     amount: 0
-  - text: Natural Causes
-    amount: 0
+  - text: Brooch
+    amount: 3
   - text: Natural Causes
     amount: 0
   - text: Horse hoof to the head

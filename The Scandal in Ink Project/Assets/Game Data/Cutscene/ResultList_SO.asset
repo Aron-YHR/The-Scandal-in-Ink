@@ -15,7 +15,7 @@ MonoBehaviour:
   resultsList:
   - index: 1
     newsTitle: DANDY DOES IN OLD DUFFER
-    newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
+    newsImg: {fileID: -7110462291215695874, guid: 0fe8bf97810c5394582a4c00799d1efd, type: 3}
     lettersList:
     - "To the loathsome, wretched writer of The Weekly Wag,  \r\n\r\nYou cad! You
       pauper! You insolent wretch!\r\n\r\nFirst, you show up at my home- unannounced!
@@ -59,7 +59,7 @@ MonoBehaviour:
       \r\n\r\nHave it on my desk by the end of next week. \r\n\r\nThe Weekly Wag
       \r\n\r\nEditor-in-Chief "
   - index: 2
-    newsTitle: THE STABLE HAND SLASHER
+    newsTitle: KILLER STABLE HAND HANGS
     newsImg: {fileID: -7108302536350650008, guid: 4d6cc64f815d8d54a86d2cdad38c0f32, type: 3}
     lettersList:
     - "To my dear friend at the Weekly Wag, \r\n\r\nI simply had to inform you- your
