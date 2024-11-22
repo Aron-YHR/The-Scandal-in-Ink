@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private Image portraitImage;
-    [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] public TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private TextMeshProUGUI viceDisplayNameText;
     [SerializeField] private Animator portraitAnimator;
@@ -129,6 +129,11 @@ public class DialogueManager : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
         dialogueVariables = new DialogueVariables(globalsInkFile);
+    }
+
+    public void ExitDialogue()
+    {
+        ExitDialogueMode();
     }
 
     public void EnterDialogueMode(TextAsset inkJson, SpriteRenderer currentNPC)

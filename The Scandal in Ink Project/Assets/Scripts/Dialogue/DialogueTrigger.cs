@@ -27,7 +27,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (mouseInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
+        if (mouseInRange && !DialogueManager.GetInstance().dialogueIsPlaying && !UIManager.Instance.isUIOpened)
         {
             //Debug.Log(mouseInRange);
             if (Highlight != null)
