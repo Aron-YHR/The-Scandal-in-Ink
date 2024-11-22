@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -7283275647456540148, guid: 30d1f32154620cd4a9ea94b7377a8e0f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -161,7 +161,10 @@ MonoBehaviour:
   slotItem:
     itemName: 0
     itemIcon: {fileID: 0}
+    value: 0
     isEvidence: 0
+    notRecordedInJournal: 0
+    notPickedUp: 0
     itemInfo: 
   slotImage: {fileID: 6384666248355879687}
 --- !u!114 &-6608939997405583805
@@ -177,4 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 5f4f9a7d99e9d91429cd7301d7f726d3, type: 3}
+  transitionAudioClips: []
   playOnEnable: 0
+  isRandomPlay: 0
+  type: 0
