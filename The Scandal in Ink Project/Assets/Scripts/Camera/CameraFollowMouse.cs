@@ -35,8 +35,9 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
     // Update is called once per frame
     void Update()
     {
+       
         //Debug.Log(envir.sprite.texture.height);
-        if (canMove)
+        if (canMove && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             inputDir = new Vector3(0, 0, 0);
             if (Input.mousePosition.x < edgeScrollSize && Input.mousePosition.x > 0) inputDir.x = -1f;
