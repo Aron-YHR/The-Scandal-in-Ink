@@ -6,7 +6,7 @@ A torn letter penned by Admiral Hold filing for divorce from his wife, Theodosia
 
 <i>You found a clue! #speaker: Tutorial
 <i>Clues are automatically added to the journal upon discovery.
-~Transition("Table", "Intro Clues Page")
+~Transition("Intro Table", "Intro Clues Page")
 
 <i>This is the "Clues" page of your Journal.
 <i>Clues are an item or environmental element that relate to the case. 
@@ -20,6 +20,6 @@ A torn letter penned by Admiral Hold filing for divorce from his wife, Theodosia
 ->DONE
 
 -else: 
-~Transition("Intro Clues Page", "Table")
+~Transition("Intro Clues Page", "Intro Table")
 ->DONE
 }

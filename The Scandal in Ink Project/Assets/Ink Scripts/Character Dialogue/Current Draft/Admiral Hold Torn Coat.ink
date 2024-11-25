@@ -31,7 +31,7 @@ Something was forcefully torn from the Admiral's coat. #speaker: Admiral's Body 
 <i>You've found some evidence! #speaker:Tutorial
 ~statement_found = true
 <i>Anything information of importance to the case is automatically added to the journal.
-~Transition("Table", "Intro People Page")
+~Transition("Intro Table", "Intro People Page")
 <i>This is the "People" page of your Journal.
 <i>Information relating to people involved in the case is stored here.
 <i>As you interview suspects, important statements they give will be unlocked on the right-hand side of the page.
@@ -44,6 +44,6 @@ Something was forcefully torn from the Admiral's coat. #speaker: Admiral's Body 
 ->DONE
 
 -else: 
-~Transition("Intro People Page", "Table")
+~Transition("Intro People Page", "Intro Table")
 ->DONE
 }

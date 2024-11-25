@@ -141,7 +141,7 @@ I am quite sure there is nothing on this Earth Charles would want more than to b
 If you are quite set on helping us, sir, I shall make sure everyone remains at Wenchwatch Hall as you carry out your investigation.  #speaker:Dorothy Tendwell #layout:right
 I would recommmend you take note of anything that may be of use to you as you explore the manor and question its inhabitants.
 
-~Transition("Intro Study","Table")
+~Transition("Intro Study","Intro Table")
 
 Welcome to <i>The Scandal in Ink</i>! #speaker: Tutorial #portrait:Default
  <i>Let's go over the basics of how how to play.
