@@ -17724,9 +17724,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bdaa638478f92dc4f931f6828491054f, type: 3}
   - {fileID: 8300000, guid: 667201d0f24f9aa499abdf2d78cb0cbb, type: 3}
   audioClipsForStamp:
-  - {fileID: 8300000, guid: 22ac863043993954e857e19c681b16a0, type: 3}
-  - {fileID: 8300000, guid: 395e0393a423cc74aac66ba1b2bf3f73, type: 3}
-  - {fileID: 8300000, guid: 8cd0a8b15007baa4d887bbe2a6fd39e4, type: 3}
+  - {fileID: 8300000, guid: 3d3aa8b2b30e67f49aa228b1cf1c9327, type: 3}
+  - {fileID: 8300000, guid: b5bf7524f8e97164fa3412880b9baf58, type: 3}
+  - {fileID: 8300000, guid: aaea261c9e6b2a642803ee82aa712a23, type: 3}
   audioClipsForPlayerMove:
   - {fileID: 8300000, guid: 69ec459ba739033449825df1fbbdc328, type: 3}
   - {fileID: 8300000, guid: 323a0ba8ae15c3f4293fb27d3b09ae7d, type: 3}

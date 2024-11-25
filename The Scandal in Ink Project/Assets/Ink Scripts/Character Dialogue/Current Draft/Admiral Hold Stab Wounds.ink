@@ -25,10 +25,11 @@ It appears that the Admiral was stabbed multiple times in the chest with somethi
 
 
 ===Tutorial_Clue===
-You've found some evidence! #speaker:Tutorial
-~statement_found = true
+It appears that the Admiral was stabbed multiple times in the chest with something... particularly sharp. #speaker: Admiral's Body #layout:right #portrait:Default
 ~unlockNPC("Admiral_Charles_Hold") 
 ~ unlockStatement("Admiral_Charles_Hold", 1)
+You've found some evidence! #speaker:Tutorial
+~statement_found = true
 Anything information of importance to the case is automatically added to the journal.
 ~Transition("Table", "Intro People Page")
 This is the "People" page of your Journal.

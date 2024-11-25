@@ -70,7 +70,12 @@ public class Item : MonoBehaviour
     public void ItemClicked()
     {
         // show the item and its info
+        if(GetComponent<DialogueTrigger>() == null) 
         UIManager.Instance.SetItemShowcase(gameObject,itemDetails);
+        else
+        {
+            GetComponent<DialogueTrigger>().StartDialogue();
+        }
 
         if(itemDetails.value != 0)
         {

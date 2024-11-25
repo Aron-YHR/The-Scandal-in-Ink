@@ -17,8 +17,8 @@ public class DialogueTrigger : MonoBehaviour
     private bool mouseInRange;
     //public bool isClicked;
 
-    [Header("Only for Rian")]
-    public bool hideThis;
+    //[Header("Only for Rian")]
+    //public bool hideThis;
 
     private void Awake()
     {
@@ -60,8 +60,8 @@ public class DialogueTrigger : MonoBehaviour
         if(image != null)
         image.enabled = false;
         DialogueManager.GetInstance().EnterDialogueMode(inkJson,image);
-        if(hideThis) 
-            gameObject.SetActive(false);
+        //if(hideThis) Destroy(gameObject);
+           // gameObject.SetActive(false);
     }
 
     private void OnMouseEnter()
