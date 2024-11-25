@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
   animator: {fileID: 0}
-  inkJson: {fileID: 4900000, guid: 94169ac1fdfff624c90eda2671f83667, type: 3}
+  inkJson: {fileID: 4900000, guid: ced91ec8609823f48bb90733f2f3f66c, type: 3}
   image: {fileID: 0}
 --- !u!114 &287135076
 MonoBehaviour:

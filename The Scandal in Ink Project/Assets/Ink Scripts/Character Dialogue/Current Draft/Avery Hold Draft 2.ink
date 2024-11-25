@@ -55,7 +55,7 @@ For what reason?
 <i> You subtly inspect Avery for clues.</i>
 ->Examination
 
-+[Leave]
++[<i>Leave.</i>]
 ~dorothy_present=false
 ->DONE
 
