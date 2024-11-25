@@ -373,7 +373,7 @@ PrefabInstance:
     - target: {fileID: 1878073013477322716, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -172529228431476746, guid: 1f629a3a4e8f094448c658251fa64fc4, type: 3}
+      objectReference: {fileID: -298054189316343538, guid: 5f19a2ef72ec505498c991dcd9ec5612, type: 3}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -568,11 +568,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Name
-      value: Item
+      value: Divorce Letter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.65
+      value: 1.431
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -584,19 +588,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8925748
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.4508993
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -608,7 +612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 53.603
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Sprite
@@ -622,6 +626,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1214685523}
+    - targetCorrespondingSourceObject: {fileID: 3803478091179794406, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1214685524}
   m_SourcePrefab: {fileID: 100100000, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
 --- !u!1 &1214685522 stripped
 GameObject:
@@ -674,6 +681,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &1214685524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214685522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ce348bb045148428e80171fc1f204d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Highlight: {fileID: 0}
+  animator: {fileID: 0}
+  inkJson: {fileID: 4900000, guid: 94169ac1fdfff624c90eda2671f83667, type: 3}
+  image: {fileID: 0}
 --- !u!1001 &1453338085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -689,7 +712,7 @@ PrefabInstance:
     - target: {fileID: 1878073013477322716, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -172529228431476746, guid: 1f629a3a4e8f094448c658251fa64fc4, type: 3}
+      objectReference: {fileID: -298054189316343538, guid: 5f19a2ef72ec505498c991dcd9ec5612, type: 3}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.42
