@@ -75,10 +75,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro Scenes/Intro Table.unity
     guid: 53c1fb4893b71a6409e99fe38326aa21
   - enabled: 1
-    path: Assets/Scenes/Intro Scenes/Intro Journal.unity
+    path: Assets/Scenes/Intro Scenes/Intro People Page.unity
     guid: 891a6fbcf7d123c4cb1cfed9992cc6bb
   - enabled: 1
     path: Assets/Scenes/Intro Scenes/Intro Deduction.unity
     guid: 4cedc2341399a1e419564388e9086eb6
+  - enabled: 1
+    path: Assets/Scenes/Intro Scenes/Intro Clues Page.unity
+    guid: ee6c4bdba1a3a684cb79d31ed5863350
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

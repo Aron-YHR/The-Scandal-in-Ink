@@ -136,12 +136,6 @@ MonoBehaviour:
     - statementLine: 2. Something was forcibly torn off the Admiral's coat.
       isUnlocked: 0
     - statementLine: 3. The Admiral's brooch is missing.
-      isUnlocked: 1
+      isUnlocked: 0
     - statementLine: 4. The Admiral believed his wife was unfaithful.
-      isUnlocked: 0
-    - statementLine: 5.
-      isUnlocked: 0
-    - statementLine: 6.
-      isUnlocked: 0
-    - statementLine: 7.
       isUnlocked: 0
