@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   familyMembersList:
   - name: MARY
-    wellbeing: 4
+    wellbeing: 5
     isDead: 0
-    state: 3
+    state: 4
     familyMemberImages:
     - {fileID: -7277809227901697669, guid: d1ca3d4e506b5d04385bf5e7ab9e9ac8, type: 3}
     - {fileID: -986308017346884315, guid: 56735693f7d449542bd8413e9cc8db84, type: 3}
@@ -24,7 +24,7 @@ MonoBehaviour:
     - {fileID: 8635954471924279282, guid: a0e8bd7e45477e94bbae42aff5553e0a, type: 3}
     - {fileID: 1780724167031731095, guid: 2cdd812ba96f7b34f982d54a11286632, type: 3}
   - name: OLIVER
-    wellbeing: 4
+    wellbeing: 3
     isDead: 0
     state: 2
     familyMemberImages:
@@ -34,7 +34,7 @@ MonoBehaviour:
     - {fileID: -8889386786242773131, guid: 1671b2d8dc8a5b9419eb30623940d849, type: 3}
     - {fileID: 8657421822500254508, guid: 8b131f2d88410d349a78ff79d2461e5b, type: 3}
   - name: MARGARET
-    wellbeing: 4
+    wellbeing: 3
     isDead: 0
     state: 2
     familyMemberImages:
