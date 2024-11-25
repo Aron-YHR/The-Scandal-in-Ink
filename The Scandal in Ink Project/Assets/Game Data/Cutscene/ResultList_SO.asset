@@ -43,7 +43,9 @@ MonoBehaviour:
     newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
     newsImg: {fileID: 1867977283544996391, guid: bbd9cf611e781ea4f97a762785fc6ddb, type: 3}
     lettersList:
-    - 
+    - 'Dear husband,
+
+'
     - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\n\u2018Tis a disaster!
       An unmitigated DISASTER! \r\n\r\nThe quality of your reporting makes me question
       whether you truly are literate. \r\n\r\n Conflicting evidence. missing details.

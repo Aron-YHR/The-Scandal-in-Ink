@@ -31,7 +31,7 @@ public class FamilyManager : Singleton<FamilyManager>
 
     //[SerializeField] private List<TextMeshProUGUI> expenseValueTextList;
     private int cost;
-    private int totalIncome; // TODO: calculate income and set conditions for not enough income for cost 
+    private int totalIncome;
     private int totalSavings;
 
     private int[] impactForEachMember;
@@ -165,6 +165,10 @@ public class FamilyManager : Singleton<FamilyManager>
                 break;
         }
 
+        /*for (int i = 0;i < impactForEachMember.Length; i++)
+        {
+            familyHPList[i].CalculateWellbeingChange(impactForEachMember[i]);
+        }*/
     }
 
     public void SubmitBills()
