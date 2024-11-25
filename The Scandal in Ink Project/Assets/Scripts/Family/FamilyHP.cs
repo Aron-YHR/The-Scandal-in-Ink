@@ -13,7 +13,7 @@ public class FamilyHP : MonoBehaviour
 
     public FamilyMember familyMember;
     public Image memberImage;
-    //public TextMeshProUGUI letterStatement;
+    public TextMeshProUGUI stateText;
 
     [SerializeField]private int wellbeingChange;
 
@@ -22,12 +22,30 @@ public class FamilyHP : MonoBehaviour
         familyMember = FamilyManager.Instance.familyMember_SO.familyMembersList.Find(i => i.name == familyMember.name);
         Debug.Log(familyMember.state);
         UpdateMemberUI();
+        UpdateMemberStateText();//(familyMember.state);
         wellbeingChange = 0;
     }
 
-    public void CalculateWellbeingChange(int num)
+    public void CalculateWellbeingChange(int impact)
     {
-        wellbeingChange += num;
+        if (impact <= 0)
+        {
+            impact = -1;
+        }
+        else if (impact >= 2)
+        {
+            impact = 1;
+        }
+        else
+        {
+            impact = 0;
+        }
+
+        int wellbeingTmp = familyMember.wellbeing + impact;
+        if (wellbeingTmp > 5) wellbeingTmp = 5;
+        else if (wellbeingTmp <= 1) wellbeingTmp = 1;
+
+        //UpdateMemberStateText(familyMember.GetLifeState(wellbeingTmp));
     }
 
     public void ChangeWellbeing(int impact)
@@ -52,12 +70,17 @@ public class FamilyHP : MonoBehaviour
         // change family member state
         familyMember.state = familyMember.GetLifeState(familyMember.wellbeing);
         UpdateMemberUI();
+        UpdateMemberStateText();//(familyMember.state);
     }
 
     public void UpdateMemberUI()
     {
-        memberImage.sprite = familyMember.familyMemberImages[(int)familyMember.state];
-        
+        memberImage.sprite = familyMember.familyMemberImages[(int)familyMember.state];    
+    }
+
+    public void UpdateMemberStateText()//LifeState lifeState)
+    {
+        stateText.text = familyMember.state.ToString(); //lifeState.ToString();
     }
   
 }
