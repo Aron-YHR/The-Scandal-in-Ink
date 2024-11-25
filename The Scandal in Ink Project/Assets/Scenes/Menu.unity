@@ -986,8 +986,8 @@ MonoBehaviour:
   audioClip: {fileID: 0}
   transitionAudioClips: []
   playOnEnable: 0
-  isRandomPlay: 0
-  type: 0
+  isRandomPlay: 1
+  type: 6
 --- !u!1 &560592604
 GameObject:
   m_ObjectHideFlags: 0
