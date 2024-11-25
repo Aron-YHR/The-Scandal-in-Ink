@@ -88,6 +88,10 @@ VAR checked_door = false
 VAR door_unlocked = false
 
 
+//TUTORIAL
+VAR statement_found = false
+VAR clue_found = false
+
 
 
 

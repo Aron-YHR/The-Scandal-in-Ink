@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 495355958}
   - component: {fileID: 495355957}
   m_Layer: 0
-  m_Name: Teleport to Intro
+  m_Name: debug_Teleport to Intro
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,7 +1248,7 @@ MonoBehaviour:
   m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 51527bca3b9562a4b94900c63b2a3174, type: 2}
-  m_sharedMaterial: {fileID: 4040709528633953657, guid: 51527bca3b9562a4b94900c63b2a3174, type: 2}
+  m_sharedMaterial: {fileID: 7864015754829451657, guid: 51527bca3b9562a4b94900c63b2a3174, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2449,7 +2449,7 @@ GameObject:
   - component: {fileID: 1409614343}
   - component: {fileID: 1409614342}
   m_Layer: 0
-  m_Name: Teleport to Reception
+  m_Name: debug_Teleport to Reception
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3182,7 +3182,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.1821995, y: 0, z: 8.301483, w: 3.0478673}
+  m_margin: {x: 6.1821995, y: 0, z: 8.527311, w: 4.1519117}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
