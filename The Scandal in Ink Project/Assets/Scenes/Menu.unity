@@ -180,10 +180,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.96248364, b: 0.6556604, a: 1}
     m_PressedColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_DisabledColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.3
   m_SpriteState:
@@ -786,6 +786,7 @@ GameObject:
   - component: {fileID: 333327409}
   - component: {fileID: 333327408}
   - component: {fileID: 333327407}
+  - component: {fileID: 333327410}
   m_Layer: 5
   m_Name: NewGameButton
   m_TagString: Untagged
@@ -835,10 +836,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.96248364, b: 0.6556604, a: 1}
     m_PressedColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_DisabledColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.3
   m_SpriteState:
@@ -881,9 +882,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 424870509}
+      - m_Target: {fileID: 333327410}
         m_TargetAssemblyTypeName: AudioDefinition, Assembly-CSharp
-        m_MethodName: PlayFXAudioClip
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -931,6 +932,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333327405}
   m_CullTransparentMesh: 1
+--- !u!114 &333327410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333327405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 3009947f66885e64faa4744da3a4efac, type: 3}
+  transitionAudioClips: []
+  playOnEnable: 0
+  isRandomPlay: 0
+  type: 0
 --- !u!1 &424870507
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,7 +1004,7 @@ MonoBehaviour:
   audioClip: {fileID: 0}
   transitionAudioClips: []
   playOnEnable: 0
-  isRandomPlay: 1
+  isRandomPlay: 0
   type: 6
 --- !u!1 &560592604
 GameObject:
@@ -1477,10 +1495,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.96248364, b: 0.6556604, a: 1}
     m_PressedColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_DisabledColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.3
   m_SpriteState:
@@ -1622,10 +1640,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.96248364, b: 0.6556604, a: 1}
     m_PressedColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_DisabledColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:
