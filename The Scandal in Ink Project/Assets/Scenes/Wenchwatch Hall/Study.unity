@@ -153,11 +153,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.79
+      value: 3.78
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.04
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -195,10 +195,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6999728898068126354, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5833068987551211288, guid: 4a00ca046dcfbb7439f7a8f5049fa89e, type: 3}
+      objectReference: {fileID: 6289451655975968375, guid: a16dc123ae532954bb0ee343817da8c6, type: 3}
     m_RemovedComponents:
     - {fileID: 4641700521919036177, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
     m_RemovedGameObjects: []
@@ -251,7 +255,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.15, y: 0.47}
+    oldSize: {x: 0.98, y: 0.26}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -297,11 +301,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.54
+      value: 11.4
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6081944
+      value: -1.36
       objectReference: {fileID: 0}
     - target: {fileID: 5945362585656199101, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -339,13 +343,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6999728898068126354, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -4684013747395606549, guid: 91f80a72b34367d43a15aab2d8af1bd7, type: 3}
+      objectReference: {fileID: -7234063711239174497, guid: 0adf4423e62784448bee5faacded0771, type: 3}
     - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Color.b
@@ -357,6 +365,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7138151567406089007, guid: 444b2d425122cfc49a1db236e9d3283f, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1075,7 +1087,7 @@ SpriteRenderer:
   m_SortingLayerID: 158067675
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1107381510556140273, guid: 9587daddff7e9424fa7d3e09f4f5b78b, type: 3}
+  m_Sprite: {fileID: -2928729034282010832, guid: aeb08798bd68b0b489ece297434a211d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

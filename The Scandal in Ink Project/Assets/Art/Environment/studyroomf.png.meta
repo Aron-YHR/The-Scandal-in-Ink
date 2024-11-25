@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      studyroomf_0: -2928729034282010832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
