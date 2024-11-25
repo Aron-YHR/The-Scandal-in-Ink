@@ -15,6 +15,7 @@ INCLUDE Secrets.ink
 
 ===Basic_Clue===
 Something was forcefully torn from the Admiral's coat. #speaker: Admiral's Body #layout:right #portrait:Default
+~unlockNPC("Admiral_Charles_Hold") 
 ~ unlockStatement("Admiral_Charles_Hold", 2)
 +[Continue.]
 ->DONE
@@ -24,10 +25,11 @@ Something was forcefully torn from the Admiral's coat. #speaker: Admiral's Body 
 
 
 ===Tutorial_Clue===
+Something was forcefully torn from the Admiral's coat. #speaker: Admiral's Body #layout:right #portrait:Default
+~unlockNPC("Admiral_Charles_Hold") 
+~ unlockStatement("Admiral_Charles_Hold", 2)
 You've found some evidence! #speaker:Tutorial
 ~statement_found = true
-~unlockNPC("Admiral_Charles_Hold") 
-~ unlockStatement("Admiral_Charles_Hold", 1)
 Anything information of importance to the case is automatically added to the journal.
 ~Transition("Table", "Intro People Page")
 This is the "People" page of your Journal.
