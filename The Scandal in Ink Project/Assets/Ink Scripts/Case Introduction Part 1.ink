@@ -39,7 +39,7 @@ Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist yo
 ->Start
 
 +[Skip. Testing Only.]
-~TransitionWithoutAudio("Intro Reception","Snapshot Table")
+~TransitionWithoutAudio("Intro Reception","Reception")
 ->DONE
 
 
