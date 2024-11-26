@@ -925,6 +925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: BeforeGame
   sceneToGo: Intro Reception
+  Highlight: {fileID: 0}
 --- !u!60 &495355958
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2476,7 +2477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: b108c24b10e6bbe4d9fc0f071cb5665b, type: 3}
   transitionAudioClips: []
-  playOnEnable: 1
+  playOnEnable: 0
   isRandomPlay: 0
   type: 0
 --- !u!224 &1357433548
@@ -2803,6 +2804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: BeforeGame
   sceneToGo: Reception
+  Highlight: {fileID: 0}
 --- !u!60 &1409614343
 PolygonCollider2D:
   m_ObjectHideFlags: 0

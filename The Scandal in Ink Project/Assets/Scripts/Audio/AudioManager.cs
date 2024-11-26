@@ -82,18 +82,25 @@ public class AudioManager : Singleton<AudioManager>
 
     public IEnumerator BGMFading(AudioClip audioClip)
     {
-        
-        yield return AudioFade(0);
+        if (audioClip == null)
+        {
+            yield return AudioFade(0);
+        }
+        else
+        {
+            if (BGMSource.clip != null)
+                yield return AudioFade(0);
 
-        BGMSource.clip = audioClip;
-        BGMSource.Play();
-        
-        yield return AudioFade(1);
+            BGMSource.clip = audioClip;
+            BGMSource.Play();
+
+            yield return AudioFade(1);
+        }
     }
 
     public void OnBGMEvent(AudioClip audioClip)
     {
-        if(!isFading)
+        if(!isFading )
         StartCoroutine(BGMFading(audioClip));
     }
 
