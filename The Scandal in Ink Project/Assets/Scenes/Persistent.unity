@@ -17754,7 +17754,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -17993,6 +17993,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 323a0ba8ae15c3f4293fb27d3b09ae7d, type: 3}
   - {fileID: 8300000, guid: 2d9b63540c4ba794bb03ecc36575d798, type: 3}
   - {fileID: 8300000, guid: 4c1f77cc2c0d7a14eb4249aa68aff6b2, type: 3}
+  fadeDuration: 2
+  isFading: 0
 --- !u!82 &1262085685
 AudioSource:
   m_ObjectHideFlags: 0
