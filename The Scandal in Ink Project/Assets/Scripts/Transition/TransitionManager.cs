@@ -32,6 +32,7 @@ public class TransitionManager : Singleton<TransitionManager>
     {
         EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
     }
+
     private void OnStartNewGameEvent()
     {
         fadeCanvas.sortingOrder = 11;
