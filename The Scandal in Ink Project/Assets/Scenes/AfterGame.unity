@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 138644110}
   - component: {fileID: 138644109}
   m_Layer: 5
-  m_Name: Title
+  m_Name: Main Case Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -5122,7 +5122,7 @@ GameObject:
   - component: {fileID: 1829489158}
   - component: {fileID: 1829489159}
   m_Layer: 5
-  m_Name: Title (1)
+  m_Name: Side Case Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5220,7 +5220,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
