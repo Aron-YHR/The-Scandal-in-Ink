@@ -44,6 +44,6 @@ INCLUDE Secrets.ink
 ->DONE
 
 -else: 
-~Transition("Intro People Page", "Table")
+~Transition("Intro People Page", "Intro Table")
 ->DONE
 }

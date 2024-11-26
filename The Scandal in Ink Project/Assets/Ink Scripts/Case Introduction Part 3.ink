@@ -79,11 +79,11 @@ But yes, it is true.
 
 =Murder_Most_Foul
 The Admiral was- struck down in the early hours of the morning by an unkown assailant. 
-Worse yet, the body was discovered by the Admiral's son, little Avery Hold.
+Worse yet, the body was discovered by the Admiral's son, little Avery Hold. #portrait:maidnegative
 The poor boy is traumatised. To discover your father in such a- after he-
 Oh, even the <i>thought</i> of it-!
 
-For heaven's sake, girl, pull yourself together! You should know how terribly gauche it is for servants to express sentiment. #speaker: Theodosia_Hold #layout:left #portrait:theladynegative
+For heaven's sake, girl, pull yourself together! You should know how terribly gauche it is for servants to express sentiment. #speaker: Theodosia Hold #layout:left #portrait:theladynegative
 
 Sincerest apologies, Lady Hold. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
 As I was saying, it was Avery who discovered the Admiral in his- current condition.

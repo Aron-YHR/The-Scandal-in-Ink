@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
+  animator: {fileID: 0}
   inkJson: {fileID: 4900000, guid: b59695b2e61098040b198cfca6407ea4, type: 3}
   image: {fileID: 0}
 --- !u!4 &287135074
@@ -323,7 +324,7 @@ SpriteRenderer:
   m_SortingLayerID: 158067675
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1107381510556140273, guid: 9587daddff7e9424fa7d3e09f4f5b78b, type: 3}
+  m_Sprite: {fileID: -2928729034282010832, guid: aeb08798bd68b0b489ece297434a211d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
