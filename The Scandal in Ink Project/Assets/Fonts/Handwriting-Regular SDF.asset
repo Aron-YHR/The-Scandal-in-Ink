@@ -1041,6 +1041,21 @@ MonoBehaviour:
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
+  - m_Index: 34
+    m_Metrics:
+      m_Width: 28.078125
+      m_Height: 41.9375
+      m_HorizontalBearingX: 4.953125
+      m_HorizontalBearingY: 55.34375
+      m_HorizontalAdvance: 37.890625
+    m_GlyphRect:
+      m_X: 69
+      m_Y: 827
+      m_Width: 30
+      m_Height: 43
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   m_CharacterTable:
   - m_ElementType: 1
     m_Unicode: 13
@@ -1274,6 +1289,10 @@ MonoBehaviour:
     m_Unicode: 34
     m_GlyphIndex: 6
     m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 86
+    m_GlyphIndex: 34
+    m_Scale: 1
   m_AtlasTextures:
   - {fileID: -1060624582382700016}
   m_AtlasTextureIndex: 0
@@ -1497,6 +1516,10 @@ MonoBehaviour:
     m_Y: 896
     m_Width: 58
     m_Height: 71
+  - m_X: 59
+    m_Y: 817
+    m_Width: 49
+    m_Height: 62
   m_FreeGlyphRects:
   - m_X: 54
     m_Y: 54
@@ -1630,10 +1653,6 @@ MonoBehaviour:
     m_Y: 221
     m_Width: 5
     m_Height: 39
-  - m_X: 37
-    m_Y: 817
-    m_Width: 986
-    m_Height: 16
   - m_X: 135
     m_Y: 109
     m_Width: 28
@@ -1666,10 +1685,6 @@ MonoBehaviour:
     m_Y: 668
     m_Width: 935
     m_Height: 6
-  - m_X: 104
-    m_Y: 668
-    m_Width: 919
-    m_Height: 355
   - m_X: 110
     m_Y: 530
     m_Width: 7
@@ -1694,22 +1709,34 @@ MonoBehaviour:
     m_Y: 972
     m_Width: 1023
     m_Height: 51
-  - m_X: 59
-    m_Y: 817
-    m_Width: 964
-    m_Height: 79
-  - m_X: 80
-    m_Y: 741
-    m_Width: 943
-    m_Height: 155
-  - m_X: 95
-    m_Y: 741
-    m_Width: 928
-    m_Height: 282
   - m_X: 37
     m_Y: 967
     m_Width: 986
     m_Height: 56
+  - m_X: 37
+    m_Y: 817
+    m_Width: 22
+    m_Height: 16
+  - m_X: 104
+    m_Y: 668
+    m_Width: 919
+    m_Height: 149
+  - m_X: 108
+    m_Y: 668
+    m_Width: 915
+    m_Height: 355
+  - m_X: 59
+    m_Y: 879
+    m_Width: 964
+    m_Height: 17
+  - m_X: 80
+    m_Y: 741
+    m_Width: 943
+    m_Height: 76
+  - m_X: 95
+    m_Y: 879
+    m_Width: 928
+    m_Height: 144
   m_FontFeatureTable:
     m_MultipleSubstitutionRecords: []
     m_LigatureSubstitutionRecords: []

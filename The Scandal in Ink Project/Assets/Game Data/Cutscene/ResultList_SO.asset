@@ -43,14 +43,7 @@ MonoBehaviour:
     newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
     newsImg: {fileID: 1867977283544996391, guid: bbd9cf611e781ea4f97a762785fc6ddb, type: 3}
     lettersList:
-    - 'Dear husband,
-
-
-      I read your most recent article.
-
-      Are you quite
-      certain journalism for you?
-
+    - '
 
 '
     - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\n\u2018Tis a disaster!
