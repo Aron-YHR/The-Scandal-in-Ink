@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +12,7 @@ public class FamilyHP : MonoBehaviour
     public Image memberImage;
     public TextMeshProUGUI stateText;
 
-    [SerializeField]private int wellbeingChange;
+    //[SerializeField]private int wellbeingChange;
 
     private void OnEnable()
     {
@@ -23,7 +20,7 @@ public class FamilyHP : MonoBehaviour
         Debug.Log(familyMember.state);
         UpdateMemberUI();
         UpdateMemberStateText();//(familyMember.state);
-        wellbeingChange = 0;
+        //wellbeingChange = 0;
     }
 
     public void CalculateWellbeingChange(int impact)
