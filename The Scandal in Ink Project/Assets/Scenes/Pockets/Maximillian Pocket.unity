@@ -152,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: Maximillian Pocket
   sceneToGo: Study
+  Highlight: {fileID: 0}
 --- !u!60 &112713320
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -243,7 +244,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1632098607
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -271,6 +272,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45.641}
+--- !u!1001 &210431669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2887683280638960015, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1142263949359774343, guid: 9b053a6986dd49e4e804c8f01df2ad69, type: 3}
+    - target: {fileID: 4091208634751281235, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: sceneFrom
+      value: Maximillian Pocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091208634751281235, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: sceneToGo
+      value: Study
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347566131207106050, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_Name
+      value: Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900066742940168609, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080267626227168020, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
 --- !u!1 &392343158
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,7 +583,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1095141833252711340, guid: b8d26be3f21e87145814c8080ad4b939, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -706,7 +780,7 @@ GameObject:
   - component: {fileID: 2012614720}
   m_Layer: 0
   m_Name: Pocket 1_0
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -752,8 +826,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 5109791440770194852, guid: 320d6c10e06167443b0a09855f95fa01, type: 3}
   m_Color: {r: 0.4575472, g: 0.62423044, b: 1, a: 1}
   m_FlipX: 0
@@ -789,3 +863,4 @@ SceneRoots:
   - {fileID: 1096677722}
   - {fileID: 392343160}
   - {fileID: 2012614721}
+  - {fileID: 210431669}
