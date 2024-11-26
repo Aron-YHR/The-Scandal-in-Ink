@@ -52,6 +52,7 @@ public class BeforeGameManager : MonoBehaviour
                 //dialogueTrigger.StartDialogue(); 
                 canvas.sortingOrder = -1;
                 UIManager.Instance.ActiveIcons();
+                UIManager.Instance.canUseHotkey = true;
                 break;
         }
         index++;

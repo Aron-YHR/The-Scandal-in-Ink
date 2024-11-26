@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -24,7 +25,13 @@ public class UIManager : Singleton<UIManager>
 
     [Header("Setting Panel")]
     public GameObject settingPanel;
+    public GameObject backtoMainMenuButton;
     public Canvas uiCanvas;
+
+    [Header("Journal Panel")]
+    public GameObject journalPanel;
+
+    public bool canUseHotkey;
 
     public FamilyMember_SO familyMembers;
 
@@ -52,10 +59,71 @@ public class UIManager : Singleton<UIManager>
         EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
     }
 
+    private void Update()
+    {
+        if (canUseHotkey)
+        {
+            if (Input.GetKeyDown(KeyCode.J) && !UIManager.Instance.isUIOpened)
+            {
+                OpenJournal();
+            }
+            else if (Input.GetKeyDown(KeyCode.J) && UIManager.Instance.isUIOpened)
+            {
+                CloseJournal();
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape) && !UIManager.Instance.isUIOpened)
+            {
+                OpenSettingsPanel();
+            }
+            else if (Input.GetKeyDown(KeyCode.Escape) && UIManager.Instance.isUIOpened)
+            {
+                CloseSettingsPanel();
+            }
+        }
+    }
+
     private void OnStartNewGameEvent()
     {
         SetOriginalData();
     }
+
+    public void OpenJournal()
+    {
+        journalPanel?.SetActive(true);
+        CameraFollowMouse.Instance.DesactivateMove();
+        ActivateJournal();
+        AudioManager.Instance.OnSEEvent_Random(MusicType.BookOpen);
+    }
+
+    public void CloseJournal()
+    {
+        journalPanel?.SetActive(false);
+        CameraFollowMouse.Instance.ActivateMove();
+        DesactivateJournal();
+        AudioManager.Instance.OnSEEvent_Random(MusicType.BookClose);
+    }
+
+    public void OpenSettingsPanel()
+    {
+        settingPanel?.SetActive(true);
+        backtoMainMenuButton?.SetActive(true);
+        CameraFollowMouse.Instance.DesactivateMove();
+        ActivateJournal();
+        AudioManager.Instance.OnSEEvent_Random(MusicType.Stamp);
+
+    }
+
+    public void CloseSettingsPanel()
+    {
+        settingPanel?.SetActive(false); 
+        backtoMainMenuButton?.SetActive(false);
+        LowSortOrder();
+        CameraFollowMouse.Instance.ActivateMove();
+        DesactivateJournal();
+        AudioManager.Instance.OnSEEvent_Random(MusicType.Stamp);
+    }
+
 
     private void SetOriginalData() // set the family data to original ones
     {

@@ -36,7 +36,7 @@ public class AfterGameManager : MonoBehaviour
         //    i => i.relativeNumber == InventoryManager.Instance.journal.deductionChoices[0]
         //);
         UIManager.Instance.DesactiveIcons();
-
+        UIManager.Instance.canUseHotkey = false;
 
 
         Result result = resultList_SO.resultsList.Find(i => i.index == InventoryManager.Instance.journal.mainCaseChoices);
