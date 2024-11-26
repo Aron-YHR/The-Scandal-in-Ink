@@ -24,7 +24,11 @@ public class AudioManager : Singleton<AudioManager>
     public List<AudioClip> audioClipsForNoteTaking = new List<AudioClip>();
     public List<AudioClip> audioClipsForStamp = new List<AudioClip>();
     public List<AudioClip> audioClipsForPlayerMove = new List<AudioClip>();
-    
+
+    public float fadeDuration;
+
+    public bool isFading;
+
 
     private void OnEnable()
     {
@@ -76,10 +80,21 @@ public class AudioManager : Singleton<AudioManager>
         SESource.Play();
     }
 
-    public void OnBGMEvent(AudioClip audioClip)
+    public IEnumerator BGMFading(AudioClip audioClip)
     {
+        
+        yield return AudioFade(0);
+
         BGMSource.clip = audioClip;
         BGMSource.Play();
+        
+        yield return AudioFade(1);
+    }
+
+    public void OnBGMEvent(AudioClip audioClip)
+    {
+        if(!isFading)
+        StartCoroutine(BGMFading(audioClip));
     }
 
     public void OnTransitionAudioEvent(AudioClip audioClip)
@@ -126,5 +141,27 @@ public class AudioManager : Singleton<AudioManager>
         audioMixer.GetFloat("SEVolume", out amount);
         //Debug.Log(amount);
         seVolumeSlider.value = (amount + 80) /100; //Debug.Log(masterVolumeSlider.value);
+    }
+
+    private IEnumerator AudioFade(float targetVolume)
+    {
+        isFading = true;
+
+        //fadeCanvasGroup.blocksRaycasts = true;
+
+        //float speed = Mathf.Abs(fadeCanvasGroup.alpha - targetAlpha) / fadeDuration;
+
+        float speed = Mathf.Abs(BGMSource.volume - targetVolume) / fadeDuration;
+
+        while (!Mathf.Approximately(BGMSource.volume, targetVolume))
+        {
+            //fadeCanvasGroup.alpha = Mathf.MoveTowards(fadeCanvasGroup.alpha, targetAlpha, speed * Time.deltaTime);
+            BGMSource.volume = Mathf.MoveTowards(BGMSource.volume, targetVolume, speed * Time.deltaTime);
+            yield return null;
+        }
+
+        //fadeCanvasGroup.blocksRaycasts = false;
+
+        isFading = false;
     }
 }
