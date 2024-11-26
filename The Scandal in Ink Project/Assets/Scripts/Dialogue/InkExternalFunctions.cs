@@ -28,6 +28,12 @@ public class InkExternalFunctions
         {
             TransitionManager.Instance.Transition(from, to);
         });
+
+        story.BindExternalFunction("TransitionWithoutAudio", (string from, string to) =>
+        {
+            TransitionManager.Instance.TransitionWithoutAudio(from,to);
+        });
+
         story.BindExternalFunction("TransitionToMainGame", (string from, string to) =>
         {
             TransitionManager.Instance.CutsceneTransition(from, to, 8);
@@ -37,6 +43,7 @@ public class InkExternalFunctions
     public void UnbindTransition(Story story)
     {
         story.UnbindExternalFunction("Transition");
+        story.UnbindExternalFunction("TransitionWithoutAudio");
         story.UnbindExternalFunction("TransitionToMainGame");
     }
 

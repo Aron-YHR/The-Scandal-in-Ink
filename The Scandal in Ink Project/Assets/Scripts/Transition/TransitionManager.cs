@@ -46,6 +46,12 @@ public class TransitionManager : Singleton<TransitionManager>
         StartCoroutine(TransitionToScene(from, to));
     }
 
+    public void TransitionWithoutAudio(string from, string to)
+    {
+        if (!isFading) //may cause bug
+            StartCoroutine(TransitionToSceneWithoutAudio(from, to));
+    }
+
     public void CutsceneTransition(string from, string to,float length)
     {
         if(!isFading)
@@ -111,6 +117,64 @@ public class TransitionManager : Singleton<TransitionManager>
 
         if (!DialogueManager.GetInstance().dialogueIsPlaying)
         CameraFollowMouse.Instance.ActivateMove();
+    }
+
+    private IEnumerator TransitionToSceneWithoutAudio(string from, string to)
+    {
+        if (to == "AfterGame")
+        {
+            yield return new WaitForSeconds(3f);
+            InventoryManager.Instance.journalPanel.SetActive(false);
+        }
+
+        CameraFollowMouse.Instance.DesactivateMove();
+
+        //if (to != "BeforeGame")
+            //AudioManager.Instance.OnTransitionAudioEvent(null);
+
+        yield return Fade(1);
+
+
+
+        if (from != string.Empty)
+        {
+            EventHandler.CallBeforeSceneUnloadEvent();
+
+            yield return SceneManager.UnloadSceneAsync(from);
+        }
+
+        yield return SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
+
+        // set new scene to be active
+        Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
+
+        SceneManager.SetActiveScene(newScene);
+
+        if (newScene != null && newScene.name == "LadyPocket")
+        {
+            MouseAndClick.Instance.hand.gameObject.SetActive(true);
+            MouseAndClick.Instance.isHandShowed = true;
+        }
+        else
+        {
+            MouseAndClick.Instance.isHandShowed = false;
+            MouseAndClick.Instance.hand.gameObject.SetActive(false);
+        }
+
+        // find background in a new scene
+        if (to != "Menu" && to != "Family")
+            CameraFollowMouse.Instance.GetNewSceneSpriteRenderer();
+        CameraFollowMouse.Instance.transform.position = Vector3.zero;
+
+        EventHandler.CallAfterSceneLoadedEvent();
+
+        //yield return new WaitForSeconds(length); // keep sreen black
+        yield return Fade(0);
+
+        fadeCanvas.sortingOrder = 2;
+
+        if (!DialogueManager.GetInstance().dialogueIsPlaying)
+            CameraFollowMouse.Instance.ActivateMove();
     }
 
     private IEnumerator CutsceneTransitionToScene(string from, string to,float length)
