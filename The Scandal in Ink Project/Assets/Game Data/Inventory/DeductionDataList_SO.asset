@@ -94,33 +94,33 @@ MonoBehaviour:
     amount: 0
   nameList:
   - text: Lavender Ditch
-    amount: 10
+    amount: 3
   - text: Maximillian Hold
-    amount: 10
+    amount: 3
   - text: Avery Hold
-    amount: 10
+    amount: 0
   - text: Dorothy Tendwell
-    amount: 10
+    amount: 3
   - text: Admiral Charles Hold
-    amount: 10
+    amount: 0
   - text: Theodosia Hold
-    amount: 10
+    amount: 3
   - text: The Horse
-    amount: 10
+    amount: 0
   - text: An unknown conspirator
-    amount: 10
+    amount: 0
   affairList:
   - text: trapped in a giant net.
-    amount: 10
+    amount: 0
   - text: playing badminton.
-    amount: 10
+    amount: 0
   - text: engaged in an extramarital affair.
-    amount: 10
+    amount: 3
   - text: in a gay relationship.
-    amount: 10
+    amount: 3
   - text: plotting to blow up parliament.
-    amount: 10
+    amount: 0
   - text: conspiring with the French.
-    amount: 10
+    amount: 0
   - text: eating cake by the fistful.
-    amount: 10
+    amount: 0
