@@ -17,7 +17,7 @@ Well, he's slightly-
 <i>Dead!</i> #speaker: ??? #layout:left #portrait:fopneutral
 <i>Dispatched!</i>
 <i>Deceased!</i>
-~Transition("Intro Table","Intro Study")
+~Transition("Snapshot Table","Intro Study")
 ->DONE
 
 

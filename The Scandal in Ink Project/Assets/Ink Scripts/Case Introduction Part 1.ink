@@ -38,7 +38,7 @@ Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist yo
 ->Start
 
 +[Skip. Testing Only.]
-~Transition("Intro Reception","Table")
+~Transition("Intro Reception","Snapshot Table")
 ->DONE
 
 
@@ -57,7 +57,7 @@ Well- you see, sir-
 Heavens, I'm not quite sure how to explain-
 You see- the Admiral- he's-
 Perhaps it's best you just see for yourself...
-~Transition("Intro Reception","Intro Table")
+~Transition("Intro Reception","Snapshot Table")
 ->DONE
 
 
@@ -66,14 +66,14 @@ Perhaps it's best you just see for yourself...
 ...I see.
 Well, seeing as you are so <i>insistent</i> I suppose it's best you see for yourself.
 If you'd follow me.
-~Transition("Intro Reception","Intro Table")
+~Transition("Intro Reception","Snapshot Table")
 ->DONE
 
 
 +[I really must insist on seeing him. I won't get paid without a story.]
 Well- if that is the case- perhaps it's best you see for yourself.
 Please, sir- follow me.
-~Transition("Intro Reception","Intro Table")
+~Transition("Intro Reception","Snapshot Table")
 ->DONE
 
 
