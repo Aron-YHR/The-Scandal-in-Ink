@@ -38,12 +38,19 @@ MonoBehaviour:
       the last!  \r\n\r\nHave it on my desk by the end of next week. \r\n\r\nThe
       mood on the streets is bleak. Hunger and disease are rife. The poor houses
       are overflowing. And it is our moral obligation to keep the people entertained
-      in these  \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
+      in these  \r\n\r\nThe Weekly Wag \r\nEditor-in-Chief "
   - index: 0
     newsTitle: IDIOT JOURNALIST MANGLES MUDER INVESTIGATION
     newsImg: {fileID: 1867977283544996391, guid: bbd9cf611e781ea4f97a762785fc6ddb, type: 3}
     lettersList:
     - 'Dear husband,
+
+
+      I read your most recent article.
+
+      Are you quite
+      certain journalism for you?
+
 
 '
     - "Sir, \r\n\r\nRegarding your latest article... \r\n\r\n\u2018Tis a disaster!
@@ -56,7 +63,7 @@ MonoBehaviour:
       that money is better put towards keeping our printing press running. \r\n\r\nGo
       and source me a new story, sir. This is your last chance, and quite possible
       our paper\u2019s last chance. \r\n\r\nHave it on my desk by the end of next
-      week. \r\n\r\nThe Weekly Wag \r\n\r\nEditor-in-Chief "
+      week. \r\n\r\nThe Weekly Wag \r\nEditor-in-Chief "
   - index: 2
     newsTitle: KILLER STABLE HAND HANGS!
     newsImg: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
