@@ -16088,18 +16088,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1141049960}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1141049963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21998,7 +21986,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -20, y: -20}
-  m_SizeDelta: {x: 178.391, y: 64.042}
+  m_SizeDelta: {x: 175, y: 64}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1536355441
 MonoBehaviour:
@@ -23792,8 +23780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 15
-  edgeScrollSize: 300
-  deadEdgeSize: 200
+  edgeScrollSize: 150
   cinemachine: {fileID: 1452090258}
   envir: {fileID: 0}
   canMove: 0
@@ -24971,9 +24958,7 @@ MonoBehaviour:
   journalIcon: {fileID: 1392164481}
   menuIcon: {fileID: 1536355439}
   settingPanel: {fileID: 825430514}
-  backtoMainMenuButton: {fileID: 1141049960}
   uiCanvas: {fileID: 1075914074}
-  journalPanel: {fileID: 1667807368}
   familyMembers: {fileID: 11400000, guid: cf5bb710e5495fa46b349b3d12a47a32, type: 2}
   showcasePanel: {fileID: 916608102}
   putbackButton: {fileID: 1968361606}
