@@ -716,7 +716,11 @@ PrefabInstance:
       objectReference: {fileID: -6481264760192370585, guid: 0f17f21804fcf1345bc2d2d4a9ba1fa1, type: 3}
     - target: {fileID: 4091208634751281235, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
       propertyPath: sceneFrom
-      value: Dorothy Pocket
+      value: Reception
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091208634751281235, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: sceneToGo
+      value: Garden
       objectReference: {fileID: 0}
     - target: {fileID: 5347566131207106050, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
       propertyPath: m_Name
@@ -963,10 +967,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 19, y: 5.4}
-      - {x: -19, y: 5.4}
-      - {x: -19, y: -5.4}
-      - {x: 19, y: -5.4}
+    - - {x: 18.5, y: 5.4}
+      - {x: -18.5, y: 5.4}
+      - {x: -18.5, y: -5.4}
+      - {x: 18.5, y: -5.4}
   m_UseDelaunayMesh: 0
 --- !u!4 &1323063404
 Transform:
@@ -1293,12 +1297,12 @@ SpriteRenderer:
   m_SortingLayerID: 158067675
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4938505171585774463, guid: dd50cfa69282473499eda3e20762e174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd50cfa69282473499eda3e20762e174, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 27.8, y: 10.805078}
+  m_Size: {x: 38.399998, y: 10.799999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
