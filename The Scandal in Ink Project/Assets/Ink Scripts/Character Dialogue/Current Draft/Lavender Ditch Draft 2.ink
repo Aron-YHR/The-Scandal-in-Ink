@@ -19,7 +19,6 @@ INCLUDE Secrets.ink
 }
 
 
-
 *{not lavender_confession}[Where were you the night of the murder?]
 That's none of your &$%"!@*! business! ->Start
 
@@ -38,7 +37,7 @@ It- it's not what it looks like. I'm only friends with Dorothy, that's all! We'r
 ->Letters_Discovered
 
 
-*{brooch}[I found the Admiral's brooch hidden in the horse's saddle.]
+*{brooch and not brooch_question}[I found the Admiral's brooch hidden in the horse's saddle.]
 And what of it?
 You accusing me of stealing? I know I've no fancy airs or graces like some in this house, but that doesn't make me a thief.
 ->Brooch_Discovered
@@ -74,6 +73,7 @@ And why would I do a thing like that? ->Accuse
 Oh <i>s%@$! #portrait:stablehandshock
 ~unlockStatement("Lavender_Ditch",1) 
 I- I didn't know that was there. Honest.
+~brooch_question = true
 I was in my chambers last night when the Admiral got done in, cross my heart.
 I'm not a killer. And I don't go round swindling what isn't mine. I don't cause trouble.
 #portrait:stablehandnegative

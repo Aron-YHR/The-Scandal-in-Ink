@@ -73,6 +73,7 @@ VAR dorothy_denial = false
 
 //Lavender
 VAR lavender_confession = false
+VAR brooch_question = false
 
 
 
