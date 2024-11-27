@@ -35,9 +35,9 @@ public class CameraFollowMouse : Singleton<CameraFollowMouse>
         if (canMove && !DialogueManager.GetInstance().dialogueIsPlaying && !TransitionManager.Instance.isFading)
         {
             inputDir = new Vector3(0, 0, 0);
-            if (Input.mousePosition.x < edgeScrollSize && Input.mousePosition.x > 0 && Input.mousePosition.y > deadEdgeSize && Input.mousePosition.y < Screen.height - deadEdgeSize) inputDir.x = -1f;
+            if (Input.mousePosition.x < edgeScrollSize && Input.mousePosition.x > 0  && Input.mousePosition.y < Screen.height - deadEdgeSize) inputDir.x = -1f;
             if (Input.mousePosition.y < edgeScrollSize && Input.mousePosition.y > 0) inputDir.y = -1f;
-            if (Input.mousePosition.x > Screen.width - edgeScrollSize && Input.mousePosition.x < Screen.width && Input.mousePosition.y > deadEdgeSize && Input.mousePosition.y < Screen.height - deadEdgeSize) inputDir.x = +1f;
+            if (Input.mousePosition.x > Screen.width - edgeScrollSize && Input.mousePosition.x < Screen.width  && Input.mousePosition.y < Screen.height - deadEdgeSize) inputDir.x = +1f;
             if (Input.mousePosition.y > Screen.height - edgeScrollSize && Input.mousePosition.x < Screen.width) inputDir.y = +1f;
 
             if (inputDir != new Vector3(0, 0, 0))
