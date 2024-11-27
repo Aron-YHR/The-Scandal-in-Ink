@@ -88,13 +88,14 @@ MonoBehaviour:
   sideCaseResultsList:
   - index: 0
     newsTitle: SLOW NEWS DAY
-    letter: "Sir, \r\n\r\nI would like to express my gratitude for your discretion
-      in your most recent edition of \u201CThe Weekly Wag.\"  \r\n\r\nYou uncovered
-      many sensitive details regarding my conduct in Wenchwatch Hall. I can only
-      thank you for keeping those details out of the papers.  \r\n\r\nI will not
-      forget the kindness you have shown me. Should you have any need of me in the
-      future, simply ask. I would be more than happy to be of service. \r\n\r\nYour
-      loyal friend, \r\n\r\nDorothy Tendwell "
+    letter: "Dear Sir, \r\n\r\nLady Theodosia Hold wishes to express her gratitude
+      for the manner in which you carried out your investigation at Wenchwatch Hall,
+      and for the discretion shown in your article. \r\n\r\nYour exclusion of the
+      more salacious details surrounding Admiral Hold\u2019s passing \u2013 whether
+      intended or not \u2013 did not go unnoticed. For this, and for the overall
+      preservation of her reputation, Lady Hold is most appreciative. She would like
+      me to assure you that she will remain an avid consumer of your publication
+      for the foreseeable future.  \r\n\r\nWith thanks, \r\n\r\nDorothy Tendwell "
   - index: 1
     newsTitle: AND THEY WERE ROOMMATES
     letter: "Dear Sir, \r\n\r\nI would like to thank you for penning your most recent
