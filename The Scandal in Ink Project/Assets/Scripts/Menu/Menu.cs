@@ -35,5 +35,6 @@ public class Menu : MonoBehaviour
         //cutsceneAnimator.Play("Newspaper");
         EventHandler.CallStartNewGameEvent(); 
         UIManager.Instance.DesactiveIcons();
+        AudioManager.Instance.OnBGMEvent(null);
     }
 }

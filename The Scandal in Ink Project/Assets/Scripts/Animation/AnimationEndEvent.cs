@@ -20,6 +20,7 @@ public class AnimationEndEvent : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         UIManager.Instance.DesactivateJournal();
+        GameObject.Find("BGM").GetComponent<AudioDefinition>()?.PlayBGMAudioClip();
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
