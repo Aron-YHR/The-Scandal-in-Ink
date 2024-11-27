@@ -9,10 +9,12 @@ public class BillsScript : ScriptableObject
     public int gameLevel;
 
     //income
+    [Header("Finaces")]
     public int Savings;
     public int Salary;
     public int Misc_income;
     //side work
+    [Header("Salary and Expense")]
     public int Mines;
     public int Mills;
     //expenses
@@ -27,6 +29,7 @@ public class BillsScript : ScriptableObject
     /// </summary>
     /// <param name="tag"></param>
     /// <returns></returns>
+    [Header("Choices' Impacts")]
     public int minesImpact;
     public int millsImpact;
     public int foodImpact;
