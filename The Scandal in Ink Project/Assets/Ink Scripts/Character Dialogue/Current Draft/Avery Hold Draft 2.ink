@@ -174,6 +174,20 @@ Sir. I would recommend you cease bothering the young master. <i>Immediately</i>.
 **[Let's talk about something else.]
 Indeed. ->Start
 
+*[He's a killer, Dorothy! You can't protect him forever!]
+Sir! Compose yourself! You're scaring poor master Avery, and he has been through quite enough today!
+I fear the stress of your investigation is affecting you.
+Go take a moment to clear your thoughts. But should you wish to speak to myself or the young master again, be aware that this particular line of questioning will <i>not</i> be tolerated.
+->DONE
+
+
+
+*[<i>Run.</i>]
+<i>You sprint out the nearest exit.</i>
+~Transition("Reception","Garden")
+->DONE
+
+
 ===Examination===
 
 +[Examine his hands.]

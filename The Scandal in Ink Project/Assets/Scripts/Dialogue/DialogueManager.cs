@@ -177,9 +177,18 @@ public class DialogueManager : MonoBehaviour
         if (currentNPC != null)
             currentNPC.enabled = true;
 
-        CameraFollowMouse.Instance.canMove = true;
+         
         if(MouseAndClick.Instance.isHandShowed && !MouseAndClick.Instance.hand.gameObject.activeInHierarchy )
         MouseAndClick.Instance.hand.gameObject.SetActive(true);
+
+        StartCoroutine(ShortDelay());
+        
+    }
+
+    IEnumerator ShortDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        CameraFollowMouse.Instance.canMove = true;
     }
 
     private void ContinueStory()
