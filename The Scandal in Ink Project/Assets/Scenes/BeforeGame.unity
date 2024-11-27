@@ -1359,7 +1359,7 @@ MonoBehaviour:
   audioClip: {fileID: 0}
   transitionAudioClips:
   - {fileID: 8300000, guid: 91ef14c2c6618b94a809d8747d5a1cc0, type: 3}
-  - {fileID: 8300000, guid: 372b35f86b6c9774693bccad2b72e38d, type: 3}
+  - {fileID: 8300000, guid: b1a3a365acf425f4eab1b30a7153385f, type: 3}
   playOnEnable: 0
   isRandomPlay: 0
   type: 0
