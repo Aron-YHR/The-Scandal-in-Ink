@@ -88,13 +88,16 @@ public class AudioManager : Singleton<AudioManager>
         }
         else
         {
-            if (BGMSource.clip != null)
+            if(BGMSource.clip != null && BGMSource.clip != audioClip)
                 yield return AudioFade(0);
 
-            BGMSource.clip = audioClip;
-            BGMSource.Play();
+            if (BGMSource.clip != audioClip)
+            {
+                BGMSource.clip = audioClip;
+                BGMSource.Play();
+                yield return AudioFade(1);
+            }
 
-            yield return AudioFade(1);
         }
     }
 
