@@ -18,8 +18,6 @@ INCLUDE Secrets.ink
     }
 }
 
-*{not lavender_confession}[A pleasure to meet you too.]
-... ->Start
 
 
 *{not lavender_confession}[Where were you the night of the murder?]
@@ -89,7 +87,6 @@ More than I can say for some in this house... ->Alibis
 ...Nothing. Forget I said anything. ->Alibis 
 
 *[Do you have an alibi for last night?]
- #portrait:stablehandneutral  
  {lavender_confession: I was with Dot last night. In her bedroom. She'll tell you as much, if you let on you know about the two of us.}
 {not lavender_confession:...I don't, no.} ->Alibis
 
