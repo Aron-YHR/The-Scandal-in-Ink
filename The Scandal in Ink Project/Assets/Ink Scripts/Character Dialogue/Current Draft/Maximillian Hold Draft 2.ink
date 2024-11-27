@@ -7,7 +7,7 @@ INCLUDE Secrets.ink
 
 ===INTRO===
 {
--max_confession == true: Finished #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
+-max_confession == true:
 ->Outro
 
 -else: ->Start
@@ -35,11 +35,11 @@ Oh, you journalist types- such terrible tattlers! I am normally not one for idle
 +[How was your relationship with your brother?]
 Oh, zounds I say, zounds! Charles! My dearest Chuck! Gone from this world too soon! -> Relationship
 
-//*[What the hell are you wearing?!]
+/*[What the hell are you wearing?!]
 Curse that sharp journalistic eye of yours, sir! Yes, I admit it! I am most scandalously underdressed. #portrait:fopshock
 In my haste to go to young Avery's side, I was forced to adorn clothing  rather haphazardly. I hadn't even time to adorn gloves! #portrait:fopneutral
 I tried to pass off my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
-Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian and a fraud, in front of a journalist no less! I can hardly tell which is worse. -> Start
+Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian and a fraud, in front of a journalist no less! I can hardly tell which is worse. -> Start */
 
 *{checked_door and not maximillian_door_key or door_key}[Can I have the key to your room?]
 Why- of course! I would give it to this very instant- #portrait:fopshock
@@ -399,7 +399,7 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 ~pink_lipstick_smudge = true
 ~unlockItem("pink_lipstick_smudge")
 <i>However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.</i>
-{ - pink_lipstick: Odd. You think you've seen that lipstick elsewhere...}
+{ - pink_lipstick: Strange. You think you've seen that lipstick elsewhere...}
 { - pink_lipstick and burnt_letter: 
 ~affair_revealed = true
 }
@@ -430,7 +430,7 @@ His hands are ungloved and unadorned.->Examination
 
 ===Outro===
 It is quite clear what happened, mon chéri! The stable hand attempted to purloin the family brooch and killed my dear brother in the act!  #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
-Print that in the papers, good sir, and I can guarantee your financial situation shall <i>dramatically</i> improve!
+Print that in your little paper, and I can guarantee your financial situation shall <i>dramatically</i> improve!
 ->DONE
 
 

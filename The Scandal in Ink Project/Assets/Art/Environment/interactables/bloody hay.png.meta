@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bloody hay_0: -7934944321718083714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

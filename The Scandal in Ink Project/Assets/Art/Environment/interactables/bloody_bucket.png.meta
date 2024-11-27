@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bloody_bucket_0: -8284133876149401115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
