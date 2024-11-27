@@ -152,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: Avery Pocket
   sceneToGo: Reception
+  Highlight: {fileID: 0}
 --- !u!60 &112713320
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -243,7 +244,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1632098607
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -363,6 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Highlight: {fileID: 0}
+  animator: {fileID: 0}
   inkJson: {fileID: 4900000, guid: 259e93fe88de86b4a9395effa45263f0, type: 3}
   image: {fileID: 0}
 --- !u!1 &568315519
@@ -508,7 +510,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1593745568866057959, guid: 1bdc8a13e7bf2bc448966f8122fb8c67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -604,6 +606,8 @@ MonoBehaviour:
     itemInfo: 
   isClicked: 0
   isHid: 1
+  Highlight: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1 &1251968467
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,8 +753,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 5109791440770194852, guid: 320d6c10e06167443b0a09855f95fa01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
