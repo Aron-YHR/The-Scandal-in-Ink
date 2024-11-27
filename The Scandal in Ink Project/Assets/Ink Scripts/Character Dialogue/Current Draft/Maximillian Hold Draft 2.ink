@@ -6,11 +6,20 @@ INCLUDE Secrets.ink
 ->INTRO
 
 ===INTRO===
-#portrait:fopneutral
+{
+-max_confession == true: Finished #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
+->Outro
+
+-else: ->Start
+
+}
+
+
+
 -> Start
 
 === Start ===
-{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right 
+{TURNS_SINCE(-> INTRO) == 0: Well hello, my fashion-challenged friend! You have some questions, yes?} #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
 
 +[Where were you the night of the murder?]
 I retired early to my chambers last night. The horseback ride earlier that day rather drained me.
@@ -38,8 +47,10 @@ Why- of course! I would give it to this very instant- #portrait:fopshock
 #portrait:fopneutral
 Had I not- lost it! Yes! Aha! Foolish me, to misplace it so! I'm sure you shall find it lying about the manor somewhere. ->Start
 
-*{affair_revealed}[I know about your affair with Theodosia.]
-Moi? In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir! ->Affair_Revealed
+*{affair_revealed or theodosias_pants}[I know about your affair with Theodosia.]
+Moi? 
+~affair_revealed = true
+In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir! ->Affair_Revealed
 
 +[It was you! You killed the Admiral!]
 Moi, sir? Kill my dear brother? What could possibly have brought you to such an outrageous conclusion? Where is the proof of me committing such a horrendous act? ->Accuse
@@ -141,7 +152,8 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
 ~ unlockStatement("Maximillian_Hold",6)
-Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram. And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. I'm sure you as a gentleman can understand that.
+Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram.
+And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. I'm sure you as a gentleman can understand that.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *[You lust after her! I can see it in your eyes!]
@@ -164,14 +176,14 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 
 ===Accuse===
 
-*{affair_revealed}[You were having an affair with Theodosia. You killed Charles to keep it quiet!]
+*{affair_revealed and not Max_proof1}[You were having an affair with Theodosia. You killed Charles to keep it quiet!]
 ~Max_proof1 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
 - else: ->Why
 }
 
-*{brooch}[It was you fighting with Charles last night! You stabbed him with his own brooch!]
+*{brooch and not Max_proof2}[It was you fighting with Charles last night! You stabbed him with his own brooch!]
 ~Max_proof2 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
@@ -179,14 +191,19 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 }
 
 
-*{theodosias_gloves}[I found the bloody gloves in your room!]
+*{theodosias_gloves and not Max_proof3}[I found the bloody gloves in your room!]
 ~Max_proof3 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
 - else: ->Who
 }
 
-
+*{theodosias_pants and not Max_proof1}[You were having an affair with Theodosia. You killed Charles to keep it quiet!]
+~Max_proof1 = true
+{
+- Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
+- else: ->Why
+}
 
 
 
@@ -265,10 +282,13 @@ Such a notion is utter poppycock! ->Accuse
 ===Bartering===
 I- I- I-!
 ...
+~max_confession = true
 Well, aren't you a clever little commoner. #speaker: Maximillian Hold #portrait:fopnegative
 You've performed a very <i>thorough</i> investigation, haven't you?
 I admit, this must seem terribly suspicious from your perspective. But I can assure you, there is a perfectly logical explanation for all these unfortunate findings of yours. #speaker: Maximillian Hold #portrait:foppositive
-You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her thieving, murderous clutches!
+You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. 
+Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. 
+That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her thieving, murderous clutches!
 Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culprit! She killed my dear brother so that she could steal our precious family heirloom! 
 I'm sure your investigation will come to that same conclusion, given the right... input, yes?
 
@@ -287,7 +307,9 @@ Oh heavens! Bribery? Moi? <i>Never</i>!
 
 
 =Bargaining_Cont
-I am merely waxing lyrical, sir! How <i>tricky</i> a thing the truth is to pin down, wouldn't you agree? Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
+I am merely waxing lyrical, sir! How <i>tricky</i> a thing the truth is to pin down, wouldn't you agree? 
+Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! 
+And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
 Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative? Particularly for a family man such as yourrself...
 
 
@@ -308,8 +330,11 @@ Yes yes, fascinating. Focus back on me, please.
 ->Bargaining_Final
 
 =Bargaining_Final
-I shall let you know a secret. Given my dear brother's untimely passing, I think it my obligation to protect the family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
-I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.That is assuming the <i>true</i> killer of my brother is found. 
+I shall let you know a secret. 
+Given my dear brother's untimely passing, I think it my obligation to protect the family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. 
+By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
+I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.
+That is assuming the <i>true</i> killer of my brother is found. 
 Does that sound amiable to you, sir?
 
 
@@ -337,8 +362,8 @@ Hardly a difficult choice by my estimation, but very well. I await your next pub
 
 
 =Outburst
-Blame the blasted stablehand and I'll pay you off, you illiterate buffoon!
-...Ahem. By which I mean, should your paper identify the true killer of Admiral Hold, you should expect your family's finances to improve- dramatically.
+Blame the blasted stablehand and I'll pay you off, you illiterate buffoon! #portrait:fopnegative
+...Ahem. By which I mean, should your paper identify the true killer of Admiral Hold, you should expect your family's finances to improve- dramatically. #portrait:fopneutral
 Have we a deal?
 
 
@@ -403,7 +428,10 @@ His hands are ungloved and unadorned.->Examination
 
 
 
-
+===Outro===
+It is quite clear what happened, mon chéri! The stable hand attempted to purloin the family brooch and killed my dear brother in the act!  #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
+Print that in the papers, good sir, and I can guarantee your financial situation shall <i>dramatically</i> improve!
+->DONE
 
 
 
