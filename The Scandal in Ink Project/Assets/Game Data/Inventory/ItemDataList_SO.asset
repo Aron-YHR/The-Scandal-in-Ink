@@ -73,7 +73,7 @@ MonoBehaviour:
     itemInfo: A pair of gloves found in Maximillian's room. Once white, now stained
       red with blood. They are monogrammed with Theodosia Hold's initials.
   - itemName: 13
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 6120914730915384989, guid: ee899a334ad7c5e4e8c85d3cf408ca9c, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 1
