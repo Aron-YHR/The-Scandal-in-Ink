@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BillData_SO
   m_EditorClassIdentifier: 
   gameLevel: 1
-  Savings: 4
+  Savings: 6
   Salary: 0
   Misc_income: 0
   Mines: 6
@@ -23,8 +23,8 @@ MonoBehaviour:
   Heat: 4
   Medicine: 10
   Schooling: 10
-  minesImpact: -2
-  millsImpact: -2
+  minesImpact: -1
+  millsImpact: -1
   foodImpact: -1
   heatImpact: -1
   medicineImpact: 2
