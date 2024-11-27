@@ -57,7 +57,7 @@ MonoBehaviour:
     notPickedUp: 0
     itemInfo: You picked it up!
   - itemName: 11
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: 7081620701708433966, guid: 6795bfa4f9d79d44d918ce38aceb1dc1, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
     itemInfo: A pair of gloves with Maximillian's monogrammed initials. Theodosia
       is wearing them, for some strange reason.
   - itemName: 18
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -8284133876149401115, guid: 7b4ca28e87fe82a42a7801bd1b626bc1, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 1
@@ -149,7 +149,7 @@ MonoBehaviour:
     itemInfo: A bucket full of blood-tainted water. Perhaps the killer used this
       to wash the blood from their hands...?
   - itemName: 21
-    itemIcon: {fileID: 0}
+    itemIcon: {fileID: -7934944321718083714, guid: 0b590f4897715d249a102064dbef3809, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 1
@@ -175,7 +175,7 @@ MonoBehaviour:
 
 '
   - itemName: 19
-    itemIcon: {fileID: 2991606661771570988, guid: 181cfcf08d36e184e8bd98467fa1d0a2, type: 3}
+    itemIcon: {fileID: -7234063711239174497, guid: 0adf4423e62784448bee5faacded0771, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
