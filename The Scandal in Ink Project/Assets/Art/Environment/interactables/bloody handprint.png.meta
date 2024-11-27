@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bloody handprint_0: 7081620701708433966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
