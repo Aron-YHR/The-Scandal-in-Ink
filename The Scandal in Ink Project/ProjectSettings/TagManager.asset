@@ -49,9 +49,9 @@ TagManager:
   - name: Background
     uniqueID: 158067675
     locked: 0
-  - name: Transition
-    uniqueID: 2662868689
-    locked: 0
   - name: Evironment
     uniqueID: 2483484679
+    locked: 0
+  - name: Transition
+    uniqueID: 2662868689
     locked: 0
