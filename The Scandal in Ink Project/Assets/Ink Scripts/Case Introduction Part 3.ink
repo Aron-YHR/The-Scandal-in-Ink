@@ -58,7 +58,7 @@ Dorothy, I assure you, I am most well rested. One of the few benefits of widowho
 Yes, Lady Hold, of course. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
 Introducing Lady Theodosia Hold, sir. Wife of the late Admiral. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-A pleasure to meet you, sir. I am an avid fan of your publication. Oft does Dorothy reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia_Hold #layout:left #portrait:theladypositive
+A pleasure to meet you, sir. I am an avid fan of your publication. Dorothy often reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia_Hold #layout:left #portrait:theladypositive
 The exposé last month regarding Lady Sullivan's indecent table manners was <i>particularly</i> delectable.
 Most wonderful that you are here. One imagines you'll be taking my portraiture for your next issue, yes?
 

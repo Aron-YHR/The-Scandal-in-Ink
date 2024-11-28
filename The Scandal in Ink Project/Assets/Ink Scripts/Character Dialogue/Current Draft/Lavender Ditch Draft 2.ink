@@ -14,7 +14,7 @@ INCLUDE Secrets.ink
     {
  - lavender_confession == true:You need something? #speaker: Lavender Ditch #portrait:stablehandneutral
 
-- else:The <i>f&!@k do you want</i>?! #speaker: Lavender Ditch #portrait:stablehandnegative
+- else:The <i>f&!@k</i> do you want?! #speaker: Lavender Ditch #portrait:stablehandnegative
     }
 }
 
