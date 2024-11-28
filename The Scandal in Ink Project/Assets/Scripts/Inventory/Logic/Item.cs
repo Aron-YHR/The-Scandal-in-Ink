@@ -55,6 +55,7 @@ public class Item : MonoBehaviour
 
         if (isHid && isClicked)
         {
+            Cursor.SetCursor(MouseAndClick.Instance.handClose, Vector2.zero, CursorMode.ForceSoftware);
             Vector3 v = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.position = new Vector3(v.x, v.y,0);
             //Debug.Log(Vector3.Distance(previousPos, transform.position));
@@ -62,7 +63,8 @@ public class Item : MonoBehaviour
             {
 
                 ItemClicked();
-                MouseAndClick.Instance.handAnimator.Play("HandOpen");
+                //MouseAndClick.Instance.handAnimator.Play("HandOpen");
+                Cursor.SetCursor(MouseAndClick.Instance.handOpen, Vector2.zero, CursorMode.ForceSoftware);
             }
         }
     }

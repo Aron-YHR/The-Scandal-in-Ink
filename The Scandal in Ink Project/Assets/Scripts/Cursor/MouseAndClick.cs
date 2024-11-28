@@ -8,6 +8,9 @@ public class MouseAndClick : Singleton<MouseAndClick>
     public Animator handAnimator;
     public bool isHandShowed;
 
+    public Texture2D handClose;
+    public Texture2D handOpen;
+
     public Vector3 mouseWorldPos => Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
 
 
@@ -37,8 +40,10 @@ public class MouseAndClick : Singleton<MouseAndClick>
         if (canClick && Input.GetMouseButtonDown(0) && !TransitionManager.Instance.isFading)
         {
             // identify the situations of mouse interaction
-            if (hand.gameObject.activeInHierarchy)
-            handAnimator.Play("HandGrab");
+            //if (hand.gameObject.activeInHierarchy)
+            //handAnimator.Play("HandGrab");
+
+            
 
             ClickAction(ObjectAtMousePosition().gameObject);
 
@@ -56,6 +61,10 @@ public class MouseAndClick : Singleton<MouseAndClick>
 
             }*/
         }
+        //else
+        //{
+            
+        //}
     }
 
     private void ClickAction(GameObject clickObject)
