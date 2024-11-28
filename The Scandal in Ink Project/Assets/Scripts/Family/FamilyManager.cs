@@ -114,37 +114,39 @@ public class FamilyManager : Singleton<FamilyManager>
 
         switch (expenseOption)
         {
-            case "food":
+            case "food"://only for son
                 if (!isChosen)
                 {
-                    for (int i = 0; i < impactForEachMember.Length; i++)
+                    /*for (int i = 0; i < impactForEachMember.Length; i++)
                     {
                         impactForEachMember[i]+= billsScript.GetImpact(expenseOption);
-                    }
+                    }*/
+                    impactForEachMember[1] += billsScript.GetImpact(expenseOption);
                 }
                 break;
-            case "heat":
+            case "heat"://only for daughter
                 if (!isChosen)
                 {
-                    for (int i = 0; i < impactForEachMember.Length; i++)
+                    /*for (int i = 0; i < impactForEachMember.Length; i++)
                     {
                         impactForEachMember[i]+= billsScript.GetImpact(expenseOption);
-                    }
+                    }*/
+                    impactForEachMember[2] += billsScript.GetImpact(expenseOption);
                 }
                 break;
-            case "mines":
+            case "mines": //Only for son
                 if (isChosen)
                 {
                     impactForEachMember[1]+=billsScript.GetImpact(expenseOption);
                 }
                 break;
-            case "mills":
+            case "mills"://Only for daughter
                 if (isChosen)
                 {
                     impactForEachMember[2] += billsScript.GetImpact(expenseOption);
                 }
                 break;
-            case "medicine":
+            case "medicine"://for all members
                 if (isChosen)
                 {
                     for (int i = 0; i < impactForEachMember.Length; i++)

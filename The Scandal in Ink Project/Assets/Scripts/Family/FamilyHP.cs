@@ -47,7 +47,7 @@ public class FamilyHP : MonoBehaviour
 
     public void ChangeWellbeing(int impact)
     {
-        if(impact <=0)
+        /*if(impact <=0)
         {
             impact = -1;
         }
@@ -58,7 +58,7 @@ public class FamilyHP : MonoBehaviour
         else
         {
             impact = 0;
-        }
+        }*/
 
         familyMember.wellbeing += impact;
         if(familyMember.wellbeing > 5) familyMember.wellbeing = 5;

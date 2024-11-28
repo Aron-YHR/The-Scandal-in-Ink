@@ -93,7 +93,7 @@ public class TransitionManager : Singleton<TransitionManager>
 
         SceneManager.SetActiveScene(newScene);
 
-        if(newScene != null && newScene.name == "LadyPocket")
+        if(newScene != null && newScene.name.Contains ("Pocket"))
         {
             MouseAndClick.Instance.hand.gameObject.SetActive(true);
             MouseAndClick.Instance.isHandShowed = true;
