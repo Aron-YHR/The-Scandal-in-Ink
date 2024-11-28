@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      doodleadmiral_0: -4872435063676471029
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
