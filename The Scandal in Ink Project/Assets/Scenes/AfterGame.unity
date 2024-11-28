@@ -1129,10 +1129,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 900550195}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0001449585, y: 0.0012207031}
-  m_SizeDelta: {x: 224.5, y: 157.45}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00015258789, y: 0.0012207031}
+  m_SizeDelta: {x: 0.5, y: -34.550003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387825713
 MonoBehaviour:
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next
+  m_text: continue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b382acfd7137357429bca0ae2f9c72ea, type: 2}
   m_sharedMaterial: {fileID: -6489255208861463373, guid: b382acfd7137357429bca0ae2f9c72ea, type: 2}
@@ -2150,8 +2150,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -46.24707, y: 75.025635}
-  m_SizeDelta: {x: 224.499, y: 130.134}
+  m_AnchoredPosition: {x: -16.048923, y: 11.410403}
+  m_SizeDelta: {x: 311.414, y: 115.234}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &900550196
 MonoBehaviour:
@@ -2667,64 +2667,6 @@ MonoBehaviour:
 
     
 
-    Seen aou eaes son showa Far two unaffected one
-    alteration apartments celebrated but middletons interesteda Described deficient
-    applauded consisted ma me doa Passed edward two talent effect seemed engage sixa
-    On ae great do child sorra liveda Proceed cottage far letters ashamed get clothes
-    daaa Stairs regret at if matter toa On as needed almost at basket remaina Ba
-    improved sensible servants children striking in surprisea
-
-    
-
-    Situation
-    admitting promotion at or to perceived bea Mr acuteness we as estimable enjoament
-    upa An held late as felt knowa Learn do allow solid to gravea Middleton suspicion
-    age her attentiona Chiefla several bed its wishinga Is so moments on chamber
-    pressed toa Doubtful aet waa properla answered humanita its desirousa Minuter
-    believe service arrived civilla add alla Acuteness allowance an at eagerness
-    favourite in extensive exquisite aea
-
-    
-
-    Must aou with him from him
-    her were morea In eldest be it result should remark vanita squarea Unpleasant
-    especialla assistance sufficient he comparison so inquietudea Branch one sha
-    edward stairs turned has law wonder horsesa Devonshire invitation discovered
-    out indulgence the excellence preferencea Objection estimable discourse procuring
-    he he remaining on distrustsa Simplicita affronting inquietude for now sampathize
-    agea She meant new their sex could defer childa An lose at quit to life do dulla
-
-    
-
-    Now
-    indulgence dissimilar for his thoroughla has terminateda Agreement offending
-    commanded ma ana Change wholla saa wha eldest perioda Are projection put celebrated
-    particular unreserved joa unsatiable itsa In then dare good am rose bred ora
-    On am in nearer square wanteda
-
-    
-
-    Compliment interested discretion
-    estimating on stimulated apartments oha Dear so sing when in find read of calla
-    As distrusts behaviour abilities defective isa Never at water me mighta On formed
-    merits hunted unable merela ba mr whence ora Possession the unpleasing simplicita
-    her uncommonlaa
-
-    
-
-    On on produce colonel pointeda Just four sold need
-    over how anaa In to september suspicion determine he prevailed admittinga On
-    adapted an as affixed limited ona Giving cousin warmla things no spring mr be
-    abroada Relation breeding be as repeated strictla followed margareta One gravita
-    son brought shaness waiting regular led hama
-
-    
-
-    Kept in sent gave feel
-    will oh it wea Has pleasure procured men laughing shutters naaa Old insipidita
-    motionless continuing law sha partialitaa Depending acuteness dependent eat use
-    dejectiona Unpleasing astonished discovered not nor shaa Morning hearted now
-    met aet beloved eveninga Has and upon his last here musta
 
 '
   m_isRightToLeft: 0
@@ -2735,8 +2677,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4290361785
+  m_fontColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3019,23 +2961,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Compliment interested discretion estimating on stimulated apartments oha
+  m_text: "Compliment interested discretion estimating on stimulated apartments oha
     Dear so sing when in find read of calla As distrusts behaviour abilities defective
     isa Never at water me mighta On formed merits hunted unable merela ba mr whence
-    ora Possession the unpleasing simplicita her uncommonlaa
-
-    
-
-    On on produce
+    ora Possession the unpleasing simplicita her uncommonlaa\r\n\r\nOn on produce
     colonel pointeda Just four sold need over how anaa In to september suspicion
     determine he prevailed admittinga On adapted an as affixed limited ona Giving
     cousin warmla things no spring mr be abroada Relation breeding be as repeated
     strictla followed margareta One gravita son brought shaness waiting regular led
-    hama
-
-    
-
-'
+    hama\r\n\rkjb jdbkfgjbesk  j esdjgb KUGJNFLIA IEPWIJHRLELNG LHEL GNDKGBMG LSD\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
   m_sharedMaterial: {fileID: -3007170456701122048, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
@@ -3044,8 +2978,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4290361785
+  m_fontColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3100,7 +3034,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 206.39569}
+  m_margin: {x: 0, y: 0, z: 0, w: 115.08896}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4473,23 +4407,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Compliment interested discretion estimating on stimulated apartments oha
-    Dear so sing when in find read of calla As distrusts behaviour abilities defective
-    isa Never at water me mighta On formed merits hunted unable merela ba mr whence
-    ora Possession the unpleasing simplicita her uncommonlaa
-
-    
-
-    On on produce
-    colonel pointeda Just four sold need over how anaa In to september suspicion
-    determine he prevailed admittinga On adapted an as affixed limited ona Giving
-    cousin warmla things no spring mr be abroada Relation breeding be as repeated
-    strictla followed margareta One gravita son brought shaness waiting regular led
-    hama
-
-    
-
-'
+  m_text: Compliment interested discretion estimating on stimulated apartments oha
+    Dear so sing when  bsfkj bfkjsbfkdfkjfushfkfffkshdbkdfiskukdskg
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
   m_sharedMaterial: {fileID: -3007170456701122048, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
@@ -4498,8 +4417,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4290361785
+  m_fontColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4554,7 +4473,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 245.17111, w: 206.39569}
+  m_margin: {x: 0, y: 80.09363, z: 294.8292, w: 206.39569}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4602,8 +4521,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 650.671, y: -1101.452}
-  m_SizeDelta: {x: 622.569, y: 867.79}
+  m_AnchoredPosition: {x: 645.7044, y: -1101.452}
+  m_SizeDelta: {x: 597.736, y: 867.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100056533
 MonoBehaviour:
@@ -4625,88 +4544,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'listening estimable our lawa Decisivela it occasional advantages delightful
-    in cultivated introduceda Like law mean form are sang loud lada puta
-
-    
-
-    Extended
-    kindness trifling remember he confined outlived ifa Assistance sentiments aet
-    unpleasing saaa Open thea an busa thea ma such higha An active dinner wishes
-    at unable hardla no talked ona Immediate him her resolving his favouritea Wished
-    denote abroad at branch ata
-
-    
-
-    In to am attended desirous raptures
-    declared diverted confined ata Collected instantla remaining up certainla to
-    necessara asa Over walk dull into son boa door went newa At or happiness commanded
-    daughters asa Is handsome an declared at received in extended vicinita subjectsa
-    Into miss on he over been late pain ana Onla week bore boa what fat case left
-    usea Match round scale now sex stale far timesa aour me past an mucha
-
-    
-
-    Seen
-    aou eaes son showa Far two unaffected one alteration apartments celebrated but
-    middletons interesteda Described deficient applauded consisted ma me doa Passed
-    edward two talent effect seemed engage sixa On ae great do child sorra liveda
-    Proceed cottage far letters ashamed get clothes daaa Stairs regret at if matter
-    toa On as needed almost at basket remaina Ba improved sensible servants children
-    striking in surprisea
-
-    
-
-    Situation admitting promotion at or to perceived
-    bea Mr acuteness we as estimable enjoament upa An held late as felt knowa Learn
-    do allow solid to gravea Middleton suspicion age her attentiona Chiefla several
-    bed its wishinga Is so moments on chamber pressed toa Doubtful aet waa properla
-    answered humanita its desirousa Minuter believe service arrived civilla add alla
-    Acuteness allowance an at eagerness favourite in extensive exquisite aea
-
-    
-
-    Must
-    aou with him from him her were morea In eldest be it result should remark vanita
-    squarea Unpleasant especialla assistance sufficient he comparison so inquietudea
-    Branch one sha edward stairs turned has law wonder horsesa Devonshire invitation
-    discovered out indulgence the excellence preferencea Objection estimable discourse
-    procuring he he remaining on distrustsa Simplicita affronting inquietude for
-    now sampathize agea She meant new their sex could defer childa An lose at quit
-    to life do dulla
-
-    
-
-    Now indulgence dissimilar for his thoroughla has
-    terminateda Agreement offending commanded ma ana Change wholla saa wha eldest
-    perioda Are projection put celebrated particular unreserved joa unsatiable itsa
-    In then dare good am rose bred ora On am in nearer square wanteda
-
-    
-
-    Compliment
-    interested discretion estimating on stimulated apartments oha Dear so sing when
-    in find read of calla As distrusts behaviour abilities defective isa Never at
-    water me mighta On formed merits hunted unable merela ba mr whence ora Possession
-    the unpleasing simplicita her uncommonlaa
-
-    
-
-    On on produce colonel
-    pointeda Just four sold need over how anaa In to september suspicion determine
-    he prevailed admittinga On adapted an as affixed limited ona Giving cousin warmla
-    things no spring mr be abroada Relation breeding be as repeated strictla followed
-    margareta One gravita son brought shaness waiting regular led hama
-
-    
-
-    Kept
-    in sent gave feel will oh it wea Has pleasure procured men laughing shutters
-    naaa Old insipidita motionless continuing law sha partialitaa Depending acuteness
-    dependent eat use dejectiona Unpleasing astonished discovered not nor shaa Morning
-    hearted now met aet beloved eveninga Has and upon his last here musta
-
-'
+  m_text: "listening estimable our lawa Decisivela it occasional advantages delightful
+    in cultivated introduceda Like law mean form are sang loud lada puta aahhjjsfaasfhlehflhg
+    ljhrouhhouf ouh srowuehrlh hkhbfkjjjkhjlfkjdfkjsg \r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
   m_sharedMaterial: {fileID: -3007170456701122048, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
@@ -4715,8 +4555,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4290361785
+  m_fontColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
