@@ -62,7 +62,7 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 1
-    itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood  runs
+    itemInfo: A bloody hand is imprinted on the windowsill. A trail of blood runs
       from the windowsill towards the stables...
   - itemName: 12
     itemIcon: {fileID: -3960259407536092533, guid: 8f29b4ad88eeea9459e904174a30762a, type: 3}
