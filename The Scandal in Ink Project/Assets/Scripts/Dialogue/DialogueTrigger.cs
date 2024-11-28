@@ -36,6 +36,7 @@ public class DialogueTrigger : MonoBehaviour
             if (Highlight != null)
             {
                 Highlight.SetActive(true);
+                if(animator.runtimeAnimatorController!= null)
                 animator.Play("ItemAndNPCHighlight");
             }
             /*if (isClicked)
