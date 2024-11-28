@@ -149,7 +149,7 @@ MonoBehaviour:
     itemInfo: A bucket full of blood-tainted water. Perhaps the killer used this
       to wash the blood from their hands...?
   - itemName: 21
-    itemIcon: {fileID: -7934944321718083714, guid: 0b590f4897715d249a102064dbef3809, type: 3}
+    itemIcon: {fileID: -2262991740021874123, guid: 944004f6533bcd94487e32a1476420e8, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 1
