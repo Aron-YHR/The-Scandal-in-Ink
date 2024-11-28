@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BillData_SO
   m_EditorClassIdentifier: 
   gameLevel: 1
-  Savings: 6
+  Savings: 4
   Salary: 0
   Misc_income: 0
   Mines: 6

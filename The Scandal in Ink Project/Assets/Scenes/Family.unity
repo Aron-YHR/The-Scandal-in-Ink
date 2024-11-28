@@ -2139,7 +2139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 405, y: 0}
+  m_AnchoredPosition: {x: 405, y: -4.2504654}
   m_SizeDelta: {x: 405, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &306226290
@@ -2189,13 +2189,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 5
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 1024
   m_textAlignment: 65535
@@ -5069,7 +5069,6 @@ MonoBehaviour:
     familyMemberImages: []
   memberImage: {fileID: 687759510}
   stateText: {fileID: 1704356927}
-  wellbeingChange: 0
 --- !u!114 &687759510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7705,7 +7704,6 @@ MonoBehaviour:
     familyMemberImages: []
   memberImage: {fileID: 1085235003}
   stateText: {fileID: 1746730386}
-  wellbeingChange: 0
 --- !u!114 &1085235003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8707,6 +8705,7 @@ GameObject:
   - component: {fileID: 1357361077}
   - component: {fileID: 1357361076}
   - component: {fileID: 1357361075}
+  - component: {fileID: 1357361078}
   m_Layer: 5
   m_Name: SubmitButton
   m_TagString: Untagged
@@ -8731,8 +8730,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 315.21768, y: -279.0584}
-  m_SizeDelta: {x: -684.795, y: -1018.201}
+  m_AnchoredPosition: {x: 325.15085, y: -279.0584}
+  m_SizeDelta: {x: -664.929, y: -1018.201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1357361075
 MonoBehaviour:
@@ -8790,6 +8789,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1357361078}
+        m_TargetAssemblyTypeName: AudioDefinition, Assembly-CSharp
+        m_MethodName: PlayFXAudioClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1357361076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8828,6 +8839,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357361073}
   m_CullTransparentMesh: 1
+--- !u!114 &1357361078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357361073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
+  transitionAudioClips: []
+  playOnEnable: 0
+  isRandomPlay: 1
+  type: 6
 --- !u!1 &1365135751
 GameObject:
   m_ObjectHideFlags: 0
@@ -9250,13 +9278,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 5
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -12220,7 +12248,6 @@ MonoBehaviour:
     familyMemberImages: []
   memberImage: {fileID: 1925532185}
   stateText: {fileID: 582140358}
-  wellbeingChange: 0
 --- !u!114 &1925532185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12427,6 +12454,7 @@ GameObject:
   - component: {fileID: 1976322326}
   - component: {fileID: 1976322325}
   - component: {fileID: 1976322324}
+  - component: {fileID: 1976322327}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -12510,6 +12538,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1976322327}
+        m_TargetAssemblyTypeName: AudioDefinition, Assembly-CSharp
+        m_MethodName: PlayFXAudioClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1976322325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12548,6 +12588,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976322322}
   m_CullTransparentMesh: 1
+--- !u!114 &1976322327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976322322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
+  transitionAudioClips: []
+  playOnEnable: 0
+  isRandomPlay: 1
+  type: 4
 --- !u!1 &1981895464
 GameObject:
   m_ObjectHideFlags: 0
