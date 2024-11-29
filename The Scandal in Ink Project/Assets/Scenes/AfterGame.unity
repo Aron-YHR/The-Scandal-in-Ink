@@ -2150,7 +2150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -16.048923, y: 11.410403}
+  m_AnchoredPosition: {x: -16.04895, y: 21.343567}
   m_SizeDelta: {x: 311.414, y: 115.234}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &900550196
@@ -2617,8 +2617,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.014524, y: -488.07846}
-  m_SizeDelta: {x: 632.502, y: 867.79}
+  m_AnchoredPosition: {x: 2.531192, y: -488.07846}
+  m_SizeDelta: {x: 622.569, y: 867.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998861387
 MonoBehaviour:
@@ -2648,24 +2648,23 @@ MonoBehaviour:
     advantages delightful in cultivated introduceda Like law mean form are sang loud
     lada puta
 
-    
 
-    Extended kindness trifling remember he confined outlived
-    ifa Assistance sentiments aet unpleasing saaa Open thea an busa thea ma such
-    higha An active dinner wishes at unable hardla no talked ona Immediate him her
-    resolving his favouritea Wished denote abroad at branch ata
 
-    
+    Extended kindness trifling remember he confined outlived ifa
+    Assistance sentiments aet unpleasing saaa Open thea an busa thea ma such higha
+    An active dinner wishes at unable hardla no talked ona Immediate him her resolving
+    his favouritea Wished denote abroad at branch ata
 
-    In to
-    am attended desirous raptures declared diverted confined ata Collected instantla
-    remaining up certainla to necessara asa Over walk dull into son boa door went
-    newa At or happiness commanded daughters asa Is handsome an declared at received
-    in extended vicinita subjectsa Into miss on he over been late pain ana Onla week
-    bore boa what fat case left usea Match round scale now sex stale far timesa aour
-    me past an mucha
 
-    
+
+    In to am attended desirous
+    raptures declared diverted confined ata Collected instantla remaining up certainla
+    to necessara asa Over walk dull into son boa door went newa At or happiness commanded
+    daughters asa Is handsome an declared at received in extended vicinita subjectsa
+    Into miss on he over been late pain ana Onla week bore boa what fat case left
+    usea Match round scale now sex stale far timesa aour me past an mucha
+
+
 
 
 '
@@ -3002,7 +3001,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 16
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -4407,8 +4406,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Compliment interested discretion estimating on stimulated apartments oha
-    Dear so sing when  bsfkj bfkjsbfkdfkjfushfkfffkshdbkdfiskukdskg
+  m_text: Co mp lim ent inte res ted discr eti on est ima ting on st imu lated apart
+    ments oha Dear so sing when  bsfkj bfkjsbfkdfkjfushfkfffkshdbkdfiskukdskg
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
   m_sharedMaterial: {fileID: -3007170456701122048, guid: dbae7ec1288ef6449b9279aac03bdf58, type: 2}
@@ -4442,7 +4441,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 16
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4473,7 +4472,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 80.09363, z: 294.8292, w: 206.39569}
+  m_margin: {x: 0, y: 57.52063, z: 294.8292, w: 206.39569}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
