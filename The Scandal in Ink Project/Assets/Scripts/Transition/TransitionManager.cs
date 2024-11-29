@@ -14,6 +14,9 @@ public class TransitionManager : Singleton<TransitionManager>
     public bool isFading;
     public Animator cutsceneAnimator;
 
+    public Texture2D cursorImg;
+    //public Texture2D cursorImg2;
+
     //public DialogueTrigger dialogueTrigger;
 
     //public AudioDefinition audioDefinition;
@@ -93,15 +96,17 @@ public class TransitionManager : Singleton<TransitionManager>
 
         SceneManager.SetActiveScene(newScene);
 
-        if(newScene != null && newScene.name == "LadyPocket")
+        if(newScene != null && newScene.name.Contains ("Pocket"))
         {
-            MouseAndClick.Instance.hand.gameObject.SetActive(true);
-            MouseAndClick.Instance.isHandShowed = true;
+            Cursor.SetCursor(MouseAndClick.Instance.handOpen, Vector2.zero, CursorMode.ForceSoftware);
+            //MouseAndClick.Instance.hand.gameObject.SetActive(true);
+            //MouseAndClick.Instance.isHandShowed = true;
         }
         else
         {
-            MouseAndClick.Instance.isHandShowed = false;
-            MouseAndClick.Instance.hand.gameObject.SetActive(false);
+            Cursor.SetCursor(cursorImg, new Vector2(0,100), CursorMode.ForceSoftware);
+            //MouseAndClick.Instance.isHandShowed = false;
+            //MouseAndClick.Instance.hand.gameObject.SetActive(false);
         }
 
         // find background in a new scene

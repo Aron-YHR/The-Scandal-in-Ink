@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8330e8346f15862488658e477ab6beb1
+guid: 032f74920a2c30341b0ce8f98845bf63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 169863545507550146
-    second: handgrab_0
+      213: -4872435063676471029
+    second: doodleadmiral_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 7
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: handgrab_0
+      name: doodleadmiral_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10
-        width: 141
-        height: 140
+        x: 46
+        y: 0
+        width: 569
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c31442aef97b5200800000000000000
-      internalID: 169863545507550146
+      spriteID: b09f766ff12a16cb0800000000000000
+      internalID: -4872435063676471029
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      handgrab_0: 169863545507550146
+      doodleadmiral_0: -4872435063676471029
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

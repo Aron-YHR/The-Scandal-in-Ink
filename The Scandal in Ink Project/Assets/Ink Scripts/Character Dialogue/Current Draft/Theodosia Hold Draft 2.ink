@@ -188,18 +188,18 @@ As youwish. ->Start
 
 ===Examination===
 
-+[Examine her hands.]
++[<i>Examine her hands.]
 <i> Her gloves are a pristine white. However, you notice they are monogrammed. "M.H."
 ~unlockItem("maximillians_gloves")
 <i>Why is Theodosia wearing Maximillian's gloves...?</i>
 ->Examination
 
-+[Examine her purse.]
-<i>You notice some unusual items in Theodosia's purse.</i>
-<i>You think you might be able to look inside it without her noticing...</i>
++[<i>Examine her clothing.]
+<i>You notice some unusual items on Theodosia's person.</i>
+<i>You think you might be able to grab them without her noticing...</i>
 -> Pickpocket
 
-+[Examine her face.]
++[<i>Examine her face.]
 <i> Her makeup is exceptionally fashionable. </i>
 <i> Her lipstick shade is a very light pink. </i>
 ~pink_lipstick = true

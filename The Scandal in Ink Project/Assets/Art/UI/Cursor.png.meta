@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8330e8346f15862488658e477ab6beb1
+guid: 013303b3b307cbe418161a460c342536
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 169863545507550146
-    second: handgrab_0
+      213: -5942601335515675900
+    second: quill100_0
+  - first:
+      213: -1670750207614631516
+    second: quill100_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -42,7 +45,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +77,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -165,22 +168,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: handgrab_0
+      name: quill100_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 141
-        height: 140
+        y: 0
+        width: 92
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c31442aef97b5200800000000000000
-      internalID: 169863545507550146
+      spriteID: 40383d21293a78da0800000000000000
+      internalID: -5942601335515675900
       vertices: []
       indices: 
       edges: []
@@ -188,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4bd393413bfa4c5439089a1f9a14db9c
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +199,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      handgrab_0: 169863545507550146
+      quill100_0: -5942601335515675900
+      quill100_1: -1670750207614631516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

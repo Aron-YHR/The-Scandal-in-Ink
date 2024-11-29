@@ -176,7 +176,7 @@ TextureImporter:
         width: 92
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,31 +188,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: quill100_1
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 79
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a148b6c98d40d8e0800000000000000
-      internalID: -1670750207614631516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4bd393413bfa4c5439089a1f9a14db9c
     internalID: 0
     vertices: []
     indices: 
