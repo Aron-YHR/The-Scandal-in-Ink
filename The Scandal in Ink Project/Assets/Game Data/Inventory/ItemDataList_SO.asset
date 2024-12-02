@@ -316,3 +316,11 @@ MonoBehaviour:
     notPickedUp: 1
     itemInfo: A horse nibbling on some hanging plants through the bars of its stable
       window.
+  - itemName: 43
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: An antique set of duelling pistols fastened to the wall. Unloaded and
+      unused.
