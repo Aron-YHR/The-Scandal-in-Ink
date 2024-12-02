@@ -49,7 +49,7 @@ public class DialogueManager : MonoBehaviour
     private const string SPEAKER_TAG = "speaker";
     private const string PORTAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
-    public float screen_exit_delay = 0.5f;
+    public float dialogue_exit_delay = 0.5f;
 
     private DialogueVariables dialogueVariables;
 
@@ -188,7 +188,7 @@ public class DialogueManager : MonoBehaviour
 
     public IEnumerator ShortDelay()
     {
-        yield return new WaitForSeconds(screen_exit_delay);
+        yield return new WaitForSeconds(dialogue_exit_delay);
         CameraFollowMouse.Instance.canMove = true;
     }
 
