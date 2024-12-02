@@ -450,6 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: Stables
   sceneToGo: Saddle Pocket
+  transitionWithoutAudio: 1
   Highlight: {fileID: 0}
 --- !u!60 &464151230
 PolygonCollider2D:
@@ -881,7 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d6ee858946d77449563308ab378717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 94894a03dc188ae4bb70a5afcc652652, type: 3}
+  audioClip: {fileID: 8300000, guid: c9fb0332b07c4304c97e7c64577c9f75, type: 3}
   transitionAudioClips: []
   playOnEnable: 1
   isRandomPlay: 0

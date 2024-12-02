@@ -152,6 +152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: Table
   sceneToGo: Study
+  transitionWithoutAudio: 1
+  Highlight: {fileID: 0}
 --- !u!60 &92248271
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -243,7 +245,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1632098607
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 3691403395670354623, guid: c34e9e52fe720f148a4780cd791a10ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
