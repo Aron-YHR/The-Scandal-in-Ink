@@ -191,6 +191,7 @@ public class FamilyManager : Singleton<FamilyManager>
                 if (!familyHPList[i].familyMember.isDead)
                 {
                     familyHPList[i].ChangeWellbeing(impactForEachMember[i]);
+                    if(i != 0)
                     Instance.cutsceneDataList.list[0].lettersList[3] += familyHPList[i].familyMember.name + Instance.letterStatements.statementsList[(int)familyHPList[i].familyMember.state] + "\n";
                 }
             }
