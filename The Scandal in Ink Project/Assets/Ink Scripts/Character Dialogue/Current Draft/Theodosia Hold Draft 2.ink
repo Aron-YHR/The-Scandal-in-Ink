@@ -183,7 +183,7 @@ Barring the Irish. He <i>loathed</i> the Irish.
 -> Suspicions
 
 +[Let's talk about something else.]
-As youwish. ->Start
+As you wish. ->Start
 
 
 ===Examination===
