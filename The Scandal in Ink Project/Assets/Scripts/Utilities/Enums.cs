@@ -30,7 +30,20 @@ public enum ItemName
     maximillians_gloves,
     theodosias_pants,
     letter_of_dismissal,
-    maximillian_door_key
+    maximillian_door_key,
+
+    //List of non-essential interactables to follow
+    //study
+    piano,
+    stag_head,
+    forest_painting,
+    portrait_of_a_lady,
+    clock,
+    drawing_of_a_horse,
+    saber,
+    books,
+    stack_of_papers
+
    
 }
 
