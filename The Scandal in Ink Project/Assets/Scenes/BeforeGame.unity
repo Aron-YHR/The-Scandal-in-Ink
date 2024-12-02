@@ -783,7 +783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.277}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 688, y: -1108}
+  m_AnchoredPosition: {x: 702, y: -1108}
   m_SizeDelta: {x: 700, y: 900}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &451440709
@@ -925,6 +925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: BeforeGame
   sceneToGo: Intro Reception
+  transitionWithoutAudio: 0
   Highlight: {fileID: 0}
 --- !u!60 &495355958
 PolygonCollider2D:
@@ -1313,7 +1314,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 22.507294, y: 285.29865, z: 27.638397, w: 201.59782}
+  m_margin: {x: 22.507294, y: 316.93036, z: 27.638397, w: 210.93396}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1748,7 +1749,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Please send whatever aid you can dearest. We are counting on you.
+  m_text: 'Husband, please send whatever aid you can. We are all counting on you.
 
     Your
     loving wife,
@@ -1820,7 +1821,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -383.76147, w: -104.77424}
+  m_margin: {x: -18.846954, y: -2.8026657, z: -391.4358, w: -99.6792}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2647,7 +2648,7 @@ GameObject:
   - component: {fileID: 1404304401}
   - component: {fileID: 1404304400}
   m_Layer: 5
-  m_Name: Dearest Husband Text
+  m_Name: Wife's Inro & State
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2810,6 +2811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: BeforeGame
   sceneToGo: Reception
+  transitionWithoutAudio: 0
   Highlight: {fileID: 0}
 --- !u!60 &1409614343
 PolygonCollider2D:
