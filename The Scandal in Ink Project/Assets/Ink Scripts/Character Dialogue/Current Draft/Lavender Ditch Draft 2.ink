@@ -28,7 +28,7 @@ He paid me to tend the horses. I tend the horses. Nothing more than that.
 Can you get through that thick newsmonger skull of yours, hah? -> Start
 
 
-*{ankle_letter}[I found this letter for you from Dorothy...]
+*{ankle_letter and not lavender_confession}[I found this letter for you from Dorothy...]
 #portrait:stablehandshock
 Oh <i>s%@$e</i>!  
 ~ unlockStatement("Lavender_Ditch",2)

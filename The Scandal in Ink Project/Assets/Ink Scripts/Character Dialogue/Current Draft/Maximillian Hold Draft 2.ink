@@ -420,7 +420,7 @@ His hands are ungloved and unadorned.->Examination
 <i>However, you notice an unusual lump in Max's back pocket. You think you might be able to grab it without him noticing...
 
 +[<i>Pickpocket Max.</i>]
-~Transition("Study","Maximillian Pocket")
+~TransitionWithoutAudio("Study","Maximillian Pocket")
 ->DONE
 
 +[<i>Leave it for now.</i>]

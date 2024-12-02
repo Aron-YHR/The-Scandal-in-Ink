@@ -214,7 +214,7 @@ As youwish. ->Start
 
 =Pickpocket
 +[<i>Pickpocket Theodosia.</i>]
-~Transition("Garden","Theodosia Purse")
+~TransitionWithoutAudio("Garden","Theodosia Purse")
 ->DONE
 
 +[<i>Leave it for now.</i>]

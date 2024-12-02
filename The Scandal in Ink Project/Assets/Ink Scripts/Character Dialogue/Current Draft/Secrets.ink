@@ -41,6 +41,7 @@ EXTERNAL unlockStatement(npcName, index)
 EXTERNAL Transition(from,to)
 EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
+EXTERNAL TransitionWithoutAudio(from,to)
 
 
 //Pickpocket

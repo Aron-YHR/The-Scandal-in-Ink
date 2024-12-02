@@ -16,10 +16,10 @@ A torn letter penned by Admiral Hold filing for divorce from his wife, Theodosia
 
 {
 -statement_found and clue_found: 
-~Transition("Intro Clues Page", "Intro Deduction")
+~TransitionWithoutAudio("Intro Clues Page", "Intro Deduction")
 ->DONE
 
 -else: 
-~Transition("Intro Clues Page", "Intro Table")
+~TransitionWithoutAudio("Intro Clues Page", "Intro Table")
 ->DONE
 }

@@ -37,8 +37,9 @@ I thought very highly of him. -> Relationship
 
 *{theodosia_note}[Were you aware the Admiral intended to fire you?]
 #portrait:maidshock
-Um- No sir, I- I wasn't. Do you- know he reason why?
+Um- No sir, I- I wasn't. Do you- why he intended to do so?
 **[Something about a late breakfast.]
+#portrait:maidnegative
 ...I knew that shameful incident would come back to haunt me one day.
 No, sir, I was not aware of the Admiral's intentions. ->Start
 
@@ -306,7 +307,7 @@ Thank you, sir. Truly. Thank you.  ->Start
 <i> You think you might be able to grab it without her noticing...</i> 
 
 +[<i>Pickpocket Dorothy.</i>]
-~Transition("Reception","Dorothy Pocket")
+~TransitionWithoutAudio("Reception","Dorothy Pocket")
 ->DONE
 
 +[<i>Leave it for now.</i>]

@@ -208,7 +208,7 @@ Go take a moment to clear your thoughts. But should you wish to speak to myself 
 =Pickpocket
 
 +[<i>Pickpocket Avery.</i>]
-~Transition("Reception","Avery Pocket")
+~TransitionWithoutAudio("Reception","Avery Pocket")
 ->DONE
 
 +[<i>Leave it for now.</i>]
