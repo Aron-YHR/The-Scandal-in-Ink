@@ -185,7 +185,7 @@ public class DialogueManager : MonoBehaviour
         
     }
 
-    IEnumerator ShortDelay()
+    public IEnumerator ShortDelay()
     {
         yield return new WaitForSeconds(1f);
         CameraFollowMouse.Instance.canMove = true;
