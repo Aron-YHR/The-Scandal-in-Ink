@@ -106,8 +106,8 @@ Lady Theodosia Hold, who you have also met- #speaker:Dorothy Tendwell #layout:ri
 And myself. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 Not currently present is Avery Hold, the son of Lady Theodosia and the Admiral, and the stable hand, one Ms. Lavender Ditch.
 
-A most peculiar woman is Ms. Ditch. To so enthusiastically spend one's days coated in horse manure - it defies all reason!  #speaker:Theodosia_Hold #layout:left #portrait:theladyneutral
-Not to mention her general demeanour, dear Theodosia. So sullen- so uncouth! #speaker:Maximillian_Hold #layout:left  #portrait:fopnegative
+A most peculiar woman is Ms. Ditch. To so enthusiastically spend one's days coated in horse manure - it defies all reason!  #speaker:Theodosia Hold #layout:left #portrait:theladyneutral
+Not to mention her general demeanour, dear Theodosia. So sullen- so uncouth! #speaker:Maximillian Hold #layout:left  #portrait:fopnegative
  ... Ms. Ditch likes to keep to herself. You will likely find her out in the stables tending to the horses. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
 ->Questioning
 
