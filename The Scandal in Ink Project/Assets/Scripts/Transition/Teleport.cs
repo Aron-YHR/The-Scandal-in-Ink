@@ -7,6 +7,7 @@ public class Teleport : MonoBehaviour
     public string sceneFrom;
 
     public string sceneToGo;
+    public bool transitionWithoutAudio;
 
     [Header("Highlight")]
     [SerializeField] private GameObject Highlight;
@@ -44,7 +45,11 @@ public class Teleport : MonoBehaviour
 
     public void TeleportToScene()
     {
-        TransitionManager.Instance.Transition(sceneFrom, sceneToGo);
+        if (transitionWithoutAudio)
+        {
+            TransitionManager.Instance.TransitionWithoutAudio(sceneFrom, sceneToGo);
+        }
+        else { TransitionManager.Instance.Transition(sceneFrom, sceneToGo); }
     }
 
     private void OnMouseEnter()

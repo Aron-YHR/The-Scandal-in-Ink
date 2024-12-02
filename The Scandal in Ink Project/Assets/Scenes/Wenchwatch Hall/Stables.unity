@@ -450,6 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFrom: Stables
   sceneToGo: Saddle Pocket
+  transitionWithoutAudio: 1
   Highlight: {fileID: 0}
 --- !u!60 &464151230
 PolygonCollider2D:

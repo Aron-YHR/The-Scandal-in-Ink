@@ -558,6 +558,10 @@ PrefabInstance:
       propertyPath: sceneFrom
       value: Avery Pocket
       objectReference: {fileID: 0}
+    - target: {fileID: 4091208634751281235, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
+      propertyPath: transitionWithoutAudio
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5347566131207106050, guid: e09385a9051f1b84f85d83475f169c41, type: 3}
       propertyPath: m_Name
       value: Transition to Reception
