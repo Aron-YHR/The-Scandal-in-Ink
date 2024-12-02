@@ -42,7 +42,12 @@ public enum ItemName
     drawing_of_a_horse,
     saber,
     books,
-    stack_of_papers
+    stack_of_papers,
+
+    //garden
+    fountain,
+    hungry_horse,
+    unlit_lantern
 
    
 }
