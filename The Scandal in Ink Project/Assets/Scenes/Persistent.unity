@@ -24350,7 +24350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 15
   edgeScrollSize: 150
-  deadEdgeSize: 150
+  deadEdgeSize: 100
   cinemachine: {fileID: 1452090258}
   envir: {fileID: 0}
   canMove: 0

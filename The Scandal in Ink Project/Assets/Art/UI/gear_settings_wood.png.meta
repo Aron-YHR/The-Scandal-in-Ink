@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gear_settings_wood_0: 4773961619211306065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

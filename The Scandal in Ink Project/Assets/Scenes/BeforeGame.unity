@@ -783,7 +783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.277}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 754, y: -1108}
+  m_AnchoredPosition: {x: 688, y: -1108}
   m_SizeDelta: {x: 700, y: 900}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &451440709
@@ -1017,7 +1017,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1632098607
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 22.507294, y: 140.27078, z: 27.638397, w: 206.46223}
+  m_margin: {x: 22.507294, y: 285.29865, z: 27.638397, w: 201.59782}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1602,7 +1602,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2692,7 +2692,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dearest Husband,
+  m_text: 'Dearest Husband,
+
+    We have received what you sent.
+
+
+    I am still
+    faring well, thank the Lord, but my worries grow for the children.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 935416a14f037ab4487165646526b25e, type: 2}
   m_sharedMaterial: {fileID: -2096210382847887495, guid: 935416a14f037ab4487165646526b25e, type: 2}
@@ -2757,7 +2763,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -132.4542, w: 0}
+  m_margin: {x: 0, y: 0, z: -455.41824, w: -192.82379}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2896,7 +2902,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1632098607
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3266,7 +3272,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -3688964941015933079, guid: b2d2dcf8bf7c9c84092b82d038a67830, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3568,7 +3574,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1811482617
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1970265456

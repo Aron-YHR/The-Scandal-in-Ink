@@ -385,7 +385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Paying Rent
+  m_text: Family Finances
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
   m_sharedMaterial: {fileID: -446425728817410378, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
@@ -412,10 +412,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
+  m_fontSize: 58.35
   m_fontSizeBase: 48
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 5
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 361.21188}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3995,7 +3995,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -267}
+  m_AnchoredPosition: {x: -0, y: -277}
   m_SizeDelta: {x: 487.087, y: 59.732}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502768360
@@ -4018,7 +4018,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: submit when complete
+  m_text: Click submit when complete
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
   m_sharedMaterial: {fileID: -446425728817410378, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
@@ -4045,10 +4045,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 35.6
   m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -4083,7 +4083,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -46.51625}
+  m_margin: {x: 5.3943787, y: 54.813553, z: 13.93074, w: -46.51625}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6079,12 +6079,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'select what to spend money on
+  m_text: 'Select what to spend money on.
 
-    your actions may affect the wellbeing
-    of your family
+    Your choices may affect the wellbeing
+    of your family.
 
-    make sure to stay in budget, dont overspend!'
+    Make sure to stay in budget, & don''t overspend!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
   m_sharedMaterial: {fileID: -446425728817410378, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
@@ -6111,10 +6111,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43
+  m_fontSize: 40.05
   m_fontSizeBase: 43
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
