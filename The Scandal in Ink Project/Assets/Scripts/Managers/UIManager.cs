@@ -99,7 +99,8 @@ public class UIManager : Singleton<UIManager>
     public void CloseJournal()
     {
         journalPanel?.SetActive(false);
-        CameraFollowMouse.Instance.ActivateMove();
+        //CameraFollowMouse.Instance.ActivateMove();
+
         DesactivateJournal();
         AudioManager.Instance.OnSEEvent_Random(MusicType.BookClose);
     }
@@ -119,7 +120,9 @@ public class UIManager : Singleton<UIManager>
         settingPanel?.SetActive(false); 
         backtoMainMenuButton?.SetActive(false);
         LowSortOrder();
-        CameraFollowMouse.Instance.ActivateMove();
+        //CameraFollowMouse.Instance.ActivateMove();
+        //StartCoroutine(DialogueManager.GetInstance().ShortDelay());
+
         DesactivateJournal();
         AudioManager.Instance.OnSEEvent_Random(MusicType.Stamp);
     }
@@ -165,6 +168,7 @@ public class UIManager : Singleton<UIManager>
     public void DesactivateJournal()
     {
         isUIOpened = false;
+        StartCoroutine(DialogueManager.GetInstance().ShortDelay());
     }
 
     public void SetItemShowcase(GameObject gameObject,ItemDetails itemDetails)
