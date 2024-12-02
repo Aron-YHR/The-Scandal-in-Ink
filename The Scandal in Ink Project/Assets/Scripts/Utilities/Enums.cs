@@ -47,7 +47,9 @@ public enum ItemName
     //garden
     fountain,
     hungry_horse,
-    unlit_lantern
+    unlit_lantern,
+    //reception
+    duelling_pistols
 
    
 }
