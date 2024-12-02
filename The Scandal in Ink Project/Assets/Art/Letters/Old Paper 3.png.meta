@@ -411,7 +411,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Old Paper 3_0: 2596453582168492187
+      Old Paper 3_1: 5333700892430701706
+      Old Paper 3_2: 3844025140772807578
+      Old Paper 3_3: 2486568008291948551
+      Old Paper 3_4: 7904226454905072528
+      Old Paper 3_5: -3415384190859843403
+      Old Paper 3_6: -7755329392569388710
+      Old Paper 3_7: 5155308621713960307
+      Old Paper 3_8: 4032619335535448176
+      Old Paper 3_9: -4323933197348581282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
