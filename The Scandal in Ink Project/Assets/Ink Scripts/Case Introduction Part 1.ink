@@ -10,7 +10,6 @@ VAR question_tracker = 0
 
 
 //~TransitionToMainGame("BeforeGame","Intro Reception")
-~unlockNPC("Admiral_Charles_Hold")
 Welcome to Wenchwatch Hall, sir. How might I be of assistance? #speaker: Dorothy Tendwell #portrait:maidneutral
 
 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statementsList:
   - ' is dead. I shall make preparations for an appropriate burial. '
-  - " is deathly ill, and only worsens with each passing hour.\r\n \r\n \r\n \r\n "
-  - " has taken ill with some terrible malady.\r\n \r\n \r\n \r\n \r\n\r\n"
-  - " is faring well, thanks to your aid.\r\n \r\n \r\n \r\n "
-  - " is faring well, thanks to your aid.\r\n \r\n \r\n \r\n "
+  - " is deathly ill, and only worsens with each passing hour.\r\r\n \r\n "
+  - " has taken ill with some terrible malady.\r \r\n \r\n \r\n\r\n"
+  - " is faring well, thanks to your aid.\r\r\n \r\n "
+  - " is faring well, thanks to your aid.\r\r\n \r\n "

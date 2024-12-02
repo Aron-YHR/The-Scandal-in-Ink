@@ -12,6 +12,7 @@ VAR question_tracker = 0
 
 ===Body===
 As you can see sir, the Admiral is quite- #speaker: Dorothy Tendwell #portrait:maidnegative
+~unlockNPC("Admiral_Charles_Hold")
 Well, he's slightly-
 
 <i>Dead!</i> #speaker: ??? #layout:left #portrait:fopneutral
