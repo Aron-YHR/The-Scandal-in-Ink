@@ -12,7 +12,6 @@ VAR question_tracker = 0
 
 
 This is Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
-
 Oh, dear brother! To be struck down so tragically! #speaker:Maximillian Hold #layout:left  #portrait:fopneutral
 So ignobly!
 Surrounded by such <i>horrendous</i> furnishings!

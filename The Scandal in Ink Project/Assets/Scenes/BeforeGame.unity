@@ -2693,13 +2693,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dearest Husband,
+  m_text: 'My Dear Husband,
 
-    We have received what you sent.
+    I have news of how our family fares.
 
 
-    I am still
-    faring well, thank the Lord, but my worries grow for the children.'
+    I am
+    still well, thank the Lord, but my worries grow for the children.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 935416a14f037ab4487165646526b25e, type: 2}
   m_sharedMaterial: {fileID: -2096210382847887495, guid: 935416a14f037ab4487165646526b25e, type: 2}
