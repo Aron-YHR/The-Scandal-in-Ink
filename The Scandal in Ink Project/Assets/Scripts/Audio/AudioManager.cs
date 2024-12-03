@@ -17,6 +17,7 @@ public class AudioManager : Singleton<AudioManager>
     public Slider seVolumeSlider;
 
     [Header("Music Clips Lists")]
+    public AudioClip audioForStable;
     public List<AudioClip> audioClipsForBookClose = new List<AudioClip>();
     public List<AudioClip> audioClipsForBookOpen = new List<AudioClip>();
     public List<AudioClip> audioClipsForBookFlip = new List<AudioClip>();
@@ -85,6 +86,7 @@ public class AudioManager : Singleton<AudioManager>
         if (audioClip == null)
         {
             yield return AudioFade(0);
+            BGMSource.clip = null;
         }
         else
         {

@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.SetCursor(TransitionManager.Instance.cursorImg, new Vector2(0, 100), CursorMode.ForceSoftware);
+    }
+
     public void QuitGame()
     {
         Application.Quit();

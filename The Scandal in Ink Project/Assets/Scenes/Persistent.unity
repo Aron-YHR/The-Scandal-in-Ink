@@ -18163,6 +18163,7 @@ MonoBehaviour:
   masterVolumeSlider: {fileID: 1351302239}
   bgmVolumeSlider: {fileID: 1097010736}
   seVolumeSlider: {fileID: 1159063255}
+  audioForStable: {fileID: 8300000, guid: ce8865dba72e8c44fb81da375108c809, type: 3}
   audioClipsForBookClose:
   - {fileID: 8300000, guid: 8bba868e02d99a448b637c8d7d023d54, type: 3}
   - {fileID: 8300000, guid: ea130ca1edd13fc4d97ce4bc6b21b13f, type: 3}

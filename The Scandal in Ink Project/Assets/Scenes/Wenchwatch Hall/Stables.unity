@@ -884,7 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: c9fb0332b07c4304c97e7c64577c9f75, type: 3}
   transitionAudioClips: []
-  playOnEnable: 1
+  playOnEnable: 0
   isRandomPlay: 0
   type: 0
 --- !u!4 &1769705831
