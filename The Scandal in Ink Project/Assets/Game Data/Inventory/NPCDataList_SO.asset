@@ -124,17 +124,17 @@ MonoBehaviour:
     - statementLine: 7. Says Theodosia has been blackmailing her.
       isUnlocked: 0
   - npcName: 3
-    npcIcon: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
-    npcPortrait: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    npcIcon: {fileID: -4872435063676471029, guid: 032f74920a2c30341b0ce8f98845bf63, type: 3}
+    npcPortrait: {fileID: -4872435063676471029, guid: 032f74920a2c30341b0ce8f98845bf63, type: 3}
     location: Study
     npcInfo: Head of the Hold family. Murdered in the early hours of the morning
       for reasons unknown...
     npcStatements:
     - statementLine: 1. The Admiral was stabbed multiple times in the chest with
         something particularly sharp.
-      isUnlocked: 0
+      isUnlocked: 1
     - statementLine: 2. Something was forcibly torn off the Admiral's coat.
-      isUnlocked: 0
+      isUnlocked: 1
     - statementLine: 3. The Admiral's brooch is missing.
       isUnlocked: 0
     - statementLine: 4. The Admiral believed his wife was unfaithful.
