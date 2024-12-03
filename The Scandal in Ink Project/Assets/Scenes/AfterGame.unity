@@ -2657,7 +2657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 672.26605, y: -115.42119}
+  m_AnchoredPosition: {x: 677.26605, y: -134.92119}
   m_SizeDelta: {x: 498.404, y: 728.721}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907686055
@@ -3422,7 +3422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.026062, y: -286.235}
+  m_AnchoredPosition: {x: -170.47394, y: -287.735}
   m_SizeDelta: {x: 622.569, y: 867.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057334931
@@ -3478,8 +3478,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 29
+  m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3516,7 +3516,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 1.9196167, w: 0}
+  m_margin: {x: 0, y: 0, z: -196.51862, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5612,7 +5612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -587.47394, y: -290.235}
+  m_AnchoredPosition: {x: -796.97394, y: -290.235}
   m_SizeDelta: {x: 622.569, y: 867.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1846927955
@@ -5648,16 +5648,6 @@ MonoBehaviour:
     preferred determine collecteda Him naa acuteness discourse listening estimable
     our lawa Decisivela it occasional advantages delightful in cultivated introduceda
     Like law mean form are sang loud lada puta
-
-
-
-    In to am attended desirous
-    raptures declared diverted confined ata Collected instantla remaining up certainla
-    to necessara asa Over walk dull into son boa door went newa At or happiness commanded
-    daughters asa Is handsome an declared at received in extended vicinita subjectsa
-    Into miss on he over been late pain ana Onla week bore boa what fat case left
-    usea Match round scale now sex stale far timesa aour me past an mucha
-
 
 
 
@@ -5726,7 +5716,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 18.91925, w: 0}
+  m_margin: {x: 179.71765, y: 0, z: 18.91925, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
