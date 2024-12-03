@@ -8,7 +8,7 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-  {TURNS_SINCE(-> INTRO) == 0: How might I help, sir?} #speaker: Dorothy Tendwell #layout:right #portrait:maidneutral
+  {TURNS_SINCE(-> INTRO) == 0: How might I help, sir? } #speaker: Dorothy Tendwell #layout:right #portrait:maidneutral
 
 +[Where were you the night of the murder?]
 #portrait:maidnegative
@@ -35,21 +35,18 @@ I thought very highly of him. -> Relationship
 
 *{ankle_letter}[Ms. Tendwell, I found this letter you wrote...] ->Lesbians_Revealed
 
-*{theodosia_note}[Were you aware the Admiral intended to fire you?]
+*{theodosia_note and not dorothy_fired}[Were you aware the Admiral intended to fire you?]
 #portrait:maidshock
-Um- No sir, I- I wasn't. Do you- why he intended to do so?
+Um- No sir, I- I wasn't. Do you know why he- intended to do so?
 **[Something about a late breakfast.]
 #portrait:maidnegative
-...I knew that shameful incident would come back to haunt me one day.
+...I knew that shameful day would come back to haunt me.
+~dorothy_fired = true
 No, sir, I was not aware of the Admiral's intentions. ->Start
 
 +[<i>Examine the suspect.</i>]
 <i>You subtly inspect Dorothy for clues.</i> ->Examination
 
-
-/*{letter_of_dismissal}[I found this letter of dismissal.]
-But I- where did you find that?
-->Dismissal*/
 
 +[It was you! You killed the Admiral!]
 #portrait:maidshock
@@ -347,13 +344,13 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-+{theodosia_note}[You knew the Amiral was going to fire you, so you killed him out of revenge!]
+*{theodosia_note and not dorothy_accuse_1}[You knew the Amiral was going to fire you, so you killed him out of revenge!]
 #portrait:maidshock
 But- I- I would never! 
 I didn't even know he intended to fire me!
 Please, sir, you must believe me! ->Accuse
 
-+{brooch}[You stabbed the Admiral with his brooch then stashed it in the stables!]
+*{brooch and not dorothy_accuse_2}[You stabbed the Admiral with his brooch then stashed it in the stables!]
 #portrait:maidshock
 But- sir! Oh heavens, I may faint-
 I couldn't possibly have done that! I was first to be by Avery's side!
@@ -365,7 +362,7 @@ Heavens, sir! I- I can only assure you I would never do such a horrid thing! ->S
 
 
 
-+[Forget I said that.]
++[Forget I said anything.]
 #portrait:maidsnegative
 I shall do my best to do so, sir.->Start
 
