@@ -12,6 +12,11 @@ public class InkExternalFunctions
             => InventoryManager.Instance.UnlockStatementsInJournal(npcName, index));
         story.BindExternalFunction("unlockItem",(string name) => UnlockItemInTheScene(name));
         story.BindExternalFunction("unlockNPC", (string name) => UnlockNPC(name));
+        story.BindExternalFunction("unlockUI", () =>
+        {
+            UIManager.Instance.ActiveIcons();
+            UIManager.Instance.canUseHotkey = true;
+        });
     }
 
     public void Unbind(Story story)
@@ -20,6 +25,7 @@ public class InkExternalFunctions
         story.UnbindExternalFunction("unlockStatement");
         story.UnbindExternalFunction("unlockItem");
         story.UnbindExternalFunction("unlockNPC");
+        story.UnbindExternalFunction("unlockUI");
     }
 
     public void BindTransition(Story story)
