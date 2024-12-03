@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioDefinition : MonoBehaviour
 {
@@ -15,10 +16,12 @@ public class AudioDefinition : MonoBehaviour
     public bool isRandomPlay;
     public MusicType type;
 
+
     private void OnEnable()
     {
         if (playOnEnable)
             PlayBGMAudioClip();
+
     }
 
     public void PlayFXAudioClip()
@@ -33,7 +36,9 @@ public class AudioDefinition : MonoBehaviour
 
     public void PlayBGMAudioClip()
     {
+        
         EventHandler.CallPlayBGMAudioEvent(audioClip);
+        
     }
 
     public void PlayTransitionAudioEvent(int i)
