@@ -15,7 +15,8 @@ public class InkExternalFunctions
         story.BindExternalFunction("unlockUI", () =>
         {
             UIManager.Instance.ActiveIcons();
-            UIManager.Instance.canUseHotkey = true;
+            UIManager.Instance.canUseHotkey_Journal = true;
+            UIManager.Instance.canUseHotkey_Settings = true;
         });
     }
 

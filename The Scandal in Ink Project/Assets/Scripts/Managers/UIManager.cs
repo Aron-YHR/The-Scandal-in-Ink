@@ -31,7 +31,8 @@ public class UIManager : Singleton<UIManager>
     [Header("Journal Panel")]
     public GameObject journalPanel;
 
-    public bool canUseHotkey;
+    public bool canUseHotkey_Journal;
+    public bool canUseHotkey_Settings;
 
     public FamilyMember_SO familyMembers;
 
@@ -61,7 +62,7 @@ public class UIManager : Singleton<UIManager>
 
     private void Update()
     {
-        if (canUseHotkey)
+        if (canUseHotkey_Journal)
         {
             if (Input.GetKeyDown(KeyCode.J) && !UIManager.Instance.isUIOpened)
             {
@@ -71,8 +72,10 @@ public class UIManager : Singleton<UIManager>
             {
                 CloseJournal();
             }
+        }
 
-            if (Input.GetKeyDown(KeyCode.Escape) && !UIManager.Instance.isUIOpened)
+        if (canUseHotkey_Settings)
+        {    if (Input.GetKeyDown(KeyCode.Escape) && !UIManager.Instance.isUIOpened)
             {
                 OpenSettingsPanel();
             }
