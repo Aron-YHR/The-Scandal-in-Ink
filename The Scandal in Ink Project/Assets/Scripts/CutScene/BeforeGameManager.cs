@@ -33,13 +33,13 @@ public class BeforeGameManager : MonoBehaviour
        
         switch(index)
         {
-            case 0: 
+            case 0:
                 beforeGameAnimatorController.Play("FirstLetter"); break;
-            case 1: 
+            case 1:
                 beforeGameAnimatorController.Play("SecondLetter"); break;
-            case 2: 
+            case 2:
                 beforeGameAnimatorController.Play("ThirdLetter"); break;
-            case 3: 
+            case 3:
                 beforeGameAnimatorController.Play("ExitLetter");
                 TransitionManager.Instance.CutsceneTransition("BeforeGame","Family",0);
                 canvas.sortingOrder = -1;
@@ -51,8 +51,8 @@ public class BeforeGameManager : MonoBehaviour
                 TransitionManager.Instance.CutsceneTransition("BeforeGame", "Intro Reception", audiosForCutscene.transitionAudioClips[1].length);
                 //dialogueTrigger.StartDialogue(); 
                 canvas.sortingOrder = -1;
-                UIManager.Instance.ActiveIcons();
-                UIManager.Instance.canUseHotkey = true;
+               /* UIManager.Instance.ActiveIcons();
+                UIManager.Instance.canUseHotkey = true; */
                 break;
         }
         index++;
