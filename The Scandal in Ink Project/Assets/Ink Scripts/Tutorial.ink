@@ -1,8 +1,9 @@
+EXTERNAL unlockStatement(npcName, index)
 EXTERNAL Transition(from,to)
 EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
 EXTERNAL TransitionToMainGame(from,to)
-
+EXTERNAL unlockUI()
 
 
 <i>This is the deduction page. This is where you put to use all the the evidence you gather during your investigation. #speaker:Tutorial
@@ -23,4 +24,5 @@ EXTERNAL TransitionToMainGame(from,to)
 <i>The menu can be accessed by clicking the icon in the top-right corner, or by pressing the "Escape" key.
 <i>That's everything for now! Good luck in your investigation, sir!
 ~Transition("Intro Deduction", "Study")
+~unlockUI()
 ->DONE

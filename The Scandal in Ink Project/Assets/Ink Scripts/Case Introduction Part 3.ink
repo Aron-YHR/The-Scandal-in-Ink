@@ -2,6 +2,8 @@ EXTERNAL Transition(from,to)
 EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
 EXTERNAL TransitionToMainGame(from,to)
+EXTERNAL unlockStatement(npcName, index)
+
 
 VAR question_tracker = 0
 
