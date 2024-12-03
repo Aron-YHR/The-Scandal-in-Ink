@@ -75,7 +75,7 @@ VAR dorothy_denial = false
 //Lavender
 VAR lavender_confession = false
 VAR brooch_question = false
-
+VAR met_lavender = false
 
 
 //Avery
@@ -83,6 +83,7 @@ VAR avery_book_confession = false
 VAR confiscated_book  = false
 VAR jam_scone = false
 VAR avery_cried = false
+VAR met_avery = false
 
 
 //MISC

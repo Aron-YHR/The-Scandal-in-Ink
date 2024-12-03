@@ -37,10 +37,6 @@ I- I see. How peculiar. #speaker: Dorothy Tendwell #portrait: maidshock
 Dorothy Tendwell, sir. Lady's maid to Lady Theodosia Hold. How might I assist you?
 ->Start
 
-+[Skip. Testing Only.]
-~TransitionWithoutAudio("Intro Reception","Reception")
-->DONE
-
 
 
 
