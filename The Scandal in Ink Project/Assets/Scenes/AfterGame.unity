@@ -1501,7 +1501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Journalist presses MENU BUTTON
+  m_text: JOURNALIST PRESSES  MENU BUTTON
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
   m_sharedMaterial: {fileID: -446425728817410378, guid: 9515e468ace919b49b3a0bfdd1c1100e, type: 2}
@@ -1528,10 +1528,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
+  m_fontSize: 37.5
   m_fontSizeBase: 48
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 76.396774, y: 0, z: 540.8426, w: 0}
+  m_margin: {x: 61.3264, y: 86.11647, z: 523.6193, w: 75.352104}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3976,7 +3976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1357112646
 RectTransform:
   m_ObjectHideFlags: 0
