@@ -9,7 +9,7 @@ public enum ItemName
     divorce_petition,
    stables_love_letter,
     purse_love_letter,
-    Theodosia_Note,
+    theodosia_note,
     testme,
     Bloody_Trail,
     theodosias_gloves,
