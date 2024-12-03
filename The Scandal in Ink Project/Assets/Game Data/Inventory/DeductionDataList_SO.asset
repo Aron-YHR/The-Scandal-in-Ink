@@ -31,17 +31,17 @@ MonoBehaviour:
     amount: 0
   motiveList:
   - text: The Thrill of the Kill!
-    amount: 5
+    amount: 10
   - text: To reclaim a confiscated book.
-    amount: 0
+    amount: 10
   - text: To keep their job.
-    amount: 5
+    amount: 10
   - text: To usurp the throne.
-    amount: 0
+    amount: 10
   - text: To hide a love affair.
-    amount: 10
+    amount: 20
   - text: To steal the family brooch.
-    amount: 10
+    amount: 20
   wayOfEscapeList:
   - text: Escaped via horse & carriage
     amount: 0
@@ -73,13 +73,13 @@ MonoBehaviour:
   nameAndImageList:
   - name: Maximillian Hold
     image: {fileID: -7110462291215695874, guid: 0fe8bf97810c5394582a4c00799d1efd, type: 3}
-    amount: 20
+    amount: 0
   - name: Admiral Charles Hold
     image: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
     amount: 0
   - name: Lavender Ditch
     image: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
-    amount: 10
+    amount: 0
   - name: Theodosia Hold
     image: {fileID: -7971006780844452549, guid: 8db028811e2620e479a3e4171ba5d4b7, type: 3}
     amount: 0
