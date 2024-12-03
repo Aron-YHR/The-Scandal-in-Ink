@@ -17,7 +17,10 @@ EXTERNAL TransitionToMainGame(from,to)
 <i>Just be mindful that what you choose to publish will have consequences, both good and bad.
 <i>You may choose to not publish a side scandal if its publication would have undesirable repercussions.
 <i>And should you fail to make enough money to support your family, there may well be severe personal consequences...
-<i>One last tip: if you're looking to skip through dialogue, you can click the right-mouse button to fast-forward through the scrolling text.
-<i>Good luck in your investigation!
+<i>A few small tips before you begin your investigation: 
+<i>If you're looking to skip through dialogue, you can click the right-mouse button to fast-forward through the scrolling text.
+<i>The journal can be accessed by clicking the icon in the top-left corner or pressing the "J" key.
+<i>The menu can be accessed by clicking the icon in the top-right corner, or by pressing the "Escape" key.
+<i>That's everything for now! Good luck in your investigation, sir!
 ~Transition("Intro Deduction", "Study")
 ->DONE

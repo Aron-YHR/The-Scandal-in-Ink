@@ -75,16 +75,18 @@ public class AfterGameManager : MonoBehaviour
             case 4: 
                 afterGameAnimatorController.Play("ThirdLetter");
                 TransitionManager.Instance.CutsceneTransition("AfterGame", "Family",0);
-                canvas.sortingOrder = -1;
+                //canvas.sortingOrder = -1;
+                afterGameAnimatorController.Play("EndScreen");
                 break;
-            case 5:
+            /*case 5:
                 canvas.sortingOrder = 1;
                 lettersList[3].text = cutsceneDataList_SO.list[0].lettersList[3];
                 afterGameAnimatorController.Play("FourthLetter");
-                break;
-            case 6:
+                break;*/
+            /*case 6:
+                canvas.sortingOrder = 1;
                 afterGameAnimatorController.Play("EndScreen");
-                break;
+                break;*/
         }
         
     }

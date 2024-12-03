@@ -6363,7 +6363,8 @@ MonoBehaviour:
   fadeDuration: 1
   isFading: 0
   cutsceneAnimator: {fileID: 1294546401}
-  cursorImg: {fileID: 2800000, guid: 013303b3b307cbe418161a460c342536, type: 3}
+  cursorImg: {fileID: 2800000, guid: 62cd943c06ef52342a9dd9cd4e337967, type: 3}
+  cursorHotspot: {x: 0, y: 50}
 --- !u!1 &506457808
 GameObject:
   m_ObjectHideFlags: 0
@@ -10459,6 +10460,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1642489447}
         m_TargetAssemblyTypeName: DeductionPanel, Assembly-CSharp
         m_MethodName: SubmitNews
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 68226589}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: ExitDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30769,7 +30782,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2125872916}
   m_HandleRect: {fileID: 1369741266}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
