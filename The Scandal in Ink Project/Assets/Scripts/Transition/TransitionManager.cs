@@ -75,8 +75,11 @@ public class TransitionManager : Singleton<TransitionManager>
 
         CameraFollowMouse.Instance.DesactivateMove();
 
-        if(to != "BeforeGame")
-        AudioManager.Instance.OnTransitionAudioEvent(null);
+        if (to != "BeforeGame")
+        {
+            //AudioManager.Instance.OnBGMEvent(null);
+            AudioManager.Instance.OnTransitionAudioEvent(null);
+        }
 
         yield return Fade(1);
 
@@ -118,6 +121,14 @@ public class TransitionManager : Singleton<TransitionManager>
 
         //yield return new WaitForSeconds(length); // keep sreen black
         yield return Fade(0);
+
+        if (to != "BeforeGame")
+        { 
+           
+            if(to == "Stables") AudioManager.Instance.OnBGMEvent(AudioManager.Instance.audioForStable);
+            //else GameObject.Find("BGM").GetComponent<AudioDefinition>().PlayBGMAudioClip();
+
+        }
 
         fadeCanvas.sortingOrder = 2;
 
