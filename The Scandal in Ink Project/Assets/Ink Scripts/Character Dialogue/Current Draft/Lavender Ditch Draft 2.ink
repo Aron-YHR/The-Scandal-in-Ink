@@ -14,18 +14,32 @@ INCLUDE Secrets.ink
     {
  - lavender_confession == true:You need something? #speaker: Lavender Ditch #portrait:stablehandneutral
 
-- else:The <i>f&!@k</i> do you want?! #speaker: Lavender Ditch #portrait:stablehandnegative
+- else:{met_lavender:What now?|The <i>f&!@k</i> do you want?!}#speaker: Lavender Ditch #portrait:stablehandnegative
     }
+    ~met_lavender = true
 }
 
 
-*{not lavender_confession}[Where were you the night of the murder?]
-That's none of your &$%"!@*! business! ->Start
++[{lavender_confession:So, you were with Dorothy the night of the murder?|Where were you the night of the murder?}]
+    {
+- lavender_confession == true: I was. Ask her, if you like. #speaker:Lavender Ditch #portrait:stablehandneutral
+
+- else:That's none of your &$%"!@*! business! #speaker:Lavender Ditch #portrait:stablehandnegative
+    }
+->Start
 
 
-*{not lavender_confession}[Tell me about your relationship with the Admiral.]
-He paid me to tend the horses. I tend the horses. Nothing more than that.
-Can you get through that thick newsmonger skull of yours, hah? -> Start
++[{lavender_confession:So, you're saying you didn't kill the Admiral?|Tell me about your relationship with the Admiral.}]
+    {
+- lavender_confession == true: No I didn't kill the bloody Admiral, you @&!?%! #speaker:Lavender Ditch #portrait:stablehandnegative
+I'm not a fan of these uppity, hoity-toity sorts, but- #speaker:Lavender Ditch #portrait:stablehandneutral
+The Admiral was alright. Good father. Didn't say more than was needed. Liked horses. Can't say I liked him- but I respected him.
+
+
+- else:He paid me to tend the horses. I tend the horses. Nothing more than that.
+Can you get through that thick newsmonger skull of yours, hah? #speaker:Lavender Ditch #portrait:stablehandnegative
+    }
+->Start
 
 
 *{ankle_letter and not lavender_confession}[I found this letter for you from Dorothy...]
@@ -70,14 +84,43 @@ And why would I do a thing like that? ->Accuse
 ->Murder_Weapon
 
 =Murder_Weapon
-Oh <i>s%@$! #portrait:stablehandshock
+/*Oh <i>s%@$! #portrait:stablehandshock
 ~unlockStatement("Lavender_Ditch",1) 
 I- I didn't know that was there. Honest.
 ~brooch_question = true
 I was in my chambers last night when the Admiral got done in, cross my heart.
 I'm not a killer. And I don't go round swindling what isn't mine. I don't cause trouble.
 #portrait:stablehandnegative
+More than I can say for some in this house... ->Alibis */
+
+
+
+{
+ - lavender_confession == true: Oh <i>s%@$! #portrait:stablehandshock
+ ~unlockStatement("Lavender_Ditch",1) 
+I- I didn't know that was there. Honest.
+~brooch_question = true
+I was in Dot's bedroom last night when the Admiral got done in. Cross my heart. Ask her if you like. She'll tell you as much.
+I'm not a killer. I swear.
+->Start
+
+
+- else:Oh <i>s%@$! #portrait:stablehandshock
+~unlockStatement("Lavender_Ditch",1) 
+I- I didn't know that was there. Honest.
+~brooch_question = true
+I was in my chambers last night when the Admiral got done in, cross my heart.
+I'm not a killer. And I don't go round taking what isn't mine. I don't cause trouble.
+#portrait:stablehandnegative
 More than I can say for some in this house... ->Alibis
+}
+
+
+
+
+
+
+
 
 
 
@@ -215,7 +258,7 @@ Then the Lady Hold this morning, before you arrived, she pulled me aside. She se
 See, she said she knew about me and Dot. Said she'd slander us in the papers and have us both dismissed if I didn't keep hush about what I saw.
 #portrait:stablehandnegative
 Now that uppity ol' $@&%!@ can do what she likes to me, but...
-I can't let that happen to Dot. She needs the money. And she loves caring for the little lad... #portrait:stablehandneutral
+I can't let that happen to Dot... #portrait:stablehandneutral
 Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informed_P2
 
 
