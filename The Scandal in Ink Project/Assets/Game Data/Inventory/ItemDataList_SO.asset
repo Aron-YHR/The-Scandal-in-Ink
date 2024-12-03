@@ -223,8 +223,8 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: A pile of coins taken from Dorothy. There must be at least a week's
-      wages here...
+    itemInfo: A pile of coins taken from Dorothy. There must be at least six shillings
+      here! Enough to feed your family for a whole week...
   - itemName: 31
     itemIcon: {fileID: 0}
     value: 0
