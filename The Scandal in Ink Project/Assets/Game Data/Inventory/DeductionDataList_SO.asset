@@ -31,17 +31,17 @@ MonoBehaviour:
     amount: 0
   motiveList:
   - text: The Thrill of the Kill!
-    amount: 10
+    amount: 5
   - text: To reclaim a confiscated book.
-    amount: 10
+    amount: 5
   - text: To keep their job.
-    amount: 10
+    amount: 5
   - text: To usurp the throne.
-    amount: 10
+    amount: 5
   - text: To hide a love affair.
-    amount: 20
+    amount: 10
   - text: To steal the family brooch.
-    amount: 20
+    amount: 16
   wayOfEscapeList:
   - text: Escaped via horse & carriage
     amount: 0
