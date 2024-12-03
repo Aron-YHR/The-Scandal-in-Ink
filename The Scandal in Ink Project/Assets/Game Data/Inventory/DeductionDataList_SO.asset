@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: The Stables
     amount: 0
   - text: The Study
-    amount: 0
+    amount: 1
   - text: The Garden
     amount: 0
   - text: The Reception
@@ -31,17 +31,17 @@ MonoBehaviour:
     amount: 0
   motiveList:
   - text: The Thrill of the Kill!
-    amount: 10
+    amount: 0
   - text: To reclaim a confiscated book.
-    amount: 10
+    amount: 0
   - text: To keep their job.
-    amount: 10
+    amount: 0
   - text: To usurp the throne.
-    amount: 10
+    amount: 0
   - text: To hide a love affair.
-    amount: 20
+    amount: 2
   - text: To steal the family brooch.
-    amount: 20
+    amount: 4
   wayOfEscapeList:
   - text: Escaped via horse & carriage
     amount: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
   - text: Hid behind the curtain
     amount: 0
   - text: Jumped out the window
-    amount: 3
+    amount: 2
   - text: Hid in plain sight
     amount: 0
   - text: Crawled underneath the floorboards
@@ -94,17 +94,17 @@ MonoBehaviour:
     amount: 0
   nameList:
   - text: Lavender Ditch
-    amount: 3
+    amount: 1
   - text: Maximillian Hold
-    amount: 3
+    amount: 1
   - text: Avery Hold
     amount: 0
   - text: Dorothy Tendwell
-    amount: 3
+    amount: 1
   - text: Admiral Charles Hold
     amount: 0
   - text: Theodosia Hold
-    amount: 3
+    amount: 1
   - text: The Horse
     amount: 0
   - text: An unknown conspirator
