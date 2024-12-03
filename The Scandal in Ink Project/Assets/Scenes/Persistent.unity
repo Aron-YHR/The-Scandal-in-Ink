@@ -6363,7 +6363,8 @@ MonoBehaviour:
   fadeDuration: 1
   isFading: 0
   cutsceneAnimator: {fileID: 1294546401}
-  cursorImg: {fileID: 2800000, guid: 013303b3b307cbe418161a460c342536, type: 3}
+  cursorImg: {fileID: 2800000, guid: 62cd943c06ef52342a9dd9cd4e337967, type: 3}
+  cursorHotspot: {x: 0, y: 50}
 --- !u!1 &506457808
 GameObject:
   m_ObjectHideFlags: 0
