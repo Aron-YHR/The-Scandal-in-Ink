@@ -15,6 +15,7 @@ public class TransitionManager : Singleton<TransitionManager>
     public Animator cutsceneAnimator;
 
     public Texture2D cursorImg;
+    public Vector2 cursorHotspot;
     //public Texture2D cursorImg2;
 
     //public DialogueTrigger dialogueTrigger;
@@ -104,7 +105,7 @@ public class TransitionManager : Singleton<TransitionManager>
         }
         else
         {
-            Cursor.SetCursor(cursorImg, new Vector2(0,100), CursorMode.ForceSoftware);
+            Cursor.SetCursor(cursorImg,/* new Vector2(0,100)*/ cursorHotspot, CursorMode.ForceSoftware);
             //MouseAndClick.Instance.isHandShowed = false;
             //MouseAndClick.Instance.hand.gameObject.SetActive(false);
         }

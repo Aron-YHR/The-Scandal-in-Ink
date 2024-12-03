@@ -25,7 +25,7 @@ By which I mean that the Admiral was- Oh, even the mention of it- it's too horri
 Suspicious, sir? I'm not sure I understand.
 ->Suspicious
 
-+{checked_door and not door_key and not maximillian_door_key}[Can I have the key to Maximillian's room?]
++{checked_door and not door_key and not maximillian_door_key}[{dorothy_confession:Give me Max's room key, and I'll keep your secret quiet.|Can I have the key to Maximillian's room?}]
 ->Door_Key
 
 +[Describe your relationship with Admiral Hold.]
@@ -139,7 +139,7 @@ As you wish, sir. ->Relationship
 Well, young master Avery was admittedly somewhat displeased that the Admiral confiscated his copy of the Iliad.
 ~iliad_confiscated = true
 But that is hardly reason to suspect a small child of- well- <i>murder</i>!
-Barring that, I can't think of a single reason for anyone to dislike Charles...->Suspicious
+Barring that, I can't think of a single reason for anyone to take issue with Admiral Hold...->Suspicious
 
 
 +[Did you notice anything unusual about the body?]
@@ -147,13 +147,13 @@ Well, I did notice that the Admiral's brooch was missing.
 ~unlockStatement("Admiral_Charles_Hold", 3)
 He was very fond of the family crest. I hardly ever saw him without it.->Suspicious
 
-*[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
++[Lady Hold doesn't seem very upset. Could she have something to do with the Admiral's death?]
 #portrait:maidshock
 Lady Hold would <i>never</i> involve herself in such a horrid affair! Besides, she confined herself to her room after her argument with the Admiral.
 #portrait:maidnegative
 Poor Lady Hold. She would never dare admit it, but that fight left her terribly shaken. We could hear her crying throughout the night.
 
-**[We? Was someone with you last night?]
+++[We? Was someone with you last night?]
 
 { dorothy_confession:
 	Um... Lavender and I were together last night, sir. #portrait:maidneutral
@@ -331,8 +331,13 @@ Thank you, sir. Truly. Thank you.  ->Start
 =Gives_Key
 I suppose I could lend you the key...
 ~door_key = true
-As long as the letters between myself and Lavender remain- private?
-*[Whatever you say. Now gimme that key!]
+You can promise me the letters between myself and Lavender will remain- private?
+*[Yeah yeah, sure. Now gimme that key!]
+#portrait:maidnegative
+Very well. Here you are. But please do return it swiftly! If Lady Hold were to find out I were doing this-
+Oh, heavens- forgive me, Lady Hold... ->Start
+
+*[Of course.]
 #portrait:maidnegative
 Very well. Here you are. But please do return it swiftly! If Lady Hold were to find out I were doing this-
 Oh, heavens- forgive me, Lady Hold... ->Start
@@ -344,11 +349,11 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-*{theodosia_note and not dorothy_accuse_1}[You knew the Amiral was going to fire you, so you killed him out of revenge!]
+*{dorothy_fired and not dorothy_accuse_1}[You lied! You knew the Amiral was going to fire you, so you killed him to keep your job!]
 #portrait:maidshock
 But- I- I would never! 
-I didn't even know he intended to fire me!
-Please, sir, you must believe me! ->Accuse
+Sir, I swear I did not know the Admiral intended to fire me!
+You <i>must</i> believe me! ->Accuse
 
 *{brooch and not dorothy_accuse_2}[You stabbed the Admiral with his brooch then stashed it in the stables!]
 #portrait:maidshock
