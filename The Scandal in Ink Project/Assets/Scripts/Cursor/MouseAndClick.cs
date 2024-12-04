@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MouseAndClick : Singleton<MouseAndClick>
 { 
@@ -43,9 +44,13 @@ public class MouseAndClick : Singleton<MouseAndClick>
             //if (hand.gameObject.activeInHierarchy)
             //handAnimator.Play("HandGrab");
 
-            
+            if (UITest()) // if there is UI above the gameobject, cannot trigger the item
+            {
+                Debug.Log("UI");
+            }
 
-            ClickAction(ObjectAtMousePosition().gameObject);
+
+            else ClickAction(ObjectAtMousePosition().gameObject);
 
 
             /*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -66,6 +71,7 @@ public class MouseAndClick : Singleton<MouseAndClick>
             
         //}
     }
+
 
     private void ClickAction(GameObject clickObject)
     {
@@ -99,15 +105,34 @@ public class MouseAndClick : Singleton<MouseAndClick>
         }
     }
 
+    private bool UITest()
+    {
+        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //RaycastHit hit;
+
+        //if (Physics.Raycast(ray, out hit)) //&& hit.transform != null && hit.transform.gameObject.layer == 5)
+        //{
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            
+            return true;
+
+        }
+        else return false;
+            
+        //}
+    }
+
     /// <summary>
     /// get the collider within mouse click position
     /// </summary>
     /// <returns></returns>
-
+    
     private Collider2D ObjectAtMousePosition()
     {
+        
         return Physics2D.OverlapPoint(mouseWorldPos);
     }
-
+    
 
 }
