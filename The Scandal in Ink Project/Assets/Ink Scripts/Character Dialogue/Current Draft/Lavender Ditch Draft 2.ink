@@ -236,8 +236,7 @@ Exactly that. ->The_Admiral_Informed
 
 =Affair_Revealed_P3
 *[Why can't anyone in this house talk normally?!]
-#portrait:stablehandnegative
-They were f%@£*@g shagging!
+They were f%@£*@g shagging! #portrait:stablehandnegative
 **[<i>Gasp!</i>]
 ->The_Admiral_Informed
 
@@ -269,7 +268,7 @@ Please, don't tell the Lady I've let slip about her secret.->The_Admiral_Informe
 *[Can you prove any of this?]
 #portrait:stablehandneutral
 I can't prove they were shagging, no. But...
-I wasn't actually on my own last night... I was in Dot's rooom. In her bed. With not a lot of... 
+I wasn't actually on my own last night... I was in Dot's room. In her bed. With not a lot of... 
 ~ unlockStatement("Lavender_Ditch",5)
 Let's just say I was stuck in an awkward position.
 That's why I didn't follow after Dorothy when the little lad screamed.->The_Admiral_Informed_P2
