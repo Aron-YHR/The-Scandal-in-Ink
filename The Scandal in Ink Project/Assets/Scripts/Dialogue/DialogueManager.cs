@@ -134,6 +134,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ExitDialogue()
     {
+        if(dialogueIsPlaying)
         ExitDialogueMode();
     }
 
