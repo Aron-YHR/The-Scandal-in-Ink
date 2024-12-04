@@ -45,7 +45,7 @@ MonoBehaviour:
     npcStatements:
     - statementLine: 1. Says she was alone in her room last night.
       isUnlocked: 0
-    - statementLine: 2. Has confessed that she was in bed with Lavender last night.
+    - statementLine: 2. Has confessed that she was with Lavender last night.
       isUnlocked: 0
     - statementLine: 3. Says Theodosia was wearing Maximillian's gloves yesterday.
       isUnlocked: 0
@@ -73,12 +73,12 @@ MonoBehaviour:
       isUnlocked: 1
     - statementLine: 4. Says the Admiral and Maximillian often traded insults.
       isUnlocked: 1
-    - statementLine: Avery says he was first to find the crime scene, followed by
-        Dorothy, then Theodosia, then Maximillian.
+    - statementLine: 5. Says he was first to find the crime scene, followed by Dorothy,
+        then Theodosia, then Maximillian.
       isUnlocked: 1
-    - statementLine: Lavender did not appear at the crime scene.
+    - statementLine: 6. Says Lavender did not appear at the crime scene.
       isUnlocked: 1
-    - statementLine: Avery admitted that he was angry at his father for confiscating
+    - statementLine: 7. Has admitted he was angry at his father for confiscating
         his book.
       isUnlocked: 1
   - npcName: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
     location: Study
     npcInfo: The younger brother of Admiral Hold.
     npcStatements:
-    - statementLine: 1. Maximillian says he slept through the murder.
+    - statementLine: 1. Says he slept through the murder.
       isUnlocked: 0
     - statementLine: 2. Says he does not trust Lavender Ditch.
       isUnlocked: 0
@@ -97,9 +97,9 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 5.
       isUnlocked: 0
-    - statementLine: 6.  denies having an affair with Theodosia.
+    - statementLine: 6.  Denies having an affair with Theodosia.
       isUnlocked: 0
-    - statementLine: 
+    - statementLine: 7. Has offered you a bribe in exchange for implicating Lavender
       isUnlocked: 0
   - npcName: 2
     npcIcon: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
@@ -110,7 +110,7 @@ MonoBehaviour:
     - statementLine: 1. Denies any knowledge of the Admiral's brooch hidden in the
         horse's saddle.
       isUnlocked: 0
-    - statementLine: 2. Has admitted to a relationship with the maid, Dorothy Tendwell.
+    - statementLine: 2. Has confessed her relationship with the maid, Dorothy Tendwell.
       isUnlocked: 0
     - statementLine: 3. Says she discovered Theodosia and Maximillian making love
         in the stables.
@@ -136,6 +136,4 @@ MonoBehaviour:
     - statementLine: 2. Something was forcibly torn off the Admiral's coat.
       isUnlocked: 1
     - statementLine: 3. The Admiral's brooch is missing.
-      isUnlocked: 0
-    - statementLine: 4. The Admiral believed his wife was unfaithful.
       isUnlocked: 0
