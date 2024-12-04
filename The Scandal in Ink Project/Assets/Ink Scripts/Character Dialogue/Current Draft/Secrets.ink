@@ -64,6 +64,7 @@ VAR theodosia_confession = false
 VAR pink_lipstick = false
 VAR maximillians_gloves = false
 VAR argument = false
+VAR met_theodosia = false
 
 //Dorothy
 VAR iliad_confiscated = false

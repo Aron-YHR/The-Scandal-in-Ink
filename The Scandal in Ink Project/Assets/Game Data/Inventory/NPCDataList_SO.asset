@@ -87,7 +87,7 @@ MonoBehaviour:
     location: Study
     npcInfo: The younger brother of Admiral Hold.
     npcStatements:
-    - statementLine: 1. Says he slept through the murder.
+    - statementLine: 1. Says he had a good relationship with his brother.
       isUnlocked: 0
     - statementLine: 2. Says he does not trust Lavender Ditch.
       isUnlocked: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 4. Says he slept through his brother's murder.
       isUnlocked: 0
-    - statementLine: 5.
+    - statementLine: 5. Says he saw Lavender Ditch steal the brooch last night.
       isUnlocked: 0
     - statementLine: 6.  Denies having an affair with Theodosia.
       isUnlocked: 0
