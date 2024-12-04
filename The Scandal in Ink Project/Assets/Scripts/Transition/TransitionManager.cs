@@ -102,12 +102,14 @@ public class TransitionManager : Singleton<TransitionManager>
 
         if(newScene != null && newScene.name.Contains ("Pocket"))
         {
+            Debug.Log("Hand");
             Cursor.SetCursor(MouseAndClick.Instance.handOpen, Vector2.zero, CursorMode.ForceSoftware);
             //MouseAndClick.Instance.hand.gameObject.SetActive(true);
             //MouseAndClick.Instance.isHandShowed = true;
         }
         else
         {
+            Debug.Log("Quill");
             Cursor.SetCursor(cursorImg,/* new Vector2(0,100)*/ cursorHotspot, CursorMode.ForceSoftware);
             //MouseAndClick.Instance.isHandShowed = false;
             //MouseAndClick.Instance.hand.gameObject.SetActive(false);
@@ -170,13 +172,15 @@ public class TransitionManager : Singleton<TransitionManager>
 
         if (newScene != null && newScene.name.Contains("Pocket"))
         {
+            Debug.Log("Hand");
             Cursor.SetCursor(MouseAndClick.Instance.handOpen, Vector2.zero, CursorMode.ForceSoftware);
             //MouseAndClick.Instance.hand.gameObject.SetActive(true);
             //MouseAndClick.Instance.isHandShowed = true;
         }
         else
         {
-            Cursor.SetCursor(cursorImg, new Vector2(0, 100), CursorMode.ForceSoftware);
+            Debug.Log("Quill");
+            Cursor.SetCursor(cursorImg, cursorHotspot, CursorMode.ForceSoftware);
             //MouseAndClick.Instance.isHandShowed = false;
             //MouseAndClick.Instance.hand.gameObject.SetActive(false);
         }
