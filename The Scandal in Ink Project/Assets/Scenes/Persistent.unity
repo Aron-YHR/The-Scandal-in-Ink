@@ -3626,7 +3626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 38.934814, y: 306.55487}
+  m_AnchoredPosition: {x: 38.93506, y: 306.55493}
   m_SizeDelta: {x: 620, y: 68.1953}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &343505658
@@ -20299,7 +20299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1392164482
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20348,7 +20348,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1392164484
 CanvasRenderer:
@@ -22451,7 +22451,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1536355440
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22469,7 +22469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -17.516724}
+  m_AnchoredPosition: {x: -20, y: -17.516602}
   m_SizeDelta: {x: 169, y: 158}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1536355441
@@ -22604,7 +22604,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1536355443
 CanvasRenderer:
@@ -25522,7 +25522,8 @@ MonoBehaviour:
   backtoMainMenuButton: {fileID: 1141049960}
   uiCanvas: {fileID: 1075914074}
   journalPanel: {fileID: 1667807368}
-  canUseHotkey: 0
+  canUseHotkey_Journal: 0
+  canUseHotkey_Settings: 0
   familyMembers: {fileID: 11400000, guid: cf5bb710e5495fa46b349b3d12a47a32, type: 2}
   showcasePanel: {fileID: 916608102}
   putbackButton: {fileID: 1968361606}
