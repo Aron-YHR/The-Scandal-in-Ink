@@ -106,8 +106,8 @@ MonoBehaviour:
     location: Study
     npcInfo: The stable hand of Wenchwatch Hall.
     npcStatements:
-    - statementLine: 1. Denies any knowledge of the Admiral's brooch hidden in the
-        horse's saddle.
+    - statementLine: 1. Denies all knowledge of the Admiral's brooch in the horse
+        saddle.
       isUnlocked: 0
     - statementLine: 2. Has confessed to a relationship with the maid, Dorothy Tendwell.
       isUnlocked: 0
