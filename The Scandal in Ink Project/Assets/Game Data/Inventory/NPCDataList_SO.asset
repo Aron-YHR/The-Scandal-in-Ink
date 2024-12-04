@@ -22,7 +22,7 @@ MonoBehaviour:
     npcStatements:
     - statementLine: 1. Says she was arguing with Charles the day before the murder.
       isUnlocked: 0
-    - statementLine: 2. Says Dorothy fetched her from her room at the time of the
+    - statementLine: 2. Says Dorothy fetched her from her room shortly after the
         murder.
       isUnlocked: 0
     - statementLine: 3. Says she heard unusual sounds coming from Dorothy's room
@@ -34,8 +34,7 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 6. Says she is suspicious of Lavender Ditch, the stable hand.
       isUnlocked: 0
-    - statementLine: 7. Says she believes she was wearing Maximillian's gloves since
-        yesterday.
+    - statementLine: 7. Says she has been wearing Maximillian's gloves since yesterday.
       isUnlocked: 0
   - npcName: 6
     npcIcon: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
@@ -51,7 +50,7 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 4. Says Maximillian has made lustful advances towards her.
       isUnlocked: 0
-    - statementLine: 5. Has confessed to stealing her own letter of dismissal.
+    - statementLine: 5. Says she was unaware the Admiral intended to fire her
       isUnlocked: 0
     - statementLine: 6. Has confessed to being in a relationship with Lavender.
       isUnlocked: 0
@@ -99,7 +98,7 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 6.  Denies having an affair with Theodosia.
       isUnlocked: 0
-    - statementLine: 7. Has offered you a bribe in exchange for implicating Lavender
+    - statementLine: 7. Has offered you a bribe in exchange for implicating Lavender.
       isUnlocked: 0
   - npcName: 2
     npcIcon: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
@@ -110,7 +109,7 @@ MonoBehaviour:
     - statementLine: 1. Denies any knowledge of the Admiral's brooch hidden in the
         horse's saddle.
       isUnlocked: 0
-    - statementLine: 2. Has confessed her relationship with the maid, Dorothy Tendwell.
+    - statementLine: 2. Has confessed to a relationship with the maid, Dorothy Tendwell.
       isUnlocked: 0
     - statementLine: 3. Says she discovered Theodosia and Maximillian making love
         in the stables.
