@@ -23,7 +23,6 @@ INCLUDE Secrets.ink
 
 +[Where were you the night of the murder?]
 I retired early to my chambers last night. The horseback ride earlier that day rather drained me.
-~ unlockStatement("Maximillian_Hold",1)
 <i>Curse</i> my athleticism! Had I only known what would befall poor Charles! ->Night_Of_Murder
 
 
@@ -69,7 +68,9 @@ My pet name for him. The great Admiral Chuck Hold!
 He despised my pet names. I can't possibly imagine why. His Naval comrades thought them most endearing. -> Relationship
 
 +[So, you two were close?]
-Charles was my muse, my guiding light. He shaped me into the masculine throroughbred that now stands before you! ->Relationship
+Charles was my muse, my guiding light. 
+~unlockStatement("Maximillian_Hold", 1)
+He shaped me into the masculine throroughbred that now stands before you! ->Relationship
 
 +[Let's move on.]
 Whatever you wish, mon chéri! ->Start
@@ -122,13 +123,13 @@ Of course, mon chéri! -> Start
 
 +[Did the Admiral have any issues with Ms. Ditch?]
 My dearest departed brother did find her difficult. He spoke often of the dire conditions of the stables and characterised Ms. Hand as slovenly and sullen.
-~ unlockStatement("Maximillian_Hold",1)
+~ unlockStatement("Maximillian_Hold",2)
 And to speak personally for but a brief moment, she simply <i>has</i> to do something about her hair. I fear birds may soon start roosting within its tangles.
 -> Ditch
     
 +[Do you think Ms. Ditch could have killed the Admiral?]
 I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty.
-~ unlockStatement("Maximillian_Hold",1)
+~ unlockStatement("Maximillian_Hold",2)
 A most alarming thing to do.-> Ditch
 
 +[Did you notice anything else suspicious?]
@@ -170,10 +171,8 @@ I'm sure you understand, sir. Unless you have slightly- <i>different</i> desires
 Whate'er you need to tell yourself, good sir!
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
-
-
 **[I have a wife and children]
-Mmmmhm.
+Of <i>course</i> you do, darling.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 
@@ -292,6 +291,7 @@ I admit, this must seem terribly suspicious from your perspective. But I can ass
 You see, I hate to gossip, so I refrained from mentioning it heretofore, but I see now I must. 
 Last night, while gazing quite demurely out my bedroom window- I saw a terrible sight. 
 That dastardly stable hand, Ms. Ditch, jumping from the window of my brother's study, covered in blood, our family brooch in her thieving, murderous clutches!
+~unlockStatement("Maximillian_Hold",5)
 Well, there's the terrible truth of the matter, sir! Ms. Ditch, the clear culprit! She killed my dear brother so that she could steal our precious family heirloom! 
 I'm sure your investigation will come to that same conclusion, given the right... input, yes?
 
