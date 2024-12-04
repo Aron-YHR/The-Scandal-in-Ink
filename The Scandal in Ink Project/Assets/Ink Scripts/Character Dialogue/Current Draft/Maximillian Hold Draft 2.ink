@@ -146,14 +146,16 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 *{theodosia_confession}[Theodosia confessed to the affair.]
 ~ unlockStatement("Maximillian_Hold",6)
 Ah, that Theodosia, such a wonderful wit! 
-Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confusing those who are unknown to her. But I assure you, she spoke merely in jest!
-I know what you're thinking- a humorous woman, in this day and age? Quite unheard of! But that is dear Theodosia- always ahead of the trend!
+Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confounding for those unfamiliar with it. But I assure you, she spoke merely in jest!
+I know what you must think- a humorous woman? In this day and age? Quite unheard of! 
+But that is dear Theodosia- always ahead of the times!
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
 ~ unlockStatement("Maximillian_Hold",6)
 Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram.
-And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. I'm sure you as a gentleman can understand that.
+And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. 
+I'm sure you as a gentleman can understand that.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *[You lust after her! I can see it in your eyes!]
@@ -333,6 +335,7 @@ Yes yes, fascinating. Focus back on me, please.
 I shall let you know a secret. 
 Given my dear brother's untimely passing, I think it my obligation to protect the family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. 
 By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
+~ unlockStatement("Maximillian_Hold",7)
 I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.
 That is assuming the <i>true</i> killer of my brother is found. 
 Does that sound amiable to you, sir?
@@ -430,7 +433,7 @@ His hands are ungloved and unadorned.->Examination
 
 ===Outro===
 It is quite clear what happened, mon chéri! The stable hand attempted to purloin the family brooch and killed my dear brother in the act!  #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
-Print that in your little paper, and I can guarantee your financial situation shall <i>dramatically</i> improve!
+Print that in your little paper, and I can guarantee your personal finances shall <i>dramatically</i> improve!
 ->DONE
 
 

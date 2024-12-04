@@ -38,7 +38,7 @@ Good sir, I was quite unaware I was doing so.
 I have been wearing these exact same gloves all of today and yesterday, by my recollection.
 ->Start
 
-*{affair_revealed or theodosias_pants} [I know about your affair with Maximillian.]
+*{(affair_revealed or theodosias_pants or (pink_lipstick_smudge and pink_lipstick)) and (not theodosia_confession)} [I know about your affair with Maximillian.]
 #speaker: Theodosia Hold #portrait:theladyshock
 Affair? With Maximillian? How perplexing and baseless an accusation. 
 #speaker: Theodosia Hold #portrait:theladypositive
