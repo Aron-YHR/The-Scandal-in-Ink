@@ -65,7 +65,7 @@ MonoBehaviour:
     itemInfo: A bloody hand is imprinted on the open window. A trail of blood runs
       from the windowsill towards the stables...
   - itemName: 12
-    itemIcon: {fileID: -3960259407536092533, guid: 8f29b4ad88eeea9459e904174a30762a, type: 3}
+    itemIcon: {fileID: -1760815713711230353, guid: 4bf9e80a98342ee4d9baa8065b89572a, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
       me tonight again so you can see, touch- and taste- the real thing.\nForever
       yours, Dorothy \""
   - itemName: 27
-    itemIcon: {fileID: 5833068987551211288, guid: cde08ab5d1495014aa8faa779e317d83, type: 3}
+    itemIcon: {fileID: -6332484357865476876, guid: 205f23e5d61c16e45bd4fdd80a8f3934, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
