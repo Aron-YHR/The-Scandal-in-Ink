@@ -203,13 +203,14 @@ As you wish. ->Start
 <i> Her makeup is exceptionally fashionable. </i>
 <i> Her lipstick shade is a very light pink. </i>
 ~pink_lipstick = true
-{ - pink_lipstick_smudge: Odd. You think you've seen that lipstick elsewhere...}
+{ - pink_lipstick_smudge: <i>Odd. You think you've seen that lipstick elsewhere...</i>}
 { - pink_lipstick_smudge and burnt_letter: 
 ~affair_revealed = true
 }
 -> Examination
 
 +[Return to the conversation]
+<i>You return to your conversation with Theodosia.</i> 
 ->Start
 
 =Pickpocket

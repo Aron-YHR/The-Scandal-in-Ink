@@ -47,9 +47,10 @@ Why- of course! I would give it to this very instant- #portrait:fopshock
 #portrait:fopneutral
 Had I not- lost it! Yes! Aha! Foolish me, to misplace it so! I'm sure you shall find it lying about the manor somewhere. ->Start
 
-*{affair_revealed or theodosias_pants}[I know about your affair with Theodosia.]
+*{(affair_revealed or theodosias_pants or (pink_lipstick_smudge and pink_lipstick)) and (not max_denial)}[I know about your affair with Theodosia.]
 Moi? 
 ~affair_revealed = true
+~max_denial = true
 In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir! ->Affair_Revealed
 
 +[It was you! You killed the Admiral!]
@@ -401,7 +402,8 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 <i>His face is excessively powdered and painted.  His wig is clearly made of the finest human hair.</i>
 ~pink_lipstick_smudge = true
 ~unlockItem("pink_lipstick_smudge")
-<i>However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.</i>
+<i>However, you notice a small imperfection. There is a pink smudge on his neck near the collar.</i>
+<i>It appears to be lipstick.</i>
 { - pink_lipstick: Strange. You think you've seen that lipstick elsewhere...}
 { - pink_lipstick and burnt_letter: 
 ~affair_revealed = true
