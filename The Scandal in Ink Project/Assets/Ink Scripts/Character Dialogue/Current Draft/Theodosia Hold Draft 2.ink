@@ -38,11 +38,10 @@ Good sir, I was quite unaware I was doing so.
 I have been wearing these exact same gloves all of today and yesterday, by my recollection.
 ->Start
 
-*{affair_revealed or theodosias_pants} [I know about your affair with Maximillian.]
-#speaker: Theodosia Hold #portrait:theladyshock
-Affair? With Maximillian? How perplexing and baseless an accusation. 
-#speaker: Theodosia Hold #portrait:theladypositive
-And most thrilling. Do go on. ->Affair
+*{(affair_revealed or theodosias_pants or (pink_lipstick_smudge and pink_lipstick)) and (not theodosia_confession)} [I know about your affair with Maximillian.]
+
+Affair? With Maximillian? How perplexing and baseless an accusation. #speaker: Theodosia Hold #portrait:theladyshock
+->Affair
 
 *{divorce_petition or burnt_letter}[Did you know your husband was planning to divorce you?]
 Oh yes, I intuited as much. A well-bred woman has an instinct for her husband's flights of fancy. #speaker: Theodosia Hold #portrait:theladyneutral
@@ -203,13 +202,14 @@ As you wish. ->Start
 <i> Her makeup is exceptionally fashionable. </i>
 <i> Her lipstick shade is a very light pink. </i>
 ~pink_lipstick = true
-{ - pink_lipstick_smudge: Odd. You think you've seen that lipstick elsewhere...}
+{ - pink_lipstick_smudge: <i>Odd. You think you've seen that lipstick elsewhere...</i>}
 { - pink_lipstick_smudge and burnt_letter: 
 ~affair_revealed = true
 }
 -> Examination
 
-+[Return to the conversation]
++[<i>Return to the conversation.]
+<i>You return to your conversation with Theodosia.</i> 
 ->Start
 
 =Pickpocket
@@ -246,20 +246,20 @@ Heavens, who is to say? Likely it was merely a flight of fancy on the part of my
 ===Affair===
 
 +{lavender_confession}[I spoke to Lavender. I know you're blackmailing her. She told everything.]
-Ah, I see. So the stable girl has betrayed me and revealed all.
+Ah, I see. So the stable girl has betrayed me and revealed all. #speaker: Theodosia Hold #portrait:theladynegative
 ~unlockStatement("Theodosia_Hold",5)
 Alas, it is a lesson learned. One simply cannot trust a woman who works with horses.
 ->Affair_Cont
 
 +{pink_lipstick and pink_lipstick_smudge}[Your lipstick matches the lipstick smudge on Maximillian's neck.]
-Ah. I see. Quite the <i>clever</i> deduction, sir.
+Ah. I see. Quite the <i>clever</i> deduction, sir. #speaker: Theodosia Hold #portrait:theladynegative
 ->Affair_Cont
 
 
 +{theodosias_gloves and maximillians_gloves}[You're wearing his gloves!]
 ~mannish_hands_gag = true
-...One always feared this day would come. My greatest shame, brought forth into the cold light of day.
-You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands.
+...One always feared this day would come. My greatest shame, brought forth into the cold light of day. #speaker: Theodosia Hold #portrait:theladyneutral
+You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands. 
 <i>Oh!</i> To even say it aloud- I feel faint! I am ruined. I imagine this will be front page on that paper of yours. ->Hands_Gag
 
 
@@ -281,45 +281,42 @@ I- suppose such a banal matter would be of interest to more <i>common</i> folk.
 
 =Affair_Cont
 ~affair_revealed = true
-But you see- 
+But you see- #speaker: Theodosia Hold #portrait:theladyneutral
 Heavens, how might one explain-
 I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
 ~theodosia_confession = true
 ~unlockStatement("Theodosia_Hold",4)
 You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
-Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the rather garish title of <i>dowager</i>, an offer I firmly accepted. 
-Maximillian is a most foreward-looking man, you see. Much like his brother in that regard.
-And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. And we did. Several times.
-One could hardly call such a dalliance an <i>affair</i>. It is more akin to- a form of insurance! Yes, insurance!
-So you see, the truth of the matter is far more mundane than it might seem at first.
+Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the garish title of <i>dowager</i>, an offer I firmly accepted. 
+Maximillian is a most foreward-looking man, you see. Much like his brother in that regard. #speaker: Theodosia Hold #portrait:theladypositive
+And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. And we did. Several times. #speaker: Theodosia Hold #portrait:theladyneutral
+One could hardly call such a dalliance an <i>affair</i>. It is more akin to- a form of insurance! Yes, insurance! #speaker: Theodosia Hold #portrait:theladypositive
+So you see, the truth of the matter is far more mundane than it might seem at first. #speaker: Theodosia Hold #portrait:theladyneutral
 Not even of passing interest to your readership, I can quite assure you.
  
- +[Sounds entirely reasonable.]
-But of course. I am a most reasonable woman.
-**[I'm sure you won't mind me publishing such a dull story.]
- #portrait:theladyshock
-Wait! <i>wait</i>! 
- #portrait:theladyneutral
-Ahem.
++[Sounds entirely reasonable.]
+But of course. I am a most reasonable woman. #speaker: Theodosia Hold #portrait:theladypositive
+++[I'm sure you won't mind me publishing such a dull story.]
+Wait! <i>wait</i>!  #portrait:theladyshock
+Ahem.  #portrait:theladyneutral
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
  +[I have the same arrangement with my brother-in-law.]
 How curious. And terribly fashionable, I may add.
-**[I need to think about what all this means.] 
+++[I need to think about what all this means.]
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.  #portrait:theladyneutral
 That is to say, the revelation of this information could prove rather- runious, for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
 +[Have you no shame? You had an affair with your husband's brother!]
-Well- Charles had his own litany of lovers! He spent more time at <i>bordellos</i> than he did with his own son!
+Well- Charles had his own litany of lovers! He spent more time at <i>bordellos</i> than he did with his own son!  #portrait:theladynegative
 If it is acceptable for him to seek comfort elsewhere, is it not entirely appropriate for a lady of my rank to source a discrete companion of her own as well?
 Love affairs and adultery are concerns for the common man. The aristocracy have greater troubles to consider than matters of the flesh!
-Charles merely overreacted! I am quite sure, had he not perished, we would have reconciled. Of this I am <i>certain</i>!
+Charles merely overreacted! I am quite sure, had he not perished, we would have reconciled. Of this I am <i>certain</i>!  #portrait:theladyneutral
 **[I need to think about what all this means.]
- #portrait:theladyshock
-No, wait. <i>Wait</i>! 
+No, wait. <i>Wait</i>!  #portrait:theladyshock
 Ahem.
 A moment of your time before you go, sir. While not quite as scandalous as, say, a particularly manlike set of hands, one must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
 That is to say, the revelation of this information could prove rather- runious for me.

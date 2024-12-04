@@ -47,9 +47,10 @@ Why- of course! I would give it to this very instant- #portrait:fopshock
 #portrait:fopneutral
 Had I not- lost it! Yes! Aha! Foolish me, to misplace it so! I'm sure you shall find it lying about the manor somewhere. ->Start
 
-*{affair_revealed or theodosias_pants}[I know about your affair with Theodosia.]
+*{(affair_revealed or theodosias_pants or (pink_lipstick_smudge and pink_lipstick)) and (not max_denial)}[I know about your affair with Theodosia.]
 Moi? 
 ~affair_revealed = true
+~max_denial = true
 In a dalliance with my dear sister-in-law? I haven't the faintest idea what you could possibly mean, good sir! ->Affair_Revealed
 
 +[It was you! You killed the Admiral!]
@@ -146,14 +147,16 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 *{theodosia_confession}[Theodosia confessed to the affair.]
 ~ unlockStatement("Maximillian_Hold",6)
 Ah, that Theodosia, such a wonderful wit! 
-Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confusing those who are unknown to her. But I assure you, she spoke merely in jest!
-I know what you're thinking- a humorous woman, in this day and age? Quite unheard of! But that is dear Theodosia- always ahead of the trend!
+Your confusion is perfectly understandable sir- Theodosia's wicked humour can be quite confounding for those unfamiliar with it. But I assure you, she spoke merely in jest!
+I know what you must think- a humorous woman? In this day and age? Quite unheard of! 
+But that is dear Theodosia- always ahead of the times!
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *{theodosias_pants}[I found Theodosia's underwear in your room!]
 ~ unlockStatement("Maximillian_Hold",6)
 Why- those are <i>mine</i>! Yes, I'm quite sure they're mine! You see, my middle name is- Thomas! Hence the monogram.
-And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. I'm sure you as a gentleman can understand that.
+And I am rather fond of the silkier, frillier fabrics, particularly for my more <i>delicate</i> areas. 
+I'm sure you as a gentleman can understand that.
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
 *[You lust after her! I can see it in your eyes!]
@@ -333,6 +336,7 @@ Yes yes, fascinating. Focus back on me, please.
 I shall let you know a secret. 
 Given my dear brother's untimely passing, I think it my obligation to protect the family in his stead. I intend to marry Theodosia so as to ensure she and little Avery are well cared for in the years to come. 
 By happenstance, I shall also then inherit the vast majority of Chuck's estate and fortune.
+~ unlockStatement("Maximillian_Hold",7)
 I would be most inclined to make a <i>generous</i> donation to the publication and dedicated newspaper man who uncovered my brother's grisly murder.
 That is assuming the <i>true</i> killer of my brother is found. 
 Does that sound amiable to you, sir?
@@ -398,7 +402,8 @@ And I must say sir, I think you have a <i>very</i> lucrative career awaiting you
 <i>His face is excessively powdered and painted.  His wig is clearly made of the finest human hair.</i>
 ~pink_lipstick_smudge = true
 ~unlockItem("pink_lipstick_smudge")
-<i>However, you notice a small imperfection. There is a dull rouge smudge on his neck near the collar.</i>
+<i>However, you notice a small imperfection. There is a pink smudge on his neck near the collar.</i>
+<i>It appears to be lipstick.</i>
 { - pink_lipstick: Strange. You think you've seen that lipstick elsewhere...}
 { - pink_lipstick and burnt_letter: 
 ~affair_revealed = true
@@ -430,7 +435,7 @@ His hands are ungloved and unadorned.->Examination
 
 ===Outro===
 It is quite clear what happened, mon chéri! The stable hand attempted to purloin the family brooch and killed my dear brother in the act!  #speaker: Maximillian Hold #layout:right  #portrait:fopneutral
-Print that in your little paper, and I can guarantee your financial situation shall <i>dramatically</i> improve!
+Print that in your little paper, and I can guarantee your personal finances shall <i>dramatically</i> improve!
 ->DONE
 
 

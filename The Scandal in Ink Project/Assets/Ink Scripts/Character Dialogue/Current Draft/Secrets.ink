@@ -56,7 +56,7 @@ VAR Max_proof3 = false
 VAR pink_lipstick_smudge = false
 VAR maximillian_door_key = false
 VAR max_confession = false
-
+VAR max_denial = false
 
 //Theodosia
 VAR mannish_hands_gag = false
