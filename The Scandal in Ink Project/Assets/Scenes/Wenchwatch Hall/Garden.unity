@@ -287,6 +287,7 @@ PolygonCollider2D:
       - {x: -1.9334304, y: -0.041830838}
       - {x: -1.5350742, y: -5.6507173}
       - {x: 2.131516, y: -5.3349543}
+      - {x: 1.7666694, y: -1.5575781}
       - {x: 3.0561438, y: 2.9403758}
   m_UseDelaunayMesh: 0
 --- !u!1001 &564257275
@@ -1243,7 +1244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Offset.x
-      value: 1.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Offset.y
@@ -1251,11 +1252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_SpriteTilingProperty.border.x
-      value: 0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 5.04
+      value: 3.68
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
@@ -1281,11 +1282,83 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1516452346}
   m_SourcePrefab: {fileID: 100100000, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+--- !u!1 &1516452345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7547728788293141216, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+  m_PrefabInstance: {fileID: 1516452344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &1516452346
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516452345}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.68, y: 6.59}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.23129702, y: 2.7230408}
+      - {x: -0.3636775, y: 1.9937266}
+      - {x: -0.27629805, y: 1.053923}
+      - {x: -0.7078223, y: -0.6762152}
+      - {x: -0.5250797, y: -1.1676052}
+      - {x: -1.1502664, y: -1.4006605}
+      - {x: -1.8938153, y: -3.4187303}
+      - {x: 1.3344352, y: -3.397937}
+      - {x: 1.3926488, y: -2.5018032}
+      - {x: 1.9352944, y: -1.2480791}
+      - {x: 1.908276, y: -0.24000454}
+      - {x: 1.4447355, y: 0.7113069}
+      - {x: 1.4676933, y: 1.198111}
+      - {x: 1.1058474, y: 1.5344516}
+      - {x: 1.2441705, y: 2.065846}
+      - {x: 1.0417238, y: 2.6507816}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1769705829
 GameObject:
   m_ObjectHideFlags: 0
