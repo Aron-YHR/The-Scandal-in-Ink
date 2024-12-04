@@ -11,9 +11,9 @@ INCLUDE Secrets.ink
 
 === Start ===
 
-{TURNS_SINCE(-> INTRO) == 0: Should you intend to take my portraiture for your publication, I must insist you use take it from my left side. It is most uncouth for a lady of status to expose her right cheek to the great unwashed.} 
+{TURNS_SINCE(-> INTRO) == 0: {met_theodosia:Good day.|Should you intend to take my portraiture for your publication, I must insist you use take it from my left side. It is most uncouth for a lady of status to expose her right cheek to the great unwashed.}} 
 
-
+~met_theodosia = true
 
 +[Where were you night of the murder?]
 
@@ -214,7 +214,7 @@ As you wish. ->Start
 
 =Pickpocket
 +[<i>Pickpocket Theodosia.</i>]
-~TransitionWithoutAudio("Garden","Theodosia Purse")
+~TransitionWithoutAudio("Garden","Theodosia Pocket")
 ->DONE
 
 +[<i>Leave it for now.</i>]

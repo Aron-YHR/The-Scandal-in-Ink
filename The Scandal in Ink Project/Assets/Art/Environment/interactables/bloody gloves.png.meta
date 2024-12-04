@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bloody gloves_0: -1760815713711230353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

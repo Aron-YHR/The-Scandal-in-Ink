@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LetterStatements_SO
   m_EditorClassIdentifier: 
   statementsList:
-  - ' is dead. I shall make preparations for an appropriate burial. '
+  - ' has perished. '
   - " is deathly ill, and only worsens with each passing hour.\r\n "
   - " has taken ill with some terrible malady.\n "
   - " is faring well, thanks to your aid.\r\n "

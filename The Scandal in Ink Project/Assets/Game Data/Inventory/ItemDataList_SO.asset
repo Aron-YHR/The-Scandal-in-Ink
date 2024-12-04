@@ -120,7 +120,7 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: A key to Max's room.
+    itemInfo: A key to Max's room, found in Max's back pocket.
   - itemName: 17
     itemIcon: {fileID: -3685960203100951634, guid: d28b9d73e9fa95c4192e85808d3e3414, type: 3}
     value: 0
