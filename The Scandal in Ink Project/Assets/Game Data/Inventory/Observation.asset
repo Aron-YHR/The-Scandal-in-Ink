@@ -12,29 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe9c4a807378424186266e1101f5386, type: 3}
   m_Name: Observation
   m_EditorClassIdentifier: 
-  itemList: []
+  itemList:
+  - itemName: 9
+    itemIcon: {fileID: 5640078138975803200, guid: 4f0ec1cdf1ed3a84f8cc15a96e506739, type: 3}
+    value: 0
+    isEvidence: 1
+    notRecordedInJournal: 0
+    notPickedUp: 0
+    itemInfo: A note from Theodosia Hold to Admiral Charles Hold requesting he refrain
+      from dismissing the maid, Dorothy Tendwell, over a late breakfast.
   npcList:
-  - npcName: 2
-    npcIcon: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
-    npcPortrait: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
-    location: Study
-    npcInfo: The stable hand of Wenchwatch Hall.
+  - npcName: 6
+    npcIcon: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
+    npcPortrait: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
+    location: Reception
+    npcInfo: The maid of Wenchwatch Hall.
     npcStatements:
-    - statementLine: 1. Denies any knowledge of the Admiral's brooch hidden in the
-        horse's saddle.
+    - statementLine: 1. Says she was alone in her room last night.
       isUnlocked: 0
-    - statementLine: 2. Has admitted to a relationship with the maid, Dorothy Tendwell.
+    - statementLine: 2. Has confessed that she was with Lavender last night.
       isUnlocked: 0
-    - statementLine: 3. Says she discovered Theodosia and Maximillian making love
-        in the stables.
+    - statementLine: 3. Says Theodosia was wearing Maximillian's gloves yesterday.
       isUnlocked: 0
-    - statementLine: 4. Says Theodosia and Max may have swapped clothing.
+    - statementLine: 4. Says Maximillian has made lustful advances towards her.
       isUnlocked: 0
-    - statementLine: 5. Says she was with Dorothy in her room the night of the murder.
+    - statementLine: 5. Says she was unaware the Admiral intended to fire her.
+      isUnlocked: 1
+    - statementLine: 6. Has confessed to being in a relationship with Lavender.
       isUnlocked: 0
-    - statementLine: 6. Says she heard Theodosia crying throughout the night.
-      isUnlocked: 0
-    - statementLine: 7. Says Theodosia blackmailed her into silence.
+    - statementLine: 7. Does not think Avery had a hand in the Admiral's death.
       isUnlocked: 0
   mainCaseChoices: 0
   sideCaseChoices: 0

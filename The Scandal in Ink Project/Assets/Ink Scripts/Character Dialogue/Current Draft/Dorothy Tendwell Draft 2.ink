@@ -41,6 +41,7 @@ Um- No sir, I- I wasn't. Do you know why he- intended to do so?
 **[Something about a late breakfast.]
 #portrait:maidnegative
 ...I knew that shameful day would come back to haunt me.
+~unlockStatement("Dorothy_Tendwell", 5)
 ~dorothy_fired = true
 No, sir, I was not aware of the Admiral's intentions. ->Start
 
