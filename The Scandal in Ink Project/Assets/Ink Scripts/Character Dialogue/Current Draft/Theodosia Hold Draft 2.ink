@@ -258,9 +258,9 @@ Ah. I see. Quite the <i>clever</i> deduction, sir. #speaker: Theodosia Hold #por
 
 +{theodosias_gloves and maximillians_gloves}[You're wearing his gloves!]
 ~mannish_hands_gag = true
-...One always feared this day would come. My greatest shame, brought forth into the cold light of day. #speaker: Theodosia Hold #portrait:theladyneutral
+...One always feared this day would come. My greatest shame, brought forth into the cold light of day. #speaker: Theodosia Hold #portrait:theladynegative
 You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands. 
-<i>Oh!</i> To even say it aloud- I feel faint! I am ruined. I imagine this will be front page on that paper of yours. ->Hands_Gag
+<i>Oh!</i> To even say it aloud- I feel faint! I am ruined! I imagine this will be front page on that paper of yours. ->Hands_Gag
 
 
 +{theodosias_pants}[I found your underwear in Max's room!]
@@ -271,11 +271,11 @@ Ah. Yes. That is rather incriminating.
 =Hands_Gag
 
 +[I don't care about your hands! Tell me about the affair!]
-Well- if you insist. Personally I feel this would be of <i>far</i> greater interest to your readers.
+Well- if you insist. Personally I feel this would be of <i>far</i> greater interest to your readers. #speaker: Theodosia Hold #portrait:theladyneutral
 ->Affair_Cont
 
 +[I'll probably write about your affair with your brother-in-law.]
-I- suppose such a banal matter would be of interest to more <i>common</i> folk.
+I- suppose such a banal matter <i>would</i> be of interest to more <i>common</i> folk. #speaker: Theodosia Hold #portrait:theladyneutral
 ->Affair_Cont
 
 
@@ -330,8 +330,8 @@ So I would ask you, sir. Would you consider- keeping this information out of the
 
 
 *[I will, but it's gonna cost you.]
-Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?!
-A woman of proper breeding possesses no assets. Her home, wealth, and children are entiely the property of her husband.
+Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?! #portrait:theladynegative
+A woman of proper breeding possesses no assets. Her home, wealth, and children are entiely the property of her husband. #portrait:theladyneutral
 So you see sir, I have <i>nothing</i> to my name. And should you reveal my actions to the public...
 Well, I would have less than nothing... ->Affair_End
 

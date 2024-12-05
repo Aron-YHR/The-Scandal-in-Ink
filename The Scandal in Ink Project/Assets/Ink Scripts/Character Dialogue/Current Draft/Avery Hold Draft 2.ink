@@ -193,18 +193,18 @@ Go take a moment to clear your thoughts. But should you wish to speak to myself 
 
 ===Examination===
 
-+[Examine his hands.]
++[<i>Examine his hands.]
 <i> His fingertips seems slightly sticky. You think he may have recently been eating something covered in jam. </i> ->Examination
 
-+[Examine his face.]
++[<i>Examine his face.]
 <i> His cheeks are stained red. You think he may have been crying recently. </i> -> Examination
 
-+[Examine his clothing.]
++[<i>Examine his clothing.]
 <i> He has been dressed in appropriate mourning attire. However, you notice that Avery appears to be carrying something in his back pocket.</i>
 <i> You think you might be able to grab it, if you're careful...</i> ->Pickpocket
 
 
-+[Return to the conversation]
++[<i>Return to the conversation.]
 <i> You return to your conversation with the unusually verbose child.</i> -> Start
 
 

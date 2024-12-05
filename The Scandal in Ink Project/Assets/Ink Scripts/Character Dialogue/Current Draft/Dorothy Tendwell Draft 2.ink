@@ -284,19 +284,19 @@ Thank you, sir. Truly. Thank you.  ->Start
 
 
 ===Examination===
-+[Examine her hands.]
++[<i>Examine her hands.]
 <i> Her hands are clean and unmarked.  </i>
 ->Examination
 
-+[Examine her face.]
++[<i>Examine her face.]
 <i> Her face is clean. Her bonnet holds back a flood of red hair. </i> 
 -> Examination
 
-+[Examine her clothing.]
++[<i>Examine her clothing.]
 ->Pickpocket
 
 
-+[Return to the conversation]
++[<i>Return to the conversation.]
 <i>Your focus returns to the conversation at hand.</i> -> Start
 
 
