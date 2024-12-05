@@ -12,15 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe9c4a807378424186266e1101f5386, type: 3}
   m_Name: Observation
   m_EditorClassIdentifier: 
-  itemList:
-  - itemName: 9
-    itemIcon: {fileID: 5640078138975803200, guid: 4f0ec1cdf1ed3a84f8cc15a96e506739, type: 3}
-    value: 0
-    isEvidence: 1
-    notRecordedInJournal: 0
-    notPickedUp: 0
-    itemInfo: A note from Theodosia Hold to Admiral Charles Hold requesting he refrain
-      from dismissing the maid, Dorothy Tendwell, over a late breakfast.
+  itemList: []
   npcList:
   - npcName: 6
     npcIcon: {fileID: 1928340194254426671, guid: e70bc87a1d91bd14393d5373bca7aa6c, type: 3}
@@ -36,8 +28,8 @@ MonoBehaviour:
       isUnlocked: 0
     - statementLine: 4. Says Maximillian has made lustful advances towards her.
       isUnlocked: 0
-    - statementLine: 5. Says she was unaware the Admiral intended to fire her.
-      isUnlocked: 1
+    - statementLine: 5. Says she was unaware the Admiral intended to fire her
+      isUnlocked: 0
     - statementLine: 6. Has confessed to being in a relationship with Lavender.
       isUnlocked: 0
     - statementLine: 7. Does not think Avery had a hand in the Admiral's death.
