@@ -168,12 +168,12 @@ TextureImporter:
       name: childpocket2_0
       rect:
         serializedVersion: 2
-        x: 315
+        x: 0
         y: 0
-        width: 948
+        width: 1920
         height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,14 +188,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1dfae8f805d32ea47bce0045c97c101e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      childpocket2_0: -7467531527997676382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
