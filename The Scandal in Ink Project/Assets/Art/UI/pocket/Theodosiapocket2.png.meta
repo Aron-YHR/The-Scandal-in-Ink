@@ -168,12 +168,12 @@ TextureImporter:
       name: Theodosiapocket2_0
       rect:
         serializedVersion: 2
-        x: 226
+        x: 0
         y: 0
-        width: 942
+        width: 1920
         height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,14 +188,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e6a83d5bc310ff14ea3abb1967e9c1f8
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Theodosiapocket2_0: 7098803469482908224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

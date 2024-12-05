@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sidescandal2_0: 566236216271524985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

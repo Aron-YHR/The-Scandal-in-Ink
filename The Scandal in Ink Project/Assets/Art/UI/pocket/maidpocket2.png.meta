@@ -168,12 +168,12 @@ TextureImporter:
       name: maidpocket2_0
       rect:
         serializedVersion: 2
-        x: 379
+        x: 0
         y: 0
-        width: 1000
-        height: 917
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,14 +188,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5195726eadb39fa44990a6b1f44e4693
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      maidpocket2_0: -6294732447927622613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

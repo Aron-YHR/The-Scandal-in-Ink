@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      theodosiapocket1_0: 1550629395720967986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

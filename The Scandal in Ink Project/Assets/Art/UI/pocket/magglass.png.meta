@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      magglass_0: -6902850816287843255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      foproomgloves_0: 3627296803335659889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

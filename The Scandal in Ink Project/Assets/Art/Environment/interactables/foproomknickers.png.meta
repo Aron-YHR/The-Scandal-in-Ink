@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      foproomknickers_0: -5298853164148428314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
