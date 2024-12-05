@@ -363,7 +363,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      journalistdoodle_0: -4977987754808139512
+      journalistdoodle_1: -3282457356765577366
+      journalistdoodle_2: -260396871573429353
+      journalistdoodle_3: 4607702344035295102
+      journalistdoodle_4: -365934405191100054
+      journalistdoodle_5: 2031256601170285136
+      journalistdoodle_6: -935057455197137697
+      journalistdoodle_7: 8595624964182468476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
