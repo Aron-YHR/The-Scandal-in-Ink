@@ -168,12 +168,12 @@ TextureImporter:
       name: foppocket2_0
       rect:
         serializedVersion: 2
-        x: 425
+        x: 0
         y: 0
-        width: 1006
+        width: 1920
         height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9e1bc80f62320e8439cad2be63dbf3da
     internalID: 0
     vertices: []
     indices: 

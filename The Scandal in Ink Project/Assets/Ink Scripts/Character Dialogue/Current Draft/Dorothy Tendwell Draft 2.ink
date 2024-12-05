@@ -69,7 +69,7 @@ M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 Well, I did notice... <i>something</i>.
 Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables.
 They often go riding together in the evenings, but they seemed particularly... flustered on this occasion.
-Then, later on that day, LadyTheodosia and the Admiral got into a terrible fight.
+Then, later on that day, Lady Theodosia and the Admiral got into a terrible fight.
 As I was comforting her, I noticed something rather...odd.
 Lady Hold was wearing Sir Maximillian's gloves.
 ~unlockStatement("Dorothy_Tendwell", 3)
