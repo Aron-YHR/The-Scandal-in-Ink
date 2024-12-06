@@ -70,7 +70,7 @@ He despised my pet names. I can't possibly imagine why. His Naval comrades thoug
 +[So, you two were close?]
 Charles was my muse, my guiding light. 
 ~unlockStatement("Maximillian_Hold", 1)
-He shaped me into the masculine throroughbred that now stands before you! ->Relationship
+He shaped me into the masculine thoroughbred that now stands before you! ->Relationship
 
 +[Let's move on.]
 Whatever you wish, mon chéri! ->Start
@@ -128,7 +128,7 @@ And to speak personally for but a brief moment, she simply <i>has</i> to do some
 -> Ditch
     
 +[Do you think Ms. Ditch could have killed the Admiral?]
-I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into povrty.
+I do hate to cast aspersions on dear Ms. Hand, but to be frank, she does strike one as a most evasive character. Of course, it is natural to be suspicious of one foolish enough to be born into poverty.
 ~ unlockStatement("Maximillian_Hold",2)
 A most alarming thing to do.-> Ditch
 
@@ -167,7 +167,7 @@ How could a man <i>not</i> gaze fondly upon such a beauty as Theodosia?
 But such an act is entirely normal for a red-blooded man in his prime!
 I'm sure you understand, sir. Unless you have slightly- <i>different</i> desires, hm?
 
-**[I'm the straighest man in this building!]
+**[I'm the straightest man in this building!]
 Whate'er you need to tell yourself, good sir!
 Now let us speak no more of such an ugly, baseless rumour. We should return to the matter at hand, that being my poor brother's savage murder!->Start
 
@@ -178,7 +178,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 
 ===Accuse===
 
-*{affair_revealed and not Max_proof1}[You were having an affair with Theodosia. You killed Charles to keep it quiet!]
+*{(affair_revealed or theodosias_pants) and not Max_proof1}[You were having an affair with Theodosia. You killed Charles to keep it quiet!]
 ~Max_proof1 = true
 {
 - Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
@@ -200,12 +200,7 @@ Now let us speak no more of such an ugly, baseless rumour. We should return to t
 - else: ->Who
 }
 
-*{theodosias_pants and not Max_proof1}[You were having an affair with Theodosia. You killed Charles to keep it quiet!]
-~Max_proof1 = true
-{
-- Max_proof1 and Max_proof2 and Max_proof3: ->Bartering
-- else: ->Why
-}
+
 
 
 
@@ -243,7 +238,9 @@ Alas, that is all it is- a fantasy! If the brooch was found in the stables, I th
 
 
 =Who
-Aha! I was not aware that you were <i>rifling</i> through my private quarters! That is considered <i>quite</i> inappropriate in civilised society. I assume members of the lower order are unaware of that particular faux pas. You must simply have nothing worth stealing, aha!
+Aha! I was not aware that you were <i>rifling</i> through my private quarters! That is considered <i>quite</i>  inappropriate in civilised society. #portrait:fopnegative
+I assume members of the lower order are unaware of that particular faux pas. 
+You must simply have nothing worth stealing.
 As for the gloves, it is easily explainable. You see, I merely cut myself shaving this morning. Hence the bloodied gloves!
 
 +[I don't see any shaving cuts.]
@@ -251,7 +248,10 @@ As for the gloves, it is easily explainable. You see, I merely cut myself shavin
 
 
 =Who_Continued
-I never did tell you <i>where</i> I was shaving, good sir! It is typiccally impolite to expose one's nether regions in public- though as you seem to have a <i>special</i> interest in my regions, I might be convinced to make an exception for you! Aha! Ahahaha! 
+I never did tell you <i>where</i> I was shaving, good sir! #portrait:foppositive
+It is typically impolite to expose one's nether regions in public- though as you seem to have a <i>special</i> interest in my regions, I might be convinced to make an exception for you! 
+Aha! 
+Ahahaha! 
 ->Accuse
 
 
@@ -262,17 +262,17 @@ Ah, to hell with that damnable peasant. An untrustworthy character, by my estima
 ->Accuse
 
 =How_Follow_Up
-I- well you see- zounds, it is terribly hot in here! Aha! Ahahaha! 
-I'm quite sure you misunderstood me sir. You see, I fear you heard me say something somewhat incriminating, but in fact, I said something utterly exonerating! Yes, I'm quite sure you misheard me!
+I- well you see- zounds, it is terribly hot in here! Aha! Ahahaha! #portrait:fopshock
+I'm quite sure you misunderstood me sir. You see, I fear you heard me say something somewhat incriminating, but in fact, I said something utterly exonerating! Yes, I'm quite sure you misheard me! #portrait:fopneutral
 ->Accuse
 
 
 =Theodosia
-She is hysterical! Poor Theodosia is newly widowed and not in her right mind, and all this talk of wills and letters and newspapers has addled her delicate mind. Reading is a most harmful activity for a woman, you know!
-You must disregard everything she told you, sir. It is utter poppycock!  ->Accuse
+She is hysterical! Poor Theodosia is newly widowed and not in her right mind, and all this talk of wills and letters and newspapers has addled her delicate mind. #portrait:fopnegative
+Reading is a most harmful activity for a woman, you know! You must disregard everything she told you, sir. It is utter poppycock!  ->Accuse
 
 =Underwear
-Can a man of culture and esteem wear his sister-in-law's undergarments without fear of reproach?!
+Can a man of culture and esteem wear his sister-in-law's undergarments without fear of reproach?! #portrait:fopnegative
 Truly sir, the idea that this is proof of some sinister affair is utter poppycock! ->Accuse
 
 =Sexual_Energy
@@ -313,7 +313,7 @@ Oh heavens! Bribery? Moi? <i>Never</i>!
 I am merely waxing lyrical, sir! How <i>tricky</i> a thing the truth is to pin down, wouldn't you agree? 
 Why, had I not now given you such a crucial piece of evidence, you may have come to the conclusion that <i>I</i> was the killer! 
 And had you then published such a report, it would have been quite impossible for me to convince anyone of my innocence.
-Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative? Particularly for a family man such as yourrself...
+Yes, quite a potent power you possess, sir. Arbiter of truth! Though I cannot imagine such a profession is... financially lucrative?
 
 
 +[I get by.]
@@ -358,7 +358,7 @@ My dress sense is <i>unparalleled</i>! You would be fortunate to be as well-dres
 ->Outburst
 
 +[I need to think about what I want to do.]
-Hardly a difficult choice by my estimation, but very well. I await your next publication, sir. I hope to see a story that will satisy us both gracing the front page.
+Hardly a difficult choice by my estimation, but very well. I await your next publication, sir. I hope to see a story that will satisfy us both gracing the front page.
 ->DONE
 
 
@@ -366,7 +366,7 @@ Hardly a difficult choice by my estimation, but very well. I await your next pub
 
 
 =Outburst
-Blame the blasted stablehand and I'll pay you off, you illiterate buffoon! #portrait:fopnegative
+Blame the blasted stable hand and I'll pay you off, you illiterate buffoon! #portrait:fopnegative
 ...Ahem. By which I mean, should your paper identify the true killer of Admiral Hold, you should expect your family's finances to improve- dramatically. #portrait:fopneutral
 Have we a deal?
 

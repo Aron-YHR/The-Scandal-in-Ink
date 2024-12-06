@@ -275,7 +275,7 @@ MonoBehaviour:
     isEvidence: 0
     notRecordedInJournal: 1
     notPickedUp: 1
-    itemInfo: A saber mounted firmly to the wall. It appears as though it has not
+    itemInfo: A sword mounted firmly to the wall. It appears as though it has not
       been used for a very long time.
   - itemName: 38
     itemIcon: {fileID: 0}
@@ -324,3 +324,25 @@ MonoBehaviour:
     notPickedUp: 1
     itemInfo: An antique set of duelling pistols fastened to the wall. Unloaded and
       unused.
+  - itemName: 44
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: 'A very... revealing portrait of Maximillian Hold. '
+  - itemName: 45
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: An open window in Maximillian Hold's room. A partially broken trellis
+      lies just beneath the window.
+  - itemName: 46
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: A sensual portrait of a hard-working maid.

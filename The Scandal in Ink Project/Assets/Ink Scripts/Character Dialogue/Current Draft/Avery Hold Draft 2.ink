@@ -167,11 +167,11 @@ WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
 -> You_Fucked_Up
 
 +[<i>Run away.</i>]
-A moment of your time, if you please. #speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
+A moment of your time, if you please. #speaker:Dorothy Tendwell #layout:left #portrait:maidnegative
 -> You_Fucked_Up
 
 =You_Fucked_Up
-Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
+Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker:Dorothy Tendwell #layout:left #portrait:maidnegative
 *[Yes ma'am. Sorry ma'am. Sorry Avery.]
 'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker: Avery Hold #layout:right #portrait:childneutral
 **[Let's talk about something else.]
@@ -226,7 +226,7 @@ You leave it for the time being.
 ->Iliad_Confiscated.Crying
 
 +[I have no proof, but I'll find some! And then you'll hang, kid!]
-If this be a jape, 'tis a jape made in remrkably poor taste, sir. ->Start
+If this be a jape, 'tis a jape made in remarkably poor taste, sir. ->Start
 
 +[Never mind. Forget I said anything.]
 A most difficult charge to pretermit, though I shall do my best. ->Start

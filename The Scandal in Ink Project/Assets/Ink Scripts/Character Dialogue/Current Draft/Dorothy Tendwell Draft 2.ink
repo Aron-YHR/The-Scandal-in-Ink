@@ -15,7 +15,7 @@ INCLUDE Secrets.ink
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
 ~unlockStatement("Dorothy_Tendwell", 1)
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
-I'm afraid by the time I found him, poor Avery was standing over the Amdiral's-
+I'm afraid by the time I found him, poor Avery was standing over the Admiral's-
 By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
 ->Night_Of_Murder
 
@@ -350,7 +350,7 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-*{dorothy_fired and not dorothy_accuse_1}[You lied! You knew the Amiral was going to fire you, so you killed him to keep your job!]
+*{dorothy_fired and not dorothy_accuse_1}[You lied! You knew the Admiral was going to fire you, so you killed him to keep your job!]
 #portrait:maidshock
 But- I- I would never! 
 Sir, I swear I did not know the Admiral intended to fire me!

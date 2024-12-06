@@ -23,7 +23,7 @@ public enum ItemName
     jam_scone,
     bloody_hay,
     dorothy_coins,
-    confiscated_book,
+    averys_book,
     pink_lipstick,
     pink_lipstick_smudge,
     jam_scone_tray,
@@ -40,7 +40,7 @@ public enum ItemName
     portrait_of_a_lady,
     clock,
     drawing_of_a_horse,
-    saber,
+    sword,
     books,
     stack_of_papers,
 
@@ -49,7 +49,12 @@ public enum ItemName
     hungry_horse,
     unlit_lantern,
     //reception
-    duelling_pistols
+    duelling_pistols,
+
+    //Max's Room
+    portrait_of_Maximillian,
+    open_window,
+    portrait_of_a_maid,
 
    
 }

@@ -177,7 +177,7 @@ I promised I wouldn't say anything... ->Lavender_Tells_All
 ->Affair_Revealed
 
 
-*[Out with it! Otherwise your lesbian liason ends up on Page 3!]
+*[Out with it! Otherwise your lesbian liaison ends up on Page 3!]
 ...You're nothing but a bloody gossip monger.  #portrait:stablehandnegative
 ->Affair_Revealed
 
@@ -204,7 +204,7 @@ I promised I wouldn't say anything... ->Lavender_Tells_All
 Alright.
  #portrait:stablehandneutral
 The other day- the Lady Hold and Sir Max were out for their weekly horse ride. 
-Now ususally, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.  #portrait:stablehandneutral
+Now usually, I sneak in a lunch with Dot while they're away. But she was busy with the little lad, so I decided to give the stables a mucking out.  #portrait:stablehandneutral
 Only, when I got to the stables, I found the Lady and Max- I found them in an awkward-
 ~lavender_confession = true
 ~affair_revealed = true
@@ -309,7 +309,7 @@ And from what she tells me, Dot's family aren't...
 -> Examination
 
 +[<i>Examine her clothing.]
-<i> Her clothing is unkempt and coated in muck and hay, as expected of a stabe hand.</i> 
+<i> Her clothing is unkempt and coated in muck and hay, as expected of a stable hand.</i> 
 -> Examination
 
 +[Return to the conversation]
