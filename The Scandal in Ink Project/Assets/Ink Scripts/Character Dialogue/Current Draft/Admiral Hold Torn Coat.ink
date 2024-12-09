@@ -40,10 +40,10 @@ INCLUDE Secrets.ink
 
 {
 -statement_found and clue_found: 
-~Transition("Intro People Page", "Intro Deduction")
+~TransitionWithoutAudio("Intro People Page", "Intro Deduction")
 ->DONE
 
 -else: 
-~Transition("Intro People Page", "Intro Table")
+~TransitionWithoutAudio("Intro People Page", "Intro Table")
 ->DONE
 }

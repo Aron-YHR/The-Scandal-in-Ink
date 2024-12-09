@@ -56,7 +56,15 @@ public enum ItemName
     open_window,
     portrait_of_a_maid,
 
-   
+    //stables
+    to_do_list,
+    thingamabob,
+    whatsit,
+    doodad,
+    doohickey,
+    thingamajig
+
+
 }
 
 public enum NPCName

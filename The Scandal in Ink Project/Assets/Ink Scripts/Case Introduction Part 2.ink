@@ -1,4 +1,5 @@
 EXTERNAL Transition(from,to)
+EXTERNAL TransitionWithoutAudio(from,to)
 EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
 EXTERNAL TransitionToMainGame(from,to)
@@ -19,7 +20,7 @@ Well, he's slightly-
 <i>Dead!</i> #speaker: ??? #layout:left #portrait:fopneutral
 <i>Dispatched!</i>
 <i>Deceased!</i>
-~Transition("Snapshot Table","Intro Study")
+~TransitionWithoutAudio("Snapshot Table","Intro Study")
 ->DONE
 
 

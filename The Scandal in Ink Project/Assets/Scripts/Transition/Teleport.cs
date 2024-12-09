@@ -12,7 +12,7 @@ public class Teleport : MonoBehaviour
     [Header("Highlight")]
     [SerializeField] private GameObject Highlight;
 
-    private bool mouseInRange;
+    public bool mouseInRange;
 
     private void Awake()
     {

@@ -8,5 +8,5 @@ INCLUDE Secrets.ink
 
 
 === Start ===
-<i>Neigh!
+<i>Neigh!</i> #speaker:Zeus The Horse #portrait:horseneutral
 ->DONE
