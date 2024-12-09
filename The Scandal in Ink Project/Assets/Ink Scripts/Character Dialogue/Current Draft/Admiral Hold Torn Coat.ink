@@ -25,7 +25,7 @@ INCLUDE Secrets.ink
 
 
 ===Tutorial_Clue===
-Something was forcefully torn from the Admiral's coat. #speaker: Admiral's Body #layout:right #portrait:Default
+<i>Something was forcefully torn from the Admiral's coat.</i> #speaker: Admiral's Body #layout:right #portrait:Default
 ~unlockNPC("Admiral_Charles_Hold") 
 ~ unlockStatement("Admiral_Charles_Hold", 2)
 <i>You've found some evidence! #speaker:Tutorial

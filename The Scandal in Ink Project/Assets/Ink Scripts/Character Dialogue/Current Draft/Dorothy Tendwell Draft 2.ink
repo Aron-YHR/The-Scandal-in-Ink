@@ -15,7 +15,7 @@ INCLUDE Secrets.ink
 Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
 ~unlockStatement("Dorothy_Tendwell", 1)
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
-I'm afraid by the time I found him, poor Avery was standing over the Amdiral's-
+I'm afraid by the time I found him, poor Avery was standing over the Admiral's-
 By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
 ->Night_Of_Murder
 
@@ -69,7 +69,7 @@ M- me, sir? Wh- why would you assume I did such a <i>horrid</i> thing? ->Accuse
 Well, I did notice... <i>something</i>.
 Yesterday evening, while I was dusting down the stairwell, I saw Lady Hold and Sir Maximillian leaving the stables.
 They often go riding together in the evenings, but they seemed particularly... flustered on this occasion.
-Then, later on that day, LadyTheodosia and the Admiral got into a terrible fight.
+Then, later on that day, Lady Theodosia and the Admiral got into a terrible fight.
 As I was comforting her, I noticed something rather...odd.
 Lady Hold was wearing Sir Maximillian's gloves.
 ~unlockStatement("Dorothy_Tendwell", 3)
@@ -284,19 +284,19 @@ Thank you, sir. Truly. Thank you.  ->Start
 
 
 ===Examination===
-+[Examine her hands.]
++[<i>Examine her hands.]
 <i> Her hands are clean and unmarked.  </i>
 ->Examination
 
-+[Examine her face.]
++[<i>Examine her face.]
 <i> Her face is clean. Her bonnet holds back a flood of red hair. </i> 
 -> Examination
 
-+[Examine her clothing.]
++[<i>Examine her clothing.]
 ->Pickpocket
 
 
-+[Return to the conversation]
++[<i>Return to the conversation.]
 <i>Your focus returns to the conversation at hand.</i> -> Start
 
 
@@ -350,7 +350,7 @@ I- don't think that would be appropriate, sir.->Start
 ===Accuse===
 
 
-*{dorothy_fired and not dorothy_accuse_1}[You lied! You knew the Amiral was going to fire you, so you killed him to keep your job!]
+*{dorothy_fired and not dorothy_accuse_1}[You lied! You knew the Admiral was going to fire you, so you killed him to keep your job!]
 #portrait:maidshock
 But- I- I would never! 
 Sir, I swear I did not know the Admiral intended to fire me!

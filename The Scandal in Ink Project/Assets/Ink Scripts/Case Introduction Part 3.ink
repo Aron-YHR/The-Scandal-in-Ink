@@ -16,7 +16,7 @@ VAR question_tracker = 0
 This is Maximillian Hold, sir. Younger brother of the- <i>late</i> Admiral Charles Hold. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 Oh, dear brother! To be struck down so tragically! #speaker:Maximillian Hold #layout:left  #portrait:fopneutral
 So ignobly!
-Surrounded by such <i>horrendous</i> furnishings!
+Surrounded by such <i>horrendous</i> décor!
 <i>Ah!</i> I do not know how my heart can bear such an onslaught of travesties!
 Oh- Dorothy dearest, who is this drably dressed fellow?
 
@@ -59,9 +59,9 @@ Dorothy, I assure you, I am most well rested. One of the few benefits of widowho
 Yes, Lady Hold, of course. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
 Introducing Lady Theodosia Hold, sir. Wife of the late Admiral. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-A pleasure to meet you, sir. I am an avid fan of your publication. Dorothy often reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia_Hold #layout:left #portrait:theladypositive
+A pleasure to meet you, sir. I am an avid fan of your publication. Dorothy often reads to me from its pages. I would read it myself, but female literacy is so terribly unfashionable at present. #speaker: Theodosia Hold #layout:left #portrait:theladypositive
 The exposé last month regarding Lady Sullivan's indecent table manners was <i>particularly</i> delectable.
-Most wonderful that you are here. One imagines you'll be taking my portraiture for your next issue, yes?
+Most wonderful that you are here. One imagines you shall be taking my portrait for your next issue, yes?
 
 
 +[What exactly happened here?]
@@ -79,7 +79,7 @@ But yes, it is true.
 
 
 =Murder_Most_Foul
-The Admiral was- struck down in the early hours of the morning by an unkown assailant. 
+The Admiral was- struck down in the early hours of the morning by an unknown assailant. 
 Worse yet, the body was discovered by the Admiral's son, little Avery Hold. #portrait:maidnegative
 The poor boy is traumatised. To discover your father in such a- after he-
 Oh, even the <i>thought</i> of it-!
@@ -88,7 +88,7 @@ For heaven's sake, girl, pull yourself together! You should know how terribly ga
 
 Sincerest apologies, Lady Hold. #speaker:Dorothy Tendwell #layout:right #portrait:maidnegative
 As I was saying, it was Avery who discovered the Admiral in his- current condition.
-Unfotunately, the killer escaped before Avery could catch sight of them.
+Unfortunately, the killer escaped before Avery could catch sight of them.
 ->Questioning
 
 
@@ -104,7 +104,7 @@ There was Sir Maximillian, who you have met-
 <i>Maximillian blows you a kiss.</i> #speaker: Maximillian Hold #layout:left  #portrait:foppositive
 Lady Theodosia Hold, who you have also met- #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 
-<i>Theodosia stares at you, statuesque. It's slightly unnerving.</i> #speaker:Theodosia Hold #layout:left #portrait:theladyneutral
+<i>Theodosia stares at you, unblinkingly.</i> #speaker:Theodosia Hold #layout:left #portrait:theladyneutral
 And myself. #speaker:Dorothy Tendwell #layout:right #portrait:maidneutral
 Not currently present is Avery Hold, the son of Lady Theodosia and the Admiral, and the stable hand, one Ms. Lavender Ditch.
 
@@ -140,15 +140,17 @@ I am quite sure there is nothing on this Earth Charles would want more than to b
 
 =Outro
 If you are quite set on helping us, sir, I shall make sure everyone remains at Wenchwatch Hall as you carry out your investigation.  #speaker:Dorothy Tendwell #layout:right
-I would recommmend you take note of anything that may be of use to you as you explore the manor and question its inhabitants.
+I would recommend you take note of anything that may be of use to you as you explore the manor and question its inhabitants.
 
 ~Transition("Intro Study","Intro Table")
 
 Welcome to <i>The Scandal in Ink</i>! #speaker: Tutorial #portrait:Default
- <i>Let's go over the basics of how how to play.
+ <i>Let's go over the basics of how to play.
+  <i>(Quick tip: If you're looking to skip through dialogue, you can click the right-mouse button while the text is scrolling.)
  <i>Start by scanning your mouse around the environment in search of clues.
- <i>You should see a magnifying glass pop up over any items of note.
+ <i>You should see a magnifying glass pop up over anything of note.
  <i>Click on those items with the left mouse button to learn more.
+
 ->DONE
 
 

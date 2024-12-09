@@ -17,7 +17,7 @@ INCLUDE Secrets.ink
 
 +[Where were you night of the murder?]
 
-I had retired to my chambers rather early to indulge in a most ladlylike fit of weeping.
+I had retired to my chambers rather early to indulge in a most ladylike fit of weeping.
 You may confer with my maid to confirm this.->Night_Of_Murder
 
 
@@ -57,8 +57,8 @@ And really, if the lower orders cannot provide us with entertainment, what on ea
 
 
 +[It was you! You killed the Admiral!]
-Murder my husand? #speaker: Theodosia Hold #portrait:theladyshock
-I know it has become quite fashionble in France to murder one's husband, but it is <i>hardly</i> the done thing here, sir. #portrait:theladynegative
+Murder my own husband? #speaker: Theodosia Hold #portrait:theladyshock
+I know it has become quite fashionable in France to murder one's husband, but it is <i>hardly</i> the done thing here, sir. #portrait:theladynegative
 What could have possibly brought you to such a conclusion?->Accuse
 
 +[<i> Examine the suspect. </i>]
@@ -168,12 +168,12 @@ Excessive talking is a terrible vulgarity, but for the sake of your paper, I sha
 +[Has anyone in the house been acting strange?]
 I have always found one Ms. Lavender Ditch to be a most unusual character. Her manner is most sullen, and one cannot help but question the morals of a woman who elects to spend her days mucking about in a stables.
 ~unlockStatement("Theodosia_Hold", 6)
-I requested Charles release her from her duties several times. Alas, men of Charles' calibre are often dodddering when expedition is required and far too quick to finish when some strenuous labour would be of benefit.
+I requested Charles release her from her duties several times. Alas, men of Charles' calibre are often doddering when expedition is required and far too quick to finish when some strenuous labour would be of benefit.
 That was rather clever, don't you think? One does hope you will make note of these pithy observations of mine in your publication.
 ->Suspicions
 
 +[Did you notice anything unusual about the body?]
-One cannot help but notice the dramatic position in which my dear husband chose to die. A true testament to his character. Only one of immaculate breeding such as Charles would succumb to rigor morits in such a statuesque pose.
+One cannot help but notice the dramatic position in which my dear husband chose to die. A true testament to his character. Only one of immaculate breeding such as Charles would succumb to rigor mortis in such a statuesque pose.
 ->Suspicions
 
 +[Did your husband have any enemies?]
@@ -258,9 +258,9 @@ Ah. I see. Quite the <i>clever</i> deduction, sir. #speaker: Theodosia Hold #por
 
 +{theodosias_gloves and maximillians_gloves}[You're wearing his gloves!]
 ~mannish_hands_gag = true
-...One always feared this day would come. My greatest shame, brought forth into the cold light of day. #speaker: Theodosia Hold #portrait:theladyneutral
+...One always feared this day would come. My greatest shame, brought forth into the cold light of day. #speaker: Theodosia Hold #portrait:theladynegative
 You are correct sir. My hands are... unseemly large- manlike, one might say. Even my late husband's gnarled fingers were daintier than mine. I am cursed with- mannish hands. 
-<i>Oh!</i> To even say it aloud- I feel faint! I am ruined. I imagine this will be front page on that paper of yours. ->Hands_Gag
+<i>Oh!</i> To even say it aloud- I feel faint! I am ruined! I imagine this will be front page on that paper of yours. ->Hands_Gag
 
 
 +{theodosias_pants}[I found your underwear in Max's room!]
@@ -271,11 +271,11 @@ Ah. Yes. That is rather incriminating.
 =Hands_Gag
 
 +[I don't care about your hands! Tell me about the affair!]
-Well- if you insist. Personally I feel this would be of <i>far</i> greater interest to your readers.
+Well- if you insist. Personally I feel this would be of <i>far</i> greater interest to your readers. #speaker: Theodosia Hold #portrait:theladyneutral
 ->Affair_Cont
 
 +[I'll probably write about your affair with your brother-in-law.]
-I- suppose such a banal matter would be of interest to more <i>common</i> folk.
+I- suppose such a banal matter <i>would</i> be of interest to more <i>common</i> folk. #speaker: Theodosia Hold #portrait:theladyneutral
 ->Affair_Cont
 
 
@@ -283,12 +283,12 @@ I- suppose such a banal matter would be of interest to more <i>common</i> folk.
 ~affair_revealed = true
 But you see- #speaker: Theodosia Hold #portrait:theladyneutral
 Heavens, how might one explain-
-I am afraid you have rather misunderstood my liason with Maximillian. It is really quite mundane, I assure you.
+I am afraid you have rather misunderstood my liaison with Maximillian. It is really quite mundane, I assure you.
 ~theodosia_confession = true
 ~unlockStatement("Theodosia_Hold",4)
 You see, in marrying a older man, I was rather assured to eventually be widowed, much as I am now. 
 Maximillian, being vividly aware of how unfashionable widows are at present, merely offered me his hand upon my late husband's inevitable demise to spare me taking the garish title of <i>dowager</i>, an offer I firmly accepted. 
-Maximillian is a most foreward-looking man, you see. Much like his brother in that regard. #speaker: Theodosia Hold #portrait:theladypositive
+Maximillian is a most forward-looking man, you see. Much like his brother in that regard. #speaker: Theodosia Hold #portrait:theladypositive
 And seeing as our eventual marriage was quite assured, Maximillian merely suggested we rehearse our <i>conjugal duties</i>, so to speak. And we did. Several times. #speaker: Theodosia Hold #portrait:theladyneutral
 One could hardly call such a dalliance an <i>affair</i>. It is more akin to- a form of insurance! Yes, insurance! #speaker: Theodosia Hold #portrait:theladypositive
 So you see, the truth of the matter is far more mundane than it might seem at first. #speaker: Theodosia Hold #portrait:theladyneutral
@@ -300,14 +300,14 @@ But of course. I am a most reasonable woman. #speaker: Theodosia Hold #portrait:
 Wait! <i>wait</i>!  #portrait:theladyshock
 Ahem.  #portrait:theladyneutral
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
-That is to say, the revelation of this information could prove rather- runious for me.
+That is to say, the revelation of this information could prove rather- ruinous for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
  +[I have the same arrangement with my brother-in-law.]
 How curious. And terribly fashionable, I may add.
 ++[I need to think about what all this means.]
 A moment of your time before you go, sir. One must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.  #portrait:theladyneutral
-That is to say, the revelation of this information could prove rather- runious, for me.
+That is to say, the revelation of this information could prove rather- ruinous, for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
  
 +[Have you no shame? You had an affair with your husband's brother!]
@@ -319,7 +319,7 @@ Charles merely overreacted! I am quite sure, had he not perished, we would have 
 No, wait. <i>Wait</i>!  #portrait:theladyshock
 Ahem.
 A moment of your time before you go, sir. While not quite as scandalous as, say, a particularly manlike set of hands, one must admit that in certain uneducated circles, arrangements such as mine and Max's can be seen as somewhat- immoral.
-That is to say, the revelation of this information could prove rather- runious for me.
+That is to say, the revelation of this information could prove rather- ruinous for me.
 So I would ask you, sir. Would you consider- keeping this information out of the papers? ->Affair_End
 
 
@@ -330,19 +330,19 @@ So I would ask you, sir. Would you consider- keeping this information out of the
 
 
 *[I will, but it's gonna cost you.]
-Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?!
-A woman of proper breeding possesses no assets. Her home, wealth, and children are entiely the property of her husband.
+Do you expect me to carry <i>loose coins</i> upon my person, sir? Like some sort of common <i>prostitute</i>?! #portrait:theladynegative
+A woman of proper breeding possesses no assets. Her home, wealth, and children are entirely the property of her husband. #portrait:theladyneutral
 So you see sir, I have <i>nothing</i> to my name. And should you reveal my actions to the public...
 Well, I would have less than nothing... ->Affair_End
 
 +{lavender_confession}[Fine. But in return, Dorothy and Lavender get to keep their jobs.]
-Hmm. I do not care for the sapphically inclined stablehand, but Ms. Tendwell has been performed her duties as a maid quite admirably.
-Very well. Should you refrain from publishing the details of my dalliance with Maximillian, I shall allow Ms.Tendwell and the horse girl to remain at Wenchwatch Hall.
+Hmm. I do not care for the sapphically inclined stable hand, but Miss Tendwell has been performed her duties as a maid quite admirably.
+Very well. Should you refrain from publishing the details of my dalliance with Maximillian, I shall allow Miss Tendwell and the horse girl to remain at Wenchwatch Hall.
 Yes, one does feel that this is a fair arrangement. ->Start
 
 
 +[Don't worry, I'll keep this quiet.]
-A most sensible decision. Inter-familial dalliances have become so throughly dull of late. I am quite sure your readership would have little interest in mine. ->Start
+A most sensible decision. Inter-familial dalliances have become so thoroughly dull of late. I am quite sure your readership would have little interest in mine. ->Start
 
 
 +[Sorry, this is going on the front page!]

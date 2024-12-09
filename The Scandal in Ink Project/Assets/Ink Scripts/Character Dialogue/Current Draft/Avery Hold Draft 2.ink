@@ -36,10 +36,19 @@ My copy of Alexander Pope's seminal translation of <i>The Iliad</i>.
 ~avery_book_confession = true
 #portrait:childnegative
 A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
-Yet in light of recent events, it doth seem such a petty squabble... ->Start
+Alas, in light of recent events, it doth seem such a petty squabble... ->Start
 
 +[Tell me about your family life.]
 Pray tell, what precisely intrigues you so? -> Relationship
+
+*{averys_book and not avery_book_confession}[Avery, is this your book?]
+'Tis indeed, sir.
+My beloved father did confiscate my most treasured manuscript shortly before his passing.
+Most inflamed was I that he would dare deprive me of such a formative work. A rare disturbance between my father and I.
+~avery_book_confession = true
+~ unlockStatement("Avery_Hold", 7)
+Alas, in light of recent events, it seems such a petty squabble... ->Start
+
 
 
 *{iliad_confiscated and not avery_book_confession}[Did your father confiscate your book?]
@@ -167,11 +176,11 @@ WAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
 -> You_Fucked_Up
 
 +[<i>Run away.</i>]
-A moment of your time, if you please. #speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
+A moment of your time, if you please. #speaker:Dorothy Tendwell #layout:left #portrait:maidnegative
 -> You_Fucked_Up
 
 =You_Fucked_Up
-Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker:Dorothy Tendwel #layout:left #portrait:maidnegative
+Sir. I would recommend you cease bothering the young master. <i>Immediately</i>. The young master did not kill his father, as you suggest. He is <i>eight</i>. I will not tolerate further suggestions to the contrary. #speaker:Dorothy Tendwell #layout:left #portrait:maidnegative
 *[Yes ma'am. Sorry ma'am. Sorry Avery.]
 'Tis quite alright sir. I am prone to these fulminations of emotion. Such is the malediction of youth. #speaker: Avery Hold #layout:right #portrait:childneutral
 **[Let's talk about something else.]
@@ -193,18 +202,18 @@ Go take a moment to clear your thoughts. But should you wish to speak to myself 
 
 ===Examination===
 
-+[Examine his hands.]
++[<i>Examine his hands.]
 <i> His fingertips seems slightly sticky. You think he may have recently been eating something covered in jam. </i> ->Examination
 
-+[Examine his face.]
++[<i>Examine his face.]
 <i> His cheeks are stained red. You think he may have been crying recently. </i> -> Examination
 
-+[Examine his clothing.]
++[<i>Examine his clothing.]
 <i> He has been dressed in appropriate mourning attire. However, you notice that Avery appears to be carrying something in his back pocket.</i>
 <i> You think you might be able to grab it, if you're careful...</i> ->Pickpocket
 
 
-+[Return to the conversation]
++[<i>Return to the conversation.]
 <i> You return to your conversation with the unusually verbose child.</i> -> Start
 
 
@@ -226,7 +235,7 @@ You leave it for the time being.
 ->Iliad_Confiscated.Crying
 
 +[I have no proof, but I'll find some! And then you'll hang, kid!]
-If this be a jape, 'tis a jape made in remrkably poor taste, sir. ->Start
+If this be a jape, 'tis a jape made in remarkably poor taste, sir. ->Start
 
 +[Never mind. Forget I said anything.]
 A most difficult charge to pretermit, though I shall do my best. ->Start

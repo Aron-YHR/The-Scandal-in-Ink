@@ -95,25 +95,21 @@ MonoBehaviour:
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: 'A love letter between two unnamed persons, found in the stables. It
-      reads as follows:
-
-      "My love, I have done as you asked. I have left you
-      a special letter somewhere secret. Like our love, its fiery passion is caged
-      by day, but burns bright at night."'
+    itemInfo: "A love letter between two unnamed persons, found in the stables. It
+      reads as follows: \r\n\r\n\"My love, I have done as you asked. I have left
+      you a special letter in our secret spot. Like our love, it contains a fiery
+      passion that is only revealed under the cover of night.\u201D "
   - itemName: 8
     itemIcon: {fileID: 5640078138975803200, guid: 4f0ec1cdf1ed3a84f8cc15a96e506739, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
     notPickedUp: 0
-    itemInfo: 'A love letter between two unnamed persons, found in Theodosia Hold''s
-      purse. It reads as follows:
-
-      "My love, these past few nights have been
+    itemInfo: "A love letter between two unnamed persons, found in Theodosia Hold's
+      purse. It reads as follows: \r\n\r\n\"My love, these past few nights have been
       cold without you by my side. Would you leave me some small token to remind
-      me of you? Leave it in our secret spot. Like our love, its fiery passion is
-      caged by day, but burns bright at night."'
+      me of you? Leave it in our secret spot. Like our love, it contains a fiery
+      passion that is only revealed under the cover of night.\u201D "
   - itemName: 30
     itemIcon: {fileID: 1095141833252711340, guid: b8d26be3f21e87145814c8080ad4b939, type: 3}
     value: 0
@@ -275,7 +271,7 @@ MonoBehaviour:
     isEvidence: 0
     notRecordedInJournal: 1
     notPickedUp: 1
-    itemInfo: A saber mounted firmly to the wall. It appears as though it has not
+    itemInfo: A sword mounted firmly to the wall. It appears as though it has not
       been used for a very long time.
   - itemName: 38
     itemIcon: {fileID: 0}
@@ -324,3 +320,25 @@ MonoBehaviour:
     notPickedUp: 1
     itemInfo: An antique set of duelling pistols fastened to the wall. Unloaded and
       unused.
+  - itemName: 44
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: 'A very... revealing portrait of Maximillian Hold. '
+  - itemName: 45
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: An open window in Maximillian Hold's room. A partially broken trellis
+      lies just beneath the window.
+  - itemName: 46
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: A sensual portrait of a hard-working maid.
