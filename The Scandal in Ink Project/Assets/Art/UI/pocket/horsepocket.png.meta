@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7956b688681d51e489ed68e54c7e2402
+guid: e360173e6efc6c942868667f32854468
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6268278670653316096
-    second: Start Screen Final_0
+      213: -251080605828392004
+    second: horsepocket_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start Screen Final_0
+      name: horsepocket_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00cd27d7d366df650800000000000000
-      internalID: 6268278670653316096
+      spriteID: cbbdb9fe48bf38cf0800000000000000
+      internalID: -251080605828392004
       vertices: []
       indices: 
       edges: []
@@ -195,8 +195,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Start Screen Final_0: 6268278670653316096
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7956b688681d51e489ed68e54c7e2402
+guid: 61877153c573b3f429c173f2be6c9d52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6268278670653316096
-    second: Start Screen Final_0
+      213: -1884566845625851848
+    second: horseneutral 1_0
+  - first:
+      213: 3938099284650189022
+    second: horseneutral 1_1
+  - first:
+      213: 8730755973862161748
+    second: horseneutral 1_2
+  - first:
+      213: 1204406352905564282
+    second: horseneutral 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +174,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start Screen Final_0
+      name: horseneutral 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 20
+        y: 506
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +188,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00cd27d7d366df650800000000000000
-      internalID: 6268278670653316096
+      spriteID: 8302ef2507ca8d5e0800000000000000
+      internalID: -1884566845625851848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horseneutral 1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 1019
+        height: 1051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed06bc73f60f6a630800000000000000
+      internalID: 3938099284650189022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horseneutral 1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d7caafc40e92970800000000000000
+      internalID: 8730755973862161748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horseneutral 1_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 359
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70f82e5239e6b010800000000000000
+      internalID: 1204406352905564282
       vertices: []
       indices: 
       edges: []
@@ -195,8 +267,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Start Screen Final_0: 6268278670653316096
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
