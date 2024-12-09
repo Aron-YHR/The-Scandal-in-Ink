@@ -153,7 +153,7 @@ MonoBehaviour:
     itemInfo: A messy pile of hay covered in blood. You think the killer may have
       tried to wipe the blood from their hands here...
   - itemName: 23
-    itemIcon: {fileID: -4870426323989635024, guid: 8a36fc6c83cfb774d8e4662e3d353346, type: 3}
+    itemIcon: {fileID: -1992967504922331786, guid: 02b0223ac885e2e47a178c22ea64a343, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
