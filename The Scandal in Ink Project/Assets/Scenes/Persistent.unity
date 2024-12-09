@@ -22278,7 +22278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2010767256088613387, guid: a9cb92c0187f0b14a8e4386586c957de, type: 3}
+  m_Sprite: {fileID: 6268278670653316096, guid: 7956b688681d51e489ed68e54c7e2402, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25522,7 +25522,8 @@ MonoBehaviour:
   backtoMainMenuButton: {fileID: 1141049960}
   uiCanvas: {fileID: 1075914074}
   journalPanel: {fileID: 1667807368}
-  canUseHotkey: 0
+  canUseHotkey_Journal: 0
+  canUseHotkey_Settings: 0
   familyMembers: {fileID: 11400000, guid: cf5bb710e5495fa46b349b3d12a47a32, type: 2}
   showcasePanel: {fileID: 916608102}
   putbackButton: {fileID: 1968361606}

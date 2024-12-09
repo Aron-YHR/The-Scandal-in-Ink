@@ -36,10 +36,19 @@ My copy of Alexander Pope's seminal translation of <i>The Iliad</i>.
 ~avery_book_confession = true
 #portrait:childnegative
 A rare disturbance between my father and I. Most inflamed was I that he would dare deprive me of my most treasured manuscript.
-Yet in light of recent events, it doth seem such a petty squabble... ->Start
+Alas, in light of recent events, it doth seem such a petty squabble... ->Start
 
 +[Tell me about your family life.]
 Pray tell, what precisely intrigues you so? -> Relationship
+
+*{averys_book and not avery_book_confession}[Avery, is this your book?]
+'Tis indeed, sir.
+My beloved father did confiscate my most treasured manuscript shortly before his passing.
+Most inflamed was I that he would dare deprive me of such a formative work. A rare disturbance between my father and I.
+~avery_book_confession = true
+~ unlockStatement("Avery_Hold", 7)
+Alas, in light of recent events, it seems such a petty squabble... ->Start
+
 
 
 *{iliad_confiscated and not avery_book_confession}[Did your father confiscate your book?]
