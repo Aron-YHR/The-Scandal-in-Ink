@@ -387,3 +387,10 @@ MonoBehaviour:
     notPickedUp: 1
     itemInfo: A to-do list for the stable hand, Lavender Ditch. It details the various
       ways in which Lavender cares for the horses.
+  - itemName: 53
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: An illegible handwritten note. It does not seem important to your investigation.

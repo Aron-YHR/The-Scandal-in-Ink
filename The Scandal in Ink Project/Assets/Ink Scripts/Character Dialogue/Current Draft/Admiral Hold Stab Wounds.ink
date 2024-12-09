@@ -31,7 +31,7 @@ INCLUDE Secrets.ink
 <i>You've found some evidence! #speaker:Tutorial
 ~statement_found = true
 <i>Anything information of importance to the case is automatically added to the journal.
-~Transition("Intro Table", "Intro People Page")
+~TransitionWithoutAudio("Intro Table", "Intro People Page")
 <i>This is the "People" page of your Journal.
 <i>Information relating to people involved in the case is stored here.
 <i>As you interview suspects, important statements they give will be unlocked on the right-hand side of the page.

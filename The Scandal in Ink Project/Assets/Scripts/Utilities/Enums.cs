@@ -62,7 +62,8 @@ public enum ItemName
     whatsit,
     doodad,
     doohickey,
-    thingamajig
+    thingamajig,
+    scrawled_note
 
 
 }
