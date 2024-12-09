@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horsepocket_0: -251080605828392004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

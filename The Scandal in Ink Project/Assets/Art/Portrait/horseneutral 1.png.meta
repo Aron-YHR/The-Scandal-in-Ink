@@ -267,7 +267,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horseneutral 1_0: -1884566845625851848
+      horseneutral 1_1: 3938099284650189022
+      horseneutral 1_2: 8730755973862161748
+      horseneutral 1_3: 1204406352905564282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stableslavender_0: -4615171582728920922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
