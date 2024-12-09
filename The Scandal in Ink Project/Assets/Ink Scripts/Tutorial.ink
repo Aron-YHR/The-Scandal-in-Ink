@@ -1,5 +1,5 @@
 EXTERNAL unlockStatement(npcName, index)
-EXTERNAL Transition(from,to)
+EXTERNAL TransitionWithoutAudio(from,to)
 EXTERNAL unlockItem(name)
 EXTERNAL unlockNPC(name)
 EXTERNAL TransitionToMainGame(from,to)
@@ -22,6 +22,6 @@ EXTERNAL unlockUI()
 <i>The journal can be accessed by clicking the icon in the top-left corner or pressing the "J" key.
 <i>The menu can be accessed by clicking the icon in the top-right corner, or by pressing the "Escape" key.
 <i>That's everything for now! Good luck in your investigation, sir!
-~Transition("Intro Deduction", "Table")
+~TransitionWithoutAudio("Intro Deduction", "Table")
 ~unlockUI()
 ->DONE
