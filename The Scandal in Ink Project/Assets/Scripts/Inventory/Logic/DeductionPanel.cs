@@ -52,7 +52,7 @@ public class DeductionPanel : MonoBehaviour
     {
         UIManager.Instance.ActivateJournal();
         var currentScene = SceneManager.GetActiveScene().name;
-        TransitionManager.Instance.Transition(currentScene, "AfterGame");  
+        TransitionManager.Instance.TransitionWithoutAudio(currentScene, "AfterGame");  
     }
 
     public void SubmitNews()
