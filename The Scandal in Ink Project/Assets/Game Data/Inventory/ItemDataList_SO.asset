@@ -342,3 +342,48 @@ MonoBehaviour:
     notRecordedInJournal: 1
     notPickedUp: 1
     itemInfo: A sensual portrait of a hard-working maid.
+  - itemName: 48
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: This is a... Um... You're fairly sure this is for the horse.
+  - itemName: 49
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: This tool is... used on the horse's teeth. Or perhaps its mane. Or
+      maybe its hooves.
+  - itemName: 51
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: This contraption is... some sort of... horse device.
+  - itemName: 50
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: This is a... It is so evident what this tool is that it requires absolutely
+      no description.
+  - itemName: 52
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: A tool. Who knows what it does. It's probably for the horse.
+  - itemName: 47
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: A to-do list for the stable hand, Lavender Ditch. It details the various
+      ways in which Lavender cares for the horses.
