@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4a6e80a7943002544b0dba57ff26802b
+guid: c688202feb83c694ea932eca6a5175d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -707274659128752027
-    second: bloody bucket_0
+      213: 5695054894529839538
+    second: admiralletter_0
+  - first:
+      213: -4939416357557004883
+    second: admiralletter_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,22 +168,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bloody bucket_0
+      name: admiralletter_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 28
-        width: 852
-        height: 944
+        x: 0
+        y: 0
+        width: 98
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 568ceffd1714f26f0800000000000000
-      internalID: -707274659128752027
+      spriteID: 2b10dccb046e80f40800000000000000
+      internalID: 5695054894529839538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiralletter_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da59f023efaa37bb0800000000000000
+      internalID: -4939416357557004883
       vertices: []
       indices: 
       edges: []
@@ -188,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f1504515ea01a6408ef2ba03a60a554
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +220,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bloody bucket_0: -707274659128752027
+      admiralletter_0: 5695054894529839538
+      admiralletter_1: -4939416357557004883
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

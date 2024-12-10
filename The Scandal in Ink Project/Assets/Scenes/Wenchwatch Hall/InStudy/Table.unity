@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 158067675
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7bf40431eaddb1b4887dd52971ed8ba1, type: 3}
+  m_Sprite: {fileID: 5109295821195416538, guid: cf00ee032cba1fa45884bf20831f38df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -232,19 +232,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.59
+      value: -2.7803512
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.05
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95090115
+      value: 0.9891417
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.x
@@ -256,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.30949494
+      value: 0.14696527
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -268,7 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.058
+      value: 16.902
       objectReference: {fileID: 0}
     - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Color.a
@@ -288,11 +288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Size.x
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Size.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7427765670082968480, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: npcDetails.npcName
@@ -303,24 +303,28 @@ PrefabInstance:
       value: Admiral Hold Torn Coat
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.93970156
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.34199584
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 39.997
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -536,31 +540,31 @@ PrefabInstance:
       objectReference: {fileID: -298054189316343538, guid: 5f19a2ef72ec505498c991dcd9ec5612, type: 3}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.42
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.49
+      value: -1.23
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94546574
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32572174
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -572,7 +576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5509824558219349650, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -38.019
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5771627332091841627, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Color.a
@@ -592,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Size.x
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6046340238696659288, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_Size.y
@@ -607,24 +611,28 @@ PrefabInstance:
       value: Admiral Hold Stab Wounds
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9244119
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.38139576
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506579575663617827, guid: 93907908ee81bdf448f35849c6d1e472, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 44.84
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

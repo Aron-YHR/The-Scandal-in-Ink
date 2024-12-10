@@ -1286,7 +1286,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1951484164981910995, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.802869
+      value: -13.77
       objectReference: {fileID: 0}
     - target: {fileID: 1951484164981910995, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1325,44 +1325,56 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
-      value: -1.0396776
+      value: -0.15768719
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
-      value: 0.8484442
+      value: 0.8190446
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
-      value: -1.5160007
+      value: -0.6046114
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
-      value: 0.6183121
+      value: 0.6624117
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
-      value: -1.4940848
+      value: -0.56799746
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
-      value: -0.14375114
+      value: -0.20255041
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-      value: -0.746675
+      value: 0.25291395
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: -0.33669376
+      value: -0.23379493
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: -0.6119709
+      value: 0.29450798
       objectReference: {fileID: 0}
     - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: 0.5624678
+      value: 0.24975681
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
+      value: 0.19651985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984242107027322105, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
+      value: 0.6065674
       objectReference: {fileID: 0}
     - target: {fileID: 8803334040613831462, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: itemDetails.itemName
@@ -1370,7 +1382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9034098169778337160, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Name
-      value: No Sprite Item
+      value: Decoy Letter 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1683,7 +1695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9034098169778337160, guid: 359c2d5f2d0357d4c989b05e59314f1b, type: 3}
       propertyPath: m_Name
-      value: No Sprite Item (6)
+      value: Decoy Letter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

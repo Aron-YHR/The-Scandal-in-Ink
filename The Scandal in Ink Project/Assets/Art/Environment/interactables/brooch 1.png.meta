@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4a6e80a7943002544b0dba57ff26802b
+guid: 99619fbbd6e3e8644ae277d7f49ff1ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -707274659128752027
-    second: bloody bucket_0
+      213: 6687720516021117007
+    second: brooch 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bloody bucket_0
+      name: brooch 1_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 28
-        width: 852
-        height: 944
+        x: 49
+        y: 13
+        width: 414
+        height: 487
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 568ceffd1714f26f0800000000000000
-      internalID: -707274659128752027
+      spriteID: f40e782506e8fcc50800000000000000
+      internalID: 6687720516021117007
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bloody bucket_0: -707274659128752027
+      brooch 1_0: 6687720516021117007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
