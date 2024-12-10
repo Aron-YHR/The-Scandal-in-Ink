@@ -21,7 +21,7 @@ MonoBehaviour:
     notPickedUp: 0
     itemInfo: The candle is still flickering...
   - itemName: 5
-    itemIcon: {fileID: -131774863214608409, guid: fcccfd00065fe5f43b49d0bffda5c309, type: 3}
+    itemIcon: {fileID: 6687720516021117007, guid: 99619fbbd6e3e8644ae277d7f49ff1ee, type: 3}
     value: 0
     isEvidence: 1
     notRecordedInJournal: 0
