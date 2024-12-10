@@ -394,3 +394,10 @@ MonoBehaviour:
     notRecordedInJournal: 1
     notPickedUp: 1
     itemInfo: An illegible handwritten note. It does not seem important to your investigation.
+  - itemName: 54
+    itemIcon: {fileID: 0}
+    value: 0
+    isEvidence: 0
+    notRecordedInJournal: 1
+    notPickedUp: 1
+    itemInfo: A muddy pitchfork.
