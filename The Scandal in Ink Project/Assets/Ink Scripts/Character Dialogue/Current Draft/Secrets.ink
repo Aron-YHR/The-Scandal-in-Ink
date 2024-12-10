@@ -100,6 +100,9 @@ VAR statement_found = false
 VAR clue_found = false
 
 
+//Horse
+VAR horse_talk = false
+
 
 
 
