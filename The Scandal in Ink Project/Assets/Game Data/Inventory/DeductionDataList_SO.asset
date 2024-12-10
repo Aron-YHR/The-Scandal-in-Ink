@@ -75,7 +75,7 @@ MonoBehaviour:
     image: {fileID: -7110462291215695874, guid: 0fe8bf97810c5394582a4c00799d1efd, type: 3}
     amount: 0
   - name: Admiral Charles Hold
-    image: {fileID: 1934664660039278667, guid: 08853937a296b9747a85b309921d13b2, type: 3}
+    image: {fileID: -4872435063676471029, guid: 032f74920a2c30341b0ce8f98845bf63, type: 3}
     amount: 0
   - name: Lavender Ditch
     image: {fileID: 7497023141891618822, guid: 69a0d2ccda4f3154a99b6fc25d1a9172, type: 3}
