@@ -14,7 +14,7 @@ INCLUDE Secrets.ink
 }
 
 === Start ===
-~horse_talk = true
+
 
 +[Did you see who came through here last night, boy?]
 {
@@ -35,7 +35,7 @@ INCLUDE Secrets.ink
 
 
 ===Horse_Stage_1===
-
+~horse_talk = true
 +[Just tell me, it'll stay between you and me!]
 <i>Neigh!</i> #speaker:Zeus The Horse #portrait:horseneutral
 ->Horse_Stage_2
@@ -90,12 +90,11 @@ That appears to be the case, my dear fellow. #speaker:Zeus The Horse #portrait:h
 <i>As you go to leave, you notice something unusual protruding from the horse's saddle.</i>
 
 
-+[<i>Inspect the saddle</i>]
++[<i>Inspect the saddle.</i>]
 ~TransitionWithoutAudio("Stables", "Saddle Pocket")
 ->DONE
 
 +[<i>Leave it for now.]
 ->DONE
-
 
 

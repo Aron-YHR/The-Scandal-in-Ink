@@ -56,17 +56,17 @@ MonoBehaviour:
   - text: Crawled underneath the floorboards
     amount: 0
   weaponsList:
-  - text: Musket
+  - text: Sword
     amount: 0
   - text: Antler
     amount: 0
   - text: Jam scone
     amount: 0
-  - text: Garden shears
+  - text: Heavy Book
     amount: 0
   - text: Brooch
     amount: 3
-  - text: Natural Causes
+  - text: Pitchfork
     amount: 0
   - text: Horse hoof to the head
     amount: 0
