@@ -10,10 +10,15 @@ INCLUDE Secrets.ink
 === Start ===
   {TURNS_SINCE(-> INTRO) == 0: How might I help, sir? } #speaker: Dorothy Tendwell #layout:right #portrait:maidneutral
 
-+[Where were you the night of the murder?]
-#portrait:maidnegative
-Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream.
++[{dorothy_confession:Where were you the night of the murder? And were you alone?|Where were you the night of the murder?}]
+
+   {
+- dorothy_confession == true: Well- I was with Lavender last night, sir. We were... together, when I heard Master Avery scream. #portrait:maidnegative
+~unlockStatement("Dorothy_Tendwell", 2)
+
+- else: Well sir,  I was alone in my quarters last night, when I suddenly heard young Master Avery scream. #portrait:maidnegative
 ~unlockStatement("Dorothy_Tendwell", 1)
+    }
 I was in such an awful rush to find the poor boy that- to my shame- I left my chambers while- still in my nightgown. 
 I'm afraid by the time I found him, poor Avery was standing over the Admiral's-
 By which I mean that the Admiral was- Oh, even the mention of it- it's too horrible to even say!
