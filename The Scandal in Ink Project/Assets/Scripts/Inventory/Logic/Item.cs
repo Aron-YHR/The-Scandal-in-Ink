@@ -79,13 +79,10 @@ public class Item : MonoBehaviour
             GetComponent<DialogueTrigger>().StartDialogue();
         }
 
-        if(itemDetails.value != 0)
-        {
-            InventoryManager.Instance.AddValue(itemDetails);
-        }
+        
 
         // add it into journal and remove it in environment
-        if(!itemDetails.notRecordedInJournal)
+        if(!itemDetails.notRecordedInJournal && !isHid)
         InventoryManager.Instance.AddItem(itemDetails);
 
         if(itemDetails.isEvidence)

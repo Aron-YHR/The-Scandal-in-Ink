@@ -69,6 +69,11 @@ public class InventoryManager : Singleton<InventoryManager>
 
             //ItemDetails item = itemData.GetItemDetails(itemName);
             //journal.itemList.Add(itemData.GetItemDetails(itemName));
+            if (itemDetails.value != 0)
+            {
+                AddValue(itemDetails);
+            }
+
             journal.itemList.Add(itemDetails);
 
             // renew the item's state in game
