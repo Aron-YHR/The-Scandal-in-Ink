@@ -40,7 +40,7 @@ In my haste to go to young Avery's side, I was forced to adorn clothing  rather 
 I tried to pass off my gloveless attire as a matter of style, but there is no hiding anything from you, sir!
 Ah, first I must grapple with the death of dear Chuck, and then I am exposed as a ruffian and a fraud, in front of a journalist no less! I can hardly tell which is worse. -> Start */
 
-*{checked_door and not maximillian_door_key or door_key}[Can I have the key to your room?]
+*{checked_door and not (maximillian_door_key or door_key)}[Can I have the key to your room?]
 Why- of course! I would give it to this very instant- #portrait:fopshock
 ~unlockStatement("Maximillian_Hold", 3)
 #portrait:fopneutral
